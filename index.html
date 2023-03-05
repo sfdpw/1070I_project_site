@@ -46,27 +46,22 @@
     <script src="js/proj4.js"></script>
     <script src="js/proj4leaflet.js"></script>
     <script src="js/layer_filter.js"></script>    
-    <script src="pp_as_builts/ab_list.js"></script>
 
-
-    <script src="tcps/tcp_list.js"></script>
     <script src="specs/spec_list.js"></script>
-    <script src="data/1070I_project_dwgs.js"></script>
+    <script src="data/1070I_plan_boundaries.js"></script>
     <script src="data/1070I_sw_lines.js"></script>
     <script src="data/1070I_sw_points.js"></script>
-    <script src="data/1070I_flatwork.js"></script>
+    <script src="data/1070I_flatwork_polygons.js"></script>
     <script src="js/popup_content_return.js"></script>    
     
-    <script src="js/misc_payment_functions.js"></script>    
-    <script src="data/base_sov.js"></script>
 
 
     <script>
        
        var master_layer_array = [];
 
-      // var SW_main_index_limits = [100, 106];
-      // add_feature_layer('SW_main', 100, json_2977J_101_SW_mains_20, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+      var index_limits_sw_mn = [100, 100];
+      add_feature_layer('sw_mn', 100, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
       // add_feature_layer('SW_main', 101, json_2977J_101_SW_mains_20, 'Install (N) 12\" VCP', 'rgba(173, 255, 105, 1.0)');
       // add_feature_layer('SW_main', 102, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 12\" VCP', 'rgba(35, 228, 170, 1.0)');
       // add_feature_layer('SW_main', 103, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 18\" VCP', 'rgba(93, 201, 99, 1.0)');
@@ -75,26 +70,26 @@
       // add_feature_layer('SW_main', 106, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 24\" VCP', 'rgba(7, 154, 71, 1.0)');      
 
 
-     //  var SW_clvt_index_limits = [200, 203];
-     //  add_feature_layer('SW_clvt', 200, json_2977J_102_SW_culverts_21, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+     var index_limits_sw_cl = [120, 120];
+     add_feature_layer('sw_cl', 120, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
      //  add_feature_layer('SW_clvt', 201, json_2977J_102_SW_culverts_21, 'Plug and Fill (E)', 'rgba(255, 141, 19, 1.0)');       
      //  add_feature_layer('SW_clvt', 202, json_2977J_102_SW_culverts_21, 'Install (N) 10\" VCP', 'rgba(1, 103, 255, 1.0)');
      //  add_feature_layer('SW_clvt', 203, json_2977J_102_SW_culverts_21, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');
 
 
-     //  var SW_lateral_index_limits = [300, 302];
-     //  add_feature_layer('SW_lateral', 300, json_2977J_105_SW_laterals_22, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+     var index_limits_sw_ss = [140, 140];
+     add_feature_layer('sw_ss', 140, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
      //  add_feature_layer('SW_lateral', 301, json_2977J_105_SW_laterals_22, 'Install (N) per SFPW STD 87,196', 'rgba(1, 103, 255, 1.0)');
       // add_feature_layer('SW_lateral', 302, json_2977J_105_SW_laterals_22, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');       
 
 
-      // var SW_drain_index_limits = [400, 401];
-      // add_feature_layer('SW_drain', 400, json_2977J_104_SW_drains_24, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+     var index_limits_sw_cb = [160, 160];
+     add_feature_layer('sw_cb', 160,  json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
     //   add_feature_layer('SW_drain', 401, json_2977J_104_SW_drains_24, 'Install (N) per SFPW STD Plan 87,188', 'rgba(7, 154, 71, 1.0)');
        
        
-   //    var SW_MH_index_limits = [500, 505];
-   //    add_feature_layer('SW_MH', 500, json_2977J_103_SW_manholes_23, '(E) to Remain', 'rgba(150,150,150,1.0)');
+     var index_limits_sw_mh = [180, 180];
+     add_feature_layer('sw_mh', 180, json_1070I_sw_points, '(E) to Remain', 'rgba(150,150,150,1.0)');
    //    add_feature_layer('SW_MH', 501, json_2977J_103_SW_manholes_23, 'Remove (E)', 'rgba(255, 0, 0, 1.0)');
    //    add_feature_layer('SW_MH', 502, json_2977J_103_SW_manholes_23, 'Install (N) per SFPW STD Plan 87,181', 'rgba(1, 255, 115, 1.0)');
     //   add_feature_layer('SW_MH', 503, json_2977J_103_SW_manholes_23, 'Replace (E) with (N) per SFPW STD Plan 87,181', 'rgba(35, 228, 170, 1.0)');
@@ -102,8 +97,8 @@
     //   add_feature_layer('SW_MH', 505, json_2977J_103_SW_manholes_23, 'Install (N) Angled per SFPW STD Plan 87,182', 'rgba(2, 101, 45, 1.0)');
    
    
-     //  var R_fltwrk_index_limits = [600, 611];       
-   //    add_feature_layer('R_polygon', 600, json_2977J_200_flatwork_19, 'R-03: Planing','#f3a5b1');  
+     var index_limits_flatwork = [200, 200];       
+    add_feature_layer('flatwork_', 200, json_1070I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  
   //     add_feature_layer('R_polygon', 601, json_2977J_200_flatwork_19, 'R-04: 1/2in HMA','#6a62d1');  
   //     add_feature_layer('R_polygon', 602, json_2977J_200_flatwork_19, 'R-05: 8in Base','#91d532');         
   //     add_feature_layer('R_polygon', 603, json_2977J_200_flatwork_19, 'R-06: 10in Base','#b714ef');         
@@ -139,8 +134,8 @@
     <div class="grid-div-accordion-menu" id="map_master_menu">
       <script src="js/menu_cards/menu_card_sheet_layers.js"></script>
       <script src="js/menu_cards/menu_card_sheet_overlays.js"></script>
-      <script src="js/menu_cards/menu_card_sewer_features.js"></script>
-      <script src="js/menu_cards/menu_card_flatwork_features.js"></script>
+      <script src="js/menu_cards/menu_card_features_sw.js"></script>
+      <script src="js/menu_cards/menu_card_features_flatwork.js"></script>
     </div>
   </div>
       
@@ -202,23 +197,9 @@
         }
         
         function style_1070I_project_dwgs(feature) {
-            switch (String(feature.properties.LAYER_TYPE)) {
-                 case 'plan_boundary_u':
-                    return {
-                        pane: 'pane_1070I_project_dwgs_u',
-                            opacity: 1,
-                            color: 'rgba(35,35,35,1.0)',
-                            dashArray: '',
-                            lineCap: 'butt',
-                            lineJoin: 'miter',
-                            weight: 1.0,
-                            fill: true,
-                            fillOpacity: 0.5,
-                            fillColor: 'rgba(125, 138, 143, 0.5)',
-                            interactive: true,
-                    }
-                    break;
-                 case 'plan_boundary_sw':
+            console.log(feature.properties.dwg.substring(0, 11));
+            switch (String(feature.properties.dwg.substring(0, 11))) {
+                 case '1070I_dwg_SW':
                     return {
                         pane: 'pane_1070I_project_dwgs_sw',
                             opacity: 1,
@@ -279,18 +260,15 @@
     </script>
    
     <script src="js/overlay_pane_creator.js"></script> 
-    <script src="js/layer_toggle/add_layer_001_OSM.js"></script>
-    <script src="js/layer_toggle/add_layer_012_SW.js"></script>
-    <script src="js/layer_toggle/add_layer_013_R.js"></script>
-    <script src="js/layer_toggle/add_layer_014_CR.js"></script>
-    <script src="js/layer_toggle/add_layer_015_U.js"></script>
-    <script src="js/layer_toggle/add_line_layer_SW_main.js"></script>
-    <script src="js/layer_toggle/add_line_layer_SW_clvt.js"></script>
-    <script src="js/layer_toggle/add_line_layer_SW_lateral.js"></script>
-    <script src="js/layer_toggle/add_point_layer_SW_MH.js"></script>    
-    <script src="js/layer_toggle/add_point_layer_SW_drain.js"></script>      
-    <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>      
-    <script src="js/layer_toggle/add_point_layer_flatwork.js"></script>      
+    <script src="js/layer_toggle/add_layer_osm.js"></script>
+    <script src="js/layer_toggle/add_layer_sw.js"></script>
+    <script src="js/layer_toggle/add_layer_pr.js"></script>
+    <script src="js/layer_toggle/add_layer_cr.js"></script>
+    <script src="js/layer_toggle/add_line_layer_sw_mn.js"></script>
+    <script src="js/layer_toggle/add_line_layer_sw_cl.js"></script>
+    <script src="js/layer_toggle/add_line_layer_sw_ss.js"></script>
+    <script src="js/layer_toggle/add_point_layer_sw_mh.js"></script>    
+    <script src="js/layer_toggle/add_point_layer_sw_cb.js"></script>        
 
 
         
