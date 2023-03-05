@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>1070I Project Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,width=device-width">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/drop_down.css">
+    <script src="js/drop_down.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    <link rel="stylesheet" href="css/site_styles.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/L.Control.Locate.min.css">
+    <link rel="stylesheet" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/leaflet-measure.css">
+    <link rel="stylesheet" href="css/map_page_styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link rel="icon" type="image/png" href="legend/1070I_fav.png" />
+
+    <script src="js/top_nav_bar.js"></script>
+    <script src="js/popup_populator.js"></script>
+
+    
+    <script src="js/qgis2web_expressions.js"></script>
+    <script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/leaflet.rotatedMarker.js"></script>
+    <script src="js/leaflet.pattern.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/rbush.min.js"></script>
+    <script src="js/labelgun.min.js"></script>
+    <script src="js/labels.js"></script>
+    <script src="js/leaflet-measure.js"></script>
+    <script src="js/misc_layer_mgmt_functions.js"></script>
+    <script src="js/proj4.js"></script>
+    <script src="js/proj4leaflet.js"></script>
+    <script src="js/layer_filter.js"></script>    
+    <script src="pp_as_builts/ab_list.js"></script>
+
+
+    <script src="tcps/tcp_list.js"></script>
+    <script src="specs/spec_list.js"></script>
+    <script src="data/1070I_project_dwgs.js"></script>
+    <script src="data/1070I_sw_lines.js"></script>
+    <script src="data/1070I_sw_points.js"></script>
+    <script src="data/1070I_flatwork.js"></script>
+    <script src="js/popup_content_return.js"></script>    
+    
+    <script src="js/misc_payment_functions.js"></script>    
+    <script src="data/base_sov.js"></script>
+
+
+    <script>
+       
+       var master_layer_array = [];
+
+      // var SW_main_index_limits = [100, 106];
+      // add_feature_layer('SW_main', 100, json_2977J_101_SW_mains_20, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+      // add_feature_layer('SW_main', 101, json_2977J_101_SW_mains_20, 'Install (N) 12\" VCP', 'rgba(173, 255, 105, 1.0)');
+      // add_feature_layer('SW_main', 102, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 12\" VCP', 'rgba(35, 228, 170, 1.0)');
+      // add_feature_layer('SW_main', 103, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 18\" VCP', 'rgba(93, 201, 99, 1.0)');
+      // add_feature_layer('SW_main', 104, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 21\" VCP', 'rgba(171, 220, 50, 1.0)');  
+      // add_feature_layer('SW_main', 105, json_2977J_101_SW_mains_20, 'Install (N) 24\" VCP', 'rgba(33, 144, 141, 1.0)');   
+      // add_feature_layer('SW_main', 106, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 24\" VCP', 'rgba(7, 154, 71, 1.0)');      
+
+
+     //  var SW_clvt_index_limits = [200, 203];
+     //  add_feature_layer('SW_clvt', 200, json_2977J_102_SW_culverts_21, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+     //  add_feature_layer('SW_clvt', 201, json_2977J_102_SW_culverts_21, 'Plug and Fill (E)', 'rgba(255, 141, 19, 1.0)');       
+     //  add_feature_layer('SW_clvt', 202, json_2977J_102_SW_culverts_21, 'Install (N) 10\" VCP', 'rgba(1, 103, 255, 1.0)');
+     //  add_feature_layer('SW_clvt', 203, json_2977J_102_SW_culverts_21, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');
+
+
+     //  var SW_lateral_index_limits = [300, 302];
+     //  add_feature_layer('SW_lateral', 300, json_2977J_105_SW_laterals_22, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+     //  add_feature_layer('SW_lateral', 301, json_2977J_105_SW_laterals_22, 'Install (N) per SFPW STD 87,196', 'rgba(1, 103, 255, 1.0)');
+      // add_feature_layer('SW_lateral', 302, json_2977J_105_SW_laterals_22, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');       
+
+
+      // var SW_drain_index_limits = [400, 401];
+      // add_feature_layer('SW_drain', 400, json_2977J_104_SW_drains_24, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
+    //   add_feature_layer('SW_drain', 401, json_2977J_104_SW_drains_24, 'Install (N) per SFPW STD Plan 87,188', 'rgba(7, 154, 71, 1.0)');
+       
+       
+   //    var SW_MH_index_limits = [500, 505];
+   //    add_feature_layer('SW_MH', 500, json_2977J_103_SW_manholes_23, '(E) to Remain', 'rgba(150,150,150,1.0)');
+   //    add_feature_layer('SW_MH', 501, json_2977J_103_SW_manholes_23, 'Remove (E)', 'rgba(255, 0, 0, 1.0)');
+   //    add_feature_layer('SW_MH', 502, json_2977J_103_SW_manholes_23, 'Install (N) per SFPW STD Plan 87,181', 'rgba(1, 255, 115, 1.0)');
+    //   add_feature_layer('SW_MH', 503, json_2977J_103_SW_manholes_23, 'Replace (E) with (N) per SFPW STD Plan 87,181', 'rgba(35, 228, 170, 1.0)');
+    //   add_feature_layer('SW_MH', 504, json_2977J_103_SW_manholes_23, 'Install (N) per SFPW STD Plan 87,182', 'rgba(7, 154, 71, 1.0)');       
+    //   add_feature_layer('SW_MH', 505, json_2977J_103_SW_manholes_23, 'Install (N) Angled per SFPW STD Plan 87,182', 'rgba(2, 101, 45, 1.0)');
+   
+   
+     //  var R_fltwrk_index_limits = [600, 611];       
+   //    add_feature_layer('R_polygon', 600, json_2977J_200_flatwork_19, 'R-03: Planing','#f3a5b1');  
+  //     add_feature_layer('R_polygon', 601, json_2977J_200_flatwork_19, 'R-04: 1/2in HMA','#6a62d1');  
+  //     add_feature_layer('R_polygon', 602, json_2977J_200_flatwork_19, 'R-05: 8in Base','#91d532');         
+  //     add_feature_layer('R_polygon', 603, json_2977J_200_flatwork_19, 'R-06: 10in Base','#b714ef');         
+  //     add_feature_layer('R_polygon', 604, json_2977J_200_flatwork_19, 'R-07: Parking Strip, Gutter','#24ddaf');                
+   //    add_feature_layer('R_polygon', 605, json_2977J_200_flatwork_19, 'R-08: 3.5in Sidewalk','#e1ad12');                
+  //     add_feature_layer('R_polygon', 606, json_2977J_200_flatwork_19, 'R-09: 4in Curb','#b33600');                
+   //    add_feature_layer('R_polygon', 607, json_2977J_200_flatwork_19, 'R-10: 6in Curb','#2291e3');                  
+   //    add_feature_layer('R_polygon', 608, json_2977J_200_flatwork_19, 'R-11: Comb. Curb and Gutter','#d3200e'); 
+   //    add_feature_layer('R_polygon', 609, json_2977J_200_flatwork_19, 'R-12: Curb Ramps','#5ae166');       
+  //     add_feature_layer('R_point', 610, json_2977J_210_flatwork_points_0, 'R-14: Type I PBs', '#fe9800');       
+   //    add_feature_layer('R_point', 611, json_2977J_210_flatwork_points_0, 'R-15: Type III PBs', '#84177b');       
+                     
+       //var E_pullbox_index_limits = [700, 701];
+        
+        
+        
+            
+    </script>
+
+</head>
+
+
+<body>
+  <div class="grid-parent-map-page">  
+    <div class="grid-div-menu-nav-map" id="menu_nav">
+      <script>
+        document.getElementById("menu_nav").innerHTML += top_nav('map');
+      </script>
+    </div>
+    <div class="grid-div-map" id="map_page">
+      <div class="map" id="map"></div>
+    </div>
+    <div class="grid-div-accordion-menu" id="map_master_menu">
+      <script src="js/menu_cards/menu_card_sheet_layers.js"></script>
+      <script src="js/menu_cards/menu_card_sheet_overlays.js"></script>
+      <script src="js/menu_cards/menu_card_sewer_features.js"></script>
+      <script src="js/menu_cards/menu_card_flatwork_features.js"></script>
+    </div>
+  </div>
+      
+  <script>
+        var highlightLayer;
+
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+                highlightLayer.setStyle({
+                    color: '#ffff00',
+                    fillColor: '#ffff00',
+                    fillOpacity: 0.5
+                });
+        }
+        var map = L.map('map', {
+            zoomControl: true,
+            maxZoom: 28,
+            minZoom: 1
+        }).fitBounds([
+            [37.72098969531007, -122.4002063081103],
+            [37.72451383659796, -122.39481225541736]
+        ]);
+        var hash = new L.Hash(map);
+
+        map.attributionControl.setPrefix('The accuracy of information presented on this map is not guaranteed. Consult City Representative for official documentation.');
+
+        var autolinker = new Autolinker({
+            truncate: {
+                length: 30,
+                location: 'smart'
+            }
+        });
+        L.control.locate({
+            locateOptions: {
+                maxZoom: 19
+            }
+        }).addTo(map);
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'feet',
+            secondaryLengthUnit: 'miles',
+            primaryAreaUnit: 'sqfeet',
+            secondaryAreaUnit: 'sqmiles'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+            .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+            .className += ' fas fa-ruler';
+            
+        map.addControl(new clear_layers_button());    
+            
+        var bounds_group = new L.featureGroup([]);
+
+        function setBounds() {
+        
+            //map.setView(new L.LatLng(37.7226, -122.4040), 16);
+
+        }
+        
+        function style_1070I_project_dwgs(feature) {
+            switch (String(feature.properties.LAYER_TYPE)) {
+                 case 'plan_boundary_u':
+                    return {
+                        pane: 'pane_1070I_project_dwgs_u',
+                            opacity: 1,
+                            color: 'rgba(35,35,35,1.0)',
+                            dashArray: '',
+                            lineCap: 'butt',
+                            lineJoin: 'miter',
+                            weight: 1.0,
+                            fill: true,
+                            fillOpacity: 0.5,
+                            fillColor: 'rgba(125, 138, 143, 0.5)',
+                            interactive: true,
+                    }
+                    break;
+                 case 'plan_boundary_sw':
+                    return {
+                        pane: 'pane_1070I_project_dwgs_sw',
+                            opacity: 1,
+                            color: 'rgba(35,35,35,1.0)',
+                            dashArray: '',
+                            lineCap: 'butt',
+                            lineJoin: 'miter',
+                            weight: 1.0,
+                            fill: true,
+                            fillOpacity: 0.5,
+                            fillColor: 'rgba(0,152,68,0.5)',
+                            interactive: true,
+                    }
+                    break;
+                 case 'plan_boundary_pr':
+                    return {
+                        pane: 'pane_1070I_project_dwgs_pr',
+                            opacity: 1,
+                            color: 'rgba(35,35,35,1.0)',
+                            dashArray: '',
+                            lineCap: 'butt',
+                            lineJoin: 'miter',
+                            weight: 1.0,
+                            fill: true,
+                            fillOpacity: 0.5,
+                            fillColor: 'rgba(238,101,27,0.5)',
+                            interactive: true,
+                    }
+                    break;
+                    
+                 case 'plan_boundary_cr':
+                    return {
+                        pane: 'pane_1070I_project_dwgs_cr',
+                            opacity: 1,
+                            color: 'rgba(35,35,35,1.0)',
+                            dashArray: '',
+                            lineCap: 'butt',
+                            lineJoin: 'miter',
+                            weight: 1.0,
+                            fill: true,
+                            fillOpacity: 0.5,
+                            fillColor: 'rgba(228, 173, 32, 0.5)',
+                            interactive: true,
+                    }
+                    break;
+                   
+            }
+        }
+
+        //var baseMaps = {};
+        
+        setBounds();
+        L.ImageOverlay.include({
+            getBounds: function() {
+                return this._bounds;
+            }
+        });
+    </script>
+   
+    <script src="js/overlay_pane_creator.js"></script> 
+    <script src="js/layer_toggle/add_layer_001_OSM.js"></script>
+    <script src="js/layer_toggle/add_layer_012_SW.js"></script>
+    <script src="js/layer_toggle/add_layer_013_R.js"></script>
+    <script src="js/layer_toggle/add_layer_014_CR.js"></script>
+    <script src="js/layer_toggle/add_layer_015_U.js"></script>
+    <script src="js/layer_toggle/add_line_layer_SW_main.js"></script>
+    <script src="js/layer_toggle/add_line_layer_SW_clvt.js"></script>
+    <script src="js/layer_toggle/add_line_layer_SW_lateral.js"></script>
+    <script src="js/layer_toggle/add_point_layer_SW_MH.js"></script>    
+    <script src="js/layer_toggle/add_point_layer_SW_drain.js"></script>      
+    <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>      
+    <script src="js/layer_toggle/add_point_layer_flatwork.js"></script>      
+
+
+        
+    <script>
+        function handleChange(checkbox, layer) {
+            if (checkbox.checked == true) {
+                map.addLayer(layer);
+            } else {
+                map.removeLayer(layer);
+            }
+
+            check_clone(checkbox.id);
+
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
