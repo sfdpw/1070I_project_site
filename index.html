@@ -75,8 +75,7 @@
      //  add_feature_layer('SW_clvt', 201, json_2977J_102_SW_culverts_21, 'Plug and Fill (E)', 'rgba(255, 141, 19, 1.0)');       
      //  add_feature_layer('SW_clvt', 202, json_2977J_102_SW_culverts_21, 'Install (N) 10\" VCP', 'rgba(1, 103, 255, 1.0)');
      //  add_feature_layer('SW_clvt', 203, json_2977J_102_SW_culverts_21, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');
-
-
+     
      var index_limits_sw_ss = [140, 140];
      add_feature_layer('sw_ss', 140, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
      //  add_feature_layer('SW_lateral', 301, json_2977J_105_SW_laterals_22, 'Install (N) per SFPW STD 87,196', 'rgba(1, 103, 255, 1.0)');
@@ -194,11 +193,11 @@
         }
         
         function style_1070I_project_dwgs(feature) {
-            console.log(feature.properties.dwg.substring(0, 11));
-            switch (String(feature.properties.dwg.substring(0, 11))) {
+        
+            switch (String(feature.properties.dwg.substring(0, 12))) {
                  case '1070I_dwg_SW':
                     return {
-                        pane: 'pane_1070I_project_dwgs_sw',
+                        pane: 'pane_1070I_sw_dwgs',
                             opacity: 1,
                             color: 'rgba(35,35,35,1.0)',
                             dashArray: '',
@@ -211,9 +210,9 @@
                             interactive: true,
                     }
                     break;
-                 case 'plan_boundary_pr':
+                 case '1070I_dwg_PR':
                     return {
-                        pane: 'pane_1070I_project_dwgs_pr',
+                        pane: 'pane_1070I_pr_dwgs',
                             opacity: 1,
                             color: 'rgba(35,35,35,1.0)',
                             dashArray: '',
@@ -227,9 +226,9 @@
                     }
                     break;
                     
-                 case 'plan_boundary_cr':
+                 case '1070I_dwg_CR':
                     return {
-                        pane: 'pane_1070I_project_dwgs_cr',
+                        pane: 'pane_1070I_cr_dwgs',
                             opacity: 1,
                             color: 'rgba(35,35,35,1.0)',
                             dashArray: '',

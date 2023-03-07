@@ -12,7 +12,7 @@ function layer_filter(LAYER_TYPE, LAYER_OBJ)
 
       if (LAYER_OBJ.features[ii].properties.dwg.includes(LAYER_TYPE))
       
-       {
+       { 
                      
         return_obj.features.push(LAYER_OBJ.features[ii]);
           

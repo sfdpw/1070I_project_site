@@ -28,7 +28,7 @@ document.getElementById("map_master_menu").innerHTML +=
                 </tr>\
                 <tr>\
                   <td>\
-                    <input type="checkbox" id="checkbox_pr" onchange="R_013_toggle()">\
+                    <input type="checkbox" id="checkbox_pr" onchange="toggle_pr()">\
                   </td>\
                   <td>\
                     <img src="legend/1070I_plan_boundary_pr.png" width="13" height="13"\
@@ -48,7 +48,7 @@ document.getElementById("map_master_menu").innerHTML +=
                 </tr>\
                 <tr>\
                   <td>\
-                    <input type="checkbox" id="checkbox_osm" onchange="OSM_001_toggle()" checked>\
+                    <input type="checkbox" id="checkbox_osm" onchange="toggle_osm()" checked>\
                   </td>\
                   <td>\
                     <img src="legend/OSM_logo.png" width="13" height="13"\

@@ -15,57 +15,40 @@ layer.bindPopup(popupContent, {
   });
 }
 
-function style_sw() {
-  return {
-    pane: 'pane_sw',
-    opacity: 1,
-    color: 'rgba(35,35,35,1.0)',
-    dashArray: '',
-    lineCap: 'butt',
-    lineJoin: 'miter',
-    weight: 1.0,
-    fill: true,
-    fillopacity: 0.6,
-    fillColor: 'rgba(133,182,111,1.0)',
-    interactive: true,
-  }
-}
+        map.createPane('pane_1070I_sw_dwgs');
+        map.getPane('pane_1070I_sw_dwgs').style.zIndex = 52;
+        map.getPane('pane_1070I_sw_dwgs').style['mix-blend-mode'] = 'normal';
 
-        map.createPane('pane_1070I_plan_boundaries_sw');
-        map.getPane('pane_1070I_plan_boundaries_sw').style.zIndex = 52;
-        map.getPane('pane_1070I_plan_boundaries_sw').style['mix-blend-mode'] = 'normal';
-
-        var layer_1070I_plan_boundaries_sw = new L.geoJson(layer_filter('plane_boundary_sw', json_1070I_plan_boundaries), {
+        var layer_1070I_sw_dwgs = new L.geoJson(layer_filter('_SW_', json_1070I_plan_boundaries), {
             attribution: '',
             interactive: true,
-            dataVar: 'json_1070I_plan_boundaries_sw',
-            layerName: 'layer_1070I_plan_boundaries_sw',
-            pane: 'pane_1070I_plan_boundaries_sw',
+            dataVar: 'json_1070I_sw_dwgs',
+            layerName: 'layer_1070I_sw_dwgs',
+            pane: 'pane_1070I_sw_dwgs',
             onEachFeature: pop_sw,
-            style: style_sw,
+            style: style_1070I_project_dwgs,
         });
-
 
 function toggle_sw() {
 
   if (document.getElementById("checkbox_sw").checked) {
 
-    layer_sw = new L.geoJson(layer_filter('plane_boundary_sw', json_1070I_plan_boundaries), {
+    layer_1070I_sw_dwgs = new L.geoJson(layer_filter('_SW_', json_1070I_plan_boundaries), {
       attribution: '',
       interactive: true,
-      dataVar: 'json_sw',
-      layerName: 'layer_sw',
-      pane: 'pane_sw',
+      dataVar: 'json_1070I_sw_dwgs',
+      layerName: 'layer_1070I_sw_dwgs',
+      pane: 'pane_1070I_sw_dwgs',
       onEachFeature: pop_sw,
-      style: style_sw,
+      style: style_1070I_project_dwgs,
     });
     
-        bounds_group.addLayer(layer_1070I_plan_boundaries_sw);
-        map.addLayer(layer_1070I_plan_boundaries_sw);
+        bounds_group.addLayer(layer_1070I_sw_dwgs);
+        map.addLayer(layer_1070I_sw_dwgs);
 
   } else {
   
-    map.removeLayer(layer_1070I_plan_boundaries_sw);
+    map.removeLayer(layer_1070I_sw_dwgs);
     
   }
 

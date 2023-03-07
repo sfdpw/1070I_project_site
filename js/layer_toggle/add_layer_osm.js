@@ -15,7 +15,7 @@ layer_OSMStandard_0;
 map.addLayer(layer_OSMStandard_0);
 
 
-function OSM_001_toggle() {
+function toggle_osm() {
 
     if (document.getElementById("checkbox_osm").checked) {
 
