@@ -194,8 +194,8 @@
         
         function style_1070I_project_dwgs(feature) {
         
-            switch (String(feature.properties.dwg.substring(0, 12))) {
-                 case '1070I_dwg_SW':
+            switch (String(feature.properties.dwg_type)) {
+                 case 'SW':
                     return {
                         pane: 'pane_1070I_sw_dwgs',
                             opacity: 1,
@@ -210,7 +210,7 @@
                             interactive: true,
                     }
                     break;
-                 case '1070I_dwg_PR':
+                 case 'PR':
                     return {
                         pane: 'pane_1070I_pr_dwgs',
                             opacity: 1,
@@ -226,7 +226,7 @@
                     }
                     break;
                     
-                 case '1070I_dwg_CR':
+                 case 'CR':
                     return {
                         pane: 'pane_1070I_cr_dwgs',
                             opacity: 1,

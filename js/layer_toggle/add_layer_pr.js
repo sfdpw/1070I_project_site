@@ -19,7 +19,7 @@ layer.bindPopup(popupContent, {
         map.getPane('pane_1070I_pr_dwgs').style.zIndex = 52;
         map.getPane('pane_1070I_pr_dwgs').style['mix-blend-mode'] = 'normal';
 
-        var layer_1070I_pr_dwgs = new L.geoJson(layer_filter('_PR_', json_1070I_plan_boundaries), {
+        var layer_1070I_pr_dwgs = new L.geoJson(layer_filter('PR', json_1070I_plan_boundaries), {
             attribution: '',
             interactive: true,
             dataVar: 'json_1070I_pr_dwgs',
@@ -33,7 +33,7 @@ function toggle_pr() {
 
   if (document.getElementById("checkbox_pr").checked) {
 
-    layer_1070I_pr_dwgs = new L.geoJson(layer_filter('_PR_', json_1070I_plan_boundaries), {
+    layer_1070I_pr_dwgs = new L.geoJson(layer_filter('PR', json_1070I_plan_boundaries), {
       attribution: '',
       interactive: true,
       dataVar: 'json_1070I_pr_dwgs',

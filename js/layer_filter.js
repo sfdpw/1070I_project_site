@@ -10,7 +10,7 @@ function layer_filter(LAYER_TYPE, LAYER_OBJ)
    
      {
 
-      if (LAYER_OBJ.features[ii].properties.dwg.includes(LAYER_TYPE))
+      if (LAYER_OBJ.features[ii].properties.dwg_type == LAYER_TYPE)
       
        {
                      
