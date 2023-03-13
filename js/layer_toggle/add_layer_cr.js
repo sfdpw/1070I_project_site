@@ -29,6 +29,10 @@ layer.bindPopup(popupContent, {
             style: style_1070I_project_dwgs,
         });
 
+        bounds_group.addLayer(layer_1070I_cr_dwgs);
+        map.addLayer(layer_1070I_cr_dwgs);
+
+
 function toggle_cr() {
 
   if (document.getElementById("checkbox_cr").checked) {
@@ -43,7 +47,7 @@ function toggle_cr() {
       style: style_1070I_project_dwgs,
     });
     
-        bounds_group.addLayer(layer_1070I_cr_dwgs);
+        //bounds_group.addLayer(layer_1070I_cr_dwgs);
         map.addLayer(layer_1070I_cr_dwgs);
 
   } else {
