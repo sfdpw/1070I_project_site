@@ -45,13 +45,30 @@ function return_plan_boundary_popup(feature) {
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_04" class="collapse" aria-labelledby="PLAN_relevant" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + (feature.properties.rlvnt !== null ? Autolinker.link(feature.properties.rlvnt.toLocaleString()) : '') + '</div>\
+                                <div class="card-body">' + "none" + '</div>\
                                 </div>\
-                                </div>\
-\
-                                </div>';
+                                </div>'
+                                
+if ( feature.properties.dwg_type == 'SW' ) 
 
-    return popupContent
+{
+
+ popupContent += '<div class="card">\
+                                <div class="card-header p-0" id="U_PLANS">\
+                                <h2 class="mb-0">\
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_05" aria-expanded="false" aria-controls="PLAN_collapse_05"><strong>Utility Plans</strong></button>\
+                                </h2>\
+                                </div>\
+                                <div id="PLAN_collapse_05" class="collapse" aria-labelledby="U_PLANS" data-parent="#PLAN_popup">\
+                                <div class="card-body">' + popup_u_plan_entry_creator(feature.properties.dwg_no) + '</div>\
+                                </div>\
+                                </div>';
+ 
+ }
+ 
+ popupContent += '</div>';                               
+                                
+ return popupContent
 
 }
 

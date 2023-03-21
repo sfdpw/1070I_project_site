@@ -7,27 +7,22 @@ function popup_sheet_entry_creator(dwg_type, dwg_no )
 //  const raster_array = [];
 
 
-  if (dwg_type == 'SW') {
+//  if (dwg_type == 'SW') {
   
-  output_string = output_string.concat(
+//  output_string = output_string.concat(
   
-         "<a href=\".\\sheets\\1070I_dwg_SW_", dwg_no , ".pdf\" target=\"_blank\">SW ", dwg_no, "<\/a><br>",
-         "<a href=\".\\sheets\\1070I_dwg_U_", dwg_no , ".pdf\" target=\"_blank\">U ", dwg_no, "<\/a>",
-         ); 
+//         "<a href=\".\\sheets\\1070I_dwg_SW_", dwg_no , ".pdf\" target=\"_blank\">SW ", dwg_no, "<\/a><br>",
+//         "<a href=\".\\sheets\\1070I_dwg_U_", dwg_no , ".pdf\" target=\"_blank\">U ", dwg_no, "<\/a>",
+//         ); 
   
-  } else {
+//  } else {
   
   output_string = output_string.concat(
          "<a href=\".\\sheets\\1070I_dwg_", dwg_type ,"_", dwg_no , ".pdf\" target=\"_blank\">",
                                             dwg_type," ", dwg_no, "<\/a>"
          ); 
   
-  }
-
-
-
-
-
+//  }
 
 
  // for(var var_name in window) { 
@@ -151,6 +146,25 @@ function popup_sheet_entry_creator(dwg_type, dwg_no )
     return output_string
 
 }
+
+
+
+/*################# UTILITY PLAN ENTRY CREATOR ########################################################## */
+
+function popup_u_plan_entry_creator(dwg_no) {
+
+  var output_string = "";
+  
+  output_string = output_string.concat(
+         "<a href=\".\\sheets\\1070I_dwg_U_", dwg_no , ".pdf\" target=\"_blank\">U-", dwg_no, "<\/a>"
+         ); 
+         
+  return output_string       
+
+}
+
+
+
 
 
 /*################# SPEC ENTRY CREATOR ########################################################## */
