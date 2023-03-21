@@ -12,7 +12,7 @@ function return_plan_boundary_popup(feature) {
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_01" class="collapse" aria-labelledby="PLAN_sheet" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_sheet_entry_creator(feature.properties.dwg_type, feature.properties.dwg_no) + '</div>\
+                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no) + '</div>\
                                 </div>\
                                 </div>\
 \

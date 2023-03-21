@@ -1,149 +1,26 @@
 /*################# SHEET ENTRY CREATOR ########################################################## */
-function popup_sheet_entry_creator(dwg_type, dwg_no )
+function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no )
 
 {
 
-  var output_string = "";
-//  const raster_array = [];
+ var output_string = "";
 
 
-//  if (dwg_type == 'SW') {
-  
-//  output_string = output_string.concat(
-  
-//         "<a href=\".\\sheets\\1070I_dwg_SW_", dwg_no , ".pdf\" target=\"_blank\">SW ", dwg_no, "<\/a><br>",
-//         "<a href=\".\\sheets\\1070I_dwg_U_", dwg_no , ".pdf\" target=\"_blank\">U ", dwg_no, "<\/a>",
-//         ); 
-  
-//  } else {
-  
-  output_string = output_string.concat(
+ 
+ var overlay_checkbox = 'layer_1070I_dwg_'.concat(dwg_type, "_", dwg_no ,"_00");
+ 
+ 
+ output_string = output_string.concat("<input type=\"checkbox\" id=\"", overlay_checkbox, twin_op,
+                                      "\" onchange=\"handleChange(this, ", overlay_checkbox, ");\">&nbsp;"); 
+
+ output_string = output_string.concat(
          "<a href=\".\\sheets\\1070I_dwg_", dwg_type ,"_", dwg_no , ".pdf\" target=\"_blank\">",
                                             dwg_type," ", dwg_no, "<\/a>"
          ); 
-  
-//  }
-
-
- // for(var var_name in window) { 
-    
- //   if(var_name.includes('layer_1070I_dwg_'.concat(dwg_type, '_', dwg_no)))
-    
- //     {  
-    
- //       raster_array.push(var_name); 
-  
- //      }
-  
- //   }
-
-
- //   if (raster_array.length > 0)
-    
- //   {
-    
- //     for (raster_instance in raster_array)
-      
- //        {
-      
- //                output_string = output_string.concat("<input type=\"checkbox\" id=\"",
- //                    raster_instance,
- //                   "_aaaa\" onchange=\"handleChange(this, ",
- //                   raster_instance, ");\">&nbsp;");
-    
- //         }
-    
- //     }
 
 
 
-
-
-
-
-
-//    if (popup_args == null) {
-//        output_string = 'none';
-        
-//    } else {
-
-//       var overlay_checkbox = "";
-//        var file_name = "";
-//        var file_name_length = "";
-//       var file_desc = "";
-
-//       for (var ii = 0; ii < popup_args.length; ii += 3)
-
-//      {
-
-//          overlay_checkbox = popup_args[ii+1];
-
-//          if (popup_args[ii] != null) {
-//              file_name = popup_args[ii];
-//          }
-
-//          file_desc = popup_args[ii + 2];
-
-
-
-
-//            {
-
-//                output_string = output_string.concat("<input type=\"checkbox\" id=\"",
-//                    overlay_checkbox,
-//                    "_aaaa\" onchange=\"handleChange(this, ",
-//                    overlay_checkbox, ");\">&nbsp;");
-
-//            }
-
-
-
-//            if (popup_args[ii] != null)
-
-//            {
-
-
-//                if (file_name.includes('SFPW_STD_') || file_name.includes('SFMTA_STR_'))
-
-//                {
-
-//                    var STD_file_name_formatted = file_name.replace(/_/g, ' ');
-//                    var comma_position = STD_file_name_formatted.length - 3
-
-//                    STD_file_name_formatted = [STD_file_name_formatted.slice(0, comma_position), ',',
-//                        STD_file_name_formatted.slice(comma_position)
-//                    ].join('');
-
-//                    output_string = output_string.concat("<a href=\".\\sheets\\", file_name, ".pdf\" target=\"_blank\">", STD_file_name_formatted, "<\/a>");
-
-//                } else
-
-//                {
-
-//                    output_string = output_string.concat("<a href=\".\\sheets\\1070I_dwg_", file_name, ".pdf\" target=\"_blank\">", (file_name.replace("-0", "-")).replace("_rev0", " Rev. "), "<\/a>");
-
-//                }
-
-//                if (popup_args[ii + 2] != null) {
-//                    output_string = output_string.concat(" - ", file_desc);
-//                }
-
-
-//            } else {
-//                if (popup_args[ii + 2] != null) {
-//                    output_string = output_string.concat(file_desc);
-//                };
-//            }
-
-//            if (ii != popup_args.length) {
-//                output_string = output_string.concat("<br>");
-//            }
-
-//        }
-
-//    }
-
-    return output_string
+ return output_string
 
 }
 

@@ -1,26 +1,27 @@
-var overlay_menu_subsection_content_u = "";
 var overlay_menu_subsection_content_sw = "";
+var overlay_menu_subsection_content_u = "";
 var overlay_menu_subsection_content_pr = "";
 var overlay_menu_subsection_content_cr = "";
 
+for (var ii = 0; ii < layer_filter('SW', json_1070I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_sw += popup_sheet_entry_creator('_twin_menu',
+    layer_filter('SW', json_1070I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('SW', json_1070I_plan_boundaries)['features'][ii].properties.dwg_no
+                                                                 ) + '<br>';
+}
 
-for (var ii = 0; ii < layer_filter('plan_boundary_u', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_u += layer_filter('plan_boundary_u',
+for (var ii = 0; ii < layer_filter('U', json_1070I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_u += layer_filter('U',
   json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
 }
 
-for (var ii = 0; ii < layer_filter('plan_boundary_sw', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_sw += layer_filter('plan_boundary_sw',
+for (var ii = 0; ii < layer_filter('PR', json_1070I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_pr += layer_filter('PR',
   json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
 }
 
-for (var ii = 0; ii < layer_filter('plan_boundary_pr', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_pr += layer_filter('plan_boundary_pr',
-  json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
-}
-
-for (var ii = 0; ii < layer_filter('plan_boundary_cr', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_cr += layer_filter('plan_boundary_cr',
+for (var ii = 0; ii < layer_filter('CR', json_1070I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_cr += layer_filter('CR',
   json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
 }
 
@@ -43,26 +44,6 @@ var menu_card_sheet_overlay_content =
          <div class="scroll_card">\
 \
            <div class="card">\
-             <div class="card-header p-0" id="sheet_overlays_u">\
-               <h2 class="mb-0">\
-                 <button class="btn btn-link collapsed" type="button"\
-                         data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_u"\
-                         aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_u">\
-                   <strong>U - Utilities</strong>\
-                 </button>\
-               </h2>\
-             </div>\
-             <div id="heading_sheet_overlays_0_collapse_U" class="collapse"\
-                      aria-labelledby="sheet_overlays_U" data-parent="#heading_sheet_overlays_0">\
-               <div class="card-body">\
-                 <div class="scroll_card_sub">' +
-  overlay_menu_subsection_content_u +
-  '</div>\
-               </div>\
-             </div>\
-           </div>\
-\
-           <div class="card">\
              <div class="card-header p-0" id="sheet_overlays_sw">\
                <h2 class="mb-0">\
                  <button class="btn btn-link collapsed" type="button"\
@@ -77,6 +58,26 @@ var menu_card_sheet_overlay_content =
                <div class="card-body">\
                  <div class="scroll_card_sub">' +
   overlay_menu_subsection_content_sw +
+  '</div>\
+               </div>\
+             </div>\
+           </div>\
+\
+           <div class="card">\
+             <div class="card-header p-0" id="sheet_overlays_u">\
+               <h2 class="mb-0">\
+                 <button class="btn btn-link collapsed" type="button"\
+                         data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_u"\
+                         aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_u">\
+                   <strong>U - Utilities</strong>\
+                 </button>\
+               </h2>\
+             </div>\
+             <div id="heading_sheet_overlays_0_collapse_U" class="collapse"\
+                      aria-labelledby="sheet_overlays_U" data-parent="#heading_sheet_overlays_0">\
+               <div class="card-body">\
+                 <div class="scroll_card_sub">' +
+  overlay_menu_subsection_content_u +
   '</div>\
                </div>\
              </div>\

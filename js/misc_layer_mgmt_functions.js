@@ -42,17 +42,17 @@ function check_clone(checkbox_id)
 
 {
 
-  if (checkbox_id.includes("_aaaa"))
+  if (checkbox_id.includes("_twin_popup"))
 
   {
 
-    document.getElementById(checkbox_id.replace('_aaaa', '_bbbb')).checked = document.getElementById(checkbox_id).checked;
+    document.getElementById(checkbox_id.replace('_twin_popup', '_twin_menu')).checked = document.getElementById(checkbox_id).checked;
 
-  } else if (document.getElementById(checkbox_id.replace('_bbbb', '_aaaa')) != null)
+  } else if (document.getElementById(checkbox_id.replace('_twin_menu', '_twin_popup')) != null)
 
   {
 
-    document.getElementById(checkbox_id.replace('_bbbb', '_aaaa')).checked = document.getElementById(checkbox_id).checked;
+    document.getElementById(checkbox_id.replace('_twin_menu', '_twin_popup')).checked = document.getElementById(checkbox_id).checked;
 
   }
 
@@ -68,11 +68,11 @@ function sweep_check_clone()
 
   {
 
-    if (check_box_list[ii].id.includes('_bbbb') &&
+    if (check_box_list[ii].id.includes('_twin_menu') &&
       document.getElementById(check_box_list[ii].id).checked &&
-      document.getElementById(check_box_list[ii].id.replace('_bbbb', '_aaaa')) != null) {
+      document.getElementById(check_box_list[ii].id.replace('_twin_menu', '_twin_popup')) != null) {
 
-      document.getElementById(check_box_list[ii].id.replace('_bbbb', '_aaaa')).checked = true;
+      document.getElementById(check_box_list[ii].id.replace('_twin_menu', '_twin_popup')).checked = true;
 
     }
 
@@ -93,7 +93,7 @@ function sweep_clear_layers()
   {
 
     if (check_box_list[ii].type == 'checkbox' &&
-        check_box_list[ii].id.includes('001_OSM') == false)
+        check_box_list[ii].id.includes('checkbox_osm') == false)
 
     {
 
