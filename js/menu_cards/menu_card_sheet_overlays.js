@@ -10,21 +10,21 @@ for (var ii = 0; ii < layer_filter('SW', json_1070I_plan_boundaries)['features']
                                                                  ) + '<br>';
 }
 
-for (var ii = 0; ii < layer_filter('U', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_u += layer_filter('U',
-  json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
-}
+overlay_menu_subsection_content_u = overlay_menu_subsection_content_sw.replace(/SW/g,'U');
 
 for (var ii = 0; ii < layer_filter('PR', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_pr += layer_filter('PR',
-  json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
+  overlay_menu_subsection_content_pr += popup_sheet_entry_creator('_twin_menu',
+    layer_filter('PR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('PR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_no
+                                                                 ) + '<br>';
 }
 
 for (var ii = 0; ii < layer_filter('CR', json_1070I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_cr += layer_filter('CR',
-  json_1070I_plan_boundaries)['features'][ii].properties.SHEET + '<br>';
+  overlay_menu_subsection_content_cr += popup_sheet_entry_creator('_twin_menu',
+    layer_filter('CR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('CR', json_1070I_plan_boundaries)['features'][ii].properties.dwg_no
+                                                                 ) + '<br>';
 }
-
 var menu_card_sheet_overlay_content =
 
   '<div class="accordion" id="heading_sheet_overlays_0">\
@@ -73,8 +73,8 @@ var menu_card_sheet_overlay_content =
                  </button>\
                </h2>\
              </div>\
-             <div id="heading_sheet_overlays_0_collapse_U" class="collapse"\
-                      aria-labelledby="sheet_overlays_U" data-parent="#heading_sheet_overlays_0">\
+             <div id="heading_sheet_overlays_0_collapse_u" class="collapse"\
+                      aria-labelledby="sheet_overlays_u" data-parent="#heading_sheet_overlays_0">\
                <div class="card-body">\
                  <div class="scroll_card_sub">' +
   overlay_menu_subsection_content_u +
@@ -89,7 +89,7 @@ var menu_card_sheet_overlay_content =
                  <button class="btn btn-link collapsed" type="button"\
                          data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_pr"\
                          aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_pr">\
-                   <strong>R - Flatwork</strong>\
+                   <strong>PR - Pavement Restoration</strong>\
                  </button>\
                </h2>\
              </div>\

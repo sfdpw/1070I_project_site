@@ -38,7 +38,7 @@ document.getElementById("map_master_menu").innerHTML +=
                 </tr>\
                 <tr>\
                   <td>\
-                    <input type="checkbox" id="checkbox_cr" onchange="toggle_cr()" checked>\
+                    <input type="checkbox" id="checkbox_cr" onchange="toggle_cr()">\
                   </td>\
                   <td>\
                     <img src="legend/1070I_plan_boundary_cr.png" width="13" height="13"\
