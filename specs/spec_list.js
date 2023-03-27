@@ -122,5 +122,4 @@ var list_of_specs = [
 '1070I_spec_33_24_00_groundwater_wells.pdf',
 '1070I_spec_33_33_00_sanitary_sewerage_utilities.pdf'
 
-
 ];
