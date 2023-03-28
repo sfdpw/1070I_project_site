@@ -58,46 +58,45 @@
 
     <script>
        
-       var master_layer_array = [];
+      var master_layer_array = [];
 
-      var index_limits_sw_mn = [100, 100];
-      add_feature_layer('sw_mn', 100, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
-      // add_feature_layer('SW_main', 101, json_2977J_101_SW_mains_20, 'Install (N) 12\" VCP', 'rgba(173, 255, 105, 1.0)');
-      // add_feature_layer('SW_main', 102, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 12\" VCP', 'rgba(35, 228, 170, 1.0)');
-      // add_feature_layer('SW_main', 103, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 18\" VCP', 'rgba(93, 201, 99, 1.0)');
-      // add_feature_layer('SW_main', 104, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 21\" VCP', 'rgba(171, 220, 50, 1.0)');  
-      // add_feature_layer('SW_main', 105, json_2977J_101_SW_mains_20, 'Install (N) 24\" VCP', 'rgba(33, 144, 141, 1.0)');   
-      // add_feature_layer('SW_main', 106, json_2977J_101_SW_mains_20, 'Replace (E) with (N) 24\" VCP', 'rgba(7, 154, 71, 1.0)');      
+      var index_limits_sw_mn = [100, 107];
+      add_feature_layer('mn', 100, json_1070I_sw_lines, '(E) to remain', '#beb198');
+      add_feature_layer('mn', 101, json_1070I_sw_lines, 'Install (N) 12in VCP main', '#f31017');
+      add_feature_layer('mn', 102, json_1070I_sw_lines, 'Install (N) 15in VCP main', '#e8101e');
+      add_feature_layer('mn', 103, json_1070I_sw_lines, 'Install (N) 18in VCP main', '#dc1126');
+      add_feature_layer('mn', 104, json_1070I_sw_lines, 'Install (N) 21in VCP main', '#d1112d');
+      add_feature_layer('mn', 105, json_1070I_sw_lines, 'Line (E) 8in main', '#4b68b0');
+      add_feature_layer('mn', 106, json_1070I_sw_lines, 'Line (E) 12in main', '#405a9a');
+      add_feature_layer('mn', 107, json_1070I_sw_lines, 'Abandon (E) main', '#ff9e17');
+      
+      var index_limits_sw_cl = [120, 124];
+      add_feature_layer('cl', 120, json_1070I_sw_lines, '(E) to remain', '#beb198');
+      add_feature_layer('cl', 121, json_1070I_sw_lines, 'Install (N) culvert', '#ba123c'); 
+      add_feature_layer('cl', 122, json_1070I_sw_lines, 'Line (E) culvert', '#354c84');     
+      add_feature_layer('cl', 123, json_1070I_sw_lines, 'Improve (E) culvert as directed', '#94d38e');
+      add_feature_layer('cl', 124, json_1070I_sw_lines, 'Abandon (E) culvert', '#ff9e17');
 
-
-     var index_limits_sw_cl = [120, 120];
-     add_feature_layer('sw_cl', 120, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
-     //  add_feature_layer('SW_clvt', 201, json_2977J_102_SW_culverts_21, 'Plug and Fill (E)', 'rgba(255, 141, 19, 1.0)');       
-     //  add_feature_layer('SW_clvt', 202, json_2977J_102_SW_culverts_21, 'Install (N) 10\" VCP', 'rgba(1, 103, 255, 1.0)');
-     //  add_feature_layer('SW_clvt', 203, json_2977J_102_SW_culverts_21, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');
+      var index_limits_sw_ss = [140, 142];
+      add_feature_layer('ss', 140, json_1070I_sw_lines, '(E) to remain', '#beb198');
+      add_feature_layer('ss', 141, json_1070I_sw_lines, 'Install (N) side sewer', '#c51235');
+      //add_feature_layer('ss', 142, json_1070I_sw_lines, 'Line (E) side sewer', '#5e8a5a');     
+      add_feature_layer('ss', 142, json_1070I_sw_lines, 'Improve (E) side sewer as directed', '#5e8a5a');          
      
-     var index_limits_sw_ss = [140, 140];
-     add_feature_layer('sw_ss', 140, json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
-     //  add_feature_layer('SW_lateral', 301, json_2977J_105_SW_laterals_22, 'Install (N) per SFPW STD 87,196', 'rgba(1, 103, 255, 1.0)');
-      // add_feature_layer('SW_lateral', 302, json_2977J_105_SW_laterals_22, 'Replace (E) if Directed', 'rgba(223, 230, 6, 1.0)');       
-
-
-     var index_limits_sw_cb = [160, 160];
-     add_feature_layer('sw_cb', 160,  json_1070I_sw_lines, '(E) to Remain', 'rgba(150, 150, 150, 1.0)');
-    //   add_feature_layer('SW_drain', 401, json_2977J_104_SW_drains_24, 'Install (N) per SFPW STD Plan 87,188', 'rgba(7, 154, 71, 1.0)');
-       
-       
-     var index_limits_sw_mh = [180, 180];
-     add_feature_layer('sw_mh', 180, json_1070I_sw_points, '(E) to Remain', 'rgba(150,150,150,1.0)');
-   //    add_feature_layer('SW_MH', 501, json_2977J_103_SW_manholes_23, 'Remove (E)', 'rgba(255, 0, 0, 1.0)');
-   //    add_feature_layer('SW_MH', 502, json_2977J_103_SW_manholes_23, 'Install (N) per SFPW STD Plan 87,181', 'rgba(1, 255, 115, 1.0)');
-    //   add_feature_layer('SW_MH', 503, json_2977J_103_SW_manholes_23, 'Replace (E) with (N) per SFPW STD Plan 87,181', 'rgba(35, 228, 170, 1.0)');
-    //   add_feature_layer('SW_MH', 504, json_2977J_103_SW_manholes_23, 'Install (N) per SFPW STD Plan 87,182', 'rgba(7, 154, 71, 1.0)');       
-    //   add_feature_layer('SW_MH', 505, json_2977J_103_SW_manholes_23, 'Install (N) Angled per SFPW STD Plan 87,182', 'rgba(2, 101, 45, 1.0)');
+      var index_limits_sw_mh = [160, 164];
+      add_feature_layer('mh', 160, json_1070I_sw_points, '(E) to remain', '#beb198');
+      add_feature_layer('mh', 161, json_1070I_sw_points, 'Install (N) manhole', '#ef5219');
+      add_feature_layer('mh', 162, json_1070I_sw_points, 'Mortar (E) manhole', '#9dd3a7');
+      add_feature_layer('mh', 163, json_1070I_sw_points, 'Remove (E) manhole', '#b49632');
+      add_feature_layer('mh', 164, json_1070I_sw_points, 'Abandon (E) manhole', '#fe9800');
    
-   
-     var index_limits_flatwork = [200, 200];       
-    add_feature_layer('flatwork_', 200, json_1070I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  
+      var index_limits_sw_cb = [180, 182];
+      add_feature_layer('cb', 180, json_1070I_sw_points, '(E) to remain', '#beb198');
+      add_feature_layer('cb', 181, json_1070I_sw_points, 'Install (N) catchbasin', '#fe366b');
+      add_feature_layer('cb', 182, json_1070I_sw_points, 'Abandon (E) catchbasin', '#fe9800');
+      
+      var index_limits_flatwork = [200, 200];       
+      add_feature_layer('flatwork_', 200, json_1070I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  
   //     add_feature_layer('R_polygon', 601, json_2977J_200_flatwork_19, 'R-04: 1/2in HMA','#6a62d1');  
   //     add_feature_layer('R_polygon', 602, json_2977J_200_flatwork_19, 'R-05: 8in Base','#91d532');         
   //     add_feature_layer('R_polygon', 603, json_2977J_200_flatwork_19, 'R-06: 10in Base','#b714ef');         
@@ -275,9 +274,7 @@
             } else {
                 map.removeLayer(layer);
             }
-
             check_clone(checkbox.id);
-
         }
     </script>
 

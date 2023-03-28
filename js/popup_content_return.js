@@ -90,8 +90,8 @@ function pop_up_creator_for_domain(feature, layer)
     });
 
 
-    if (layer.feature.L_index_stored_in_each_feature >= SW_main_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= SW_main_index_limits[1])
+    if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mn[0] &&
+        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mn[1])
 
     {
 
@@ -119,8 +119,8 @@ function pop_up_creator_for_domain(feature, layer)
 
         popupContent += pp_history_details(feature);
 
-    } else if (layer.feature.L_index_stored_in_each_feature >= SW_MH_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= SW_MH_index_limits[1])
+    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mh[0] &&
+        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mh[1])
 
     {
 
@@ -140,8 +140,8 @@ function pop_up_creator_for_domain(feature, layer)
 
         popupContent += pp_history_details(feature);
 
-    } else if (layer.feature.L_index_stored_in_each_feature >= SW_clvt_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= SW_clvt_index_limits[1])
+    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cl[0] &&
+        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cl[1])
 
     {
 
@@ -170,8 +170,8 @@ function pop_up_creator_for_domain(feature, layer)
         popupContent += pp_history_details(feature);
 
 
-    } else if (layer.feature.L_index_stored_in_each_feature >= SW_drain_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= SW_drain_index_limits[1])
+    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cb[0] &&
+        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cb[1])
 
     {
 
@@ -193,8 +193,8 @@ function pop_up_creator_for_domain(feature, layer)
 
 
 
-    } else if (layer.feature.L_index_stored_in_each_feature >= SW_lateral_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature <= SW_lateral_index_limits[1])
+    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_ss[0] &&
+        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_ss[1])
 
     {
 
