@@ -142,6 +142,16 @@ map.createPane('raster_overlay_SW_02_00');
                                               {pane: 'raster_overlay_SW_02_00'});
         bounds_group.addLayer(layer_1070I_dwg_SW_02_00);
         //map.addLayer(layer_1070I_dwg_SW_02_00);
+        
+        map.createPane('raster_overlay_SW_02_01');
+        map.getPane('raster_overlay_SW_02_01').style.zIndex = 22;
+        var img_1070I_dwg_SW_02_01 = 'raster_overlay/1070I_dwg_SW_02_01.png';
+        var img_bounds_1070I_dwg_SW_02_01 = [[37.73433324647737,-122.50436671080723],[37.736143101455845,-122.50083935283844]];
+        var layer_1070I_dwg_SW_02_01 = new L.imageOverlay(img_1070I_dwg_SW_02_01,
+                                              img_bounds_1070I_dwg_SW_02_01,
+                                              {pane: 'raster_overlay_SW_02_01'});
+        bounds_group.addLayer(layer_1070I_dwg_SW_02_01);
+        //map.addLayer(layer_1070I_dwg_SW_02_00);
 
 map.createPane('raster_overlay_SW_03_00');
         map.getPane('raster_overlay_SW_03_00').style.zIndex = 21;

@@ -4,22 +4,30 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no )
 {
 
  var output_string = "";
+ var overlay_checkbox ="";
+ 
+for (let nn = 0; nn <= dwg_no[1]; nn++) {
 
 
- 
- var overlay_checkbox = 'layer_1070I_dwg_'.concat(dwg_type, "_", dwg_no ,"_00");
- 
- 
- output_string = output_string.concat("<input type=\"checkbox\" id=\"", overlay_checkbox, twin_op,
+  overlay_checkbox = 'layer_1070I_dwg_'.concat(dwg_type, "_", dwg_no[0], "_", num_pad(nn, 2));
+  
+  output_string += "<input type=\"checkbox\" id=\"".concat(overlay_checkbox, twin_op,
                                       "\" onchange=\"handleChange(this, ", overlay_checkbox, ");\">&nbsp;"); 
 
- output_string = output_string.concat(
-         "<a href=\".\\sheets\\1070I_dwg_", dwg_type ,"_", dwg_no , ".pdf\" target=\"_blank\">",
-                                            dwg_type," ", dwg_no, "<\/a>"
-         ); 
+  if ( nn > 0 ) {  
 
+  output_string += "<a href=\".\\sheets\\1070I_dwg_".concat(dwg_type ,"_", dwg_no[0],
+                    "_rev", num_pad(nn, 2),".pdf\" target=\"_blank\">", dwg_type," ", dwg_no[0], " Rev. ", nn, "<\/a><br>"); 
+   
+  } else {  
+  
+  output_string += "<a href=\".\\sheets\\1070I_dwg_".concat(dwg_type ,"_", dwg_no[0] ,
+                    ".pdf\" target=\"_blank\">", dwg_type," ", dwg_no[0], "<\/a><br>"); 
 
-
+   }
+  
+  }
+ 
  return output_string
 
 }
