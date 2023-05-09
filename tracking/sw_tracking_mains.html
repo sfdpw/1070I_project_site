@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 
     <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css" rel="stylesheet">
     <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" 
@@ -28,7 +30,9 @@
     <link rel="stylesheet" href="../css/site_styles.css">
     <link rel="stylesheet" href="tracking.css">
     <script src="../js/top_nav_bar.js"></script>
+    <script src="../js/tracking.js"></script>
     <script src="../data/1070I_sw_lines.js"></script>
+
 
 </head>
 
@@ -39,24 +43,21 @@
                 document.getElementById("menu_nav").innerHTML += top_nav('Asset_Tracking_-_SW_Mains');
             </script>
         </div>
-
-
         <div>
             <table id="sw_main_table"
+	           class ="tracking_table"
 	           data-search="true"
 		   data-show-columns="true"
 		   data-show-columns-toggle-all="true"
 		   data-show-export="true"
 		   data-click-to-select="true"
-		   data-minimum-count-columns="2"
+		   data-minimum-count-columns="1"
 		   data-pagination="true"
 		   data-sortable="true"
 		   data-page-list="[10]"
-		   data-page-size="12"
+		   data-page-size="10"
 		   data-response-handler="responseHandler"
 		   data-filter-control="true"
-		   style="font-size: 10px;"
-		   
                    ></table>
         </div>
     </div>
@@ -77,7 +78,7 @@
   
         $('#sw_main_table').bootstrapTable({
             data: sw_mains,
-            stickyHeader: true,
+            //stickyHeader: true,
             //showFullscreen: true,
 
             columns: [{
@@ -90,30 +91,74 @@
                 },
                 {
                     field: 'properties.location',
-                    title: 'Location',
+                    title: 'Segmen Location',
                     sortable: true,
-                    width: '30',
+                    width: '20',
                     widthUnit: "%"
                 },
                 {
                     field: 'properties.scope',
-                    title: 'Scope',
+                    title: 'Segment<br>Scope',
                     sortable: true,                    
-                    width: '15',
-                    widthUnit: "%",
+                    //width: '10',
+                    //widthUnit: "%",
                     filterControl: "select"
                 },
                 {
                     field: 'properties.status',
-                    title: 'Status',
+                    title: 'Segment<br>Status',
                     sortable: true,
                     filterControl: "select"
                 },
                 {
-                    field: 'properties.pp_history',
+                    field: 'properties.bid_items',
                     title: 'Bid Items',
                     sortable: true
-                }
+                },
+                 {
+                    field: 'properties.submittals.tvi_pre_con.submittal_no',
+                    title: '<u>Precon</u><br>Submittal',
+                    sortable: true,
+                    filterControl: "select"
+                },
+                 {
+                    field: 'properties.submittals.tvi_pre_con.video_no',
+                    title: 'Video',
+                    sortable: true
+                },
+                 {
+                    field: 'properties.submittals.tvi_pre_con.response',
+                    title: 'Video<br>Response',
+                    sortable: true,
+                    filterControl: "select"
+                },
+                 {
+                    field: 'properties.submittals.tvi_pre_con.response_date',
+                    title: 'Resp.<br>Date',
+                    sortable: true
+                },
+                 {
+                    field: 'properties.submittals.tvi_post_con.submittal_no',
+                    title: '<u>Postcon</u><br>Submittal',
+                    sortable: true,
+                    filterControl: "select"
+                },
+                 {
+                    field: 'properties.submittals.tvi_post_con.video_no',
+                    title: 'Video',
+                    sortable: true
+                },
+                 {
+                    field: 'properties.submittals.tvi_post_con.response',
+                    title: 'Video<br>Response',
+                    sortable: true,
+                    filterControl: "select"
+                },
+                 {
+                    field: 'properties.submittals.tvi_post_con.response_date',
+                    title: 'Resp.<br>Date',
+                    sortable: true
+                },
             ]
         })
        

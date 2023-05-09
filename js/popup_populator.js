@@ -170,44 +170,32 @@ function popup_AB_entry_creator(ab_arg)
 /* ################# TCP ENTRY CREATOR ########################################################## */
 
 
-function popup_tcp_entry_creator(tcp_arg = null)
+function popup_tcp_entry_creator(feature)
 
 {
 
     var output_string = '';
-
-    if (tcp_arg == null) {output_string = 'none';} 
+    var tcp_desc = '';
     
-     else
-
-    {
-
-        for (var ii = 0; ii < tcp_arg.length; ii += 1)
-
-        {
-
-            for (var jj = 0; jj < json_tcp_list.length; jj += 1)
-
-            {
-
-                if (json_tcp_list[jj].includes(tcp_arg[ii]))
-
-                {
-
-                    output_string += "<a href=\".\\tcps\\".concat(json_tcp_list[jj],
-                        ".pdf\" target=\"_blank\">", tcp_arg[ii].replace('_', ' '), "<\/a>");
-
-                }
-
-            }
-
-            if (ii != output_string.length) {
-                output_string += '<br>'
-            }
-
-        }
-
+    for ( const tcp of project_tcp_array ) {
+    
+      tcp_desc = '';
+    
+      for ( const rvln_bndry of tcp.rlvn ) {
+      
+        if ( rvln_bndry == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0])   ) {
+       
+          if ( tcp.desc != '' ) { tcp_desc = ' - '.concat(tcp.desc); }
+       
+          output_string += "<a href=\".\\tcps\\1070I_TCP_".concat(tcp.numb, ".pdf\" target=\"_blank\">TCP ", tcp.numb, tcp_desc,'<\/a><br>');
+          console.log(output_string)
+         }
+      
+      }  
+   
     }
+    
+    if ( output_string == '' ) { output_string = 'none'; }
 
     return output_string
 
