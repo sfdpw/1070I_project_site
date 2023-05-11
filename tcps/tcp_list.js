@@ -1,6 +1,11 @@
 var project_tcp_array = [
 
-
+{ 
+ 'numb': '001', 'desc': 'SW: Sloat from 47th to LGH', 'rlvn': ['SW_01']
+ }, 
+{ 
+ 'numb': '002', 'desc': 'SW: Sloat from 46th to 47th', 'rlvn': ['SW_01']
+ }, 
 { 
  'numb': '008', 'desc': 'SW: 47th from Sloat to Wawona', 'rlvn': ['SW_01', 'SW_03']
  }, 
@@ -22,7 +27,9 @@ var project_tcp_array = [
 { 
  'numb': '019', 'desc': 'Storage Plan 2', 'rlvn': ['SW_09', 'SW_10', 'SW_11', 'SW_12']
  }, 
-
+{ 
+ 'numb': '023', 'desc': 'PR: 46th from Sloat to Wawona', 'rlvn': ['PR_01', 'PR_03']
+ }
 
 
 
