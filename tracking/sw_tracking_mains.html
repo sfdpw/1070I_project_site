@@ -74,7 +74,6 @@
         }
    
         sw_mains.sort( (a, b) => (a.properties.scope > b.properties.scope) ? -1 : 1 );
-
   
         $('#sw_main_table').bootstrapTable({
             data: sw_mains,
@@ -87,11 +86,10 @@
                     sortable: true,
                     width: '5',
                     widthUnit: "%"
-                    
                 },
                 {
                     field: 'properties.location',
-                    title: 'Segmen Location',
+                    title: 'Segment Location',
                     sortable: true,
                     width: '20',
                     widthUnit: "%"

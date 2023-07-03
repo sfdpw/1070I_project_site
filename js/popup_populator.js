@@ -188,7 +188,7 @@ function popup_tcp_entry_creator(feature)
           if ( tcp.desc != '' ) { tcp_desc = ' - '.concat(tcp.desc); }
        
           output_string += "<a href=\".\\tcps\\1070I_TCP_".concat(tcp.numb, ".pdf\" target=\"_blank\">TCP ", tcp.numb, tcp_desc,'<\/a><br>');
-          console.log(output_string)
+          
          }
       
       }  

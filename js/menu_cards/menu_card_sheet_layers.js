@@ -53,7 +53,7 @@ document.getElementById("map_master_menu").innerHTML +=
                   <td>\
                     <img src="legend/OSM_logo.png" width="13" height="13"\
                          alt="Layer Symbol - Street Map"/>\
-                    <label class="layer_label" for="001_OSM_checkbox">Street Map</label>\
+                    <label class="layer_label" for="checkbox_osm">Street Map</label>\
                   </td>\
                 </tr>\
               </table>\
