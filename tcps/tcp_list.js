@@ -31,10 +31,31 @@ var project_tcp_array = [
  'numb': '019', 'desc': 'Storage Plan 2', 'rlvn': ['SW_09', 'SW_10', 'SW_11', 'SW_12']
  }, 
 { 
+ 'numb': '020', 'desc': 'CR: 47th from Cutler to Ulloa', 'rlvn': ['CR_02', 'CR_03', 'CR_04']
+ }, 
+{ 
+ 'numb': '021', 'desc': 'CR: 47th from Cutler to Ulloa', 'rlvn': ['CR_02', 'CR_03', 'CR_04']
+ }, 
+{ 
+ 'numb': '022', 'desc': 'CR: 45th and Wawona', 'rlvn': ['CR_05']
+ },   
+{ 
  'numb': '023', 'desc': 'PR: 46th from Sloat to Wawona', 'rlvn': ['PR_01', 'PR_03']
- }
-
-
-
+ },
+{ 
+ 'numb': '024', 'desc': 'PR: 47th from Ulloa to Taraval', 'rlvn': ['PR_05', 'PR_06']
+ }, 
+{ 
+ 'numb': '025', 'desc': 'PR: 47th from Vicente to Ulloa', 'rlvn': ['PR_05']
+ }, 
+{ 
+ 'numb': '026', 'desc': 'PR: Wawona from 44th to 46th', 'rlvn': ['PR_03']
+ }, 
+{ 
+ 'numb': '027', 'desc': 'PR: 45th from Sloat to Vicente', 'rlvn': ['PR_02', 'PR_03', 'PR_04']
+ }, 
+{ 
+ 'numb': '028', 'desc': 'PR: Sloat from LGH to 44th', 'rlvn': ['PR_01', 'PR_02']
+ }, 
 ]
 
