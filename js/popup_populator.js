@@ -130,37 +130,38 @@ function popup_spec_entry_creator(popup_args = null)
 /* ################# AS BUILT ENTRY CREATOR ########################################################## */
 
 
-function popup_AB_entry_creator(ab_arg)
+function popup_as_built_entry_creator(feature)
 
 {
 
-    var arg_length = ab_arg.split("-")[0].length;
-  
-    var output_string = 'none';
-    var jj = 0;
+    var output_string = '';
+    var compare_string = '';
 
-    for (var ii = 0; ii < json_ab_list[ab_arg.substring(0, arg_length)].length; ii += 1)
+    for (const as_built_list_entry of json_ab_list)
 
     {
 
-        if (json_ab_list[ab_arg.substring(0, arg_length)][ii].includes(ab_arg))
+      compare_string = as_built_list_entry.substring(as_built_list_entry.length - 5, as_built_list_entry.length)
+      
+      if ( compare_string.substring(0, 1) == '_' ) {
+      
+        compare_string = compare_string.substring(1, compare_string.length)
+      
+      } 
+     
+        if ( compare_string == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0]) )
+        
+         {
 
-        {
-
-            output_string = output_string.replace('none', '');
-
-
-            if (jj > 0) {
-                output_string = output_string.concat("<br>");
-            }
-
-            output_string += "<a href=\".\\pp_as_builts\\".concat(json_ab_list[ab_arg.substring(0, arg_length)][ii],
-                ".pdf\" target=\"_blank\">", (json_ab_list[ab_arg.substring(0, arg_length)][ii].replace('1070I_', '')).replace(/_/g, ' ').replace('-0', '-'), "<\/a>");
-
-            jj += 1;
-
+            output_string += "<a href=\".\\as_builts\\".concat(as_built_list_entry,
+                ".pdf\" target=\"_blank\">", as_built_list_entry.replace('1070I_', ''), "<\/a><br>");
 
         }
+
+    }
+
+    if (output_string == '') {
+        output_string = 'none';
     }
 
     return output_string
