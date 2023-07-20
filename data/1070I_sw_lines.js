@@ -6803,10 +6803,10 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        "response_date": "none"
+                        "submittal_no": "44.1",
+                        "video_no": "1",
+                        "response": "MCN - Proceed with Lining",
+                        "response_date": "2023_07_19"
                     },
                     "tvi_post_con": {
                         "submittal_no": "none",
