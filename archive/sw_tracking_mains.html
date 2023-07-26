@@ -16,12 +16,9 @@
             crossorigin="anonymous"></script>
 
     <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/bootstrap-table@1.21.4/dist/extensions/sticky-header/bootstrap-table-sticky-header.css" 
-          rel="stylesheet">
 
     <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
-    <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/extensions/sticky-header/bootstrap-table-sticky-header.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/extensions/export/bootstrap-table-export.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/wenzhixin/bootstrap-table-examples@master/utils/natural-sorting/dist/natural-sorting.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.21.4/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
@@ -33,6 +30,9 @@
     <script src="../js/tracking.js"></script>
     <script src="../data/1070I_sw_lines.js"></script>
 
+    <script src="../js/number_pad_functions.js"></script>       
+    <script src="../payments/misc_payment_arrays.js"></script> 
+    
 
 </head>
 
@@ -77,8 +77,6 @@
   
         $('#sw_main_table').bootstrapTable({
             data: sw_mains,
-            //stickyHeader: true,
-            //showFullscreen: true,
 
             columns: [{
                     field: 'properties.id_a',

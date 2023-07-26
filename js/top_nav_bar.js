@@ -1,3 +1,5 @@
+var max_pp_no = 2; // make this smarter
+
 function top_nav(nav_element, pp_no = null, bid_item_id = null)
 
 {
@@ -43,22 +45,21 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
            </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Payments</a>\
-	     <ul class="dropdown-menu">\
-	       <li>\
-	         <a class="dropdown-item" href="#">SOV &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	           <li>\
-		     <a class="dropdown-item" href="' + nav_path + 'sov/sov_PP01.html">PP01 - </a>\
-	         </ul>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="#">Funding Breakdown &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	           <li>\
-	             <a class="dropdown-item" href="' + nav_path + 'funding/funding_PP01.html">PP01 - </a>\
-	         </ul>\
-	       </li>\
-	     </ul>\
+	     <ul class="dropdown-menu">';
+	     
+		for ( var ii = 1; ii < max_pp_no; ii++)
+
+		{ 
+			
+		  return_block += '<li><a class="dropdown-item" href="' + nav_path +
+				  'payments/payment_details_PP'.concat(num_pad(ii, 2), '.html">PP', num_pad(ii, 2),
+				  ' - ', payment_array['PP'.concat(num_pad(ii, 2))], '</a></li>');
+		  
+		}	      
+			      
+		return_block +=   
+	       
+	    '</ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">QTYs</a>\
@@ -132,22 +133,13 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	     </ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
-	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SW Tracking</a>\
+	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tracking</a>\
 	     <ul class="dropdown-menu">\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_mains.html">Mains</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_lines.html">Sewer Mains, Culverts and Laterals</a>\
 	       </li>\
 	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_culverts.html">Culverts</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_laterals.html">Laterals</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_manholes.html">Manholes</a>\
-	       </li>\
-	       <li>\
-	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_catchbasins.html">Catchbasins</a>\
+	         <a class="dropdown-item" href="' + nav_path + 'tracking/sw_tracking_points.html">Sewer MHs and CBs</a>\
 	       </li>\
 	     </ul>\
 	   </li>\
@@ -160,17 +152,11 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
          </ul>\
        </div>';
 
-    if (nav_element == 'sov')
+    if (nav_element == 'payment_details')
 
     {
 
-        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Schedule of Values (SOV) for PP ' + pp_no + '</div>';
-
-    } else if (nav_element == 'funding')
-
-    {
-
-        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Funding Breakdown for PP ' + pp_no + '</div>';
+        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Payment Details for PP ' + pp_no + '</div>';
 
     } else if (nav_element == 'qty')
 

@@ -16,7 +16,8 @@
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 
     <link rel="stylesheet" href="css/site_styles.css">
     <link rel="stylesheet" href="css/leaflet.css">
@@ -47,6 +48,9 @@
     <script src="js/proj4leaflet.js"></script>
     <script src="js/layer_filter.js"></script>    
 
+    <script src="js/number_pad_functions.js"></script>       
+    <script src="payments/misc_payment_arrays.js"></script>   
+
     <script src="specs/spec_list.js"></script>
     <script src="data/1070I_plan_boundaries.js"></script>
     <script src="tcps/tcp_list.js"></script>
@@ -56,6 +60,8 @@
     <script src="data/1070I_flatwork_polygons.js"></script>
     <script src="as_builts/ab_list.js"></script>    
     <script src="js/popup_content_return.js"></script>    
+    
+        
     
     <script>
        
@@ -120,9 +126,9 @@
 </head>
 
 
-<body>
-  <div class="grid-parent-map-page">  
-    <div class="grid-div-menu-nav-map" id="menu_nav">
+<body class="map_body">
+  <div class="grid-parent-page">  
+    <div class="grid-div-nav" id="menu_nav">
       <script>
         document.getElementById("menu_nav").innerHTML += top_nav('map');
       </script>
@@ -130,7 +136,7 @@
     <div class="grid-div-map" id="map_page">
       <div class="map" id="map"></div>
     </div>
-    <div class="grid-div-accordion-menu" id="map_master_menu">
+    <div class="grid-div-side-menu" id="map_master_menu">
       <script src="js/menu_cards/menu_card_sheet_layers.js"></script>
       <script src="js/menu_cards/menu_card_sheet_overlays.js"></script>
       <script src="js/menu_cards/menu_card_features_sw.js"></script>

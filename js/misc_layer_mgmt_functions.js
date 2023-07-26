@@ -462,11 +462,4 @@ function sw_point_layer_styler(feature) {
   }
 }
 
-
-function num_pad(num, size) {
-    num = num.toString();
-    while (num.length < size) num = "0" + num;
-    return num;
-}
-
    
