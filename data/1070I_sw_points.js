@@ -28,7 +28,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -44,18 +46,15 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 47th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP01': 8500
                     }
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -82,7 +81,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -163,7 +164,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -190,7 +193,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -271,7 +276,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -298,7 +305,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -352,7 +361,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -406,7 +417,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -649,7 +662,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -676,7 +691,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -730,7 +747,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -757,7 +776,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1054,7 +1075,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1081,7 +1104,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1108,7 +1133,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1189,7 +1216,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1216,7 +1245,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1243,7 +1274,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1405,7 +1438,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1502,18 +1537,15 @@ var json_1070I_sw_points = {
                 "location": "Fronting 2968 Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP01': 8500
                     }
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1540,7 +1572,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1567,7 +1601,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1594,7 +1630,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1621,7 +1659,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1648,7 +1688,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1675,7 +1717,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1702,7 +1746,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1729,7 +1775,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1756,7 +1804,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1783,7 +1833,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1864,7 +1916,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1945,7 +1999,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1972,7 +2028,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1999,7 +2057,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2026,7 +2086,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2080,7 +2142,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2107,7 +2171,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2134,7 +2200,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2161,7 +2229,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2188,7 +2258,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2242,7 +2314,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2269,7 +2343,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2296,7 +2372,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2350,7 +2428,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2377,7 +2457,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2404,7 +2486,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2458,7 +2542,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2485,7 +2571,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2512,7 +2600,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2539,7 +2629,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2566,7 +2658,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2593,7 +2687,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2620,7 +2716,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2647,7 +2745,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2674,7 +2774,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2701,7 +2803,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2728,7 +2832,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2782,7 +2888,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2809,7 +2917,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2836,7 +2946,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2863,7 +2975,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2917,7 +3031,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2944,7 +3060,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2971,7 +3089,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2998,7 +3118,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3025,7 +3147,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3079,7 +3203,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3106,7 +3232,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3133,7 +3261,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3160,7 +3290,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3187,7 +3319,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3241,7 +3375,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3268,7 +3404,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3322,7 +3460,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3349,7 +3489,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3376,7 +3518,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3403,7 +3547,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3538,7 +3684,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3565,7 +3713,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3619,7 +3769,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3646,7 +3798,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3673,7 +3827,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3754,7 +3910,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3781,7 +3939,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3808,7 +3968,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3916,7 +4078,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3943,7 +4107,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3997,7 +4163,9 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "Pre-Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",

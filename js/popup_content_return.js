@@ -1,7 +1,6 @@
 function return_plan_boundary_popup(feature) {
 
     var popupContent = '<div class="accordion" id="PLAN_popup">\
-\
                                 <div class="card">\
                                 <div class="card-header p-0" id="PLAN_sheet">\
                                 <h2 class="mb-0">\
@@ -12,11 +11,13 @@ function return_plan_boundary_popup(feature) {
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_01" class="collapse" aria-labelledby="PLAN_sheet" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no) + '</div>\
+                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no, feature.properties.specifier) + '</div>\
                                 </div>\
-                                </div>\
-\
-                                <div class="card">\
+                                </div>' 
+                                
+if ( feature.properties.dwg_type != 'U' ) {                             
+
+    popupContent += '<div class="card">\
                                 <div class="card-header p-0" id="PLAN_AB">\
                                 <h2 class="mb-0">\
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_02" aria-expanded="false" aria-controls="PLAN_collapse_02"><strong>As Built(s)</strong></button>\
@@ -45,30 +46,10 @@ function return_plan_boundary_popup(feature) {
                                 </h2>\
                                 </div>\
                                 <div id="PLAN_collapse_04" class="collapse" aria-labelledby="PLAN_relevant" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + "none" + '</div>\
+                                <div class="card-body">' + feature.properties.rlvnt + '</div>\
                                 </div>\
-                                </div>'
+                                </div>' }
                                 
-if ( feature.properties.dwg_type == 'SW' ) 
-
-{
-
- popupContent += '<div class="card">\
-                                <div class="card-header p-0" id="U_PLANS">\
-                                <h2 class="mb-0">\
-                                <button class="btn btn-link collapsed" type="button" onclick="sweep_check_clone()"\
-                                        data-toggle="collapse" data-target="#PLAN_collapse_05"\
-                                        aria-expanded="false" aria-controls="PLAN_collapse_05">\
-                                  <strong>Utility Plan(s)</strong></button>\
-                                </h2>\
-                                </div>\
-                                <div id="PLAN_collapse_05" class="collapse" aria-labelledby="U_PLANS" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type.replace('SW','U'), feature.properties.dwg_no) + '</div>\
-                                </div>\
-                                </div>';
- 
- }
- 
  popupContent += '</div>';                               
                                 
  return popupContent
@@ -89,325 +70,166 @@ function pop_up_creator_for_domain(feature, layer)
 
     });
 
-
-    if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mn[0] &&
-        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mn[1])
-
-    {
-
-        var popupContent =
-            '<strong>Asset ID</strong><br>' +
-            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Scope</strong><br>' +
-            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Pre-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
-            feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
-            feature.properties.submittals.tvi_pre_con.response +
-            '<br><br>\
-<strong>Post-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
-            feature.properties.submittals.tvi_post_con.video_no + ' - ' +
-            feature.properties.submittals.tvi_post_con.response +
-            '<br><br>\
-<strong>Status</strong><br>' +
-            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mh[0] &&
-        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mh[1])
-
-    {
-
-        var popupContent =
-            '<strong>Asset ID</strong><br>' +
-            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') + '<br><br>\
-<strong>Node ID</strong><br>' +
-            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Scope</strong><br>' +
-            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Status</strong><br>' +
-            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cl[0] &&
-        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cl[1])
-
-    {
-
-        var popupContent =
-            '<strong>Asset ID</strong><br>' +
-            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Scope</strong><br>' +
-            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Pre-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
-            feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
-            feature.properties.submittals.tvi_pre_con.response +
-            '<br><br>\
-<strong>Post-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
-            feature.properties.submittals.tvi_post_con.video_no + ' - ' +
-            feature.properties.submittals.tvi_post_con.response +
-            '<br><br>\
-<strong>Status</strong><br>' +
-            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-
-    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cb[0] &&
-        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cb[1])
-
-    {
-
-        var popupContent =
-            '<strong>Asset ID</strong><br>' +
-            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') + '<br><br>\
-<strong>Node ID</strong><br>' +
-            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Scope</strong><br>' +
-            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Status</strong><br>' +
-            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-
-
-    } else if (layer.feature.L_index_stored_in_each_feature >= index_limits_sw_ss[0] &&
-        layer.feature.L_index_stored_in_each_feature <= index_limits_sw_ss[1])
-
-    {
-
-        var popupContent =
-            '<strong>Asset ID</strong><br>' +
-            (feature.properties['id_a'] !== null ? Autolinker.link(feature.properties['id_a'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Address</strong><br>' +
-            (feature.properties['location'] !== null ? Autolinker.link(feature.properties['location'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>BLKLOT</strong><br>' +
-            (feature.properties['id_b'] !== null ? Autolinker.link(feature.properties['id_b'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Scope</strong><br>' +
-            (feature.properties['scope'] !== null ? Autolinker.link(feature.properties['scope'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Pre-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
-            feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
-            feature.properties.submittals.tvi_pre_con.response + 
-            '<br><br>\
-<strong>Post-Con Submittal - Video - Response</strong><br>' +
-            feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
-            feature.properties.submittals.tvi_post_con.video_no + ' - ' +
-            feature.properties.submittals.tvi_post_con.response +             
-            '<br><br>\
-<strong>Status</strong><br>' +
-            (feature.properties['status'] !== null ? Autolinker.link(feature.properties['status'].toLocaleString()) : '') +
-            '<br><br>\
-<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-    } 
+    var popupContent = 
     
-    else if (layer.feature.L_index_stored_in_each_feature >= R_fltwrk_index_limits[0] &&
-        layer.feature.L_index_stored_in_each_feature < R_fltwrk_index_limits[1])
+    '<div class="accordion" id="INST_popup">\
+      <div class="card">\
+        <div class="card-header p-0" id="GEN_details">\
+          <h2 class="mb-0">\
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_01"\
+                    aria-expanded="false" aria-controls="INST_collapse_01">\
+              <strong>General Details</strong>\
+            </button>\
+          </h2>\
+        </div>\
+        <div id="INST_collapse_01" class="collapse show" aria-labelledby="GEN_details" data-parent="#INST_popup">\
+          <div class="card-body">' + 
+            '<strong>Asset ID</strong><br>' + feature.properties.id_a + '<br><br>' +
+            '<strong>Location</strong><br>' + feature.properties.location + '<br><br>' +
+            '<strong>Scope</strong><br>' + feature.properties.scope + '<br><br>' +
+            '<strong>Status</strong><br>' + feature.properties.status +          
+          '</div>\
+        </div>\
+      </div>'
 
-    {
+if (
+     ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mn[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mn[1] ) ||
+     ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cl[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cl[1] ) ||
+     ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_ss[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_ss[1] ) 
+    ) 
+ 
+{
 
-        var bid_item_code = feature.properties.inst_id.substring(0, 4).replace('R-0', 'R-');
+    popupContent += 
+    
+      '<div class="card">\
+        <div class="card-header p-0" id="SMTTL_details">\
+          <h2 class="mb-0">\
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_02"\
+                    aria-expanded="false" aria-controls="INST_collapse_02">\
+              <strong>Submittals</strong>\
+            </button>\
+          </h2>\
+        </div>\
+        <div id="INST_collapse_02" class="collapse" aria-labelledby="SMTTL_details" data-parent="#INST_popup">\
+          <div class="card-body">\
+            <strong>Pre-Con Submittal - Video - Response</strong><br>' +
+              feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
+              feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
+              feature.properties.submittals.tvi_pre_con.response +
+              '<br><br>\
+            <strong>Post-Con Submittal - Video - Response</strong><br>' +
+              feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
+              feature.properties.submittals.tvi_post_con.video_no + ' - ' +
+              feature.properties.submittals.tvi_post_con.response +
+          '</div>\
+         </div>\
+       </div>'
 
-        var areacalcs = '';
-
-        var popupContent =
-            '<strong>Instance Id</strong><br>' +
-            feature.properties.inst_id.replace(/_/g, "-") + '<br><br>' +
-            '<strong>Description</strong><br>' +
-            unpack_flatwork_feature_description(bid_item_code) +
-            '<br><br>'; 
-            
-        popupContent +=
-            '<strong>Status</strong><br>' +
-            feature.properties.status + '<br><br>' +
-           '<strong>Relevant Documents</strong><br>' +
-            feature.properties.rlvnt +
-            '<br><br>' + areacalcs +
-            '<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-    }  
-
-    else if (layer.feature.L_index_stored_in_each_feature == R_fltwrk_index_limits[1]) // For SW-30 Only
-
-    {
-
-        var bid_item_code = feature.properties.inst_id.substring(0, 5);
-
-        var areacalcs = '';
-
-        var popupContent =
-            '<strong>Instance Id</strong><br>' +
-            feature.properties.inst_id.replace(/_/g, "-") + '<br><br>' +
-            '<strong>Description</strong><br>' +
-            unpack_flatwork_feature_description(bid_item_code) +
-            '<br><br>'; 
-            
-        popupContent +=
-            '<strong>Status</strong><br>' +
-            feature.properties.status + '<br><br>' +
-           '<strong>Relevant Documents</strong><br>' +
-            feature.properties.rlvnt +
-            '<br><br>' + areacalcs +
-            '<strong>Payment History</strong><br>';
-
-        popupContent += pp_history_details(feature);
-
-    }  
-
+} 
+ 
+    popupContent += 
+    
+      '<div class="card">\
+        <div class="card-header p-0" id="PP_details">\
+          <h2 class="mb-0">\
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_03"\
+                    aria-expanded="false" aria-controls="INST_collapse_03">\
+              <strong>Payment History</strong>\
+            </button>\
+          </h2>\
+        </div>\
+        <div id="INST_collapse_03" class="collapse" aria-labelledby="PP_details" data-parent="#INST_popup">\
+          <div class="card-body">' +
+              pp_history_details(feature) +
+         '</div>\
+        </div>\
+      </div>'
+      
+     popupContent += 
+    
+   '</div>'     
+    
+    
+                         
+                               
     layer.bindPopup(popupContent, {maxHeight: 400});
 
 }
 
+function fund_history_details(pp_specifics, bid_item)
 
+{
 
+  var return_string = '';
 
+                 if ( pp_specifics != 0 )   
+
+                   {
+                  
+                    return_string += 
+                    ''.concat( '<tr><td style="text-align: right"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 
+                                  qty_formatter_with_dec_core_function(pp_specifics / 
+                                  base_sov[bid_item].unit_price, 
+                                  base_sov[bid_item].unit ), '</b></td>',
+                                  '<td><b>', base_sov[bid_item].unit , '</b></td>',
+                                  '<td>', 'totalling', '</td>',        
+                                  '<td style="text-align: right"><b>', dollar_formatter( pp_specifics ), '</b></td></tr>' );
+                  
+                    }
+                    
+   return return_string                 
+
+}
 
 function pp_history_details(ffeature)
 
 {
 
-    var pp_history_details = "";
+    var pp_history_details = '';
+    var pp_history_mini_table = '<table>';    
 
-    if (Object.keys(ffeature.properties['pp_history']).length > 0)
+    for ( const bid_item of Object.keys( ffeature.properties.pp_history ) )
+    
+      {
+      
+        if ( bid_item != 'SW-0' ) 
+        
+          {
+      
+            pp_history_mini_table += '<tr><td>&nbsp;</td></tr>\
+                                      <tr><td><b>'.concat( linked_bid_item_string_geneator(bid_item),'<b></td></tr>' );
+            
+            for ( const pp_specifics of Object.keys( ffeature.properties.pp_history[bid_item] ) )
+            
+              {
 
-    {
-
-        pp_history_details += '<table>';
-
-        for (const bid_item in ffeature.properties['pp_history'])
-
-        {
-
-
-            if (Object.keys(ffeature.properties['pp_history'][bid_item]).length != 0)
-
-            {
-
-                for (const payment_no in ffeature.properties['pp_history'][bid_item])
-
-                {
-
-                    for (const fund in ffeature.properties['pp_history'][bid_item][payment_no])
-
-
-                    {
-
-                        pp_history_details +=
-                            pp_history_row(bid_item,
-                                ffeature.properties['pp_history'][bid_item][payment_no][fund]['QTY'],
-                                ffeature.properties['pp_history'][bid_item][payment_no][fund]['UNIT'],
-                                payment_no,
-                                fund);
-
-                    }
-
-                }
-
-            }
-
-        }
-
-        pp_history_details += '</table>';
-
-    } else {
-
-        pp_history_details += 'none';
-
-    }
+                pp_history_mini_table += '<tr><td>&nbsp;</td></tr><tr><td>&nbsp;&nbsp;'.concat( linked_pp_string_geneator_from_index(pp_specifics),
+                                         '</td></tr><tr><td>&nbsp;</td></tr>');
+                    
+                pp_history_mini_table += fund_history_details(ffeature.properties.pp_history[bid_item][pp_specifics], bid_item, 0);
+                                 
+               }
+      
+           }
+      
+       }  
+     
+    
+    if ( pp_history_mini_table != '<table>' )
+    
+      {
+      
+         pp_history_details = pp_history_mini_table.concat('</table>'); 
+      
+       } else { 
+       
+         pp_history_details = 'none'; 
+       
+       }
 
     return pp_history_details;
 
 }
 
 
-function pp_history_row(bid_item, QTY, UNIT, payment_no, FUND)
-
-{
-
-    var row_string = '';
-    var neg_space = '';
-
-    if (QTY > 0) {
-        neg_space = '&nbsp;';
-    }
-
-
-    if (QTY != 0)
-
-    {
-
-        //if (bid_item.includes('CR-'))
-
-        //{
-
-        //    row_string = '<tr><td style=\"text-align: left\">' +
-        //        format_unit(QTY, UNIT) + '</td><td>' +
-        //        UNIT + ' in</td><td>' +
-        //        payment_no.substring(0, 4) + ' from</td><td>' +
-        //        FUND + '</td></tr>';
-
-
-        //} else
-
-        //{
-
-            var NN = 0; // bid item index
-
-            while (base_sov[NN]['bid_item'].replace('-0', '-') != bid_item.replace('-0', '-')) {
-
-                NN++;
-            }
-
-            row_string = '<tr><td data-toogle="tooltip" title="' +
-                base_sov[NN]['bid_item'] + ": " +
-                base_sov[NN]['description'] + " (" + base_sov[NN]['unit'] + ')">' +
-                bid_item + ':</td><td style=\"text-align: left\">' + neg_space +
-                format_unit(QTY, UNIT) + '</td><td>' +
-                UNIT + ' in</td><td>' +
-                payment_no.substring(0, 4) + ' from</td><td>' +
-                FUND + '</td></tr>';
-
-        //}
-
-    } else {
-
-
-      //row_string = 'Completion shown for clarity;<br>no additional QTY paid.';
-      row_string = 'none'
-
-    }
-
-    return row_string
-
-}

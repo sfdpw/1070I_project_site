@@ -4,7 +4,7 @@ function get_payment_details(item_obj) {
 
     var return_obj = {};
 
-    if (item_obj.description == '<b>Totals:<b>') {
+    if (item_obj.description == '<b>Totals:</b>') {
         item_obj.unit_price = 1;
         item_obj.unit = 'SF'
     }
@@ -62,7 +62,7 @@ function get_payment_details(item_obj) {
         return_obj.period.qty.tot[pp] = return_obj.period.amt.tot[pp] / item_obj.unit_price;
 
 
-        if (item_obj.description == '<b>Totals:<b>')
+        if (item_obj.description == '<b>Totals:</b>')
 
         {
 
@@ -101,7 +101,7 @@ function get_payment_details(item_obj) {
         return_obj.todate.qty.ssp[pptd] = return_obj.todate.amt.ssp[pptd] / item_obj.unit_price;
         return_obj.todate.qty.tot[pptd] = return_obj.todate.amt.tot[pptd] / item_obj.unit_price;
 
-        if (item_obj.description == '<b>Totals:<b>')
+        if (item_obj.description == '<b>Totals:</b>')
 
         {
 
@@ -358,27 +358,24 @@ function qty_formatter_with_dec(qty_input, row)
 
 function linked_bid_item_string_geneator ( bid_item ) {
 
-   return '<a data-toogle="tooltip" title="'.concat(base_sov[bid_item_sov_index_finder(bid_item)].description,
+   return '<a data-toogle="tooltip" title="'.concat(base_sov[bid_item].description,
                        '\"', " href=\"..\\qty\\qty_tracking_",
                         bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
 
 }
 
-function linked_bid_item_string_geneator_from_sov ( bid_item ) {
+function linked_bid_item_string_geneator_for_payment_detail_table ( bid_item, should_link ) {
 
-   return '<a data-toogle="tooltip" title="'.concat(bid_item,' QTY Worksheet',
-                       '\"', " href=\"..\\qty\\qty_tracking_",
-                        bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
+   var return_string = bid_item
 
-}
-
-
-
-function linked_bid_item_string_geneator_from_index ( bid_item ) {
-
-   return '<a data-toogle="tooltip" title="'.concat(base_sov[bid_item_sov_index_finder(bid_item)].description,
-                       '\"', " href=\"qty\\qty_tracking_",
-                        bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
+   if ( should_link ) {
+  
+   return_string = '<a href=\"..\\qty\\qty_tracking_'.concat(bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
+                        
+   }   
+      
+   return return_string                     
+                        
 
 }
 

@@ -57,7 +57,7 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
 
         }
 
-    } else if (point_scope == 'Remove (E)' || point_scope == 'Abandon (E)') {
+    } else if (point_scope.includes('Remove (E)') || point_scope.includes('Abandon (E)')) {
 
         return_string = sewer_status_code_array[2];
 

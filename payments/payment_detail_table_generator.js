@@ -2,6 +2,7 @@ function generate_payment_detail_table(table_id, pp_number)
 
 {
 
+
     document.getElementById(table_id).style.borderColor = 'black';
 
     $('#'.concat(table_id)).bootstrapTable({
@@ -39,12 +40,21 @@ function generate_payment_detail_table(table_id, pp_number)
                    formatter: qty_formatter_no_dec
                   },
                   {
+                   field: 'unit_price',
+                   title: 'Unit Price',
+                   align: 'center',
+                   formatter: dollar_formatter_accounting,
+                   footerFormatter: function() {
+                    return '<div style="display:table-cell; padding:5px; text-align: right;"><b>Totals:</b></div>'
+                    }
+                  },                  
+                  {
                    field: 'contract_total',
                    title: 'Contract Total',
                    align: 'center',
                    formatter: dollar_formatter_accounting,
                    footerFormatter: function() { return '<b>'.concat(
-                                      dollar_formatter_accounting(payment_summaries.contract_total), '<b>')
+                                      dollar_formatter_accounting(payment_summaries.contract_total), '</b>')
                                                },
                   },        
                   {
@@ -59,9 +69,24 @@ function generate_payment_detail_table(table_id, pp_number)
                    align: 'center',
                    formatter: dollar_formatter_accounting,
                    footerFormatter: function() { return '<b>'.concat(
-                                      dollar_formatter_accounting(payment_summaries.period_totals['PP'.concat(num_pad(pp_number, 2))].period_amt), '<b>')
+                                      dollar_formatter_accounting(payment_summaries.period_totals['PP'.concat(num_pad(pp_number, 2))].period_amt), '</b>')
                                                 },
                   },        
+                  {
+                   field: 'payment_history.'.concat('PP'.concat(num_pad(pp_number, 2)),'.todate_qty'),
+                   title: 'To Date QTY',
+                   align: 'center',
+                   formatter: qty_formatter_with_dec
+                  },
+                  {
+                   field: 'payment_history.'.concat('PP'.concat(num_pad(pp_number, 2)),'.todate_amt'),
+                   title: 'To Date Amount',
+                   align: 'center',
+                   formatter: dollar_formatter_accounting,
+                   footerFormatter: function() { return '<b>'.concat(
+                                      dollar_formatter_accounting(payment_summaries.period_totals['PP'.concat(num_pad(pp_number, 2))].todate_amt), '</b>')
+                                                },
+                  }                
         ]
     })
 

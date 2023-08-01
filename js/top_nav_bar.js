@@ -1,4 +1,4 @@
-var max_pp_no = 2; // make this smarter
+var max_pp_no = Object.entries(payment_array).length + 1;
 
 function top_nav(nav_element, pp_no = null, bid_item_id = null)
 
@@ -7,17 +7,17 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
     var return_block = '';
     var nav_path = '../';
 
-    if (bid_item_id != null)
+  //  if (bid_item_id != null)
 
-    {
+  //  {
 
-        var NN = 0; // bid item index
+  //      var NN = 0; // bid item index
 
-        while (base_sov[NN].bid_item != bid_item_id) {
-            NN++;
-        }
+  //      while (base_sov[NN].bid_item != bid_item_id) {
+  //          NN++;
+  //      }
 
-    }
+  //  }
 
     if (nav_element == 'map')
 
@@ -65,42 +65,19 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">QTYs</a>\
 	     <ul class="dropdown-menu">\
 	       <li>\
-	         <a class="dropdown-item" href="#">Flatwork &raquo;</a>\
-	         <ul class="submenu dropdown-menu">\
-	           <li>\
-	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
-	             <ul class="submenu dropdown-menu">\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-02.html">R-02: </a>\
-	               </li>\
-	             </ul>\
-	           </li>\
-	           <li>\
-	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
-	             <ul class="submenu dropdown-menu">\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_R-09.html">R-09:</a>\
-	               </li>\
-	             </ul>\
-	           </li>\
-	           <li>\
-	             <a class="dropdown-item" href="#">Change Order &raquo;</a>\
-	             <ul class="submenu dropdown-menu">\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_CO-01_-_PCO-01_.html">CO-01 - PCO-01</a>\
-	               </li>\
-	             </ul>\
-	           </li>\
-	         </ul>\
-	       </li>\
-	       <li>\
 	         <a class="dropdown-item" href="#">Sewer &raquo;</a>\
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
 	             <a class="dropdown-item" href="#">Side Sewers, Culverts &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-15.html">SW-15 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-09.html"><b>SW-09</b> - (N) Culvert</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-10.html"><b>SW-10</b> - Side Sewer Connection</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-28.html"><b>SW-28</b> - Post-Con TVI of (N) Side Sewers and Culverts</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -108,7 +85,13 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Mains &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-05.html">SW-05 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) 12\" VCP Main </a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-08.html"><b>SW-08</b> - (N) 21\" VCP Main </a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25</b> - Pre-Con TVI of (E) Mains</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -116,7 +99,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-26.html">SW-26 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html">SW-26 - </a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -124,7 +107,28 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Manholes &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_SW-03.html">SW-03 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23</b> - (N) MH - STD 87,181</a>\
+	               </li>\
+	             </ul>\
+	           </li>\
+	         </ul>\
+	       </li>\
+	       <li>\
+	         <a class="dropdown-item" href="#">Flatwork &raquo;</a>\
+	         <ul class="submenu dropdown-menu">\
+	           <li>\
+	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-02.html">R-02: </a>\
+	               </li>\
+	             </ul>\
+	           </li>\
+	           <li>\
+	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-09.html">R-09:</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -169,8 +173,8 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
                     color:white;\
                     font-weight:bold"\
                     data-toogle="tooltip"\
-	            title="' + base_sov[NN]['description'] +
-            ' (' + base_sov[NN]['Unit'] + ')"\> Quantity Details for ' + bid_item_id + '</div>';
+	            title="' + base_sov[bid_item].description +
+            ' (' + base_sov[bid_item].unit + ')"\> Quantity Details for ' + bid_item_id + '</div>';
 
     } else if (nav_element.includes('Asset_Tracking'))
 

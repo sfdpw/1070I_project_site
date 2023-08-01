@@ -49,10 +49,13 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
         if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            if (line_obj.pp_history.hasOwnProperty('SW-11') ||
-                line_obj.pp_history.hasOwnProperty('SW-13') ||
-                line_obj.pp_history.hasOwnProperty('SW-21') ||
-                line_obj.pp_history.hasOwnProperty('SW-22')
+            if (line_obj.pp_history.hasOwnProperty('SW-05') ||
+                line_obj.pp_history.hasOwnProperty('SW-06') ||
+                line_obj.pp_history.hasOwnProperty('SW-07') ||
+                line_obj.pp_history.hasOwnProperty('SW-08') ||
+                line_obj.pp_history.hasOwnProperty('SW-09') ||                
+                line_obj.pp_history.hasOwnProperty('SW-12')               
+                
             ) {
 
                 return_string = sewer_status_code_array[3];
@@ -136,7 +139,7 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
         }
 
-    } else if (line_obj.scope == 'Remove (E)' || line_obj.scope == 'Abandon (E) culvert') {
+    } else if (line_obj.scope.includes('Remove (E)') || line_obj.scope.includes('Abandon (E)')) {
 
         return_string = sewer_status_code_array[2];
 
