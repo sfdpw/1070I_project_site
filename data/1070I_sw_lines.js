@@ -536,9 +536,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "42",
+                        "video_no": "1",
+                        "response": "MCN - Spot Replace then Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4799,9 +4799,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "39",
+                        "video_no": "1",
+                        "response": "MCN - Spot Replace then Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -5540,7 +5540,7 @@ var json_1070I_sw_lines = {
                 "id_a": "P-86914",
                 "id_b": "none",
                 "location": "Vicente St and 47th Ave",
-                "scope": "Line (E) 12in main",
+                "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-25': {
                         'PP01': 40
@@ -5548,9 +5548,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "43",
+                        "video_no": "1",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }

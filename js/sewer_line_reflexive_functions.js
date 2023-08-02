@@ -85,11 +85,19 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[7];
 
-            } else if (line_obj.submittals.tvi_pre_con.response = 'MCN - Proceed with Lining') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Proceed with Lining') {
 
                 return_string = sewer_status_code_array[8];
 
-            }
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Spot Replace then Proceed with Lining') {
+            
+                return_string = sewer_status_code_array[16];
+            
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace') {
+            
+                return_string = sewer_status_code_array[10];
+                
+            }    
 
         } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 

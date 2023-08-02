@@ -15,6 +15,7 @@ var sewer_status_code_array = [
     '(E) Capped',                                  // 12 
     '(E) Not Found',                               // 13 
     'Replacement Directed Via Email',              // 14 
-    'Post-Construction'                            // 15 
+    'Post-Construction',                            // 15 
+    'Pre-Con Televised - Spot Replacement then Lining Directed'    // 16  
         
 ]

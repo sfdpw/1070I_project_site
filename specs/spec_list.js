@@ -71,6 +71,7 @@ var list_of_specs = [
 '1070I_spec_00_73_73_5_appendix_E_guidelines_for_placement_of_barricades_at_construction_sites.pdf',
 '1070I_spec_01_11_00_summary_of_work.pdf',
 '1070I_spec_01_20_00_price_and_payment_procedures.pdf',
+'1070I_spec_01_20_00_price_and_payment_procedures_ammendment_from_PCO_02.pdf',
 '1070I_spec_01_21_50_mobilization_item.pdf',
 '1070I_spec_01_25_13_product_substitution_procedures.pdf',
 '1070I_spec_01_29_73_schedule_of_values.pdf',
