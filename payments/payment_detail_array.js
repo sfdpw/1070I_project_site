@@ -88,15 +88,21 @@ for (const bid_item_entry of Object.entries(base_sov)) {
 
 // Manual Input of Non-Spatial Data
 
+
+// SW-01
+
+payment_detail_array[0].payment_history.PP02.period_amt = 240000;
+
+
 // SW-03
 
 payment_detail_array[2].payment_history.PP01.period_amt = 10480;
-
+payment_detail_array[2].payment_history.PP02.period_amt = 41920;
 
 // SW-04
 
 payment_detail_array[3].payment_history.PP01.period_amt = 8050;
-
+payment_detail_array[3].payment_history.PP02.period_amt = 37450;
 
 // SW-47
 

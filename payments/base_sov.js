@@ -387,7 +387,7 @@ var base_sov = {
 
     'SW-49': {
         'description': 'CONTINGENCY ALLOWANCE TO PERFORM NECESSARY WORK DUE TO UNFORESEEN CONDITIONS RELATED TO SEWER WORK',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'AL',
         'qty': 1,
         'unit_price': 262500

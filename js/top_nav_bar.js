@@ -111,6 +111,14 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	               </li>\
 	             </ul>\
 	           </li>\
+	           <li>\
+	             <a class="dropdown-item" href="#">Misc. Sewer &raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-49.html"><b>SW-49</b> - Unforeseen Allowance</a>\
+	               </li>\
+	             </ul>\
+	           </li>\
 	         </ul>\
 	       </li>\
 	       <li>\

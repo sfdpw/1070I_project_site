@@ -8,7 +8,7 @@ var json_1070I_sw_points = {
         }
     },
     "features": [
-
+//###############
         {
             "type": "Feature",
             "properties": {
@@ -35,10 +35,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505362086586572, 37.735619444449867]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420762",
@@ -59,10 +65,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505266925328968, 37.735587804806606]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33043",
@@ -88,10 +100,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505204882838683, 37.735624550871272]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33312",
@@ -115,10 +133,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505307879751811, 37.735323980202566]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-32687",
@@ -142,10 +166,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.5048550603411, 37.735346421123225]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420761",
@@ -153,13 +183,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - West of 46th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP02': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -171,10 +196,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504395636803551, 37.735585499931439]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420767",
@@ -200,10 +231,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504168790421787, 37.735598020240282]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47674",
@@ -227,10 +264,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50427634055184, 37.735660476889898]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41881",
@@ -254,10 +297,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504124671317882, 37.735641354978902]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23454",
@@ -283,10 +332,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50417208757942, 37.7356284414778]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334426",
@@ -312,10 +367,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505697255880705, 37.735613699074435]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-46564",
@@ -339,10 +400,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.502996454756882, 37.735342295098569]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420768",
@@ -368,10 +435,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503130028877393, 37.735591066812802]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-57248",
@@ -395,10 +468,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50325080688836, 37.73563592261695]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420769",
@@ -406,13 +485,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - West of 44th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP02': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -424,10 +498,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.502245762701762, 37.73556275642278]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47675",
@@ -451,10 +531,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504174975045203, 37.736093613236704]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41882",
@@ -478,10 +564,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504190474628217, 37.736297750163224]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47676",
@@ -505,10 +597,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504322817221592, 37.736291149901888]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59123",
@@ -532,10 +630,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505213844532193, 37.736068940760205]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-36124",
@@ -559,10 +663,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505417326237392, 37.736205660749526]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-70557",
@@ -586,10 +696,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505272663462605, 37.736238976386836]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59122",
@@ -613,10 +729,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505405403481205, 37.736225775853079]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47676",
@@ -640,10 +762,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50328798822423, 37.736298326376442]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47675",
@@ -669,10 +797,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503054832103686, 37.736177426258948]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420785",
@@ -698,10 +832,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503035755693844, 37.736180359712996]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41882",
@@ -725,10 +865,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503062250707544, 37.736309431576643]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25274",
@@ -754,10 +900,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50547118736263, 37.738051359280263]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334617",
@@ -783,10 +935,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504466368658001, 37.738182986478044]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59744",
@@ -810,10 +968,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504291121623069, 37.737987034591598]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-50791",
@@ -837,10 +1001,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503400835618649, 37.738180678537056]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-50792",
@@ -864,10 +1034,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503227989228051, 37.738188886616982]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-46202",
@@ -891,10 +1067,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503226082834061, 37.738027572552895]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59742",
@@ -918,10 +1100,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50431876433629, 37.738188132813754]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59743",
@@ -945,10 +1133,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504454118311287, 37.738150945178681]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47735",
@@ -972,10 +1166,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505507083271709, 37.738121295564362]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59745",
@@ -999,10 +1199,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505375859817107, 37.738127577263292]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-49144",
@@ -1026,10 +1232,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505493738513636, 37.737922165431698]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59746",
@@ -1053,10 +1265,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505364103720666, 37.737925180655374]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21082",
@@ -1082,10 +1300,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504399122861017, 37.737128906941791]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-388880",
@@ -1111,10 +1335,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50423240298727, 37.737135035686592]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29955",
@@ -1140,10 +1370,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504278901736271, 37.73713173559333]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-388879",
@@ -1167,10 +1403,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504377562543581, 37.737131028430461]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-388880",
@@ -1194,10 +1436,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504252075534922, 37.737134328523773]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420787",
@@ -1223,10 +1471,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503245586389014, 37.737172458074241]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420788",
@@ -1252,10 +1506,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503299650156379, 37.737941285876659]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-403679",
@@ -1281,10 +1541,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505508513067014, 37.738973465973793]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47666",
@@ -1308,10 +1574,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50547809019595, 37.739812372492423]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47667",
@@ -1335,10 +1607,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505640133687137, 37.739772421787336]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-65667",
@@ -1362,10 +1640,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505656020303888, 37.739968406171847]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47665",
@@ -1389,10 +1673,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505496200939064, 37.739944787568376]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-49929",
@@ -1416,10 +1706,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504434707088279, 37.739999495193878]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-403674",
@@ -1445,10 +1741,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505649100372025, 37.740804761391438]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-70714",
@@ -1472,10 +1774,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504431252871811, 37.739929202449325]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-49928",
@@ -1499,10 +1807,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504599588356058, 37.739984380438393]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-48970",
@@ -1526,10 +1840,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504421425489383, 37.739843755071966]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23834",
@@ -1550,10 +1870,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505805039057151, 37.735612110758879]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29761",
@@ -1579,10 +1905,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503268970768318, 37.737505002675164]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-20787",
@@ -1608,10 +1940,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505427014722969, 37.738977611847432]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-20788",
@@ -1637,10 +1975,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505588343316319, 37.738968943202288]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21083",
@@ -1666,10 +2010,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503324197049537, 37.737174090798632]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-18273",
@@ -1695,10 +2045,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503163898398611, 37.737181326305354]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21086",
@@ -1724,10 +2080,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.5055672738211, 37.740809708536055]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21088",
@@ -1753,10 +2115,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505729506856213, 37.740801331775685]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33501",
@@ -1782,10 +2150,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504403983286821, 37.73799160085229]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-34650",
@@ -1811,10 +2185,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504442045217914, 37.738990324876617]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23886",
@@ -1840,10 +2220,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504692391639423, 37.739833779031251]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37055",
@@ -1867,10 +2253,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503320414034107, 37.738196312974267]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-38321",
@@ -1894,10 +2286,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505666187738655, 37.739945290091953]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22731",
@@ -1923,10 +2321,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505513358485189, 37.739952199790494]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23889",
@@ -1950,10 +2354,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505591202907411, 37.739866645113864]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22732",
@@ -1977,10 +2387,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505655067106886, 37.739792648404901]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-28922",
@@ -2006,10 +2422,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505495883206734, 37.739802447633764]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22733",
@@ -2035,10 +2457,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504495591953898, 37.739755194246172]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22734",
@@ -2064,10 +2492,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504411023040092, 37.739760788520968]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22735",
@@ -2093,10 +2527,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504580803977305, 37.73975137996765]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23962",
@@ -2120,10 +2560,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504697688104699, 37.739882765495949]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22736",
@@ -2149,10 +2595,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504704941959318, 37.739988659917692]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-403676",
@@ -2178,10 +2630,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505701450942126, 37.741571686259867]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-27270",
@@ -2207,10 +2665,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505781550384853, 37.74156871193378]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23449",
@@ -2236,10 +2700,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503249040554124, 37.736157939739712]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37846",
@@ -2265,10 +2735,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50322413524124, 37.735731749423749]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23450",
@@ -2292,10 +2768,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504210279651033, 37.736165901973948]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23452",
@@ -2321,10 +2803,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503327151779033, 37.735630014276161]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23453",
@@ -2350,10 +2838,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504816446311949, 37.735628193141238]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37847",
@@ -2379,10 +2873,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504248550225768, 37.735636139911463]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23457",
@@ -2406,10 +2906,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503916714899361, 37.735358499121361]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23459",
@@ -2435,10 +2941,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504170802080509, 37.736275696906787]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-26572",
@@ -2464,10 +2976,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504329242262401, 37.736266477491228]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23461",
@@ -2493,10 +3011,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503171949876688, 37.735640113296256]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-32684",
@@ -2520,10 +3044,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503102415185012, 37.735362974369714]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23462",
@@ -2549,10 +3079,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503060925956902, 37.735729444553037]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22471",
@@ -2578,10 +3114,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503133640049512, 37.735630055665588]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23964",
@@ -2607,10 +3149,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.502246233724094, 37.73559690272522]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37848",
@@ -2636,10 +3184,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50229898824027, 37.735628193141238]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-38755",
@@ -2665,10 +3219,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50252864113169, 37.736190836333712]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23463",
@@ -2694,10 +3254,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.502542418538752, 37.736347356870468]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420782",
@@ -2723,10 +3289,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.502538738675483, 37.73626728457802]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29657",
@@ -2752,10 +3324,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503177131123977, 37.736239719450204]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23965",
@@ -2781,10 +3359,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503091130272495, 37.736165063844112]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23465",
@@ -2810,10 +3394,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503103582928873, 37.736320955839268]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23466",
@@ -2839,10 +3429,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503257254008375, 37.736314041281901]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23967",
@@ -2866,10 +3462,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505368622023212, 37.736102348937862]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23831",
@@ -2895,10 +3497,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505402359007405, 37.736049546691333]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23832",
@@ -2924,10 +3532,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505241622590958, 37.736060721773093]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23833",
@@ -2953,10 +3567,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505314351403541, 37.735616510973514]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23839",
@@ -2982,10 +3602,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505253785765319, 37.736214618257286]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25267",
@@ -3009,10 +3635,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505421300489388, 37.737073433921225]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25268",
@@ -3038,10 +3670,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505468949521983, 37.737074504091147]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25221",
@@ -3067,10 +3705,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505303396914485, 37.737081126998802]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25269",
@@ -3096,10 +3740,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503549557887482, 37.738164746297741]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25270",
@@ -3125,10 +3775,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504297852841503, 37.738137795492513]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25271",
@@ -3154,10 +3810,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504460343511468, 37.738131765062363]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-28589",
@@ -3181,10 +3843,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505466600533481, 37.737989428936146]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24155",
@@ -3210,10 +3878,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50551092492087, 37.737949853501497]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24156",
@@ -3239,10 +3913,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50535078519944, 37.737954053344552]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-38310",
@@ -3268,10 +3948,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505356160412163, 37.738096587543403]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-18773",
@@ -3297,10 +3983,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503220505021957, 37.737945168303511]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24159",
@@ -3326,10 +4018,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504283968907714, 37.737905485578928]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25144",
@@ -3353,10 +4051,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504324208209752, 37.737902539097774]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24160",
@@ -3382,10 +4086,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504446565494902, 37.737901360505255]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-15621",
@@ -3411,10 +4121,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503381919440727, 37.737939638786386]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29166",
@@ -3438,10 +4154,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504288297335648, 37.738038628356705]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24161",
@@ -3467,10 +4189,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50437961419513, 37.738090363230825]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24162",
@@ -3496,10 +4224,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503528281588828, 37.738026716379508]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33386",
@@ -3525,10 +4259,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503505310717756, 37.738125139033613]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-19858",
@@ -3554,10 +4294,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50561977791196, 37.741572627118259]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-30486",
@@ -3581,10 +4327,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503298384592171, 37.738102059603023]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-40443",
@@ -3608,10 +4360,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503188802239961, 37.738067217094162]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-39988",
@@ -3635,10 +4393,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504337989026268, 37.739921462959146]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-39989",
@@ -3662,10 +4426,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504390838538725, 37.739898517642253]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-40509",
@@ -3691,10 +4461,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504526535813028, 37.739007540162532]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-40510",
@@ -3720,10 +4496,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504357931813004, 37.739014400708513]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41115",
@@ -3747,10 +4529,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505510727386593, 37.738028825792306]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-74264",
@@ -3776,10 +4564,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505482107940679, 37.738092753379]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-74265",
@@ -3805,10 +4599,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505488019331551, 37.73817958971005]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-74266",
@@ -3834,10 +4634,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50552106349447, 37.738179087174515]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-322076",
@@ -3861,10 +4667,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50438680267969, 37.736183974147366]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334427",
@@ -3888,10 +4700,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505204306327272, 37.73614091522284]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334616",
@@ -3917,10 +4735,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504299312056673, 37.738189240253114]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-348732",
@@ -3946,10 +4770,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503399002331676, 37.736223732913075]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-396171",
@@ -3975,10 +4805,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.502807064473274, 37.735627944804648]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-402065",
@@ -4002,10 +4838,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505474778711488, 37.736119670301541]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47670",
@@ -4029,10 +4871,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.505214303288582, 37.735635891574852]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41879",
@@ -4056,10 +4904,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.50539831606504, 37.735620743043334]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23456",
@@ -4085,10 +4939,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.504394616556894, 37.73562448193038]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-xxxx1",
@@ -4114,10 +4974,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503138124018434, 37.73570254671084]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-xxxx2",
@@ -4141,10 +5007,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503206298868164, 37.735712207873526]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-xxxx1",
@@ -4170,10 +5042,16 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503138124018434, 37.73570254671084]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
+
         },
 
-        {
+        // ######################################
+
+      {
             "type": "Feature",
             "properties": {
                 "id_a": "N-xxxx2",

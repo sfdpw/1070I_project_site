@@ -8,7 +8,7 @@ var json_1070I_sw_lines = {
             "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
         }
     },
-    "features": [
+    "features": [//####################
 
         {
             "type": "Feature",
@@ -60,8 +60,13 @@ var json_1070I_sw_lines = {
                         [-122.505314351403541, 37.735616510973514]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -72,8 +77,11 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 21in VCP main",
                 "pp_history": {
                     'SW-08': {
-                        'PP01': 9350
-                    }
+                        'PP01': 7150
+                    },
+                    'SW-49': {
+                        'PP01': 2200
+                    },                    
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -113,8 +121,13 @@ var json_1070I_sw_lines = {
                         [-122.505266925328968, 37.735587804806606]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -124,13 +137,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - Between 46th Ave and 47th Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP02': 98800
                     }
                 },
                 "submittals": {
@@ -171,8 +179,13 @@ var json_1070I_sw_lines = {
                         [-122.504395636803551, 37.735585499931439]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -229,8 +242,13 @@ var json_1070I_sw_lines = {
                         [-122.505266925328968, 37.735587804806606]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -287,8 +305,13 @@ var json_1070I_sw_lines = {
                         [-122.503102415185012, 37.735362974369714]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -345,8 +368,13 @@ var json_1070I_sw_lines = {
                         [-122.503076942236973, 37.73529530887641]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -403,8 +431,13 @@ var json_1070I_sw_lines = {
                         [-122.505368622023212, 37.736102348937862]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -461,8 +494,13 @@ var json_1070I_sw_lines = {
                         [-122.505402359007405, 37.736049546691333]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -519,8 +557,13 @@ var json_1070I_sw_lines = {
                         [-122.505474778711488, 37.736119670301541]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -572,8 +615,13 @@ var json_1070I_sw_lines = {
                         [-122.505241622590958, 37.736060721773093]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -630,8 +678,13 @@ var json_1070I_sw_lines = {
                         [-122.504394616556894, 37.73562448193038]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -688,8 +741,13 @@ var json_1070I_sw_lines = {
                         [-122.504816446311949, 37.735628193141238]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -746,8 +804,13 @@ var json_1070I_sw_lines = {
                         [-122.504248550225768, 37.735636139911463]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -804,8 +867,13 @@ var json_1070I_sw_lines = {
                         [-122.503171949876688, 37.735640113296256]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -862,8 +930,13 @@ var json_1070I_sw_lines = {
                         [-122.50229898824027, 37.735628193141238]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -920,8 +993,13 @@ var json_1070I_sw_lines = {
                         [-122.502807064473274, 37.735627944804648]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -978,8 +1056,13 @@ var json_1070I_sw_lines = {
                         [-122.503133640049512, 37.735630055665588]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1036,8 +1119,13 @@ var json_1070I_sw_lines = {
                         [-122.503327151779033, 37.735630014276161]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1094,8 +1182,13 @@ var json_1070I_sw_lines = {
                         [-122.505204882838683, 37.735624550871272]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1105,13 +1198,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP02': 24800
                     }
                 },
                 "submittals": {
@@ -1152,8 +1240,13 @@ var json_1070I_sw_lines = {
                         [-122.504168790421787, 37.735598020240282]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1163,13 +1256,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - Between 45th Ave and 46th Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP02': 114800
                     }
                 },
                 "submittals": {
@@ -1210,8 +1298,13 @@ var json_1070I_sw_lines = {
                         [-122.503130028877393, 37.735591066812802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1221,13 +1314,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - Between 44th Ave and 45th Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP02': 108000
                     }
                 },
                 "submittals": {
@@ -1268,8 +1356,13 @@ var json_1070I_sw_lines = {
                         [-122.502245762701762, 37.73556275642278]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1326,8 +1419,13 @@ var json_1070I_sw_lines = {
                         [-122.503130028877393, 37.735591066812802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1384,8 +1482,13 @@ var json_1070I_sw_lines = {
                         [-122.503177131123977, 37.736239719450204]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1442,8 +1545,13 @@ var json_1070I_sw_lines = {
                         [-122.503138124018434, 37.73570254671084]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1500,8 +1608,13 @@ var json_1070I_sw_lines = {
                         [-122.503206298868164, 37.735712207873526]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1558,8 +1671,13 @@ var json_1070I_sw_lines = {
                         [-122.502538738675483, 37.73626728457802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1616,8 +1734,13 @@ var json_1070I_sw_lines = {
                         [-122.503245586389014, 37.737172458074241]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1669,8 +1792,13 @@ var json_1070I_sw_lines = {
                         [-122.50539831606504, 37.735620743043334]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1727,8 +1855,13 @@ var json_1070I_sw_lines = {
                         [-122.50427634055184, 37.735660476889898]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1785,8 +1918,13 @@ var json_1070I_sw_lines = {
                         [-122.504124671317882, 37.735641354978902]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1843,8 +1981,13 @@ var json_1070I_sw_lines = {
                         [-122.504154816755658, 37.73536495589574]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1901,8 +2044,13 @@ var json_1070I_sw_lines = {
                         [-122.505214303288582, 37.735635891574852]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -1959,8 +2107,13 @@ var json_1070I_sw_lines = {
                         [-122.505307879751811, 37.735323980202566]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2017,8 +2170,13 @@ var json_1070I_sw_lines = {
                         [-122.503327151779033, 37.735630014276161]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2075,8 +2233,13 @@ var json_1070I_sw_lines = {
                         [-122.50417208757942, 37.7356284414778]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2133,8 +2296,13 @@ var json_1070I_sw_lines = {
                         [-122.504124671317882, 37.735641354978902]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2192,8 +2360,13 @@ var json_1070I_sw_lines = {
                         [-122.504210279651033, 37.736165901973948]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2250,8 +2423,13 @@ var json_1070I_sw_lines = {
                         [-122.50325080688836, 37.73563592261695]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2308,8 +2486,13 @@ var json_1070I_sw_lines = {
                         [-122.502996454756882, 37.735342295098569]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2366,8 +2549,13 @@ var json_1070I_sw_lines = {
                         [-122.5048550603411, 37.735346421123225]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2424,8 +2612,13 @@ var json_1070I_sw_lines = {
                         [-122.503249040554124, 37.736157939739712]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2482,8 +2675,13 @@ var json_1070I_sw_lines = {
                         [-122.503060925956902, 37.735729444553037]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2540,8 +2738,13 @@ var json_1070I_sw_lines = {
                         [-122.503091130272495, 37.736165063844112]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2598,8 +2801,13 @@ var json_1070I_sw_lines = {
                         [-122.503399002331676, 37.736223732913075]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2656,8 +2864,13 @@ var json_1070I_sw_lines = {
                         [-122.503257254008375, 37.736314041281901]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2714,8 +2927,13 @@ var json_1070I_sw_lines = {
                         [-122.50252864113169, 37.736190836333712]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2772,8 +2990,13 @@ var json_1070I_sw_lines = {
                         [-122.503054832103686, 37.736177426258948]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2830,8 +3053,13 @@ var json_1070I_sw_lines = {
                         [-122.503035755693844, 37.736180359712996]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2888,8 +3116,13 @@ var json_1070I_sw_lines = {
                         [-122.503062250707544, 37.736309431576643]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -2946,8 +3179,13 @@ var json_1070I_sw_lines = {
                         [-122.50328798822423, 37.736298326376442]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3005,8 +3243,13 @@ var json_1070I_sw_lines = {
                         [-122.504210279651033, 37.736165901973948]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3063,8 +3306,13 @@ var json_1070I_sw_lines = {
                         [-122.503103582928873, 37.736320955839268]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3121,8 +3369,13 @@ var json_1070I_sw_lines = {
                         [-122.502542418538752, 37.736347356870468]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3179,8 +3432,13 @@ var json_1070I_sw_lines = {
                         [-122.504170802080509, 37.736275696906787]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3230,8 +3488,13 @@ var json_1070I_sw_lines = {
                         [-122.504329242262401, 37.736266477491228]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3281,8 +3544,13 @@ var json_1070I_sw_lines = {
                         [-122.505253785765319, 37.736214618257286]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3332,8 +3600,13 @@ var json_1070I_sw_lines = {
                         [-122.505241622590958, 37.736060721773093]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3390,8 +3663,13 @@ var json_1070I_sw_lines = {
                         [-122.505272663462605, 37.736238976386836]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3448,8 +3726,13 @@ var json_1070I_sw_lines = {
                         [-122.505213844532193, 37.736068940760205]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3506,8 +3789,13 @@ var json_1070I_sw_lines = {
                         [-122.505204306327272, 37.73614091522284]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3564,8 +3852,13 @@ var json_1070I_sw_lines = {
                         [-122.505368622023212, 37.736102348937862]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3622,8 +3915,13 @@ var json_1070I_sw_lines = {
                         [-122.505654191659815, 37.736108856737211]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3680,8 +3978,13 @@ var json_1070I_sw_lines = {
                         [-122.505417326237392, 37.736205660749526]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3738,8 +4041,13 @@ var json_1070I_sw_lines = {
                         [-122.505405403481205, 37.736225775853079]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3796,8 +4104,13 @@ var json_1070I_sw_lines = {
                         [-122.505421300489388, 37.737073433921225]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3854,8 +4167,13 @@ var json_1070I_sw_lines = {
                         [-122.50438680267969, 37.736183974147366]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3912,8 +4230,13 @@ var json_1070I_sw_lines = {
                         [-122.504210279651033, 37.736165901973948]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -3970,8 +4293,13 @@ var json_1070I_sw_lines = {
                         [-122.504174975045203, 37.736093613236704]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4028,8 +4356,13 @@ var json_1070I_sw_lines = {
                         [-122.504190474628217, 37.736297750163224]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4086,8 +4419,13 @@ var json_1070I_sw_lines = {
                         [-122.504322817221592, 37.736291149901888]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4144,8 +4482,13 @@ var json_1070I_sw_lines = {
                         [-122.504399122861017, 37.737128906941791]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4202,8 +4545,13 @@ var json_1070I_sw_lines = {
                         [-122.50423240298727, 37.737135035686592]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4260,8 +4608,13 @@ var json_1070I_sw_lines = {
                         [-122.504278901736271, 37.73713173559333]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4318,8 +4671,13 @@ var json_1070I_sw_lines = {
                         [-122.504252075534922, 37.737134328523773]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4376,8 +4734,13 @@ var json_1070I_sw_lines = {
                         [-122.504377562543581, 37.737131028430461]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4434,8 +4797,13 @@ var json_1070I_sw_lines = {
                         [-122.504324208209752, 37.737902539097774]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4492,8 +4860,13 @@ var json_1070I_sw_lines = {
                         [-122.504283968907714, 37.737905485578928]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4550,8 +4923,13 @@ var json_1070I_sw_lines = {
                         [-122.504446565494902, 37.737901360505255]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4608,8 +4986,13 @@ var json_1070I_sw_lines = {
                         [-122.505468949521983, 37.737074504091147]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4666,8 +5049,13 @@ var json_1070I_sw_lines = {
                         [-122.505303396914485, 37.737081126998802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4724,8 +5112,13 @@ var json_1070I_sw_lines = {
                         [-122.505303396914485, 37.737081126998802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4782,8 +5175,13 @@ var json_1070I_sw_lines = {
                         [-122.50551092492087, 37.737949853501497]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4835,8 +5233,13 @@ var json_1070I_sw_lines = {
                         [-122.50535078519944, 37.737954053344552]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4893,8 +5296,13 @@ var json_1070I_sw_lines = {
                         [-122.505466600533481, 37.737989428936146]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -4951,8 +5359,13 @@ var json_1070I_sw_lines = {
                         [-122.503163898398611, 37.737181326305354]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5009,8 +5422,13 @@ var json_1070I_sw_lines = {
                         [-122.503257254008375, 37.736314041281901]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5067,8 +5485,13 @@ var json_1070I_sw_lines = {
                         [-122.503163898398611, 37.737181326305354]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5125,8 +5548,13 @@ var json_1070I_sw_lines = {
                         [-122.503381919440727, 37.737939638786386]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5183,8 +5611,13 @@ var json_1070I_sw_lines = {
                         [-122.503245586389014, 37.737172458074241]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5241,8 +5674,13 @@ var json_1070I_sw_lines = {
                         [-122.505878763419361, 37.73797522187273]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5299,8 +5737,13 @@ var json_1070I_sw_lines = {
                         [-122.5055505350484, 37.737986535752583]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5357,8 +5800,13 @@ var json_1070I_sw_lines = {
                         [-122.505637757558873, 37.73802366393506]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5415,8 +5863,13 @@ var json_1070I_sw_lines = {
                         [-122.505905374483149, 37.738015325549547]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5473,8 +5926,13 @@ var json_1070I_sw_lines = {
                         [-122.505510727386593, 37.738028825792306]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5531,8 +5989,13 @@ var json_1070I_sw_lines = {
                         [-122.505510727386593, 37.738028825792306]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5584,8 +6047,13 @@ var json_1070I_sw_lines = {
                         [-122.50547118736263, 37.738051359280263]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5642,8 +6110,13 @@ var json_1070I_sw_lines = {
                         [-122.50437961419513, 37.738090363230825]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5700,8 +6173,13 @@ var json_1070I_sw_lines = {
                         [-122.504403983286821, 37.73799160085229]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5758,8 +6236,13 @@ var json_1070I_sw_lines = {
                         [-122.503549557887482, 37.738164746297741]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5816,8 +6299,13 @@ var json_1070I_sw_lines = {
                         [-122.50437961419513, 37.738090363230825]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5874,8 +6362,13 @@ var json_1070I_sw_lines = {
                         [-122.504403983286821, 37.73799160085229]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5932,8 +6425,13 @@ var json_1070I_sw_lines = {
                         [-122.504291121623069, 37.737987034591598]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -5992,8 +6490,13 @@ var json_1070I_sw_lines = {
                         [-122.503298384592171, 37.738102059603023]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6050,8 +6553,13 @@ var json_1070I_sw_lines = {
                         [-122.503226082834061, 37.738027572552895]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6108,8 +6616,13 @@ var json_1070I_sw_lines = {
                         [-122.503188802239961, 37.738067217094162]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6166,8 +6679,13 @@ var json_1070I_sw_lines = {
                         [-122.503070393989731, 37.738114762596901]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6224,8 +6742,13 @@ var json_1070I_sw_lines = {
                         [-122.503067216666366, 37.738073052098741]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6284,8 +6807,13 @@ var json_1070I_sw_lines = {
                         [-122.503320414034107, 37.738196312974267]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6342,8 +6870,13 @@ var json_1070I_sw_lines = {
                         [-122.503327757181566, 37.738349949062354]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6400,8 +6933,13 @@ var json_1070I_sw_lines = {
                         [-122.503227989228051, 37.738188886616982]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6458,8 +6996,13 @@ var json_1070I_sw_lines = {
                         [-122.503400835618649, 37.738180678537056]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6516,8 +7059,13 @@ var json_1070I_sw_lines = {
                         [-122.50437961419513, 37.738090363230825]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6574,8 +7122,13 @@ var json_1070I_sw_lines = {
                         [-122.504454118311287, 37.738150945178681]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6632,8 +7185,13 @@ var json_1070I_sw_lines = {
                         [-122.505488019331551, 37.73817958971005]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6690,8 +7248,13 @@ var json_1070I_sw_lines = {
                         [-122.505507559870253, 37.738118908518636]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6748,8 +7311,13 @@ var json_1070I_sw_lines = {
                         [-122.505375859817107, 37.738127577263292]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6806,8 +7374,13 @@ var json_1070I_sw_lines = {
                         [-122.505493738513636, 37.737922165431698]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6864,8 +7437,13 @@ var json_1070I_sw_lines = {
                         [-122.50547118736263, 37.738051359280263]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6922,8 +7500,13 @@ var json_1070I_sw_lines = {
                         [-122.505482107940679, 37.738092753379]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -6980,8 +7563,13 @@ var json_1070I_sw_lines = {
                         [-122.504460343511468, 37.738131765062363]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7038,8 +7626,13 @@ var json_1070I_sw_lines = {
                         [-122.504466368658001, 37.738182986478044]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7096,8 +7689,13 @@ var json_1070I_sw_lines = {
                         [-122.504460343511468, 37.738131765062363]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7154,8 +7752,13 @@ var json_1070I_sw_lines = {
                         [-122.504299312056673, 37.738189240253114]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7212,8 +7815,13 @@ var json_1070I_sw_lines = {
                         [-122.505508513067014, 37.738973465973793]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7270,8 +7878,13 @@ var json_1070I_sw_lines = {
                         [-122.50552106349447, 37.738179087174515]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7328,8 +7941,13 @@ var json_1070I_sw_lines = {
                         [-122.505356160412163, 37.738096587543403]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7386,8 +8004,13 @@ var json_1070I_sw_lines = {
                         [-122.505427014722969, 37.738977611847432]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7444,8 +8067,13 @@ var json_1070I_sw_lines = {
                         [-122.505655067106886, 37.739792648404901]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7502,8 +8130,13 @@ var json_1070I_sw_lines = {
                         [-122.5058412582556, 37.739783728592869]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7560,8 +8193,13 @@ var json_1070I_sw_lines = {
                         [-122.505655067106886, 37.739792648404901]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7618,8 +8256,13 @@ var json_1070I_sw_lines = {
                         [-122.505508513067014, 37.738973465973793]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7676,8 +8319,13 @@ var json_1070I_sw_lines = {
                         [-122.505839987326254, 37.739853830748544]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7734,8 +8382,13 @@ var json_1070I_sw_lines = {
                         [-122.50547809019595, 37.739812372492423]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7792,8 +8445,13 @@ var json_1070I_sw_lines = {
                         [-122.505640133687137, 37.739772421787336]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7850,8 +8508,13 @@ var json_1070I_sw_lines = {
                         [-122.505496200939064, 37.739944787568376]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7908,8 +8571,13 @@ var json_1070I_sw_lines = {
                         [-122.505591202907411, 37.739866645113864]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -7966,8 +8634,13 @@ var json_1070I_sw_lines = {
                         [-122.505845706508268, 37.739936244667454]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8024,8 +8697,13 @@ var json_1070I_sw_lines = {
                         [-122.505513358485189, 37.739952199790494]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8082,8 +8760,13 @@ var json_1070I_sw_lines = {
                         [-122.505466600533481, 37.737989428936146]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8140,8 +8823,13 @@ var json_1070I_sw_lines = {
                         [-122.504288297335648, 37.738038628356705]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8198,8 +8886,13 @@ var json_1070I_sw_lines = {
                         [-122.503298384592171, 37.738102059603023]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8256,8 +8949,13 @@ var json_1070I_sw_lines = {
                         [-122.505637757558873, 37.73802366393506]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8307,8 +9005,13 @@ var json_1070I_sw_lines = {
                         [-122.504466368658001, 37.738182986478044]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8363,8 +9066,13 @@ var json_1070I_sw_lines = {
                         [-122.50437961419513, 37.738090363230825]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8421,8 +9129,13 @@ var json_1070I_sw_lines = {
                         [-122.504357931813004, 37.739014400708513]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8479,8 +9192,13 @@ var json_1070I_sw_lines = {
                         [-122.503133640049512, 37.735630055665588]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8537,8 +9255,13 @@ var json_1070I_sw_lines = {
                         [-122.504704941959318, 37.739988659917692]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8595,8 +9318,13 @@ var json_1070I_sw_lines = {
                         [-122.504692391639423, 37.739833779031251]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8653,8 +9381,13 @@ var json_1070I_sw_lines = {
                         [-122.505591202907411, 37.739866645113864]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8711,8 +9444,13 @@ var json_1070I_sw_lines = {
                         [-122.504390838538725, 37.739898517642253]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8770,8 +9508,13 @@ var json_1070I_sw_lines = {
                         [-122.504431252871811, 37.739929202449325]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8831,8 +9574,13 @@ var json_1070I_sw_lines = {
                         [-122.504523595592971, 37.740130793120926]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8889,8 +9637,13 @@ var json_1070I_sw_lines = {
                         [-122.504390838538725, 37.739898517642253]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -8947,8 +9700,13 @@ var json_1070I_sw_lines = {
                         [-122.504255202970683, 37.739921827170434]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9005,8 +9763,13 @@ var json_1070I_sw_lines = {
                         [-122.504599588356058, 37.739984380438393]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9063,8 +9826,13 @@ var json_1070I_sw_lines = {
                         [-122.504434707088279, 37.739999495193878]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9121,8 +9889,13 @@ var json_1070I_sw_lines = {
                         [-122.505729506856213, 37.740801331775685]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9179,8 +9952,13 @@ var json_1070I_sw_lines = {
                         [-122.505781550384853, 37.74156871193378]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9237,8 +10015,13 @@ var json_1070I_sw_lines = {
                         [-122.5055672738211, 37.740809708536055]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9295,8 +10078,13 @@ var json_1070I_sw_lines = {
                         [-122.5055672738211, 37.740809708536055]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9353,8 +10141,13 @@ var json_1070I_sw_lines = {
                         [-122.505649100372025, 37.740804761391438]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9411,8 +10204,13 @@ var json_1070I_sw_lines = {
                         [-122.505701450942126, 37.741571686259867]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9469,8 +10267,13 @@ var json_1070I_sw_lines = {
                         [-122.504421425489383, 37.739843755071966]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9520,8 +10323,13 @@ var json_1070I_sw_lines = {
                         [-122.504495591953898, 37.739755194246172]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9571,8 +10379,13 @@ var json_1070I_sw_lines = {
                         [-122.504526535813028, 37.739007540162532]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9629,8 +10442,13 @@ var json_1070I_sw_lines = {
                         [-122.504411023040092, 37.739760788520968]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9687,8 +10505,13 @@ var json_1070I_sw_lines = {
                         [-122.50417208757942, 37.7356284414778]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9745,8 +10568,13 @@ var json_1070I_sw_lines = {
                         [-122.505457894131439, 37.737813380961775]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9801,19 +10629,30 @@ var json_1070I_sw_lines = {
                         [-122.505636844888429, 37.735613619030886]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
             "properties": {
                 "id_a": "L-194666",
                 "id_b": "none",
-                "location": "2800 SLOAT BLVD",
+                "location": "2800-2898 SLOAT BLVD - West",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': 150
+                    'SW-10': {
+                        'PP02': 150
+                    },
+                    'SW-12': {
+                        'PP02': 3150
+                    },                    
+                    'SW-28': {
+                        'PP02': 50
                     }
                 },
                 "submittals": {
@@ -9854,8 +10693,13 @@ var json_1070I_sw_lines = {
                         [-122.504899434341709, 37.735586832659244]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9912,8 +10756,13 @@ var json_1070I_sw_lines = {
                         [-122.504179926115029, 37.735738750115452]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -9923,14 +10772,15 @@ var json_1070I_sw_lines = {
                 "location": "2700 SLOAT BLVD",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP02': 150
+                    },
+                    'SW-12': {
+                        'PP02': 3037.50
+                    },                    
+                    'SW-28': {
+                        'PP02': 50
+                    }                    
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -9970,8 +10820,13 @@ var json_1070I_sw_lines = {
                         [-122.503358438237697, 37.73559259577582]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10028,8 +10883,13 @@ var json_1070I_sw_lines = {
                         [-122.503139236747288, 37.735717870321892]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10086,8 +10946,13 @@ var json_1070I_sw_lines = {
                         [-122.502536158855946, 37.735572053656647]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10144,8 +11009,13 @@ var json_1070I_sw_lines = {
                         [-122.50315345020104, 37.735913606350067]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10202,8 +11072,13 @@ var json_1070I_sw_lines = {
                         [-122.503140598450415, 37.735736622602737]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10260,8 +11135,13 @@ var json_1070I_sw_lines = {
                         [-122.50319646248029, 37.736503120434513]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10318,8 +11198,13 @@ var json_1070I_sw_lines = {
                         [-122.503760785752007, 37.738059106792356]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10376,8 +11261,13 @@ var json_1070I_sw_lines = {
                         [-122.503845767922485, 37.738055807714638]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10434,8 +11324,13 @@ var json_1070I_sw_lines = {
                         [-122.503906126074554, 37.738053464561482]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10492,8 +11387,13 @@ var json_1070I_sw_lines = {
                         [-122.503979467030589, 37.738050617405079]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10550,8 +11450,13 @@ var json_1070I_sw_lines = {
                         [-122.503304799981507, 37.737928078847027]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10608,8 +11513,13 @@ var json_1070I_sw_lines = {
                         [-122.503295868555398, 37.737887508900791]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10666,8 +11576,13 @@ var json_1070I_sw_lines = {
                         [-122.503291101889118, 37.737819723560328]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10724,8 +11639,13 @@ var json_1070I_sw_lines = {
                         [-122.503286132301795, 37.737749052474072]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10782,8 +11702,13 @@ var json_1070I_sw_lines = {
                         [-122.504237155071806, 37.737881485206195]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10840,8 +11765,13 @@ var json_1070I_sw_lines = {
                         [-122.504264223862378, 37.737759330028403]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10898,8 +11828,13 @@ var json_1070I_sw_lines = {
                         [-122.504260089249996, 37.737748345759549]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -10956,8 +11891,13 @@ var json_1070I_sw_lines = {
                         [-122.504253725823276, 37.737628502171461]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11014,8 +11954,13 @@ var json_1070I_sw_lines = {
                         [-122.50424868676447, 37.737557576848843]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11072,8 +12017,13 @@ var json_1070I_sw_lines = {
                         [-122.504245682710135, 37.737489295355765]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11130,8 +12080,13 @@ var json_1070I_sw_lines = {
                         [-122.504238996266722, 37.737421282021408]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11188,8 +12143,13 @@ var json_1070I_sw_lines = {
                         [-122.504233569587967, 37.737351850879861]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11246,8 +12206,13 @@ var json_1070I_sw_lines = {
                         [-122.504234183319468, 37.737275752434712]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11304,8 +12269,13 @@ var json_1070I_sw_lines = {
                         [-122.505418127283448, 37.737014938792463]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11362,8 +12332,13 @@ var json_1070I_sw_lines = {
                         [-122.505416899730676, 37.736992309976031]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11420,8 +12395,13 @@ var json_1070I_sw_lines = {
                         [-122.505270085255972, 37.736889033878256]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11478,8 +12458,13 @@ var json_1070I_sw_lines = {
                         [-122.505281315067379, 37.736853833339445]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11536,8 +12521,13 @@ var json_1070I_sw_lines = {
                         [-122.505273700589328, 37.736755157984149]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11594,8 +12584,13 @@ var json_1070I_sw_lines = {
                         [-122.504366831748357, 37.739139521778682]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11652,8 +12647,13 @@ var json_1070I_sw_lines = {
                         [-122.504362157477843, 37.739073807875343]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11710,8 +12710,13 @@ var json_1070I_sw_lines = {
                         [-122.504357931813004, 37.739014400708513]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11768,8 +12773,13 @@ var json_1070I_sw_lines = {
                         [-122.504352336040029, 37.738935632259341]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11826,8 +12836,13 @@ var json_1070I_sw_lines = {
                         [-122.504335501006651, 37.738874147835979]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11884,8 +12899,13 @@ var json_1070I_sw_lines = {
                         [-122.50434290107188, 37.738802821497607]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -11942,8 +12962,13 @@ var json_1070I_sw_lines = {
                         [-122.505263588833074, 37.736719988629837]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12000,8 +13025,13 @@ var json_1070I_sw_lines = {
                         [-122.505259286487998, 37.736609160426362]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12058,8 +13088,13 @@ var json_1070I_sw_lines = {
                         [-122.505254204714802, 37.736576220348582]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12116,8 +13151,13 @@ var json_1070I_sw_lines = {
                         [-122.505268229000279, 37.736466884964926]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12174,8 +13214,13 @@ var json_1070I_sw_lines = {
                         [-122.504231635886768, 37.736466485424074]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12232,8 +13277,13 @@ var json_1070I_sw_lines = {
                         [-122.504350800765792, 37.736532542228872]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12290,8 +13340,13 @@ var json_1070I_sw_lines = {
                         [-122.504355413770611, 37.736589473603473]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12348,8 +13403,13 @@ var json_1070I_sw_lines = {
                         [-122.504360604889413, 37.736653539716642]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12406,8 +13466,13 @@ var json_1070I_sw_lines = {
                         [-122.504366535718816, 37.736726734889189]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12464,8 +13529,13 @@ var json_1070I_sw_lines = {
                         [-122.504372067275042, 37.736795002376958]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12522,8 +13592,13 @@ var json_1070I_sw_lines = {
                         [-122.504377639914082, 37.73686377682322]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12580,8 +13655,13 @@ var json_1070I_sw_lines = {
                         [-122.504383426437087, 37.736935190840263]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12638,8 +13718,13 @@ var json_1070I_sw_lines = {
                         [-122.504388723817058, 37.737000568068261]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12696,8 +13781,13 @@ var json_1070I_sw_lines = {
                         [-122.505500104562728, 37.738693011128774]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12754,8 +13844,13 @@ var json_1070I_sw_lines = {
                         [-122.505502140374247, 37.738760913100947]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12812,8 +13907,13 @@ var json_1070I_sw_lines = {
                         [-122.505504028377871, 37.738823885068449]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12870,8 +13970,13 @@ var json_1070I_sw_lines = {
                         [-122.504891447460039, 37.739879269779294]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12928,8 +14033,13 @@ var json_1070I_sw_lines = {
                         [-122.504976392138346, 37.739877737246658]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -12986,8 +14096,13 @@ var json_1070I_sw_lines = {
                         [-122.505149852915551, 37.739874607747367]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13044,8 +14159,13 @@ var json_1070I_sw_lines = {
                         [-122.504325731445249, 37.738742074284517]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13102,8 +14222,13 @@ var json_1070I_sw_lines = {
                         [-122.50523704401563, 37.739873034685715]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13160,8 +14285,13 @@ var json_1070I_sw_lines = {
                         [-122.505574705572442, 37.73968844904735]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13218,8 +14348,13 @@ var json_1070I_sw_lines = {
                         [-122.504580256903822, 37.739743881408799]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13276,8 +14411,13 @@ var json_1070I_sw_lines = {
                         [-122.504575648332619, 37.739680713189948]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13334,8 +14474,13 @@ var json_1070I_sw_lines = {
                         [-122.505574029471575, 37.739681146130174]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13392,8 +14537,13 @@ var json_1070I_sw_lines = {
                         [-122.505567183374311, 37.739607197834815]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13450,8 +14600,13 @@ var json_1070I_sw_lines = {
                         [-122.50556184291942, 37.739549512722917]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13508,8 +14663,13 @@ var json_1070I_sw_lines = {
                         [-122.505555153003968, 37.739477251301409]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13566,8 +14726,13 @@ var json_1070I_sw_lines = {
                         [-122.505548871691261, 37.739409403356831]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13624,8 +14789,13 @@ var json_1070I_sw_lines = {
                         [-122.505542026805102, 37.739335467871626]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13682,8 +14852,13 @@ var json_1070I_sw_lines = {
                         [-122.505536976295076, 37.739280914410081]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13740,8 +14915,13 @@ var json_1070I_sw_lines = {
                         [-122.505529776881573, 37.739203149337882]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13798,8 +14978,13 @@ var json_1070I_sw_lines = {
                         [-122.503280711013488, 37.737671957800003]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13856,8 +15041,13 @@ var json_1070I_sw_lines = {
                         [-122.504228369020822, 37.737214137926316]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13914,8 +15104,13 @@ var json_1070I_sw_lines = {
                         [-122.503247532370764, 37.737200131549976]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -13972,8 +15167,13 @@ var json_1070I_sw_lines = {
                         [-122.503252423790556, 37.737269691554282]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14030,8 +15230,13 @@ var json_1070I_sw_lines = {
                         [-122.503261766690798, 37.737402555082298]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14088,8 +15293,13 @@ var json_1070I_sw_lines = {
                         [-122.50326646613523, 37.737469384858038]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14146,8 +15356,13 @@ var json_1070I_sw_lines = {
                         [-122.50327625378057, 37.737608572636546]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14204,8 +15419,13 @@ var json_1070I_sw_lines = {
                         [-122.503281414603279, 37.737681963364828]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14262,8 +15482,13 @@ var json_1070I_sw_lines = {
                         [-122.50422643092125, 37.737151092845579]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14320,8 +15545,13 @@ var json_1070I_sw_lines = {
                         [-122.503242209823242, 37.737126450883103]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14378,8 +15608,13 @@ var json_1070I_sw_lines = {
                         [-122.504234646309939, 37.737071134053721]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14436,8 +15671,13 @@ var json_1070I_sw_lines = {
                         [-122.504217035923872, 37.737005829531753]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14494,8 +15734,13 @@ var json_1070I_sw_lines = {
                         [-122.504211867658412, 37.736934167062351]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14552,8 +15797,13 @@ var json_1070I_sw_lines = {
                         [-122.504208824124319, 37.736873494600573]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14610,8 +15860,13 @@ var json_1070I_sw_lines = {
                         [-122.504205991149263, 37.736812852364807]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14668,8 +15923,13 @@ var json_1070I_sw_lines = {
                         [-122.504197709163336, 37.73674302643721]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14726,8 +15986,13 @@ var json_1070I_sw_lines = {
                         [-122.504394629411223, 37.737073451459089]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14784,8 +16049,13 @@ var json_1070I_sw_lines = {
                         [-122.503274725344127, 37.737586837122386]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14842,8 +16112,13 @@ var json_1070I_sw_lines = {
                         [-122.503270492243985, 37.737526639225486]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14900,8 +16175,13 @@ var json_1070I_sw_lines = {
                         [-122.503265533025242, 37.737456115308923]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -14958,8 +16238,13 @@ var json_1070I_sw_lines = {
                         [-122.503260329586325, 37.737382118320838]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15016,8 +16301,13 @@ var json_1070I_sw_lines = {
                         [-122.504319576621555, 37.738661647981864]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15074,8 +16364,13 @@ var json_1070I_sw_lines = {
                         [-122.504315742068755, 37.738592018511405]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15132,8 +16427,13 @@ var json_1070I_sw_lines = {
                         [-122.504309440701661, 37.738530018289822]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15190,8 +16490,13 @@ var json_1070I_sw_lines = {
                         [-122.504304531497112, 37.738462513316613]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15248,8 +16553,13 @@ var json_1070I_sw_lines = {
                         [-122.504303725508223, 37.738387707304447]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15306,8 +16616,13 @@ var json_1070I_sw_lines = {
                         [-122.504293614012155, 37.738322809695838]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15364,8 +16679,13 @@ var json_1070I_sw_lines = {
                         [-122.504304101513213, 37.738256659338703]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15422,8 +16742,13 @@ var json_1070I_sw_lines = {
                         [-122.504287027311463, 37.738204256569055]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15480,8 +16805,13 @@ var json_1070I_sw_lines = {
                         [-122.503206156591062, 37.736635207984932]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15538,8 +16868,13 @@ var json_1070I_sw_lines = {
                         [-122.503211593272923, 37.736709285639392]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15596,8 +16931,13 @@ var json_1070I_sw_lines = {
                         [-122.504400234971683, 37.737147014246347]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15654,8 +16994,13 @@ var json_1070I_sw_lines = {
                         [-122.505239332829845, 37.736332859095484]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15712,8 +17057,13 @@ var json_1070I_sw_lines = {
                         [-122.505244864165519, 37.736301171775814]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15770,8 +17120,13 @@ var json_1070I_sw_lines = {
                         [-122.504505092587749, 37.736272308049088]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15828,8 +17183,13 @@ var json_1070I_sw_lines = {
                         [-122.504339165218255, 37.736388941985105]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15886,8 +17246,13 @@ var json_1070I_sw_lines = {
                         [-122.504906213180263, 37.73623098207112]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -15944,8 +17309,13 @@ var json_1070I_sw_lines = {
                         [-122.504867357290252, 37.736249524403497]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16002,8 +17372,13 @@ var json_1070I_sw_lines = {
                         [-122.504783783890744, 37.736255832618589]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16060,8 +17435,13 @@ var json_1070I_sw_lines = {
                         [-122.504630482901632, 37.73624425560979]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16118,8 +17498,13 @@ var json_1070I_sw_lines = {
                         [-122.50550594164288, 37.73888769954263]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16176,8 +17561,13 @@ var json_1070I_sw_lines = {
                         [-122.505510760838547, 37.738997745551742]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16234,8 +17624,13 @@ var json_1070I_sw_lines = {
                         [-122.505517848895607, 37.739074308011276]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16292,8 +17687,13 @@ var json_1070I_sw_lines = {
                         [-122.505523567609259, 37.739136079293672]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16350,8 +17750,13 @@ var json_1070I_sw_lines = {
                         [-122.505530255133991, 37.739208315224424]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16408,8 +17813,13 @@ var json_1070I_sw_lines = {
                         [-122.503323972930346, 37.738270773577447]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16466,8 +17876,13 @@ var json_1070I_sw_lines = {
                         [-122.503991227277368, 37.738050160862592]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16524,8 +17939,13 @@ var json_1070I_sw_lines = {
                         [-122.503256172742226, 37.737323004679737]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16582,8 +18002,13 @@ var json_1070I_sw_lines = {
                         [-122.503251438380047, 37.737255678213415]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16640,8 +18065,13 @@ var json_1070I_sw_lines = {
                         [-122.503247351043242, 37.737197552922595]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16698,8 +18128,13 @@ var json_1070I_sw_lines = {
                         [-122.50321693558665, 37.736782077406325]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16756,8 +18191,13 @@ var json_1070I_sw_lines = {
                         [-122.50322126640846, 37.736841087023826]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16814,8 +18254,13 @@ var json_1070I_sw_lines = {
                         [-122.503227313304279, 37.736923478931402]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16872,8 +18317,13 @@ var json_1070I_sw_lines = {
                         [-122.503232881920766, 37.736999353968201]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16930,8 +18380,13 @@ var json_1070I_sw_lines = {
                         [-122.503237046052746, 37.737056092187871]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -16988,8 +18443,13 @@ var json_1070I_sw_lines = {
                         [-122.503191235854018, 37.736431904701291]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17046,8 +18506,13 @@ var json_1070I_sw_lines = {
                         [-122.503196310618321, 37.736501051230263]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17104,8 +18569,13 @@ var json_1070I_sw_lines = {
                         [-122.503202303594179, 37.736582708827491]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17162,8 +18632,13 @@ var json_1070I_sw_lines = {
                         [-122.504178272050922, 37.736402183854672]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17220,8 +18695,13 @@ var json_1070I_sw_lines = {
                         [-122.503655564438347, 37.736205444193224]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17278,8 +18758,13 @@ var json_1070I_sw_lines = {
                         [-122.503188782356887, 37.736398474394164]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17336,8 +18821,13 @@ var json_1070I_sw_lines = {
                         [-122.504793699149559, 37.738017525577966]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17394,8 +18884,13 @@ var json_1070I_sw_lines = {
                         [-122.504872066573753, 37.738014253388108]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17452,8 +18947,13 @@ var json_1070I_sw_lines = {
                         [-122.503236808780457, 37.73705285924467]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17510,8 +19010,13 @@ var json_1070I_sw_lines = {
                         [-122.503232162935788, 37.736989557462117]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17568,8 +19073,13 @@ var json_1070I_sw_lines = {
                         [-122.50322723931761, 37.736922470827196]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17626,8 +19136,13 @@ var json_1070I_sw_lines = {
                         [-122.503221522785211, 37.736844580284007]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17684,8 +19199,13 @@ var json_1070I_sw_lines = {
                         [-122.503216239999858, 37.736772599683185]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17742,8 +19262,13 @@ var json_1070I_sw_lines = {
                         [-122.503211982437762, 37.736714588212266]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17800,8 +19325,13 @@ var json_1070I_sw_lines = {
                         [-122.503206821195747, 37.736644263577965]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17858,8 +19388,13 @@ var json_1070I_sw_lines = {
                         [-122.503202621194291, 37.736587036301543]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17916,8 +19451,13 @@ var json_1070I_sw_lines = {
                         [-122.503882030034148, 37.738054399989622]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -17974,8 +19514,13 @@ var json_1070I_sw_lines = {
                         [-122.503804055257703, 37.738057427034583]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18032,8 +19577,13 @@ var json_1070I_sw_lines = {
                         [-122.503724578011287, 37.738060512406562]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18090,8 +19640,13 @@ var json_1070I_sw_lines = {
                         [-122.504948396801126, 37.738011066260185]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18148,8 +19703,13 @@ var json_1070I_sw_lines = {
                         [-122.505027970790778, 37.738007743690552]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18206,8 +19766,13 @@ var json_1070I_sw_lines = {
                         [-122.505316282506399, 37.737863063106609]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18264,8 +19829,13 @@ var json_1070I_sw_lines = {
                         [-122.50444593091396, 37.737891028410623]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18322,8 +19892,13 @@ var json_1070I_sw_lines = {
                         [-122.504442144032197, 37.737829371280128]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18380,8 +19955,13 @@ var json_1070I_sw_lines = {
                         [-122.504437688512539, 37.737756827476112]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18438,8 +20018,13 @@ var json_1070I_sw_lines = {
                         [-122.505536277906131, 37.739273370706606]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18496,8 +20081,13 @@ var json_1070I_sw_lines = {
                         [-122.505543066732059, 37.739346700715579]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18554,8 +20144,13 @@ var json_1070I_sw_lines = {
                         [-122.50554925830869, 37.739413579427953]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18612,8 +20207,13 @@ var json_1070I_sw_lines = {
                         [-122.505554780534439, 37.739473228053036]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18670,8 +20270,13 @@ var json_1070I_sw_lines = {
                         [-122.505560774415642, 37.739537971235968]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18728,8 +20333,13 @@ var json_1070I_sw_lines = {
                         [-122.505568162372327, 37.73961777251133]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18786,8 +20396,13 @@ var json_1070I_sw_lines = {
                         [-122.505573229162948, 37.739672501579804]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18844,8 +20459,13 @@ var json_1070I_sw_lines = {
                         [-122.505806026676808, 37.739855579990731]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18902,8 +20522,13 @@ var json_1070I_sw_lines = {
                         [-122.504956055091682, 37.738125751702583]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -18960,8 +20585,13 @@ var json_1070I_sw_lines = {
                         [-122.504870634560845, 37.738132025278802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19018,8 +20648,13 @@ var json_1070I_sw_lines = {
                         [-122.504803446396338, 37.738132831403973]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19076,8 +20711,13 @@ var json_1070I_sw_lines = {
                         [-122.50471018332594, 37.738135074034304]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19134,8 +20774,13 @@ var json_1070I_sw_lines = {
                         [-122.503192822095258, 37.736453518140678]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19192,8 +20837,13 @@ var json_1070I_sw_lines = {
                         [-122.504433625672419, 37.737690677133699]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19250,8 +20900,13 @@ var json_1070I_sw_lines = {
                         [-122.505311378191948, 37.737833566648369]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19308,8 +20963,13 @@ var json_1070I_sw_lines = {
                         [-122.505453076675408, 37.73771596931708]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19366,8 +21026,13 @@ var json_1070I_sw_lines = {
                         [-122.50531021664375, 37.737695474076865]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19424,8 +21089,13 @@ var json_1070I_sw_lines = {
                         [-122.505303892659299, 37.737585040659873]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19482,8 +21152,13 @@ var json_1070I_sw_lines = {
                         [-122.505297504144366, 37.737442125080648]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19540,8 +21215,13 @@ var json_1070I_sw_lines = {
                         [-122.505294890661006, 37.737417553065214]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19598,8 +21278,13 @@ var json_1070I_sw_lines = {
                         [-122.505288801608131, 37.737301158819228]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19656,8 +21341,13 @@ var json_1070I_sw_lines = {
                         [-122.504410438903392, 37.739752576423456]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19714,8 +21404,13 @@ var json_1070I_sw_lines = {
                         [-122.504405381643409, 37.739681478793372]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19772,8 +21467,13 @@ var json_1070I_sw_lines = {
                         [-122.504401313656771, 37.739624288840879]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19830,8 +21530,13 @@ var json_1070I_sw_lines = {
                         [-122.504396736155911, 37.739559935808991]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19888,8 +21593,13 @@ var json_1070I_sw_lines = {
                         [-122.504391331561038, 37.739483954961891]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -19946,8 +21656,13 @@ var json_1070I_sw_lines = {
                         [-122.504386884751256, 37.739421439139839]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20004,8 +21719,13 @@ var json_1070I_sw_lines = {
                         [-122.504381740787508, 37.739349122258453]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20062,8 +21782,13 @@ var json_1070I_sw_lines = {
                         [-122.504377218850834, 37.739285550142682]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20120,8 +21845,13 @@ var json_1070I_sw_lines = {
                         [-122.504371990539369, 37.73921204731586]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20178,8 +21908,13 @@ var json_1070I_sw_lines = {
                         [-122.503187131568353, 37.73637598144385]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20236,8 +21971,13 @@ var json_1070I_sw_lines = {
                         [-122.50282329732353, 37.736254997630212]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20294,8 +22034,13 @@ var json_1070I_sw_lines = {
                         [-122.502737028186303, 37.736258722642461]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20352,8 +22097,13 @@ var json_1070I_sw_lines = {
                         [-122.502661193475404, 37.736261997106794]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20410,8 +22160,13 @@ var json_1070I_sw_lines = {
                         [-122.502578313962104, 37.736265575758239]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20468,8 +22223,13 @@ var json_1070I_sw_lines = {
                         [-122.50528771265671, 37.737275538999484]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20526,8 +22286,13 @@ var json_1070I_sw_lines = {
                         [-122.504220045959997, 37.737077276218066]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20584,8 +22349,13 @@ var json_1070I_sw_lines = {
                         [-122.504412180385572, 37.737341508323354]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20642,8 +22412,13 @@ var json_1070I_sw_lines = {
                         [-122.50441686588168, 37.737417796979727]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20700,8 +22475,13 @@ var json_1070I_sw_lines = {
                         [-122.504420764301528, 37.737481270499792]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20758,8 +22538,13 @@ var json_1070I_sw_lines = {
                         [-122.504425359694196, 37.737556091962659]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20816,8 +22601,13 @@ var json_1070I_sw_lines = {
                         [-122.504429478126752, 37.737623147571504]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20874,8 +22664,13 @@ var json_1070I_sw_lines = {
                         [-122.505283901326791, 37.737165201439147]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20932,8 +22727,13 @@ var json_1070I_sw_lines = {
                         [-122.505283084613225, 37.737136136883699]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -20990,8 +22790,13 @@ var json_1070I_sw_lines = {
                         [-122.50548618820342, 37.73822884653076]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21048,8 +22853,13 @@ var json_1070I_sw_lines = {
                         [-122.505489912141755, 37.738353054613476]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21106,8 +22916,13 @@ var json_1070I_sw_lines = {
                         [-122.505491982427003, 37.738422106730788]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21164,8 +22979,13 @@ var json_1070I_sw_lines = {
                         [-122.505493851744475, 37.738484455730841]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21222,8 +23042,13 @@ var json_1070I_sw_lines = {
                         [-122.505496003561873, 37.738556227135518]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21280,8 +23105,13 @@ var json_1070I_sw_lines = {
                         [-122.505497926379775, 37.73862036046522]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21338,8 +23168,13 @@ var json_1070I_sw_lines = {
                         [-122.505523323259084, 37.739133439920657]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21396,8 +23231,13 @@ var json_1070I_sw_lines = {
                         [-122.505517180151756, 37.739067084501336]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21454,8 +23294,13 @@ var json_1070I_sw_lines = {
                         [-122.505511200900088, 37.739002498929317]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21512,8 +23357,13 @@ var json_1070I_sw_lines = {
                         [-122.505506190713135, 37.738896006954121]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21570,8 +23420,13 @@ var json_1070I_sw_lines = {
                         [-122.505504065453593, 37.7388251216816]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21628,8 +23483,13 @@ var json_1070I_sw_lines = {
                         [-122.505501834824315, 37.738750721865863]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21686,8 +23546,13 @@ var json_1070I_sw_lines = {
                         [-122.504510941425792, 37.738793829602216]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21744,8 +23609,13 @@ var json_1070I_sw_lines = {
                         [-122.504515885231214, 37.738861581188196]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21802,8 +23672,13 @@ var json_1070I_sw_lines = {
                         [-122.504521404667727, 37.738937221344742]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21860,8 +23735,13 @@ var json_1070I_sw_lines = {
                         [-122.504527516333667, 37.739020979973674]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21918,8 +23798,13 @@ var json_1070I_sw_lines = {
                         [-122.504530478100691, 37.739061576339687]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -21976,8 +23861,13 @@ var json_1070I_sw_lines = {
                         [-122.504536134572817, 37.739139108444554]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22034,8 +23924,13 @@ var json_1070I_sw_lines = {
                         [-122.504540997261344, 37.739205760255089]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22092,8 +23987,13 @@ var json_1070I_sw_lines = {
                         [-122.504545878180608, 37.739272661889807]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22150,8 +24050,13 @@ var json_1070I_sw_lines = {
                         [-122.504550748485542, 37.739339417976261]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22208,8 +24113,13 @@ var json_1070I_sw_lines = {
                         [-122.504555602990536, 37.739405957436986]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22266,8 +24176,13 @@ var json_1070I_sw_lines = {
                         [-122.504565914488495, 37.739547294308693]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22324,8 +24239,13 @@ var json_1070I_sw_lines = {
                         [-122.504570797676564, 37.739614226732634]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22382,8 +24302,13 @@ var json_1070I_sw_lines = {
                         [-122.505499693875237, 37.738679313149419]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22440,8 +24365,13 @@ var json_1070I_sw_lines = {
                         [-122.505497661245002, 37.738611517209975]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22498,8 +24428,13 @@ var json_1070I_sw_lines = {
                         [-122.505495601271079, 37.738542809191628]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22556,8 +24491,13 @@ var json_1070I_sw_lines = {
                         [-122.505493733958204, 37.738480527102482]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22614,8 +24554,13 @@ var json_1070I_sw_lines = {
                         [-122.505492630844159, 37.738443733968445]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22672,8 +24617,13 @@ var json_1070I_sw_lines = {
                         [-122.505489803335479, 37.738349425496729]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22730,8 +24680,13 @@ var json_1070I_sw_lines = {
                         [-122.505487808814877, 37.738282900363288]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22788,8 +24743,13 @@ var json_1070I_sw_lines = {
                         [-122.50447108469082, 37.738247617125673]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22846,8 +24806,13 @@ var json_1070I_sw_lines = {
                         [-122.504475806322546, 37.738312324446568]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22904,8 +24869,13 @@ var json_1070I_sw_lines = {
                         [-122.504480702313685, 37.738379421206119]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -22962,8 +24932,13 @@ var json_1070I_sw_lines = {
                         [-122.504486153434627, 37.73845412563076]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23020,8 +24995,13 @@ var json_1070I_sw_lines = {
                         [-122.504492207010543, 37.738537086259875]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23078,8 +25058,13 @@ var json_1070I_sw_lines = {
                         [-122.504495865348787, 37.738587221547682]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23136,8 +25121,13 @@ var json_1070I_sw_lines = {
                         [-122.504500702585517, 37.738653512866094]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23194,8 +25184,13 @@ var json_1070I_sw_lines = {
                         [-122.504506090980215, 37.738727357391113]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23252,8 +25247,13 @@ var json_1070I_sw_lines = {
                         [-122.505485729286676, 37.738213539826681]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23310,8 +25310,13 @@ var json_1070I_sw_lines = {
                         [-122.505484183317009, 37.738161975547357]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23368,8 +25373,13 @@ var json_1070I_sw_lines = {
                         [-122.504467618417834, 37.73820011375777]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23426,8 +25436,13 @@ var json_1070I_sw_lines = {
                         [-122.505048780108311, 37.738122361822029]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23484,8 +25499,13 @@ var json_1070I_sw_lines = {
                         [-122.505616617841639, 37.740278446362936]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23542,8 +25562,13 @@ var json_1070I_sw_lines = {
                         [-122.505599226675756, 37.73999665544892]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23600,8 +25625,13 @@ var json_1070I_sw_lines = {
                         [-122.50524030646099, 37.739872975826181]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23658,8 +25688,13 @@ var json_1070I_sw_lines = {
                         [-122.505131570218637, 37.739874937595346]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23716,8 +25751,13 @@ var json_1070I_sw_lines = {
                         [-122.505051003492767, 37.739876391143042]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23774,8 +25814,13 @@ var json_1070I_sw_lines = {
                         [-122.504949908277197, 37.739878215056244]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23832,8 +25877,13 @@ var json_1070I_sw_lines = {
                         [-122.504872922195148, 37.739879604003569]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23890,8 +25940,13 @@ var json_1070I_sw_lines = {
                         [-122.504807998227577, 37.739880775331756]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -23948,8 +26003,13 @@ var json_1070I_sw_lines = {
                         [-122.505641823567544, 37.74068685552156]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24006,8 +26066,13 @@ var json_1070I_sw_lines = {
                         [-122.505645775591887, 37.740750890090318]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24064,8 +26129,13 @@ var json_1070I_sw_lines = {
                         [-122.505650417732824, 37.740824060548]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24122,8 +26192,13 @@ var json_1070I_sw_lines = {
                         [-122.505655874162912, 37.740903996454435]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24180,8 +26255,13 @@ var json_1070I_sw_lines = {
                         [-122.505659466923873, 37.740956629831892]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24238,8 +26318,13 @@ var json_1070I_sw_lines = {
                         [-122.50566457603567, 37.74103147744426]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24296,8 +26381,13 @@ var json_1070I_sw_lines = {
                         [-122.505668784574681, 37.741093131762483]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24354,8 +26444,13 @@ var json_1070I_sw_lines = {
                         [-122.50567334456214, 37.741159934677746]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24412,8 +26507,13 @@ var json_1070I_sw_lines = {
                         [-122.505679284545479, 37.741246954169483]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24470,8 +26570,13 @@ var json_1070I_sw_lines = {
                         [-122.505683098136615, 37.741302822414092]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24528,8 +26633,13 @@ var json_1070I_sw_lines = {
                         [-122.505603682855423, 37.740068859505392]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24586,8 +26696,13 @@ var json_1070I_sw_lines = {
                         [-122.505607941854137, 37.740137868546768]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24644,8 +26759,13 @@ var json_1070I_sw_lines = {
                         [-122.505611706600519, 37.740198869108163]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24702,8 +26822,13 @@ var json_1070I_sw_lines = {
                         [-122.505616689136971, 37.74027960156657]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24760,8 +26885,13 @@ var json_1070I_sw_lines = {
                         [-122.505620773418045, 37.740345779451687]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24818,8 +26948,13 @@ var json_1070I_sw_lines = {
                         [-122.505624765754149, 37.740410467488559]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24876,8 +27011,13 @@ var json_1070I_sw_lines = {
                         [-122.505628603722585, 37.740472654244556]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24934,8 +27074,13 @@ var json_1070I_sw_lines = {
                         [-122.505633540213111, 37.740552640321482]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -24992,8 +27137,13 @@ var json_1070I_sw_lines = {
                         [-122.505637796901198, 37.740621611473024]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25050,8 +27200,13 @@ var json_1070I_sw_lines = {
                         [-122.505600173791208, 37.74001200168923]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25108,8 +27263,13 @@ var json_1070I_sw_lines = {
                         [-122.505608055978826, 37.740139717721547]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25166,8 +27326,13 @@ var json_1070I_sw_lines = {
                         [-122.505603396023261, 37.740064211928498]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25224,8 +27389,13 @@ var json_1070I_sw_lines = {
                         [-122.505633630552879, 37.740554104097939]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25282,8 +27452,13 @@ var json_1070I_sw_lines = {
                         [-122.505629451113265, 37.740486384543026]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25340,8 +27515,13 @@ var json_1070I_sw_lines = {
                         [-122.505626027198318, 37.740430906724853]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25398,8 +27578,13 @@ var json_1070I_sw_lines = {
                         [-122.505622129000557, 37.740367744034188]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25456,8 +27641,13 @@ var json_1070I_sw_lines = {
                         [-122.505664086036163, 37.741024299038578]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25514,8 +27704,13 @@ var json_1070I_sw_lines = {
                         [-122.505659973997112, 37.740964058371404]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25572,8 +27767,13 @@ var json_1070I_sw_lines = {
                         [-122.505654792338419, 37.740888147889713]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25630,8 +27830,13 @@ var json_1070I_sw_lines = {
                         [-122.505650224463636, 37.74082122918113]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25688,8 +27893,13 @@ var json_1070I_sw_lines = {
                         [-122.505645123106547, 37.740740317887678]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25746,8 +27956,13 @@ var json_1070I_sw_lines = {
                         [-122.505641369932533, 37.740679505279708]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25804,8 +28019,13 @@ var json_1070I_sw_lines = {
                         [-122.505637166923407, 37.740611403941891]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25862,8 +28082,13 @@ var json_1070I_sw_lines = {
                         [-122.505612377608671, 37.740209741515265]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25920,8 +28145,13 @@ var json_1070I_sw_lines = {
                         [-122.505683001083568, 37.74130140060938]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -25978,8 +28208,13 @@ var json_1070I_sw_lines = {
                         [-122.505678812442056, 37.741240037958583]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26036,8 +28271,13 @@ var json_1070I_sw_lines = {
                         [-122.505674235260798, 37.741172983230058]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26094,8 +28334,13 @@ var json_1070I_sw_lines = {
                         [-122.505669206097409, 37.741099306989874]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26152,8 +28397,13 @@ var json_1070I_sw_lines = {
                         [-122.505429574528023, 37.737240740965206]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26210,8 +28460,13 @@ var json_1070I_sw_lines = {
                         [-122.505434829353646, 37.737346997142616]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26268,8 +28523,13 @@ var json_1070I_sw_lines = {
                         [-122.50543656450337, 37.73738208302634]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26326,8 +28586,13 @@ var json_1070I_sw_lines = {
                         [-122.505441655293367, 37.737485022096806]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26384,8 +28649,13 @@ var json_1070I_sw_lines = {
                         [-122.50544340695447, 37.737520441785875]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26442,8 +28712,13 @@ var json_1070I_sw_lines = {
                         [-122.505448505721887, 37.737623541971345]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26500,8 +28775,13 @@ var json_1070I_sw_lines = {
                         [-122.505450429704169, 37.737662446029347]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26558,8 +28838,13 @@ var json_1070I_sw_lines = {
                         [-122.505414552496262, 37.736949040828776]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26616,8 +28901,13 @@ var json_1070I_sw_lines = {
                         [-122.505376939345581, 37.736255672906033]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26674,8 +28964,13 @@ var json_1070I_sw_lines = {
                         [-122.505381273398285, 37.736335567982842]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26732,8 +29027,13 @@ var json_1070I_sw_lines = {
                         [-122.505385120768366, 37.736406491351197]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26790,8 +29090,13 @@ var json_1070I_sw_lines = {
                         [-122.505389204528569, 37.736481772318719]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26848,8 +29153,13 @@ var json_1070I_sw_lines = {
                         [-122.505392505782751, 37.736542628336153]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26906,8 +29216,13 @@ var json_1070I_sw_lines = {
                         [-122.505395888420594, 37.736604984544847]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -26964,8 +29279,13 @@ var json_1070I_sw_lines = {
                         [-122.50539971890305, 37.736675596345833]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27022,8 +29342,13 @@ var json_1070I_sw_lines = {
                         [-122.50540376968965, 37.736750269199099]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27080,8 +29405,13 @@ var json_1070I_sw_lines = {
                         [-122.505484114734045, 37.738159688030386]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27138,8 +29468,13 @@ var json_1070I_sw_lines = {
                         [-122.505484311941515, 37.738166265691319]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27194,8 +29529,13 @@ var json_1070I_sw_lines = {
                         [-122.505479169137999, 37.735615032979538]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27250,8 +29590,13 @@ var json_1070I_sw_lines = {
                         [-122.505488192051871, 37.735614952067053]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27306,8 +29651,13 @@ var json_1070I_sw_lines = {
                         [-122.505645464993606, 37.735613541730558]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27362,8 +29712,13 @@ var json_1070I_sw_lines = {
                         [-122.505777358607418, 37.735628059036721]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27418,8 +29773,13 @@ var json_1070I_sw_lines = {
                         [-122.505805039057151, 37.735612110758879]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27476,8 +29836,13 @@ var json_1070I_sw_lines = {
                         [-122.505542236453351, 37.736115604493556]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27534,8 +29899,13 @@ var json_1070I_sw_lines = {
                         [-122.505534906681277, 37.736116046273033]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27592,8 +29962,13 @@ var json_1070I_sw_lines = {
                         [-122.504172168715144, 37.736387847029739]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27650,8 +30025,13 @@ var json_1070I_sw_lines = {
                         [-122.505692060743741, 37.741434122408201]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27708,8 +30088,13 @@ var json_1070I_sw_lines = {
                         [-122.505687461299701, 37.741366741711239]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27766,8 +30151,13 @@ var json_1070I_sw_lines = {
                         [-122.505701450942126, 37.741571686259867]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27824,8 +30214,13 @@ var json_1070I_sw_lines = {
                         [-122.505699370323569, 37.741541205786085]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27882,8 +30277,13 @@ var json_1070I_sw_lines = {
                         [-122.5056877796451, 37.741371405393288]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27940,8 +30340,13 @@ var json_1070I_sw_lines = {
                         [-122.505693331437413, 37.741452737739792]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -27998,8 +30403,13 @@ var json_1070I_sw_lines = {
                         [-122.503256487370606, 37.737327478948039]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28056,8 +30466,13 @@ var json_1070I_sw_lines = {
                         [-122.503294994644932, 37.737875081285132]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28114,8 +30529,13 @@ var json_1070I_sw_lines = {
                         [-122.503294831494429, 37.737872761171118]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28172,8 +30592,13 @@ var json_1070I_sw_lines = {
                         [-122.503294706926525, 37.737870989728457]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28230,8 +30655,13 @@ var json_1070I_sw_lines = {
                         [-122.503289744103938, 37.737800414890593]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28288,8 +30718,13 @@ var json_1070I_sw_lines = {
                         [-122.503285257608795, 37.737736613706971]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28346,8 +30781,13 @@ var json_1070I_sw_lines = {
                         [-122.50327989053801, 37.737660290033226]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28404,8 +30844,13 @@ var json_1070I_sw_lines = {
                         [-122.503271825191149, 37.737545594751097]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28462,8 +30907,13 @@ var json_1070I_sw_lines = {
                         [-122.503271225860857, 37.737537071817918]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28520,8 +30970,13 @@ var json_1070I_sw_lines = {
                         [-122.503267023962209, 37.737477317590013]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28578,8 +31033,13 @@ var json_1070I_sw_lines = {
                         [-122.503190011997944, 37.737463763221164]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28636,8 +31096,13 @@ var json_1070I_sw_lines = {
                         [-122.50326216089158, 37.737408160928254]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28694,8 +31159,13 @@ var json_1070I_sw_lines = {
                         [-122.503261416807604, 37.737397579467284]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28752,8 +31222,13 @@ var json_1070I_sw_lines = {
                         [-122.503256439343943, 37.737326795970375]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28810,8 +31285,13 @@ var json_1070I_sw_lines = {
                         [-122.503252130660726, 37.737265523009249]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28868,8 +31348,13 @@ var json_1070I_sw_lines = {
                         [-122.503251663264464, 37.737258876253485]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28926,8 +31411,13 @@ var json_1070I_sw_lines = {
                         [-122.504181695782933, 37.735763653934946]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -28984,8 +31474,13 @@ var json_1070I_sw_lines = {
                         [-122.504186402785038, 37.736667276483736]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29042,8 +31537,13 @@ var json_1070I_sw_lines = {
                         [-122.505228227205791, 37.739873193754541]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29100,8 +31600,13 @@ var json_1070I_sw_lines = {
                         [-122.50504220628676, 37.739876549858174]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29158,8 +31663,13 @@ var json_1070I_sw_lines = {
                         [-122.504880869681202, 37.739879460618695]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29216,8 +31726,13 @@ var json_1070I_sw_lines = {
                         [-122.504791753555494, 37.739881068410618]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29274,8 +31789,13 @@ var json_1070I_sw_lines = {
                         [-122.505599493082826, 37.74000097207891]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29332,8 +31852,13 @@ var json_1070I_sw_lines = {
                         [-122.505600426247582, 37.740016092273123]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29390,8 +31915,13 @@ var json_1070I_sw_lines = {
                         [-122.505791176631348, 37.739786127840617]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29448,8 +31978,13 @@ var json_1070I_sw_lines = {
                         [-122.504486071489339, 37.739619203122459]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29506,8 +32041,13 @@ var json_1070I_sw_lines = {
                         [-122.504481584741001, 37.739555113942103]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29564,8 +32104,13 @@ var json_1070I_sw_lines = {
                         [-122.504476525858152, 37.739482852265645]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29622,8 +32167,13 @@ var json_1070I_sw_lines = {
                         [-122.504471850226551, 37.739416064932591]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29680,8 +32230,13 @@ var json_1070I_sw_lines = {
                         [-122.504467309176846, 37.739351199927697]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29738,8 +32293,13 @@ var json_1070I_sw_lines = {
                         [-122.504462280841551, 37.739279374398656]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29796,8 +32356,13 @@ var json_1070I_sw_lines = {
                         [-122.504457176881289, 37.739206468559445]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29854,8 +32419,13 @@ var json_1070I_sw_lines = {
                         [-122.50445231415344, 37.739137008458577]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29912,8 +32482,13 @@ var json_1070I_sw_lines = {
                         [-122.504386633518223, 37.738191549393825]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -29970,8 +32545,13 @@ var json_1070I_sw_lines = {
                         [-122.504390758182524, 37.73825100790485]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30028,8 +32608,13 @@ var json_1070I_sw_lines = {
                         [-122.504308994091303, 37.73820673823645]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30086,8 +32671,13 @@ var json_1070I_sw_lines = {
                         [-122.504390963043761, 37.738253961051498]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30144,8 +32734,13 @@ var json_1070I_sw_lines = {
                         [-122.504314349906281, 37.738329067681995]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30202,8 +32797,13 @@ var json_1070I_sw_lines = {
                         [-122.504319552197714, 37.738391879291626]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30260,8 +32860,13 @@ var json_1070I_sw_lines = {
                         [-122.50432431485892, 37.738460485269258]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30318,8 +32923,13 @@ var json_1070I_sw_lines = {
                         [-122.504331129127991, 37.738530134178141]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30376,8 +32986,13 @@ var json_1070I_sw_lines = {
                         [-122.504335085800349, 37.738607895195322]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30434,8 +33049,13 @@ var json_1070I_sw_lines = {
                         [-122.504338431875098, 37.738676018105764]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30492,8 +33112,13 @@ var json_1070I_sw_lines = {
                         [-122.504342632786532, 37.738731489848156]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30550,8 +33175,13 @@ var json_1070I_sw_lines = {
                         [-122.504490857948468, 37.739687573342245]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30608,8 +33238,13 @@ var json_1070I_sw_lines = {
                         [-122.504485761325412, 37.739614772710375]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30666,8 +33301,13 @@ var json_1070I_sw_lines = {
                         [-122.50448102686569, 37.739547145189213]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30724,8 +33364,13 @@ var json_1070I_sw_lines = {
                         [-122.50447635239577, 37.739480374507401]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30782,8 +33427,13 @@ var json_1070I_sw_lines = {
                         [-122.504471343882088, 37.739408832238652]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30840,8 +33490,13 @@ var json_1070I_sw_lines = {
                         [-122.504466741212426, 37.739343087038101]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30898,8 +33553,13 @@ var json_1070I_sw_lines = {
                         [-122.504461940004049, 37.739274505819729]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -30956,8 +33616,13 @@ var json_1070I_sw_lines = {
                         [-122.504456623581845, 37.739198565131765]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31014,8 +33679,13 @@ var json_1070I_sw_lines = {
                         [-122.504451705262738, 37.739128310947109]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31072,8 +33742,13 @@ var json_1070I_sw_lines = {
                         [-122.504447583327149, 37.739069432401571]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31130,8 +33805,13 @@ var json_1070I_sw_lines = {
                         [-122.504442915583326, 37.739002757365789]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31188,8 +33868,13 @@ var json_1070I_sw_lines = {
                         [-122.504437312094367, 37.738922095885179]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31246,8 +33931,13 @@ var json_1070I_sw_lines = {
                         [-122.504432853090009, 37.738857818323083]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31304,8 +33994,13 @@ var json_1070I_sw_lines = {
                         [-122.504428116897557, 37.738789544970295]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31362,8 +34057,13 @@ var json_1070I_sw_lines = {
                         [-122.504419158044669, 37.73866040077985]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31420,8 +34120,13 @@ var json_1070I_sw_lines = {
                         [-122.504414384301683, 37.738591585943198]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31478,8 +34183,13 @@ var json_1070I_sw_lines = {
                         [-122.50440927084496, 37.738517873967901]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31536,8 +34246,13 @@ var json_1070I_sw_lines = {
                         [-122.504404685947634, 37.738451781268097]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31594,8 +34309,13 @@ var json_1070I_sw_lines = {
                         [-122.504399911325223, 37.738382953560567]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31652,8 +34372,13 @@ var json_1070I_sw_lines = {
                         [-122.504395087292906, 37.738313413527983]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31710,8 +34435,13 @@ var json_1070I_sw_lines = {
                         [-122.504474787373127, 37.739458019525649]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31768,8 +34498,13 @@ var json_1070I_sw_lines = {
                         [-122.504448443679308, 37.73908172184602]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31826,8 +34561,13 @@ var json_1070I_sw_lines = {
                         [-122.504444281620053, 37.739022270128309]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31884,8 +34624,13 @@ var json_1070I_sw_lines = {
                         [-122.50443801490762, 37.738932227092981]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -31942,8 +34687,13 @@ var json_1070I_sw_lines = {
                         [-122.504428602629943, 37.738796546922011]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32000,8 +34750,13 @@ var json_1070I_sw_lines = {
                         [-122.50473437812613, 37.738020002495446]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32058,8 +34813,13 @@ var json_1070I_sw_lines = {
                         [-122.504830638089885, 37.738015983212307]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32116,8 +34876,13 @@ var json_1070I_sw_lines = {
                         [-122.504974508716273, 37.738009975971067]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32174,8 +34939,13 @@ var json_1070I_sw_lines = {
                         [-122.505000856090504, 37.738008875850475]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32232,8 +35002,13 @@ var json_1070I_sw_lines = {
                         [-122.505092096904391, 37.738118793526546]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32290,8 +35065,13 @@ var json_1070I_sw_lines = {
                         [-122.504971847673573, 37.738126286946859]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32348,8 +35128,13 @@ var json_1070I_sw_lines = {
                         [-122.504879643674414, 37.738132025278802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32406,8 +35191,13 @@ var json_1070I_sw_lines = {
                         [-122.504821358509986, 37.738127810829248]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32464,8 +35254,13 @@ var json_1070I_sw_lines = {
                         [-122.504772156881401, 37.738130321116664]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32522,8 +35317,13 @@ var json_1070I_sw_lines = {
                         [-122.505444969199957, 37.737552031356806]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32580,8 +35380,13 @@ var json_1070I_sw_lines = {
                         [-122.505449149553499, 37.737636560629376]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32638,8 +35443,13 @@ var json_1070I_sw_lines = {
                         [-122.505462549327476, 37.737907511497227]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32696,8 +35506,13 @@ var json_1070I_sw_lines = {
                         [-122.505455059079424, 37.737756054645509]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32754,8 +35569,13 @@ var json_1070I_sw_lines = {
                         [-122.50541416800634, 37.736941953101585]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32812,8 +35632,13 @@ var json_1070I_sw_lines = {
                         [-122.50542769994864, 37.737202835647615]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32870,8 +35695,13 @@ var json_1070I_sw_lines = {
                         [-122.50543099724581, 37.737269509309094]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32928,8 +35758,13 @@ var json_1070I_sw_lines = {
                         [-122.505435239028643, 37.737355281045311]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -32986,8 +35821,13 @@ var json_1070I_sw_lines = {
                         [-122.505387139039996, 37.736443696640464]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33044,8 +35884,13 @@ var json_1070I_sw_lines = {
                         [-122.505394698380087, 37.736583047110884]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33102,8 +35947,13 @@ var json_1070I_sw_lines = {
                         [-122.505398748417662, 37.736657706250213]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33160,8 +36010,13 @@ var json_1070I_sw_lines = {
                         [-122.505399484349184, 37.736671272539198]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33218,8 +36073,13 @@ var json_1070I_sw_lines = {
                         [-122.505458367086732, 37.73782294437472]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33276,8 +36136,13 @@ var json_1070I_sw_lines = {
                         [-122.50544799289699, 37.737613172345981]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33334,8 +36199,13 @@ var json_1070I_sw_lines = {
                         [-122.505445236575426, 37.737557437853503]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33392,8 +36262,13 @@ var json_1070I_sw_lines = {
                         [-122.505441019399683, 37.737472163922526]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33450,8 +36325,13 @@ var json_1070I_sw_lines = {
                         [-122.505438373168133, 37.737418655415325]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33508,8 +36388,13 @@ var json_1070I_sw_lines = {
                         [-122.505434908857112, 37.737348604756079]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33566,8 +36451,13 @@ var json_1070I_sw_lines = {
                         [-122.505431302987105, 37.737275691610016]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33624,8 +36514,13 @@ var json_1070I_sw_lines = {
                         [-122.505427290985764, 37.73719456612708]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33682,8 +36577,13 @@ var json_1070I_sw_lines = {
                         [-122.505424404610892, 37.737136201546889]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33740,8 +36640,13 @@ var json_1070I_sw_lines = {
                         [-122.505410800095561, 37.7368798686568]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33798,8 +36703,13 @@ var json_1070I_sw_lines = {
                         [-122.50540349094058, 37.736745130696015]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33856,8 +36766,13 @@ var json_1070I_sw_lines = {
                         [-122.505399421564348, 37.736670115152769]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33914,8 +36829,13 @@ var json_1070I_sw_lines = {
                         [-122.505395620333672, 37.736600042579894]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -33972,8 +36892,13 @@ var json_1070I_sw_lines = {
                         [-122.505392185486528, 37.736536723929945]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34030,8 +36955,13 @@ var json_1070I_sw_lines = {
                         [-122.505384209972306, 37.736389701518171]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34088,8 +37018,13 @@ var json_1070I_sw_lines = {
                         [-122.505381782027854, 37.73634494418971]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34146,8 +37081,13 @@ var json_1070I_sw_lines = {
                         [-122.505698961418119, 37.741535215435292]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34204,8 +37144,13 @@ var json_1070I_sw_lines = {
                         [-122.505669334266685, 37.741101184645046]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34262,8 +37207,13 @@ var json_1070I_sw_lines = {
                         [-122.505664838946103, 37.741035329034816]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34320,8 +37270,13 @@ var json_1070I_sw_lines = {
                         [-122.505650719572159, 37.740828482452763]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34378,8 +37333,13 @@ var json_1070I_sw_lines = {
                         [-122.505646166107084, 37.740757217597057]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34436,8 +37396,13 @@ var json_1070I_sw_lines = {
                         [-122.505687264340665, 37.741363856309889]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34494,8 +37459,13 @@ var json_1070I_sw_lines = {
                         [-122.505646001438066, 37.740754549469713]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34552,8 +37522,13 @@ var json_1070I_sw_lines = {
                         [-122.505700861364645, 37.741563049117929]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34610,8 +37585,13 @@ var json_1070I_sw_lines = {
                         [-122.505697333365205, 37.741511364909627]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34668,8 +37648,13 @@ var json_1070I_sw_lines = {
                         [-122.505697158964324, 37.741508809984317]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34726,8 +37711,13 @@ var json_1070I_sw_lines = {
                         [-122.505692491438907, 37.741440431980962]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34784,8 +37774,13 @@ var json_1070I_sw_lines = {
                         [-122.505692981089112, 37.74144760522897]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34842,8 +37837,13 @@ var json_1070I_sw_lines = {
                         [-122.505687893324279, 37.74137307076532]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34900,8 +37900,13 @@ var json_1070I_sw_lines = {
                         [-122.505682686158707, 37.741296787033498]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -34958,8 +37963,13 @@ var json_1070I_sw_lines = {
                         [-122.505678604384386, 37.741236989959482]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35016,8 +38026,13 @@ var json_1070I_sw_lines = {
                         [-122.505678292596272, 37.741232422332125]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35074,8 +38089,13 @@ var json_1070I_sw_lines = {
                         [-122.50567393738784, 37.741168619452665]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35132,8 +38152,13 @@ var json_1070I_sw_lines = {
                         [-122.505668925560173, 37.741095197172996]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35190,8 +38215,13 @@ var json_1070I_sw_lines = {
                         [-122.505659614735933, 37.740958795254443]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35248,8 +38278,13 @@ var json_1070I_sw_lines = {
                         [-122.505654983971894, 37.740890955291469]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35306,8 +38341,13 @@ var json_1070I_sw_lines = {
                         [-122.505655572025191, 37.740899570182663]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35364,8 +38404,13 @@ var json_1070I_sw_lines = {
                         [-122.50564118167901, 37.740676455009847]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35422,8 +38467,13 @@ var json_1070I_sw_lines = {
                         [-122.50563734381268, 37.740614270079575]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35480,8 +38530,13 @@ var json_1070I_sw_lines = {
                         [-122.505633369280787, 37.740549870702331]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35538,8 +38593,13 @@ var json_1070I_sw_lines = {
                         [-122.505628795532573, 37.740475762148314]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35596,8 +38656,13 @@ var json_1070I_sw_lines = {
                         [-122.5056243037439, 37.74040298151445]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35654,8 +38719,13 @@ var json_1070I_sw_lines = {
                         [-122.505620202688547, 37.740336531886165]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35712,8 +38782,13 @@ var json_1070I_sw_lines = {
                         [-122.505616353767607, 37.740274167551256]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35770,8 +38845,13 @@ var json_1070I_sw_lines = {
                         [-122.505614798752362, 37.740248971515769]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35828,8 +38908,13 @@ var json_1070I_sw_lines = {
                         [-122.505610204176534, 37.740174525188614]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35886,8 +38971,13 @@ var json_1070I_sw_lines = {
                         [-122.505605773986517, 37.740102742348675]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -35944,8 +39034,13 @@ var json_1070I_sw_lines = {
                         [-122.505641590447226, 37.740683078276568]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36002,8 +39097,13 @@ var json_1070I_sw_lines = {
                         [-122.505637390065957, 37.740615019521179]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36060,8 +39160,13 @@ var json_1070I_sw_lines = {
                         [-122.505633180559755, 37.74054681285206]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36118,8 +39223,13 @@ var json_1070I_sw_lines = {
                         [-122.505624445236833, 37.740405274131319]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36176,8 +39286,13 @@ var json_1070I_sw_lines = {
                         [-122.505620442312463, 37.740340414527431]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36234,8 +39349,13 @@ var json_1070I_sw_lines = {
                         [-122.505616238679892, 37.740272302776233]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36292,8 +39412,13 @@ var json_1070I_sw_lines = {
                         [-122.505608193760182, 37.740141950207331]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36350,8 +39475,13 @@ var json_1070I_sw_lines = {
                         [-122.505683326659451, 37.741306170220362]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36408,8 +39538,13 @@ var json_1070I_sw_lines = {
                         [-122.505567791412403, 37.739613765576962]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36466,8 +39601,13 @@ var json_1070I_sw_lines = {
                         [-122.505561046311215, 37.739540908127083]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36524,8 +39664,13 @@ var json_1070I_sw_lines = {
                         [-122.505554610788266, 37.739471394531378]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36582,8 +39727,13 @@ var json_1070I_sw_lines = {
                         [-122.505549339927526, 37.739414461038741]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36640,8 +39790,13 @@ var json_1070I_sw_lines = {
                         [-122.505542425200744, 37.739339771170286]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36698,8 +39853,13 @@ var json_1070I_sw_lines = {
                         [-122.505536335016572, 37.739273987589698]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36756,8 +39916,13 @@ var json_1070I_sw_lines = {
                         [-122.505529254128774, 37.739197502776378]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36814,8 +39979,13 @@ var json_1070I_sw_lines = {
                         [-122.505524266447551, 37.739143627864813]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36872,8 +40042,13 @@ var json_1070I_sw_lines = {
                         [-122.505517653889925, 37.739072201636183]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36930,8 +40105,13 @@ var json_1070I_sw_lines = {
                         [-122.50551177796774, 37.7390087321943]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -36988,8 +40168,13 @@ var json_1070I_sw_lines = {
                         [-122.505506013985539, 37.738890112437034]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37046,8 +40231,13 @@ var json_1070I_sw_lines = {
                         [-122.505503895810492, 37.738819463453126]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37104,8 +40294,13 @@ var json_1070I_sw_lines = {
                         [-122.505501707042868, 37.73874645987491]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37162,8 +40357,13 @@ var json_1070I_sw_lines = {
                         [-122.505499579686244, 37.738675504514823]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37220,8 +40420,13 @@ var json_1070I_sw_lines = {
                         [-122.505497518049552, 37.738606741096021]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37278,8 +40483,13 @@ var json_1070I_sw_lines = {
                         [-122.505493538847091, 37.738474019390885]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37336,8 +40546,13 @@ var json_1070I_sw_lines = {
                         [-122.505491653265807, 37.738411127920784]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37394,8 +40609,13 @@ var json_1070I_sw_lines = {
                         [-122.505491425748048, 37.738403539315151]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37452,8 +40672,13 @@ var json_1070I_sw_lines = {
                         [-122.505489636612694, 37.738343864635695]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37510,8 +40735,13 @@ var json_1070I_sw_lines = {
                         [-122.505487617525588, 37.738276520106446]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37568,8 +40798,13 @@ var json_1070I_sw_lines = {
                         [-122.505485473628781, 37.738205012614642]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37626,8 +40861,13 @@ var json_1070I_sw_lines = {
                         [-122.505484040164575, 37.738157200838508]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37684,8 +40924,13 @@ var json_1070I_sw_lines = {
                         [-122.505574234240541, 37.73968335794649]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37742,8 +40987,13 @@ var json_1070I_sw_lines = {
                         [-122.505566470978479, 37.739599502868842]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37800,8 +41050,13 @@ var json_1070I_sw_lines = {
                         [-122.505562116278554, 37.739552465422193]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37858,8 +41113,13 @@ var json_1070I_sw_lines = {
                         [-122.505556132730248, 37.739487833863038]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37916,8 +41176,13 @@ var json_1070I_sw_lines = {
                         [-122.505548884217902, 37.739409538664027]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -37974,8 +41239,13 @@ var json_1070I_sw_lines = {
                         [-122.505541702378267, 37.739331963552317]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38032,8 +41302,13 @@ var json_1070I_sw_lines = {
                         [-122.505535495348539, 37.739264917847905]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38090,8 +41365,13 @@ var json_1070I_sw_lines = {
                         [-122.505529428600141, 37.739199387344428]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38148,8 +41428,13 @@ var json_1070I_sw_lines = {
                         [-122.505524048941183, 37.739141278448081]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38206,8 +41491,13 @@ var json_1070I_sw_lines = {
                         [-122.505517299926453, 37.73906837826091]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38264,8 +41554,13 @@ var json_1070I_sw_lines = {
                         [-122.505511368680303, 37.73900431122739]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38322,8 +41617,13 @@ var json_1070I_sw_lines = {
                         [-122.505506261088868, 37.738898354243624]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38380,8 +41680,13 @@ var json_1070I_sw_lines = {
                         [-122.505504208330123, 37.738829887144604]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38438,8 +41743,13 @@ var json_1070I_sw_lines = {
                         [-122.505500016589224, 37.738690076880928]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38496,8 +41806,13 @@ var json_1070I_sw_lines = {
                         [-122.505497786235509, 37.738615686119857]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38554,8 +41869,13 @@ var json_1070I_sw_lines = {
                         [-122.505495856688825, 37.738551328355626]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38612,8 +41932,13 @@ var json_1070I_sw_lines = {
                         [-122.505493648064558, 37.738477662216759]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38670,8 +41995,13 @@ var json_1070I_sw_lines = {
                         [-122.505491719536479, 37.738413338305627]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38728,8 +42058,13 @@ var json_1070I_sw_lines = {
                         [-122.505487990498324, 37.738288960224942]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38786,8 +42121,13 @@ var json_1070I_sw_lines = {
                         [-122.505487517690241, 37.738273190201845]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38844,8 +42184,13 @@ var json_1070I_sw_lines = {
                         [-122.505485589389139, 37.738208873685217]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38902,8 +42247,13 @@ var json_1070I_sw_lines = {
                         [-122.505489718469832, 37.738346594894054]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -38960,8 +42310,13 @@ var json_1070I_sw_lines = {
                         [-122.502651704768994, 37.736262406819307]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39018,8 +42373,13 @@ var json_1070I_sw_lines = {
                         [-122.50255867101211, 37.736266423920426]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39076,8 +42436,13 @@ var json_1070I_sw_lines = {
                         [-122.503186194280076, 37.736363210345303]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39134,8 +42499,13 @@ var json_1070I_sw_lines = {
                         [-122.503186756977954, 37.736370877431838]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39192,8 +42562,13 @@ var json_1070I_sw_lines = {
                         [-122.503166932788943, 37.736099277014951]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39250,8 +42625,13 @@ var json_1070I_sw_lines = {
                         [-122.503162893826286, 37.736043655926075]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39308,8 +42688,13 @@ var json_1070I_sw_lines = {
                         [-122.503162324586825, 37.736035816850595]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39366,8 +42751,13 @@ var json_1070I_sw_lines = {
                         [-122.503650103506928, 37.736205833469171]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39424,8 +42814,13 @@ var json_1070I_sw_lines = {
                         [-122.503684324438709, 37.736203394071062]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39482,8 +42877,13 @@ var json_1070I_sw_lines = {
                         [-122.50376589055476, 37.736197579727893]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39540,8 +42940,13 @@ var json_1070I_sw_lines = {
                         [-122.503950497498579, 37.736184420240726]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39598,8 +43003,13 @@ var json_1070I_sw_lines = {
                         [-122.503976935391549, 37.736182535646662]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39656,8 +43066,13 @@ var json_1070I_sw_lines = {
                         [-122.504874427491075, 37.73627117304855]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39714,8 +43129,13 @@ var json_1070I_sw_lines = {
                         [-122.504900043895773, 37.736156941102976]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39772,8 +43192,13 @@ var json_1070I_sw_lines = {
                         [-122.504854667186166, 37.736234040600507]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39830,8 +43255,13 @@ var json_1070I_sw_lines = {
                         [-122.504772136188123, 37.736245295031694]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39888,8 +43318,13 @@ var json_1070I_sw_lines = {
                         [-122.504717319470771, 37.736240528027615]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -39946,8 +43381,13 @@ var json_1070I_sw_lines = {
                         [-122.504672178957819, 37.73624353876707]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40004,8 +43444,13 @@ var json_1070I_sw_lines = {
                         [-122.50422718187005, 37.736403796400673]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40062,8 +43507,13 @@ var json_1070I_sw_lines = {
                         [-122.503201791425127, 37.736575730245669]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40120,8 +43570,13 @@ var json_1070I_sw_lines = {
                         [-122.50320219727594, 37.736581260183655]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40178,8 +43633,13 @@ var json_1070I_sw_lines = {
                         [-122.503196972632708, 37.73651007154546]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40236,8 +43696,13 @@ var json_1070I_sw_lines = {
                         [-122.503220844041834, 37.736835332069163]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40294,8 +43759,13 @@ var json_1070I_sw_lines = {
                         [-122.503226850472203, 37.736917172621794]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40352,8 +43822,13 @@ var json_1070I_sw_lines = {
                         [-122.503231640421902, 37.736982437964926]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40410,8 +43885,13 @@ var json_1070I_sw_lines = {
                         [-122.503241870751552, 37.737121830880739]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40468,8 +43948,13 @@ var json_1070I_sw_lines = {
                         [-122.503247069676945, 37.73719355166083]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40526,8 +44011,13 @@ var json_1070I_sw_lines = {
                         [-122.503242022916751, 37.737123904199265]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40584,8 +44074,13 @@ var json_1070I_sw_lines = {
                         [-122.503241678908864, 37.737119216939114]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40642,8 +44137,13 @@ var json_1070I_sw_lines = {
                         [-122.503236515390213, 37.737048861668555]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40700,8 +44200,13 @@ var json_1070I_sw_lines = {
                         [-122.503206115101321, 37.736634642664846]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40758,8 +44263,13 @@ var json_1070I_sw_lines = {
                         [-122.503899173092691, 37.738053734481966]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40816,8 +44326,13 @@ var json_1070I_sw_lines = {
                         [-122.5038325450016, 37.738056321039309]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40874,8 +44389,13 @@ var json_1070I_sw_lines = {
                         [-122.50393425891977, 37.738052372421237]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40932,8 +44452,13 @@ var json_1070I_sw_lines = {
                         [-122.503897422918513, 37.738053802425163]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -40990,8 +44515,13 @@ var json_1070I_sw_lines = {
                         [-122.50385582117697, 37.738055417439035]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41048,8 +44578,13 @@ var json_1070I_sw_lines = {
                         [-122.503766417967952, 37.738058888145098]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41106,8 +44641,13 @@ var json_1070I_sw_lines = {
                         [-122.503685397361508, 37.738062033431511]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41164,8 +44704,13 @@ var json_1070I_sw_lines = {
                         [-122.505233365669554, 37.739873101048744]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41222,8 +44767,13 @@ var json_1070I_sw_lines = {
                         [-122.505156538717998, 37.739874487125199]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41280,8 +44830,13 @@ var json_1070I_sw_lines = {
                         [-122.505058310491108, 37.739876259313547]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41338,8 +44893,13 @@ var json_1070I_sw_lines = {
                         [-122.505068523685836, 37.739876075051811]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41396,8 +44956,13 @@ var json_1070I_sw_lines = {
                         [-122.504971461125592, 37.739877826209707]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41454,8 +45019,13 @@ var json_1070I_sw_lines = {
                         [-122.505427905120868, 37.739869591257495]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41512,15 +45082,20 @@ var json_1070I_sw_lines = {
                         [-122.505451345256446, 37.739869168361352]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
             "properties": {
                 "id_a": "L-368176",
                 "id_b": "none",
-                "location": "none",
+                "location": "2800-2898 SLOAT BLVD - EAST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41553,7 +45128,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object( this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -41570,25 +45145,31 @@ var json_1070I_sw_lines = {
                         [-122.504429462065048, 37.735585589411571]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
             "properties": {
                 "id_a": "L-368177",
                 "id_b": "none",
-                "location": "none",
+                "location": "2800-2898 SLOAT BLVD - East",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP02': 150
+                    },
+                    'SW-12': {
+                        'PP02': 3150
+                    },                    
+                    'SW-28': {
+                        'PP02': 50
+                    } 
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -41628,8 +45209,13 @@ var json_1070I_sw_lines = {
                         [-122.504425114455032, 37.735585577910562]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41686,15 +45272,20 @@ var json_1070I_sw_lines = {
                         [-122.505339245879853, 37.735839370105118]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
             "properties": {
                 "id_a": "L-368182",
                 "id_b": "2515001",
-                "location": "none",
+                "location": "2800-2898 SLOAT BLVD - WEST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41722,7 +45313,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object( this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -41739,8 +45330,13 @@ var json_1070I_sw_lines = {
                         [-122.504904668234758, 37.735586846504802]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41780,7 +45376,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object( this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -41797,8 +45393,13 @@ var json_1070I_sw_lines = {
                         [-122.503364772094599, 37.735592638174396]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41855,8 +45456,13 @@ var json_1070I_sw_lines = {
                         [-122.503152927631149, 37.735906409955021]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41913,8 +45519,13 @@ var json_1070I_sw_lines = {
                         [-122.503186608857547, 37.736368859204859]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -41971,8 +45582,13 @@ var json_1070I_sw_lines = {
                         [-122.504323544856888, 37.737891253467673]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42029,8 +45645,13 @@ var json_1070I_sw_lines = {
                         [-122.504323765483079, 37.737895006984026]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42087,8 +45708,13 @@ var json_1070I_sw_lines = {
                         [-122.504323754189897, 37.737894814852574]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42145,8 +45771,13 @@ var json_1070I_sw_lines = {
                         [-122.504320580278616, 37.737840817042489]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42203,8 +45834,13 @@ var json_1070I_sw_lines = {
                         [-122.504271911657227, 37.737834380640393]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42261,8 +45897,13 @@ var json_1070I_sw_lines = {
                         [-122.504280891518505, 37.737763621556255]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42319,8 +45960,13 @@ var json_1070I_sw_lines = {
                         [-122.504275335633167, 37.737692721907926]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42377,8 +46023,13 @@ var json_1070I_sw_lines = {
                         [-122.504269812049557, 37.737629115247962]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42435,8 +46086,13 @@ var json_1070I_sw_lines = {
                         [-122.504315871119957, 37.737760699968909]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42493,8 +46149,13 @@ var json_1070I_sw_lines = {
                         [-122.504312129150989, 37.737697037663693]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42551,8 +46212,13 @@ var json_1070I_sw_lines = {
                         [-122.504307939539387, 37.737625759526878]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42609,8 +46275,13 @@ var json_1070I_sw_lines = {
                         [-122.504265548230563, 37.737551292808341]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42667,8 +46338,13 @@ var json_1070I_sw_lines = {
                         [-122.504303980983522, 37.737558412293531]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42725,8 +46401,13 @@ var json_1070I_sw_lines = {
                         [-122.504302678976998, 37.737536261136711]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42783,8 +46464,13 @@ var json_1070I_sw_lines = {
                         [-122.504295975653946, 37.737422216781972]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42841,8 +46527,13 @@ var json_1070I_sw_lines = {
                         [-122.504254888683022, 37.737381431926053]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42899,8 +46590,13 @@ var json_1070I_sw_lines = {
                         [-122.504248396049505, 37.737283824646781]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -42957,8 +46653,13 @@ var json_1070I_sw_lines = {
                         [-122.504246587156587, 37.737236310980848]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43015,8 +46716,13 @@ var json_1070I_sw_lines = {
                         [-122.504291601283796, 37.737347795057993]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43073,8 +46779,13 @@ var json_1070I_sw_lines = {
                         [-122.50428763452696, 37.737280308047708]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43131,8 +46842,13 @@ var json_1070I_sw_lines = {
                         [-122.504280759359176, 37.737163339672826]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43189,8 +46905,13 @@ var json_1070I_sw_lines = {
                         [-122.504275116832304, 37.737078464624645]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43247,8 +46968,13 @@ var json_1070I_sw_lines = {
                         [-122.504232425869944, 37.737006919454693]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43305,8 +47031,13 @@ var json_1070I_sw_lines = {
                         [-122.504227257604512, 37.736935438640366]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43363,8 +47094,13 @@ var json_1070I_sw_lines = {
                         [-122.504224558621459, 37.73687994332267]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43421,8 +47157,13 @@ var json_1070I_sw_lines = {
                         [-122.504215778950751, 37.736744398937653]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43479,8 +47220,13 @@ var json_1070I_sw_lines = {
                         [-122.504216825365006, 37.736807311908436]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43537,8 +47283,13 @@ var json_1070I_sw_lines = {
                         [-122.504196934986879, 37.736607518805187]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43595,8 +47346,13 @@ var json_1070I_sw_lines = {
                         [-122.504265091299871, 37.736937359187699]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43653,8 +47409,13 @@ var json_1070I_sw_lines = {
                         [-122.504260138695685, 37.736867653127121]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43711,8 +47472,13 @@ var json_1070I_sw_lines = {
                         [-122.504255063105347, 37.736796216014071]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43769,8 +47535,13 @@ var json_1070I_sw_lines = {
                         [-122.504250363189726, 37.736730066326388]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43827,8 +47598,13 @@ var json_1070I_sw_lines = {
                         [-122.504244962860639, 37.736654058488313]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43885,8 +47661,13 @@ var json_1070I_sw_lines = {
                         [-122.504240815068599, 37.73659567964016]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -43943,8 +47724,13 @@ var json_1070I_sw_lines = {
                         [-122.504236002640695, 37.73652794619705]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44001,8 +47787,13 @@ var json_1070I_sw_lines = {
                         [-122.504233858390705, 37.736497766517353]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44059,8 +47850,13 @@ var json_1070I_sw_lines = {
                         [-122.50422150339628, 37.736323873414264]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44117,8 +47913,13 @@ var json_1070I_sw_lines = {
                         [-122.504489976363885, 37.739674980711911]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44175,8 +47976,13 @@ var json_1070I_sw_lines = {
                         [-122.504495061596359, 37.739747618580786]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44233,8 +48039,13 @@ var json_1070I_sw_lines = {
                         [-122.504181225651507, 37.7357570379666]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44291,8 +48102,13 @@ var json_1070I_sw_lines = {
                         [-122.505461445648635, 37.737885194536155]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44349,8 +48165,13 @@ var json_1070I_sw_lines = {
                         [-122.505431635734809, 37.736517121937041]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44407,8 +48228,13 @@ var json_1070I_sw_lines = {
                         [-122.504411777841469, 37.737219042565727]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44465,8 +48291,13 @@ var json_1070I_sw_lines = {
                         [-122.503398832822938, 37.738332105022081]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44523,8 +48354,13 @@ var json_1070I_sw_lines = {
                         [-122.504494746933545, 37.739743123913804]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
@@ -44581,8 +48417,13 @@ var json_1070I_sw_lines = {
                         [-122.505376721805632, 37.736251662714153]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-        },
+       },
+
+//####################
 
         {
             "type": "Feature",
