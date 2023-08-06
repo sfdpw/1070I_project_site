@@ -28,7 +28,7 @@ if ( feature.properties.dwg_type != 'U' ) {
                                 </div>\
                                 </div>\
 \
-                                <div class="card">\
+                     <div class="card">\
                                 <div class="card-header p-0" id="PLAN_TCP">\
                                 <h2 class="mb-0">\
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_03" aria-expanded="false" aria-controls="PLAN_collapse_03"><strong>Traffic Control Plan(s)</strong></button>\
@@ -49,6 +49,22 @@ if ( feature.properties.dwg_type != 'U' ) {
                                 <div class="card-body">' + feature.properties.rlvnt + '</div>\
                                 </div>\
                                 </div>' }
+                                
+if ( feature.properties.dwg_type == 'SW' ) {                             
+
+    popupContent += '<div class="card">\
+                                <div class="card-header p-0" id="PLAN_U">\
+                                <h2 class="mb-0">\
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_05" aria-expanded="false" aria-controls="PLAN_collapse_05"><strong>Utility Plan(s)</strong></button>\
+                                </h2>\
+                                </div>\
+                                <div id="PLAN_collapse_05" class="collapse" aria-labelledby="PLAN_U" data-parent="#PLAN_popup">\
+                                <div class="card-body">' + popup_u_plan_entry_creator('_twin_popup', 'U', feature.properties.dwg_no, feature.properties.specifier) + '</div>\
+                                </div>\
+                                </div>'
+                                
+                                }
+                                
                                 
  popupContent += '</div>';                               
                                 
