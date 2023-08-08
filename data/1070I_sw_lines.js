@@ -579,7 +579,7 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "42",
+                        "submittal_no": "42.0",
                         "video_no": "1",
                         "response": "MCN - Spot Replace then Proceed with Lining",
                         get response_date() {
@@ -5197,7 +5197,7 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "39",
+                        "submittal_no": "39.0",
                         "video_no": "1",
                         "response": "MCN - Spot Replace then Proceed with Lining",
                         get response_date() {
@@ -6011,7 +6011,7 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "43",
+                        "submittal_no": "43.0",
                         "video_no": "1",
                         "response": "MCN - Replace",
                         get response_date() {
@@ -10601,7 +10601,7 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "3",
                         "response": "NET",
                         get response_date() {
@@ -10649,7 +10649,7 @@ var json_1070I_sw_lines = {
                         'PP02': 150
                     },
                     'SW-12': {
-                        'PP02': 3150
+                        'PP02': 3375
                     },                    
                     'SW-28': {
                         'PP02': 50
@@ -10665,9 +10665,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "53.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10776,7 +10776,7 @@ var json_1070I_sw_lines = {
                         'PP02': 150
                     },
                     'SW-12': {
-                        'PP02': 3037.50
+                        'PP02': 3375
                     },                    
                     'SW-28': {
                         'PP02': 50
@@ -10792,9 +10792,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "53.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -29501,7 +29501,7 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "1",
                         "response": "NET",
                         get response_date() {
@@ -29562,7 +29562,7 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "2",
                         "response": "NET",
                         get response_date() {
@@ -29623,7 +29623,7 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "4",
                         "response": "NET",
                         get response_date() {
@@ -29684,7 +29684,7 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "5",
                         "response": "NET",
                         get response_date() {
@@ -29745,7 +29745,7 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "49",
+                        "submittal_no": "49.0",
                         "video_no": "6",
                         "response": "NET",
                         get response_date() {
@@ -45165,7 +45165,7 @@ var json_1070I_sw_lines = {
                         'PP02': 150
                     },
                     'SW-12': {
-                        'PP02': 3150
+                        'PP02': 3375
                     },                    
                     'SW-28': {
                         'PP02': 50
@@ -45181,9 +45181,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "53.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
