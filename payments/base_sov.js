@@ -203,7 +203,7 @@ var base_sov = {
 
     'SW-26': {
         'description': 'TELEVISION INSPECTION OF EXISTING 6-INCH OR 8- INCH DIAMETER SIDE SEWERS AND 10-INCH DIAMETER CULVERTS WITHIN LIMITS SHOWN ON SW-DRAWINGS**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 269,
         'unit_price': 50

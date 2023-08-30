@@ -20475,20 +20475,15 @@ var json_1070I_sw_lines = {
                 "location": "3532 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "87",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20538,20 +20533,15 @@ var json_1070I_sw_lines = {
                 "location": "3526 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "88",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20601,20 +20591,15 @@ var json_1070I_sw_lines = {
                 "location": "3520 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "90",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -25389,20 +25374,15 @@ var json_1070I_sw_lines = {
                 "location": "3538 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "89",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34955,20 +34935,15 @@ var json_1070I_sw_lines = {
                 "location": "3538 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "99",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35018,20 +34993,15 @@ var json_1070I_sw_lines = {
                 "location": "3532 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "100",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35081,20 +35051,15 @@ var json_1070I_sw_lines = {
                 "location": "3526 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "101",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35144,20 +35109,15 @@ var json_1070I_sw_lines = {
                 "location": "3520 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "98",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35207,20 +35167,15 @@ var json_1070I_sw_lines = {
                 "location": "3514 VICENTE ST",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "57.0",
+                        "video_no": "91",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }

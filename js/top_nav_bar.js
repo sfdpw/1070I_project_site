@@ -77,6 +77,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-10.html"><b>SW-10</b> - Side Sewer Connection</a>\
 	               </li>\
 	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre Con TVI of (E) Side Sewers and Culverts</a>\
+	               </li>\
+	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-28.html"><b>SW-28</b> - Post-Con TVI of (N) Side Sewers and Culverts</a>\
 	               </li>\
 	             </ul>\
@@ -99,7 +102,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html">SW-26 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-24.html">SW-24 - </a>\
 	               </li>\
 	             </ul>\
 	           </li>\
