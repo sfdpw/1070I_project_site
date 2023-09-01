@@ -1808,13 +1808,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd and 46th Ave - NWC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -1827,9 +1822,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "105",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -1871,13 +1866,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd and 46th Ave - NEC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -1890,9 +1880,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "108",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10709,13 +10699,8 @@ var json_1070I_sw_lines = {
                 "location": "2700 SLOAT BLVD",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -10728,9 +10713,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "106",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -29023,13 +29008,8 @@ var json_1070I_sw_lines = {
                 "location": "2683 47TH AVE",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -29042,9 +29022,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "103",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -29086,13 +29066,8 @@ var json_1070I_sw_lines = {
                 "location": "2679 47TH AVE",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -29105,9 +29080,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "102",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -29212,13 +29187,8 @@ var json_1070I_sw_lines = {
                 "location": "2671 47TH AVE",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -29231,9 +29201,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "109",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -31339,7 +31309,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "L-348091",
+                "id_a": "unknown_side_sewer_001",
                 "id_b": "2514007",
                 "location": "2700 SLOAT BLVD",
                 "scope": "Improve (E) side sewer as directed",
@@ -31374,7 +31344,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object( this, '(E) Not Found' )
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -45180,13 +45150,8 @@ var json_1070I_sw_lines = {
                 "location": "2908 SLOAT BLVD",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -45199,9 +45164,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "104",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47942,18 +47907,13 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_side_sewer_00",
+                "id_a": "L-348091",
                 "id_b": "-",
                 "location": "2700 SLOAT BLVD",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP03': 50
                     }
                 },
                 "submittals": {
@@ -47966,9 +47926,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "56.0",
+                        "video_no": "107",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
