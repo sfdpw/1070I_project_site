@@ -18,7 +18,7 @@ document.getElementById("map_master_menu").innerHTML +=
               <table>\
                 <tr>\
                   <td>\
-                    <input type="checkbox" id="checkbox_sw" onchange="toggle_sw()" checked>\
+                    <input type="checkbox" id="checkbox_sw" onchange="toggle_sw()">\
                   </td>\
                   <td>\
                     <img src="legend/1070I_plan_boundary_sw.png" width="13" height="13"\

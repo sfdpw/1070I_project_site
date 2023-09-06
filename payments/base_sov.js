@@ -43,7 +43,7 @@ var base_sov = {
 
     'SW-06': {
         'description': '15-INCH DIAMETER VCP SEWER ON CRUSHED ROCK BEDDING WRAPPED IN GEOTEXTILE FABRIC',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 830,
         'unit_price': 450
@@ -51,7 +51,7 @@ var base_sov = {
 
     'SW-07': {
         'description': '18-INCH DIAMETER VCP SEWER ON CRUSHED ROCK BEDDING WRAPPED IN GEOTEXTILE FABRIC',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 232,
         'unit_price': 500
@@ -83,7 +83,7 @@ var base_sov = {
 
     'SW-11': {
         'description': '6-INCH OR 8-INCH DIAMETER SIDE SEWER CONNECTION TO RCP MAIN SEWER**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 75,
         'unit_price': 150
@@ -91,7 +91,7 @@ var base_sov = {
 
     'SW-12': {
         'description': '6-INCH OR 8-INCH DIAMETER SIDE SEWER REPAIR, REPLACEMENT, OR CONSTRUCTION LOCATED WITHIN LIMITS SHOWN ON SWDRAWINGS**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 7387,
         'unit_price': 225

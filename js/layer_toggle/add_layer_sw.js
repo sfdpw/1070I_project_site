@@ -30,8 +30,8 @@ layer.bindPopup(popupContent, {
             
         });
         
-        bounds_group.addLayer(layer_1070I_sw_dwgs);
-        map.addLayer(layer_1070I_sw_dwgs);
+        //bounds_group.addLayer(layer_1070I_sw_dwgs);
+        //map.addLayer(layer_1070I_sw_dwgs);
 
 function toggle_sw() {
 
@@ -47,7 +47,7 @@ function toggle_sw() {
       style: style_1070I_project_dwgs,
     });
     
-        //bounds_group.addLayer(layer_1070I_sw_dwgs);
+        bounds_group.addLayer(layer_1070I_sw_dwgs);
         map.addLayer(layer_1070I_sw_dwgs);
 
   } else {

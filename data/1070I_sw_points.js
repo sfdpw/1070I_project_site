@@ -213,13 +213,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP03': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -417,13 +412,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP03': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -3094,15 +3084,10 @@ var json_1070I_sw_points = {
                 "id_a": "N-22471",
                 "id_b": "23995",
                 "location": "Sloat Blvd and 45th Ave",
-                "scope": "Remove (E) manhole",
+                "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP03': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -4953,84 +4938,11 @@ var json_1070I_sw_points = {
             "properties": {
                 "id_a": "N-xxxx1",
                 "id_b": "none",
-                "location": "45th Ave - North of Sloat Blvd",
-                "scope": "Install (N) manhole",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
-                "rlvnt": "none",
-                "sw_type": "mh",
-                get status() {
-                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
-                }
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.503138124018434, 37.73570254671084]
-            },
-            get asset_coordinate() {
-                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
-            }
-
-        },
-
-        // ######################################
-
-      {
-            "type": "Feature",
-            "properties": {
-                "id_a": "N-xxxx2",
-                "id_b": "none",
-                "location": "Sloat Blvd and 45th Ave - NWC",
-                "scope": "(E) to remain",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
-                "rlvnt": "none",
-                "sw_type": "cb",
-                "status": "No Construction"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-122.503206298868164, 37.735712207873526]
-            },
-            get asset_coordinate() {
-                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
-            }
-
-        },
-
-        // ######################################
-
-      {
-            "type": "Feature",
-            "properties": {
-                "id_a": "N-xxxx1",
-                "id_b": "none",
                 "location": "45th Ave, north of Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP03': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -5075,8 +4987,129 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503206298868164, 37.735712207873526]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
-        }
+
+        },
+
+        // ######################################
+
+      {
+            "type": "Feature",
+            "properties": {
+                "id_a": "N-xxxx2",
+                "id_b": "none",
+                "location": "Sloat Blvd and 45th Ave - NWC",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cb",
+                "status": "No Construction"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.503206298868164, 37.735712207873526]
+            }
+        },
+        
+        // ######################################
+        	
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "N-xxxx3",
+		"id_b": "none",
+		"location": "46th Ave, north of Sloat Blvd",
+		"scope": "Install (N) manhole",
+		"pp_history": {
+		    'SW-23': {
+			'PP03': 8500
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "mh",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
+	    },
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [-122.504202939817816, 37.73565985062546]
+	    }
+	},
+
+        // ######################################
+
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "N-xxxx4",
+		"id_b": "none",
+		"location": "Wawona St and 46th Ave",
+		"scope": "Install (N) manhole",
+		"pp_history": {
+		    'SW-23': {
+			'PP03': 8500
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "mh",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
+	    },
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [-122.50424528882742, 37.73613908944386]
+	    }
+	},
+	
+        // ######################################
+	
+	{
+	    "type": "Feature",
+	    "properties": {
+		"id_a": "N-390666",
+		"id_b": "297266",
+		"location": "Sloat Blvd and 45th Ave - East Median",
+		"scope": "(E) to remain",
+		"pp_history": {
+		    'SW-0': {
+		        'PP0': {
+		            'SFPUC-SW': {
+		                'QTY': 0,
+		                'UNIT': ''
+		            }
+		        }
+		    }
+		},
+		"rlvnt": "none",
+		"sw_type": "cb",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                }
+	    },
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [-122.502929249078136, 37.735463003631864]
+	    }
+	}
+	
+	        
+        
+        
+        
 
     ]
 }

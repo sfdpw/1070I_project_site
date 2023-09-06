@@ -359,7 +359,7 @@ function qty_formatter_with_dec(qty_input, row)
 function linked_bid_item_string_geneator ( bid_item ) {
 
    return '<a data-toogle="tooltip" title="'.concat(base_sov[bid_item].description,
-                       '\"', " href=\"..\\qty\\qty_tracking_",
+                       '\"', " href=\"qty\\qty_tracking_",
                         bid_item, '.html\" target=\"_blank\">', bid_item, '</a>');
 
 }

@@ -74,7 +74,13 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-09.html"><b>SW-09</b> - (N) Culvert</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-10.html"><b>SW-10</b> - Side Sewer Connection</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-10.html"><b>SW-10</b> - Side Sewer Connection to VCP Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-11.html"><b>SW-11</b> - Side Sewer Connection to RCP Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-12.html"><b>SW-12</b> - Side Sewer Replacement</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre Con TVI of (E) Side Sewers and Culverts</a>\
@@ -89,6 +95,12 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) 12\" VCP Main </a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-06.html"><b>SW-06</b> - (N) 15\" VCP Main </a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-07.html"><b>SW-07</b> - (N) 18\" VCP Main </a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-08.html"><b>SW-08</b> - (N) 21\" VCP Main </a>\
