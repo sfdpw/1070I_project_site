@@ -1431,7 +1431,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 18in VCP main",
                 "pp_history": {
                     'SW-07': {
-                        'PP03': 194*500
+                        'PP03': 192*500
                     }
                 },
                 "submittals": {
