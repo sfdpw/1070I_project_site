@@ -10478,7 +10478,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-147006",
                 "id_b": "2449001",
-                "location": "2601 47TH AVE",
+                "location": "2601 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -10918,7 +10918,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194949",
                 "id_b": "2513026",
-                "location": "2700 45TH AVE",
+                "location": "2700 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -10981,7 +10981,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194950",
                 "id_b": "2513005",
-                "location": "2750 45TH AVE",
+                "location": "2750 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11044,7 +11044,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196937",
                 "id_b": "2452014",
-                "location": "2686 45TH AVE",
+                "location": "2686 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11359,7 +11359,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196997",
                 "id_b": "2451001",
-                "location": "2601 45TH AVE",
+                "location": "2601 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11422,7 +11422,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196998",
                 "id_b": "2451001A",
-                "location": "2607 45TH AVE",
+                "location": "2607 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11485,7 +11485,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196999",
                 "id_b": "2451001B",
-                "location": "2611 45TH AVE",
+                "location": "2611 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11548,7 +11548,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197000",
                 "id_b": "2451001C",
-                "location": "2615 45TH AVE",
+                "location": "2615 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11611,7 +11611,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197001",
                 "id_b": "2451006L",
-                "location": "2606 46TH AVE",
+                "location": "2606 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -11674,7 +11674,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197002",
                 "id_b": "2451006K",
-                "location": "2610 46TH AVE",
+                "location": "2610 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -11737,7 +11737,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197003",
                 "id_b": "2451006J",
-                "location": "2614 46TH AVE",
+                "location": "2614 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -11800,7 +11800,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197004",
                 "id_b": "2451006I",
-                "location": "2618 46TH AVE",
+                "location": "2618 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -11863,7 +11863,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197005",
                 "id_b": "2451006H",
-                "location": "2622 46TH AVE",
+                "location": "2622 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -11926,7 +11926,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197006",
                 "id_b": "2451006G",
-                "location": "2626 46TH AVE",
+                "location": "2626 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -11989,7 +11989,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197007",
                 "id_b": "2451006F",
-                "location": "2630 46TH AVE",
+                "location": "2630 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12052,7 +12052,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197008",
                 "id_b": "2451006E",
-                "location": "2634 46TH AVE",
+                "location": "2634 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12115,7 +12115,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197009",
                 "id_b": "2451006D",
-                "location": "2638 46TH AVE",
+                "location": "2638 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12178,7 +12178,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197025",
                 "id_b": "2450027",
-                "location": "2650 47TH AVE",
+                "location": "2650 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -12241,7 +12241,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197026",
                 "id_b": "2450026",
-                "location": "2654 47TH AVE",
+                "location": "2654 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -12304,7 +12304,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197027",
                 "id_b": "2450025",
-                "location": "2658 47TH AVE",
+                "location": "2658 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12367,7 +12367,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197028",
                 "id_b": "2450024",
-                "location": "2662 47TH AVE",
+                "location": "2662 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12430,7 +12430,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197029",
                 "id_b": "2450023",
-                "location": "2666 47TH AVE",
+                "location": "2666 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12493,23 +12493,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197048",
                 "id_b": "2446043",
-                "location": "2538 46TH AVE",
+                "location": "2538 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "14",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12556,7 +12551,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197049",
                 "id_b": "2446042",
-                "location": "2542 46TH AVE",
+                "location": "2542 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12619,7 +12614,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197050",
                 "id_b": "2446041",
-                "location": "2546 46TH AVE",
+                "location": "2546 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12682,23 +12677,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197051",
                 "id_b": "2446040",
-                "location": "2550 46TH AVE",
+                "location": "2550 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "40",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12745,7 +12735,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197064",
                 "id_b": "2446039",
-                "location": "2554 46TH AVE",
+                "location": "2554 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12808,23 +12798,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197065",
                 "id_b": "2446038",
-                "location": "2558 46TH AVE",
+                "location": "2558 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "36",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12871,7 +12856,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197084",
                 "id_b": "2450022",
-                "location": "2670 47TH AVE",
+                "location": "2670 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12934,7 +12919,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197085",
                 "id_b": "2450021",
-                "location": "2674 47TH AVE",
+                "location": "2674 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -12997,7 +12982,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197086",
                 "id_b": "2450020",
-                "location": "2678 47TH AVE",
+                "location": "2678 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13060,7 +13045,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197087",
                 "id_b": "2450019E",
-                "location": "2682 47TH AVE",
+                "location": "2682 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13123,7 +13108,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197089",
                 "id_b": "2450018A",
-                "location": "2687 46TH AVE",
+                "location": "2687 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13186,7 +13171,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197090",
                 "id_b": "2450018",
-                "location": "2683 46TH AVE",
+                "location": "2683 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13249,7 +13234,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197091",
                 "id_b": "2450017",
-                "location": "2679 46TH AVE",
+                "location": "2679 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13312,7 +13297,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197092",
                 "id_b": "2450016",
-                "location": "2675 46TH AVE",
+                "location": "2675 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13375,7 +13360,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197093",
                 "id_b": "2450015",
-                "location": "2671 46TH AVE",
+                "location": "2671 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13438,7 +13423,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197094",
                 "id_b": "2450014",
-                "location": "2667 46TH AVE",
+                "location": "2667 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13501,7 +13486,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197095",
                 "id_b": "2450013",
-                "location": "2663 46TH AVE",
+                "location": "2663 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13564,7 +13549,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197096",
                 "id_b": "2450012",
-                "location": "2659 46TH AVE",
+                "location": "2659 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13627,7 +13612,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197097",
                 "id_b": "2450011",
-                "location": "2655 46TH AVE",
+                "location": "2655 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -13690,7 +13675,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197113",
                 "id_b": "2448001O",
-                "location": "2563 47TH AVE",
+                "location": "2563 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -13753,7 +13738,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197114",
                 "id_b": "2448001N",
-                "location": "2559 47TH AVE",
+                "location": "2559 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -13816,7 +13801,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197115",
                 "id_b": "2448001M",
-                "location": "2555 47TH AVE",
+                "location": "2555 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14068,23 +14053,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197120",
                 "id_b": "2446037",
-                "location": "2562 46TH AVE",
+                "location": "2562 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "34",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -14257,23 +14237,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197176",
                 "id_b": "2447001",
-                "location": "2501 46TH AVE",
+                "location": "2501 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "11",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -14320,7 +14295,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197177",
                 "id_b": "2447002",
-                "location": "2507 46TH AVE",
+                "location": "2507 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -14383,7 +14358,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197178",
                 "id_b": "2447052",
-                "location": "2506 47TH AVE",
+                "location": "2506 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14446,7 +14421,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197179",
                 "id_b": "2447051",
-                "location": "2510 47TH AVE",
+                "location": "2510 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14509,7 +14484,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197180",
                 "id_b": "2447050",
-                "location": "2514 47TH AVE",
+                "location": "2514 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14572,7 +14547,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197181",
                 "id_b": "2447049",
-                "location": "2518 47TH AVE",
+                "location": "2518 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14635,7 +14610,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197182",
                 "id_b": "2447048",
-                "location": "2522 47TH AVE",
+                "location": "2522 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14698,7 +14673,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197183",
                 "id_b": "2447047",
-                "location": "2526 47TH AVE",
+                "location": "2526 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14761,7 +14736,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197184",
                 "id_b": "2447046",
-                "location": "2530 47TH AVE",
+                "location": "2530 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14824,7 +14799,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197185",
                 "id_b": "2447045",
-                "location": "2534 47TH AVE",
+                "location": "2534 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14887,7 +14862,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197281",
                 "id_b": "2452028",
-                "location": "2618 45TH AVE",
+                "location": "2618 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14950,7 +14925,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197283",
                 "id_b": "2451006C",
-                "location": "2642 46TH AVE",
+                "location": "2642 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15013,7 +14988,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197284",
                 "id_b": "2451002T",
-                "location": "2647 45TH AVE",
+                "location": "2647 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15076,7 +15051,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197285",
                 "id_b": "2451002S",
-                "location": "2643 45TH AVE",
+                "location": "2643 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15139,7 +15114,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197287",
                 "id_b": "2451002Q",
-                "location": "2635 45TH AVE",
+                "location": "2635 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15202,7 +15177,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197288",
                 "id_b": "2451002P",
-                "location": "2631 45TH AVE",
+                "location": "2631 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15265,7 +15240,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197290",
                 "id_b": "2451002N",
-                "location": "2625 45TH AVE",
+                "location": "2625 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15328,7 +15303,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197291",
                 "id_b": "2451002",
-                "location": "2619 45TH AVE",
+                "location": "2619 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15391,7 +15366,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197292",
                 "id_b": "2451006B",
-                "location": "2646 46TH AVE",
+                "location": "2646 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15454,7 +15429,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197293",
                 "id_b": "2451002F",
-                "location": "2651 45TH AVE",
+                "location": "2651 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -15517,7 +15492,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197294",
                 "id_b": "2451006A",
-                "location": "2650 46TH AVE",
+                "location": "2650 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15580,7 +15555,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197295",
                 "id_b": "2451006",
-                "location": "2654 46TH AVE",
+                "location": "2654 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15643,7 +15618,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197296",
                 "id_b": "2451005A",
-                "location": "2658 46TH AVE",
+                "location": "2658 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15706,7 +15681,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197297",
                 "id_b": "2451005",
-                "location": "2662 46TH AVE",
+                "location": "2662 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15769,7 +15744,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197298",
                 "id_b": "2451004B",
-                "location": "2666 46TH AVE",
+                "location": "2666 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15832,7 +15807,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197299",
                 "id_b": "2451004A",
-                "location": "2670 46TH AVE",
+                "location": "2670 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15895,7 +15870,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197317",
                 "id_b": "2450010",
-                "location": "2651 46TH AVE",
+                "location": "2651 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -15958,7 +15933,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197336",
                 "id_b": "2452027",
-                "location": "2622 45TH AVE",
+                "location": "2622 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16021,7 +15996,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197337",
                 "id_b": "2452026",
-                "location": "2626 45TH AVE",
+                "location": "2626 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16084,7 +16059,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197338",
                 "id_b": "2452025",
-                "location": "2630 45TH AVE",
+                "location": "2630 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16147,7 +16122,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197339",
                 "id_b": "2452024",
-                "location": "2634 45TH AVE",
+                "location": "2634 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16210,23 +16185,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197340",
                 "id_b": "2446036",
-                "location": "2566 46TH AVE",
+                "location": "2566 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "31",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16273,7 +16243,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197341",
                 "id_b": "2446035",
-                "location": "2570 46TH AVE",
+                "location": "2570 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -16336,23 +16306,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197342",
                 "id_b": "2446034",
-                "location": "2574 46TH AVE",
+                "location": "2574 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "26",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16399,23 +16364,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197343",
                 "id_b": "2446033",
-                "location": "2578 46TH AVE",
+                "location": "2578 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "23",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16462,23 +16422,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197344",
                 "id_b": "2446032",
-                "location": "2582 46TH AVE",
+                "location": "2582 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "21",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16525,23 +16480,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197345",
                 "id_b": "2446031",
-                "location": "2586 46TH AVE",
+                "location": "2586 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "17",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16588,7 +16538,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197346",
                 "id_b": "2446030",
-                "location": "2590 46TH AVE",
+                "location": "2590 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -16651,7 +16601,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197347",
                 "id_b": "2446029",
-                "location": "2594 46TH AVE",
+                "location": "2594 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -16714,7 +16664,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197354",
                 "id_b": "2451002M",
-                "location": "2679 45TH AVE",
+                "location": "2679 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16777,7 +16727,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197355",
                 "id_b": "2451002L",
-                "location": "2675 45TH AVE",
+                "location": "2675 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16840,7 +16790,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197372",
                 "id_b": "2450009",
-                "location": "2647 46TH AVE",
+                "location": "2647 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -16903,7 +16853,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197373",
                 "id_b": "2450019C",
-                "location": "2690 47TH AVE",
+                "location": "2690 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -16966,7 +16916,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197374",
                 "id_b": "2450019B",
-                "location": "2694 47TH AVE",
+                "location": "2694 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -17029,7 +16979,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197375",
                 "id_b": "2450018C",
-                "location": "2695 46TH AVE",
+                "location": "2695 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -17092,7 +17042,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197376",
                 "id_b": "2450018B",
-                "location": "2691 46TH AVE",
+                "location": "2691 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -17407,7 +17357,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197385",
                 "id_b": "2448001L",
-                "location": "2551 47TH AVE",
+                "location": "2551 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17470,7 +17420,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197386",
                 "id_b": "2448001K",
-                "location": "2547 47TH AVE",
+                "location": "2547 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17533,7 +17483,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197387",
                 "id_b": "2448001J",
-                "location": "2543 47TH AVE",
+                "location": "2543 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17596,7 +17546,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197388",
                 "id_b": "2448001I",
-                "location": "2539 47TH AVE",
+                "location": "2539 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17659,7 +17609,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197389",
                 "id_b": "2448001H",
-                "location": "2535 47TH AVE",
+                "location": "2535 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17848,7 +17798,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197559",
                 "id_b": "2452023A",
-                "location": "2638 45TH AVE",
+                "location": "2638 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17911,7 +17861,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197560",
                 "id_b": "2452023",
-                "location": "2642 45TH AVE",
+                "location": "2642 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -17974,7 +17924,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197568",
                 "id_b": "2452022",
-                "location": "2646 45TH AVE",
+                "location": "2646 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18037,7 +17987,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197575",
                 "id_b": "2451002K",
-                "location": "2671 45TH AVE",
+                "location": "2671 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18100,7 +18050,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197576",
                 "id_b": "2451002J",
-                "location": "2667 45TH AVE",
+                "location": "2667 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18163,7 +18113,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197577",
                 "id_b": "2451002I",
-                "location": "2663 45TH AVE",
+                "location": "2663 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18226,7 +18176,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197578",
                 "id_b": "2451002H",
-                "location": "2659 45TH AVE",
+                "location": "2659 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18289,7 +18239,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197579",
                 "id_b": "2451002G",
-                "location": "2655 45TH AVE",
+                "location": "2655 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18352,7 +18302,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197580",
                 "id_b": "2451002C",
-                "location": "2691 45TH AVE",
+                "location": "2691 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18415,7 +18365,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197581",
                 "id_b": "2451002B",
-                "location": "2687 45TH AVE",
+                "location": "2687 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18478,7 +18428,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197582",
                 "id_b": "2451002A",
-                "location": "2683 45TH AVE",
+                "location": "2683 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18541,7 +18491,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197583",
                 "id_b": "2451003",
-                "location": "2690 46TH AVE",
+                "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -18667,7 +18617,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197585",
                 "id_b": "2451002D",
-                "location": "2695 45TH AVE",
+                "location": "2695 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18856,7 +18806,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197624",
                 "id_b": "2452020",
-                "location": "2654 45TH AVE",
+                "location": "2654 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18919,7 +18869,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197625",
                 "id_b": "2452019",
-                "location": "2658 45TH AVE",
+                "location": "2658 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18982,7 +18932,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197626",
                 "id_b": "2452018",
-                "location": "2662 45TH AVE",
+                "location": "2662 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19045,7 +18995,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197627",
                 "id_b": "2452017A",
-                "location": "2666 45TH AVE",
+                "location": "2666 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19108,7 +19058,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197628",
                 "id_b": "2452017",
-                "location": "2670 45TH AVE",
+                "location": "2670 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19171,7 +19121,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197629",
                 "id_b": "2452016",
-                "location": "2674 45TH AVE",
+                "location": "2674 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19234,7 +19184,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197630",
                 "id_b": "2452015",
-                "location": "2678 45TH AVE",
+                "location": "2678 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19297,7 +19247,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197631",
                 "id_b": "2452014A",
-                "location": "2682 45TH AVE",
+                "location": "2682 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19675,7 +19625,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197644",
                 "id_b": "2450039",
-                "location": "2600 47TH AVE",
+                "location": "2600 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -19738,7 +19688,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197645",
                 "id_b": "2450001",
-                "location": "2601 46TH AVE",
+                "location": "2601 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -19801,7 +19751,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197646",
                 "id_b": "2450001A",
-                "location": "2607 46TH AVE",
+                "location": "2607 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -19864,7 +19814,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197647",
                 "id_b": "2450001B",
-                "location": "2611 46TH AVE",
+                "location": "2611 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -19927,7 +19877,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197663",
                 "id_b": "2448001G",
-                "location": "2531 47TH AVE",
+                "location": "2531 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19990,7 +19940,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197664",
                 "id_b": "2448001F",
-                "location": "2527 47TH AVE",
+                "location": "2527 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20053,7 +20003,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197665",
                 "id_b": "2448001E",
-                "location": "2523 47TH AVE",
+                "location": "2523 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20116,7 +20066,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197666",
                 "id_b": "2448001D",
-                "location": "2519 47TH AVE",
+                "location": "2519 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20179,7 +20129,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197667",
                 "id_b": "2448001C",
-                "location": "2515 47TH AVE",
+                "location": "2515 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20242,7 +20192,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197668",
                 "id_b": "2448001B",
-                "location": "2511 47TH AVE",
+                "location": "2511 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20305,7 +20255,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197669",
                 "id_b": "2448001A",
-                "location": "2507 47TH AVE",
+                "location": "2507 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20368,7 +20318,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197670",
                 "id_b": "2448001",
-                "location": "2501 47TH AVE",
+                "location": "2501 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -20668,7 +20618,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197851",
                 "id_b": "2452013A",
-                "location": "2690 45TH AVE",
+                "location": "2690 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -20731,7 +20681,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197867",
                 "id_b": "2450001C",
-                "location": "2615 46TH AVE",
+                "location": "2615 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -20794,7 +20744,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197868",
                 "id_b": "2450038",
-                "location": "2606 47TH AVE",
+                "location": "2606 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -20857,7 +20807,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197869",
                 "id_b": "2450037",
-                "location": "2610 47TH AVE",
+                "location": "2610 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -20920,7 +20870,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197870",
                 "id_b": "2450036",
-                "location": "2614 47TH AVE",
+                "location": "2614 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -20983,7 +20933,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197871",
                 "id_b": "2450035",
-                "location": "2618 47TH AVE",
+                "location": "2618 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21046,7 +20996,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197873",
                 "id_b": "2450033",
-                "location": "2626 47TH AVE",
+                "location": "2626 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21109,7 +21059,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197874",
                 "id_b": "2450032",
-                "location": "2630 47TH AVE",
+                "location": "2630 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21172,7 +21122,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197875",
                 "id_b": "2450031",
-                "location": "2634 47TH AVE",
+                "location": "2634 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21235,7 +21185,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197899",
                 "id_b": "2446052",
-                "location": "2500 46TH AVE",
+                "location": "2500 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21298,7 +21248,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197900",
                 "id_b": "2446051",
-                "location": "2506 46TH AVE",
+                "location": "2506 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21361,7 +21311,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197902",
                 "id_b": "2446050",
-                "location": "2510 46TH AVE",
+                "location": "2510 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21424,23 +21374,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197903",
                 "id_b": "2446049",
-                "location": "2514 46TH AVE",
+                "location": "2514 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "12",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21487,7 +21432,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197904",
                 "id_b": "2446048",
-                "location": "2518 46TH AVE",
+                "location": "2518 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -21550,23 +21495,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197905",
                 "id_b": "2446047",
-                "location": "2522 46TH AVE",
+                "location": "2522 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "581",
+                        "video_no": "50",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21613,23 +21553,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197906",
                 "id_b": "2446046",
-                "location": "2526 46TH AVE",
+                "location": "2526 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "15",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21676,23 +21611,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197907",
                 "id_b": "2446045",
-                "location": "2530 46TH AVE",
+                "location": "2530 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "46",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21739,23 +21669,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197908",
                 "id_b": "2446044",
-                "location": "2534 46TH AVE",
+                "location": "2534 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "45",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21802,7 +21727,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197918",
                 "id_b": "2452013",
-                "location": "2694 45TH AVE",
+                "location": "2694 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -22117,7 +22042,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197930",
                 "id_b": "2450030",
-                "location": "2638 47TH AVE",
+                "location": "2638 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22180,7 +22105,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197931",
                 "id_b": "2451006A",
-                "location": "2643 46TH AVE",
+                "location": "2643 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22243,7 +22168,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197933",
                 "id_b": "2450006",
-                "location": "2635 46TH AVE",
+                "location": "2635 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22306,7 +22231,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197934",
                 "id_b": "2450005",
-                "location": "2631 46TH AVE",
+                "location": "2631 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22369,7 +22294,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197935",
                 "id_b": "2450004",
-                "location": "2627 46TH AVE",
+                "location": "2627 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22432,7 +22357,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197936",
                 "id_b": "2450003",
-                "location": "2623 46TH AVE",
+                "location": "2623 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22495,7 +22420,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197937",
                 "id_b": "2450002",
-                "location": "2619 46TH AVE",
+                "location": "2619 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22558,7 +22483,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197938",
                 "id_b": "2450029",
-                "location": "2642 47TH AVE",
+                "location": "2642 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22621,7 +22546,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197939",
                 "id_b": "2450028",
-                "location": "2646 47TH AVE",
+                "location": "2646 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -22684,7 +22609,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198021",
                 "id_b": "2448001V",
-                "location": "2591 47TH AVE",
+                "location": "2591 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -22747,7 +22672,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198023",
                 "id_b": "2448001T",
-                "location": "2583 47TH AVE",
+                "location": "2583 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -22810,7 +22735,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198024",
                 "id_b": "2448001S",
-                "location": "2579 47TH AVE",
+                "location": "2579 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -22873,7 +22798,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198025",
                 "id_b": "2448001R",
-                "location": "2575 47TH AVE",
+                "location": "2575 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -22936,7 +22861,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198026",
                 "id_b": "2448001Q",
-                "location": "2571 47TH AVE",
+                "location": "2571 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -22999,7 +22924,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198027",
                 "id_b": "2448001P",
-                "location": "2567 47TH AVE",
+                "location": "2567 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23062,7 +22987,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198557",
                 "id_b": "2447044",
-                "location": "2538 47TH AVE",
+                "location": "2538 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23125,7 +23050,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198558",
                 "id_b": "2447043",
-                "location": "2542 47TH AVE",
+                "location": "2542 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23188,7 +23113,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198559",
                 "id_b": "2447042",
-                "location": "2546 47TH AVE",
+                "location": "2546 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23251,7 +23176,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198614",
                 "id_b": "2447041",
-                "location": "2550 47TH AVE",
+                "location": "2550 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23314,7 +23239,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198615",
                 "id_b": "2447040",
-                "location": "2554 47TH AVE",
+                "location": "2554 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23377,7 +23302,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198616",
                 "id_b": "2447039",
-                "location": "2558 47TH AVE",
+                "location": "2558 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -23440,23 +23365,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198617",
                 "id_b": "2447015",
-                "location": "2559 46TH AVE",
+                "location": "2559 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "35",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23503,23 +23423,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198618",
                 "id_b": "2447014",
-                "location": "2555 46TH AVE",
+                "location": "2555 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "37",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23566,23 +23481,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198619",
                 "id_b": "2447013",
-                "location": "2551 46TH AVE",
+                "location": "2551 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "39",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23629,23 +23539,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198620",
                 "id_b": "2447012",
-                "location": "2547 46TH AVE",
+                "location": "2547 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "13",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23692,23 +23597,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198621",
                 "id_b": "2447011",
-                "location": "2543 46TH AVE",
+                "location": "2543 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "42",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23755,23 +23655,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198622",
                 "id_b": "2447010",
-                "location": "2539 46TH AVE",
+                "location": "2539 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "43",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23818,23 +23713,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198623",
                 "id_b": "2447009",
-                "location": "2535 46TH AVE",
+                "location": "2535 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "60",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23881,23 +23771,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198624",
                 "id_b": "2447008",
-                "location": "2531 46TH AVE",
+                "location": "2531 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "10",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23944,23 +23829,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198625",
                 "id_b": "2447007",
-                "location": "2527 46TH AVE",
+                "location": "2527 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "9",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24007,23 +23887,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198626",
                 "id_b": "2447006",
-                "location": "2523 46TH AVE",
+                "location": "2523 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "48",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24070,23 +23945,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198628",
                 "id_b": "2447004",
-                "location": "2515 46TH AVE",
+                "location": "2515 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "53",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24133,23 +24003,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198629",
                 "id_b": "2447003",
-                "location": "2511 46TH AVE",
+                "location": "2511 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "55",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24196,7 +24061,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198903",
                 "id_b": "2447038",
-                "location": "2562 47TH AVE",
+                "location": "2562 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24259,7 +24124,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198904",
                 "id_b": "2447037",
-                "location": "2566 47TH AVE",
+                "location": "2566 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24322,7 +24187,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198905",
                 "id_b": "2447036",
-                "location": "2570 47TH AVE",
+                "location": "2570 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24385,7 +24250,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198906",
                 "id_b": "2447035",
-                "location": "2574 47TH AVE",
+                "location": "2574 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24448,7 +24313,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198907",
                 "id_b": "2447034",
-                "location": "2578 47TH AVE",
+                "location": "2578 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24511,7 +24376,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198908",
                 "id_b": "2447033",
-                "location": "2582 47TH AVE",
+                "location": "2582 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24574,7 +24439,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198909",
                 "id_b": "2447032",
-                "location": "2586 47TH AVE",
+                "location": "2586 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -24637,7 +24502,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198910",
                 "id_b": "2447023",
-                "location": "2591 46TH AVE",
+                "location": "2591 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -24700,23 +24565,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198911",
                 "id_b": "2447022",
-                "location": "2587 46TH AVE",
+                "location": "2587 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "16",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24763,23 +24623,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198912",
                 "id_b": "2447021",
-                "location": "2583 46TH AVE",
+                "location": "2583 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "19",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24826,23 +24681,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198913",
                 "id_b": "2447020",
-                "location": "2579 46TH AVE",
+                "location": "2579 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "22",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24889,23 +24739,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198914",
                 "id_b": "2447019",
-                "location": "2575 46TH AVE",
+                "location": "2575 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "25",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24952,23 +24797,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198915",
                 "id_b": "2447018",
-                "location": "2571 46TH AVE",
+                "location": "2571 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "28",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -25015,23 +24855,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198916",
                 "id_b": "2447017",
-                "location": "2567 46TH AVE",
+                "location": "2567 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "30",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -25078,23 +24913,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198917",
                 "id_b": "2447016",
-                "location": "2563 46TH AVE",
+                "location": "2563 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "33",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -25141,7 +24971,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198918",
                 "id_b": "2447031",
-                "location": "2590 47TH AVE",
+                "location": "2590 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25204,7 +25034,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198919",
                 "id_b": "2447030",
-                "location": "2594 47TH AVE",
+                "location": "2594 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25267,7 +25097,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198974",
                 "id_b": "2447024",
-                "location": "2595 46TH AVE",
+                "location": "2595 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -25388,7 +25218,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199280",
                 "id_b": "2379024",
-                "location": "2478 47TH AVE",
+                "location": "2478 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25451,7 +25281,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199286",
                 "id_b": "2379023",
-                "location": "2494 47TH AVE",
+                "location": "2494 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25892,7 +25722,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199581",
                 "id_b": "2378011",
-                "location": "2455 47TH AVE",
+                "location": "2455 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25955,7 +25785,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199582",
                 "id_b": "2378010",
-                "location": "2451 47TH AVE",
+                "location": "2451 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26018,7 +25848,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199853",
                 "id_b": "2378009B",
-                "location": "2447 47TH AVE",
+                "location": "2447 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26081,7 +25911,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199854",
                 "id_b": "2378009A",
-                "location": "2443 47TH AVE",
+                "location": "2443 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26144,7 +25974,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199855",
                 "id_b": "2378009",
-                "location": "2439 47TH AVE",
+                "location": "2439 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26207,7 +26037,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199856",
                 "id_b": "2378008",
-                "location": "2435 47TH AVE",
+                "location": "2435 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26270,7 +26100,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199857",
                 "id_b": "2378007",
-                "location": "2431 47TH AVE",
+                "location": "2431 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26333,7 +26163,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199858",
                 "id_b": "2378006",
-                "location": "2427 47TH AVE",
+                "location": "2427 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26396,7 +26226,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199859",
                 "id_b": "2378005",
-                "location": "2423 47TH AVE",
+                "location": "2423 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26459,7 +26289,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199860",
                 "id_b": "2378004",
-                "location": "2419 47TH AVE",
+                "location": "2419 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26522,7 +26352,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200144",
                 "id_b": "2378020",
-                "location": "2491 47TH AVE",
+                "location": "2491 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26585,7 +26415,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200145",
                 "id_b": "2378019",
-                "location": "2487 47TH AVE",
+                "location": "2487 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26648,7 +26478,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200146",
                 "id_b": "2378018",
-                "location": "2483 47TH AVE",
+                "location": "2483 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26711,7 +26541,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200147",
                 "id_b": "2378017",
-                "location": "2479 47TH AVE",
+                "location": "2479 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26774,7 +26604,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200148",
                 "id_b": "2378016",
-                "location": "2475 47TH AVE",
+                "location": "2475 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26837,7 +26667,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200149",
                 "id_b": "2378015",
-                "location": "2471 47TH AVE",
+                "location": "2471 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26900,7 +26730,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200150",
                 "id_b": "2378014",
-                "location": "2467 47TH AVE",
+                "location": "2467 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26963,7 +26793,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200151",
                 "id_b": "2378013",
-                "location": "2463 47TH AVE",
+                "location": "2463 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27026,7 +26856,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200152",
                 "id_b": "2378012",
-                "location": "2459 47TH AVE",
+                "location": "2459 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27152,7 +26982,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200348",
                 "id_b": "2379023B",
-                "location": "2486 47TH AVE",
+                "location": "2486 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27215,7 +27045,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200349",
                 "id_b": "2379023A",
-                "location": "2490 47TH AVE",
+                "location": "2490 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27278,7 +27108,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200350",
                 "id_b": "2379028",
-                "location": "2462 47TH AVE",
+                "location": "2462 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27341,7 +27171,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200351",
                 "id_b": "2379027",
-                "location": "2466 47TH AVE",
+                "location": "2466 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27404,7 +27234,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200352",
                 "id_b": "2379026",
-                "location": "2470 47TH AVE",
+                "location": "2470 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27467,7 +27297,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200353",
                 "id_b": "2379025",
-                "location": "2474 47TH AVE",
+                "location": "2474 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27530,7 +27360,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200573",
                 "id_b": "2379035",
-                "location": "2434 47TH AVE",
+                "location": "2434 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27593,7 +27423,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200574",
                 "id_b": "2379034",
-                "location": "2438 47TH AVE",
+                "location": "2438 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27656,7 +27486,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200575",
                 "id_b": "2379033",
-                "location": "2442 47TH AVE",
+                "location": "2442 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27719,7 +27549,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200576",
                 "id_b": "2379032",
-                "location": "2446 47TH AVE",
+                "location": "2446 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27782,7 +27612,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200577",
                 "id_b": "2379031",
-                "location": "2450 47TH AVE",
+                "location": "2450 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27845,7 +27675,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200578",
                 "id_b": "2379030",
-                "location": "2454 47TH AVE",
+                "location": "2454 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27908,7 +27738,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200579",
                 "id_b": "2379029",
-                "location": "2458 47TH AVE",
+                "location": "2458 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -27971,7 +27801,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200645",
                 "id_b": "2379023C",
-                "location": "2482 47TH AVE",
+                "location": "2482 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -28034,7 +27864,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-201433",
                 "id_b": "2379036C",
-                "location": "2418 47TH AVE",
+                "location": "2418 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -28097,7 +27927,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-201434",
                 "id_b": "2379036B",
-                "location": "2422 47TH AVE",
+                "location": "2422 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -28160,7 +27990,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-201435",
                 "id_b": "2379036A",
-                "location": "2426 47TH AVE",
+                "location": "2426 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -28223,7 +28053,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-201436",
                 "id_b": "2379036",
-                "location": "2430 47TH AVE",
+                "location": "2430 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -28286,7 +28116,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205230",
                 "id_b": "2449011",
-                "location": "2639 47TH AVE",
+                "location": "2639 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28347,7 +28177,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205231",
                 "id_b": "2449010",
-                "location": "2635 47TH AVE",
+                "location": "2635 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28408,7 +28238,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205232",
                 "id_b": "2449007",
-                "location": "2631 47TH AVE",
+                "location": "2631 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28469,7 +28299,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205233",
                 "id_b": "2449006",
-                "location": "2627 47TH AVE",
+                "location": "2627 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28530,7 +28360,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205234",
                 "id_b": "2449005",
-                "location": "2623 47TH AVE",
+                "location": "2623 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28591,7 +28421,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205235",
                 "id_b": "2449004",
-                "location": "2619 47TH AVE",
+                "location": "2619 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -28654,7 +28484,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205290",
                 "id_b": "2449003",
-                "location": "2615 47TH AVE",
+                "location": "2615 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -28780,7 +28610,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205588",
                 "id_b": "2449024",
-                "location": "2695 47TH AVE",
+                "location": "2695 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28841,7 +28671,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205808",
                 "id_b": "2449023",
-                "location": "2691 47TH AVE",
+                "location": "2691 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                   'SW-11': {
@@ -28902,7 +28732,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205809",
                 "id_b": "2449022",
-                "location": "2687 47TH AVE",
+                "location": "2687 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -28963,7 +28793,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205810",
                 "id_b": "2449021",
-                "location": "2683 47TH AVE",
+                "location": "2683 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                   'SW-11': {
@@ -29027,7 +28857,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205811",
                 "id_b": "2449020",
-                "location": "2679 47TH AVE",
+                "location": "2679 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -29091,7 +28921,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205812",
                 "id_b": "2449019",
-                "location": "2675 47TH AVE",
+                "location": "2675 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                    'SW-11': {
@@ -29152,7 +28982,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205813",
                 "id_b": "2449018",
-                "location": "2671 47TH AVE",
+                "location": "2671 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                    'SW-11': {
@@ -29216,7 +29046,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-205868",
                 "id_b": "2449017",
-                "location": "2667 47TH AVE",
+                "location": "2667 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                    'SW-11': {
@@ -29277,7 +29107,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-278282",
                 "id_b": "2448001W",
-                "location": "2595 47TH AVE",
+                "location": "2595 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -29340,7 +29170,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-278613",
                 "id_b": "2448001W",
-                "location": "2595 47TH AVE",
+                "location": "2595 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -29834,7 +29664,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-317282",
                 "id_b": "2451003",
-                "location": "2690 46TH AVE",
+                "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -29897,7 +29727,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-325613",
                 "id_b": "2378002",
-                "location": "2411 47TH AVE",
+                "location": "2411 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -29960,7 +29790,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-325614",
                 "id_b": "2378003",
-                "location": "2415 47TH AVE",
+                "location": "2415 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30023,7 +29853,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-325617",
                 "id_b": "2378047",
-                "location": "2401 47TH AVE",
+                "location": "2401 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30086,7 +29916,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-325618",
                 "id_b": "2378048",
-                "location": "2405 47TH AVE",
+                "location": "2405 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30149,7 +29979,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-325620",
                 "id_b": "2379037",
-                "location": "2414 47TH AVE",
+                "location": "2414 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30212,7 +30042,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-325621",
                 "id_b": "2379037A",
-                "location": "2410 47TH AVE",
+                "location": "2410 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30275,7 +30105,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334881",
                 "id_b": "2451002R",
-                "location": "2639 45TH AVE",
+                "location": "2639 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30338,7 +30168,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334883",
                 "id_b": "2452029",
-                "location": "2600 45TH AVE",
+                "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30401,7 +30231,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334884",
                 "id_b": "2451001A",
-                "location": "2600 45TH AVE",
+                "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30464,7 +30294,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334885",
                 "id_b": "2452029",
-                "location": "2600 45TH AVE",
+                "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30527,7 +30357,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334886",
                 "id_b": "2451001B",
-                "location": "2600 45TH AVE",
+                "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30590,7 +30420,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334888",
                 "id_b": "2451001C",
-                "location": "2600 45TH AVE",
+                "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30653,7 +30483,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334891",
                 "id_b": "2452028",
-                "location": "2619 45TH AVE",
+                "location": "2619 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30716,7 +30546,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334894",
                 "id_b": "2451002O",
-                "location": "2627 45TH AVE",
+                "location": "2627 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30779,7 +30609,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334895",
                 "id_b": "2452026",
-                "location": "2627 45TH AVE",
+                "location": "2627 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30842,7 +30672,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334896",
                 "id_b": "2451002P",
-                "location": "2631 45TH AVE",
+                "location": "2631 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30905,7 +30735,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334897",
                 "id_b": "2451002P",
-                "location": "2631 45TH AVE",
+                "location": "2631 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30968,7 +30798,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334898",
                 "id_b": "2451002Q",
-                "location": "2634 45TH AVE",
+                "location": "2634 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31031,7 +30861,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334899",
                 "id_b": "2452024",
-                "location": "2634 45TH AVE",
+                "location": "2634 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31094,7 +30924,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334900",
                 "id_b": "2452023A",
-                "location": "2638 45TH AVE",
+                "location": "2638 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31157,7 +30987,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334901",
                 "id_b": "2451002S",
-                "location": "2643 45TH AVE",
+                "location": "2643 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31220,7 +31050,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334902",
                 "id_b": "2452023",
-                "location": "2643 45TH AVE",
+                "location": "2643 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31346,7 +31176,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-353599",
                 "id_b": "2451003",
-                "location": "2690 46TH AVE",
+                "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -31661,7 +31491,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358857",
                 "id_b": "2379023",
-                "location": "2494 47TH AVE",
+                "location": "2494 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31787,7 +31617,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358868",
                 "id_b": "2448001",
-                "location": "2501 47TH AVE",
+                "location": "2501 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -31850,7 +31680,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367926",
                 "id_b": "2446050",
-                "location": "2510 46TH AVE",
+                "location": "2510 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -31913,23 +31743,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367927",
                 "id_b": "2446049",
-                "location": "2514 46TH AVE",
+                "location": "2514 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "12",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -31976,7 +31801,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367928",
                 "id_b": "2446048",
-                "location": "2518 46TH AVE",
+                "location": "2518 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32039,23 +31864,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367929",
                 "id_b": "2446047",
-                "location": "2522 46TH AVE",
+                "location": "2522 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "50",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -32102,7 +31922,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367930",
                 "id_b": "2446046",
-                "location": "2526 46TH AVE",
+                "location": "2526 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32165,7 +31985,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367931",
                 "id_b": "2446045",
-                "location": "2530 46TH AVE",
+                "location": "2530 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32228,23 +32048,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367932",
                 "id_b": "2446044",
-                "location": "2534 46TH AVE",
+                "location": "2534 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "45",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -32291,7 +32106,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367933",
                 "id_b": "2446043",
-                "location": "2538 46TH AVE",
+                "location": "2538 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32354,7 +32169,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367934",
                 "id_b": "2447024",
-                "location": "2595 46TH AVE",
+                "location": "2595 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32417,7 +32232,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367935",
                 "id_b": "2447023",
-                "location": "2591 46TH AVE",
+                "location": "2591 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32480,7 +32295,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367936",
                 "id_b": "2447024",
-                "location": "2595 46TH AVE",
+                "location": "2595 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32543,7 +32358,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367937",
                 "id_b": "2446030",
-                "location": "2591 46TH AVE",
+                "location": "2591 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32606,7 +32421,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367938",
                 "id_b": "2447022",
-                "location": "2587 46TH AVE",
+                "location": "2587 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32669,23 +32484,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367939",
                 "id_b": "2447021",
-                "location": "2583 46TH AVE",
+                "location": "2582 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "21",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -32732,7 +32542,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367940",
                 "id_b": "2447020",
-                "location": "2579 46TH AVE",
+                "location": "2579 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32795,7 +32605,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367941",
                 "id_b": "2447019",
-                "location": "2575 46TH AVE",
+                "location": "2575 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32858,16 +32668,11 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367942",
                 "id_b": "2447018",
-                "location": "2571 46TH AVE",
+                "location": "2570 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "submittals": {
@@ -32921,7 +32726,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367943",
                 "id_b": "2447017",
-                "location": "2567 46TH AVE",
+                "location": "2567 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32984,7 +32789,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367944",
                 "id_b": "2447016",
-                "location": "2563 46TH AVE",
+                "location": "2563 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33047,7 +32852,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367945",
                 "id_b": "2447002",
-                "location": "2507 46TH AVE",
+                "location": "2507 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33110,7 +32915,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367946",
                 "id_b": "2447003",
-                "location": "2511 46TH AVE",
+                "location": "2511 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33173,7 +32978,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367947",
                 "id_b": "2447004",
-                "location": "2515 46TH AVE",
+                "location": "2515 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33236,7 +33041,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367948",
                 "id_b": "2447005",
-                "location": "2519 46TH AVE",
+                "location": "2519 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33299,7 +33104,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367949",
                 "id_b": "2447006",
-                "location": "2523 46TH AVE",
+                "location": "2523 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33362,23 +33167,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367950",
                 "id_b": "2447007",
-                "location": "2527 46TH AVE",
+                "location": "2527 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "9",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33425,23 +33225,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367951",
                 "id_b": "2447008",
-                "location": "2531 46TH AVE",
+                "location": "2531 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "10",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33488,7 +33283,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367952",
                 "id_b": "2447009",
-                "location": "2535 46TH AVE",
+                "location": "2535 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33551,23 +33346,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367953",
                 "id_b": "2447010",
-                "location": "2539 46TH AVE",
+                "location": "2539 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "8",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33614,23 +33404,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367954",
                 "id_b": "2447011",
-                "location": "2543 46TH AVE",
+                "location": "2543 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "7",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33677,23 +33462,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367955",
                 "id_b": "2447012",
-                "location": "2547 46TH AVE",
+                "location": "2547 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "6",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33740,23 +33520,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367956",
                 "id_b": "2447013",
-                "location": "2551 46TH AVE",
+                "location": "2551 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "5",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33803,23 +33578,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367957",
                 "id_b": "2447014",
-                "location": "2555 46TH AVE",
+                "location": "2555 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "4",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33866,7 +33636,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367958",
                 "id_b": "2447015",
-                "location": "2559 46TH AVE",
+                "location": "2559 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -33929,23 +33699,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367959",
                 "id_b": "2447017",
-                "location": "2567 46TH AVE",
+                "location": "2567 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "3",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33992,7 +33757,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367960",
                 "id_b": "2447018",
-                "location": "2571 46TH AVE",
+                "location": "2571 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34055,7 +33820,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367961",
                 "id_b": "2447019",
-                "location": "2575 46TH AVE",
+                "location": "2575 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34118,23 +33883,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367962",
                 "id_b": "2447020",
-                "location": "2579 46TH AVE",
+                "location": "2579 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "22",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34181,7 +33941,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367963",
                 "id_b": "2447021",
-                "location": "2583 46TH AVE",
+                "location": "2583 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34244,23 +34004,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367964",
                 "id_b": "2447022",
-                "location": "2587 46TH AVE",
+                "location": "2587 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "16",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34307,7 +34062,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367965",
                 "id_b": "2446047",
-                "location": "2522 46TH AVE",
+                "location": "2522 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34370,7 +34125,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367966",
                 "id_b": "2446042",
-                "location": "2542 46TH AVE",
+                "location": "2542 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34433,7 +34188,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367967",
                 "id_b": "2446041",
-                "location": "2546 46TH AVE",
+                "location": "2546 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34496,23 +34251,18 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367968",
                 "id_b": "2446040",
-                "location": "2550 46TH AVE",
+                "location": "2550 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "41",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34559,7 +34309,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367969",
                 "id_b": "2446038",
-                "location": "2558 46TH AVE",
+                "location": "2558 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -35164,7 +34914,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367979",
                 "id_b": "2449005",
-                "location": "2623 47TH AVE",
+                "location": "2623 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35227,7 +34977,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367981",
                 "id_b": "2449003",
-                "location": "2615 47TH AVE",
+                "location": "2615 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -35288,7 +35038,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367984",
                 "id_b": "2449001",
-                "location": "2601 47TH AVE",
+                "location": "2601 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -35349,7 +35099,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367985",
                 "id_b": "2450039",
-                "location": "2600 47TH AVE",
+                "location": "2600 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35473,7 +35223,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367987",
                 "id_b": "2449012",
-                "location": "2643 47TH AVE",
+                "location": "2643 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35536,7 +35286,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367988",
                 "id_b": "2449011",
-                "location": "2639 47TH AVE",
+                "location": "2639 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35599,7 +35349,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367989",
                 "id_b": "2449010",
-                "location": "2635 47TH AVE",
+                "location": "2635 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35662,7 +35412,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367990",
                 "id_b": "2449022",
-                "location": "2687 47TH AVE",
+                "location": "2687 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35725,7 +35475,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367992",
                 "id_b": "2449020",
-                "location": "2679 47TH AVE",
+                "location": "2679 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35788,7 +35538,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367993",
                 "id_b": "2449018",
-                "location": "2671 47TH AVE",
+                "location": "2671 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35851,7 +35601,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367994",
                 "id_b": "2449018",
-                "location": "2671 47TH AVE",
+                "location": "2671 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35914,7 +35664,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367995",
                 "id_b": "2450038",
-                "location": "2606 47TH AVE",
+                "location": "2606 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -35977,7 +35727,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367996",
                 "id_b": "2450035",
-                "location": "2618 47TH AVE",
+                "location": "2618 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36040,7 +35790,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367997",
                 "id_b": "2450034",
-                "location": "2622 47TH AVE",
+                "location": "2622 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36103,7 +35853,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367998",
                 "id_b": "2450033",
-                "location": "2626 47TH AVE",
+                "location": "2626 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36166,7 +35916,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367999",
                 "id_b": "2450032",
-                "location": "2630 47TH AVE",
+                "location": "2630 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36229,7 +35979,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368000",
                 "id_b": "2450031",
-                "location": "2634 47TH AVE",
+                "location": "2634 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36292,7 +36042,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368001",
                 "id_b": "2450030",
-                "location": "2638 47TH AVE",
+                "location": "2638 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36355,7 +36105,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368002",
                 "id_b": "2450029",
-                "location": "2642 47TH AVE",
+                "location": "2642 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36418,7 +36168,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368003",
                 "id_b": "2450028",
-                "location": "2646 47TH AVE",
+                "location": "2646 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36481,7 +36231,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368004",
                 "id_b": "2450025",
-                "location": "2658 47TH AVE",
+                "location": "2658 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -36544,7 +36294,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368005",
                 "id_b": "2450023",
-                "location": "2666 47TH AVE",
+                "location": "2666 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36607,7 +36357,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368006",
                 "id_b": "2450022",
-                "location": "2670 47TH AVE",
+                "location": "2670 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36670,7 +36420,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368007",
                 "id_b": "2450021",
-                "location": "2674 47TH AVE",
+                "location": "2674 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36733,7 +36483,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368008",
                 "id_b": "2450020",
-                "location": "2678 47TH AVE",
+                "location": "2678 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36796,7 +36546,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368009",
                 "id_b": "2450019D",
-                "location": "2686 47TH AVE",
+                "location": "2686 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36859,7 +36609,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368010",
                 "id_b": "2450019C",
-                "location": "2690 47TH AVE",
+                "location": "2690 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -36985,7 +36735,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368012",
                 "id_b": "2378007",
-                "location": "2431 47TH AVE",
+                "location": "2431 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37048,7 +36798,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368013",
                 "id_b": "2378008",
-                "location": "2435 47TH AVE",
+                "location": "2435 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37111,7 +36861,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368014",
                 "id_b": "2378009B",
-                "location": "2447 47TH AVE",
+                "location": "2447 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37174,7 +36924,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368015",
                 "id_b": "2378010",
-                "location": "2451 47TH AVE",
+                "location": "2451 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37237,7 +36987,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368016",
                 "id_b": "2379037",
-                "location": "2414 47TH AVE",
+                "location": "2414 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37300,7 +37050,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368017",
                 "id_b": "2379031",
-                "location": "2450 47TH AVE",
+                "location": "2450 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37363,7 +37113,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368018",
                 "id_b": "2378047",
-                "location": "2401 47TH AVE",
+                "location": "2401 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37489,7 +37239,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368020",
                 "id_b": "2378048",
-                "location": "2405 47TH AVE",
+                "location": "2405 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37552,7 +37302,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368021",
                 "id_b": "2378002",
-                "location": "2411 47TH AVE",
+                "location": "2411 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37615,7 +37365,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368022",
                 "id_b": "2379037A",
-                "location": "2410 47TH AVE",
+                "location": "2410 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37678,7 +37428,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368023",
                 "id_b": "2378003",
-                "location": "2415 47TH AVE",
+                "location": "2415 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37741,7 +37491,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368024",
                 "id_b": "2379036C",
-                "location": "2418 47TH AVE",
+                "location": "2418 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37804,7 +37554,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368025",
                 "id_b": "2378005",
-                "location": "2423 47TH AVE",
+                "location": "2423 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37867,7 +37617,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368026",
                 "id_b": "2379036B",
-                "location": "2422 47TH AVE",
+                "location": "2422 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37930,7 +37680,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368027",
                 "id_b": "2379036A",
-                "location": "2426 47TH AVE",
+                "location": "2426 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -37993,7 +37743,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368028",
                 "id_b": "2379036",
-                "location": "2430 47TH AVE",
+                "location": "2430 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38056,7 +37806,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368029",
                 "id_b": "2379034",
-                "location": "2438 47TH AVE",
+                "location": "2438 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38119,7 +37869,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368030",
                 "id_b": "2379033",
-                "location": "2442 47TH AVE",
+                "location": "2442 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38182,7 +37932,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368031",
                 "id_b": "2378009A",
-                "location": "2443 47TH AVE",
+                "location": "2443 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38245,7 +37995,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368032",
                 "id_b": "2379030",
-                "location": "2454 47TH AVE",
+                "location": "2454 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38308,7 +38058,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368033",
                 "id_b": "2379029",
-                "location": "2458 47TH AVE",
+                "location": "2458 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38371,7 +38121,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368034",
                 "id_b": "2379028",
-                "location": "2462 47TH AVE",
+                "location": "2462 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38434,7 +38184,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368035",
                 "id_b": "2379027",
-                "location": "2466 47TH AVE",
+                "location": "2466 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38497,7 +38247,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368036",
                 "id_b": "2379026",
-                "location": "2470 47TH AVE",
+                "location": "2470 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38560,7 +38310,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368037",
                 "id_b": "2379025",
-                "location": "2474 47TH AVE",
+                "location": "2474 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38623,7 +38373,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368038",
                 "id_b": "2379024",
-                "location": "2478 47TH AVE",
+                "location": "2478 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38686,7 +38436,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368039",
                 "id_b": "2379023C",
-                "location": "2482 47TH AVE",
+                "location": "2482 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38749,7 +38499,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368040",
                 "id_b": "2379023B",
-                "location": "2486 47TH AVE",
+                "location": "2486 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38812,7 +38562,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368041",
                 "id_b": "2379023A",
-                "location": "2490 47TH AVE",
+                "location": "2490 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38875,7 +38625,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368042",
                 "id_b": "2378011",
-                "location": "2455 47TH AVE",
+                "location": "2455 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -38938,7 +38688,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368043",
                 "id_b": "2378012",
-                "location": "2459 47TH AVE",
+                "location": "2459 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39001,7 +38751,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368044",
                 "id_b": "2378013",
-                "location": "2463 47TH AVE",
+                "location": "2463 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39064,7 +38814,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368045",
                 "id_b": "2378015",
-                "location": "2471 47TH AVE",
+                "location": "2471 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39127,7 +38877,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368046",
                 "id_b": "2378016",
-                "location": "2475 47TH AVE",
+                "location": "2475 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39190,7 +38940,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368047",
                 "id_b": "2378017",
-                "location": "2479 47TH AVE",
+                "location": "2479 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39253,7 +39003,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368048",
                 "id_b": "2378019",
-                "location": "2487 47TH AVE",
+                "location": "2487 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39316,7 +39066,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368049",
                 "id_b": "2378004",
-                "location": "2419 47TH AVE",
+                "location": "2419 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39379,7 +39129,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368052",
                 "id_b": "2447051",
-                "location": "2510 47TH AVE",
+                "location": "2510 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39442,7 +39192,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368053",
                 "id_b": "2447050",
-                "location": "2514 47TH AVE",
+                "location": "2514 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39505,7 +39255,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368054",
                 "id_b": "2447049",
-                "location": "2518 47TH AVE",
+                "location": "2518 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39568,7 +39318,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368055",
                 "id_b": "2447048",
-                "location": "2522 47TH AVE",
+                "location": "2522 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39631,7 +39381,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368056",
                 "id_b": "2447047",
-                "location": "2526 47TH AVE",
+                "location": "2526 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39694,7 +39444,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368057",
                 "id_b": "2447046",
-                "location": "2530 47TH AVE",
+                "location": "2530 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39757,7 +39507,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368058",
                 "id_b": "2447045",
-                "location": "2534 47TH AVE",
+                "location": "2534 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39820,7 +39570,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368059",
                 "id_b": "2447044",
-                "location": "2538 47TH AVE",
+                "location": "2538 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39883,7 +39633,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368060",
                 "id_b": "2447043",
-                "location": "2542 47TH AVE",
+                "location": "2542 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -39946,7 +39696,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368061",
                 "id_b": "2447043",
-                "location": "2542 47TH AVE",
+                "location": "2542 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40009,7 +39759,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368062",
                 "id_b": "2447041",
-                "location": "2550 47TH AVE",
+                "location": "2550 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40072,7 +39822,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368063",
                 "id_b": "2447040",
-                "location": "2554 47TH AVE",
+                "location": "2554 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40135,7 +39885,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368064",
                 "id_b": "2447039",
-                "location": "2558 47TH AVE",
+                "location": "2558 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40198,7 +39948,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368065",
                 "id_b": "2447038",
-                "location": "2562 47TH AVE",
+                "location": "2562 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40261,7 +40011,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368066",
                 "id_b": "2447037",
-                "location": "2566 47TH AVE",
+                "location": "2566 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40324,7 +40074,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368067",
                 "id_b": "2447035",
-                "location": "2574 47TH AVE",
+                "location": "2574 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40387,7 +40137,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368068",
                 "id_b": "2447034",
-                "location": "2578 47TH AVE",
+                "location": "2578 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40450,7 +40200,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368069",
                 "id_b": "2447033",
-                "location": "2582 47TH AVE",
+                "location": "2582 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40513,7 +40263,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368070",
                 "id_b": "2447033",
-                "location": "2582 47TH AVE",
+                "location": "2582 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40576,7 +40326,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368071",
                 "id_b": "2447032",
-                "location": "2586 47TH AVE",
+                "location": "2586 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40639,7 +40389,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368072",
                 "id_b": "2447031",
-                "location": "2590 47TH AVE",
+                "location": "2590 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40702,7 +40452,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368073",
                 "id_b": "2447030",
-                "location": "2594 47TH AVE",
+                "location": "2594 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40765,7 +40515,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368074",
                 "id_b": "2448001A",
-                "location": "2507 47TH AVE",
+                "location": "2507 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40828,7 +40578,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368075",
                 "id_b": "2448001B",
-                "location": "2511 47TH AVE",
+                "location": "2511 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40891,7 +40641,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368076",
                 "id_b": "2448001C",
-                "location": "2515 47TH AVE",
+                "location": "2515 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -40954,7 +40704,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368077",
                 "id_b": "2448001C",
-                "location": "2515 47TH AVE",
+                "location": "2515 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41017,7 +40767,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368078",
                 "id_b": "2448001E",
-                "location": "2523 47TH AVE",
+                "location": "2523 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41080,7 +40830,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368079",
                 "id_b": "2448001F",
-                "location": "2527 47TH AVE",
+                "location": "2527 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41143,7 +40893,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368080",
                 "id_b": "2448001G",
-                "location": "2531 47TH AVE",
+                "location": "2531 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41206,7 +40956,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368081",
                 "id_b": "2448001H",
-                "location": "2535 47TH AVE",
+                "location": "2535 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41269,7 +41019,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368082",
                 "id_b": "2448001I",
-                "location": "2539 47TH AVE",
+                "location": "2539 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41332,7 +41082,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368083",
                 "id_b": "2448001J",
-                "location": "2543 47TH AVE",
+                "location": "2543 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41395,7 +41145,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368084",
                 "id_b": "2448001K",
-                "location": "2547 47TH AVE",
+                "location": "2547 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41458,7 +41208,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368085",
                 "id_b": "2448001L",
-                "location": "2551 47TH AVE",
+                "location": "2551 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41521,7 +41271,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368086",
                 "id_b": "2448001M",
-                "location": "2555 47TH AVE",
+                "location": "2555 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41584,7 +41334,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368087",
                 "id_b": "2448001O",
-                "location": "2563 47TH AVE",
+                "location": "2563 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41647,7 +41397,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368088",
                 "id_b": "2448001P",
-                "location": "2567 47TH AVE",
+                "location": "2567 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41710,7 +41460,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368089",
                 "id_b": "2448001Q",
-                "location": "2571 47TH AVE",
+                "location": "2571 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41773,7 +41523,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368090",
                 "id_b": "2448001R",
-                "location": "2575 47TH AVE",
+                "location": "2575 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41836,7 +41586,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368091",
                 "id_b": "2448001S",
-                "location": "2579 47TH AVE",
+                "location": "2579 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41899,7 +41649,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368092",
                 "id_b": "2448001U",
-                "location": "2587 47TH AVE",
+                "location": "2587 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41962,7 +41712,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368093",
                 "id_b": "2448001U",
-                "location": "2587 47TH AVE",
+                "location": "2587 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42025,7 +41775,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368094",
                 "id_b": "2448001V",
-                "location": "2591 47TH AVE",
+                "location": "2591 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42088,7 +41838,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368095",
                 "id_b": "2448001T",
-                "location": "2583 47TH AVE",
+                "location": "2583 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42277,7 +42027,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368098",
                 "id_b": "2451002D",
-                "location": "2695 45TH AVE",
+                "location": "2695 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42340,7 +42090,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368099",
                 "id_b": "2451002D",
-                "location": "2695 45TH AVE",
+                "location": "2695 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43285,7 +43035,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368133",
                 "id_b": "2450018B",
-                "location": "2691 46TH AVE",
+                "location": "2691 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -43348,7 +43098,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368134",
                 "id_b": "2451002A",
-                "location": "2683 45TH AVE",
+                "location": "2683 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43411,7 +43161,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368135",
                 "id_b": "2452014A",
-                "location": "2682 45TH AVE",
+                "location": "2682 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43474,7 +43224,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368136",
                 "id_b": "2452014",
-                "location": "2686 45TH AVE",
+                "location": "2686 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43537,7 +43287,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368137",
                 "id_b": "2451002J",
-                "location": "2667 45TH AVE",
+                "location": "2667 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43600,7 +43350,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368138",
                 "id_b": "2451002I",
-                "location": "2663 45TH AVE",
+                "location": "2663 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43663,7 +43413,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368139",
                 "id_b": "2451002H",
-                "location": "2659 45TH AVE",
+                "location": "2659 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43726,7 +43476,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368140",
                 "id_b": "2451002F",
-                "location": "2651 45TH AVE",
+                "location": "2651 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43789,7 +43539,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368141",
                 "id_b": "2451002T",
-                "location": "2647 45TH AVE",
+                "location": "2647 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43852,7 +43602,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368142",
                 "id_b": "2452021",
-                "location": "2650 45TH AVE",
+                "location": "2650 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43915,7 +43665,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368143",
                 "id_b": "2452021",
-                "location": "2650 45TH AVE",
+                "location": "2650 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43978,7 +43728,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368144",
                 "id_b": "2452020",
-                "location": "2654 45TH AVE",
+                "location": "2654 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44041,7 +43791,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368145",
                 "id_b": "2452015",
-                "location": "2678 45TH AVE",
+                "location": "2678 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44860,7 +44610,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368173",
                 "id_b": "2447053",
-                "location": "2500 47TH AVE",
+                "location": "2500 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44923,7 +44673,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368174",
                 "id_b": "2447053",
-                "location": "2500 47TH AVE",
+                "location": "2500 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -45298,7 +45048,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368188",
                 "id_b": "2513026",
-                "location": "2700 45TH AVE",
+                "location": "2700 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -45361,7 +45111,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368189",
                 "id_b": "2452013",
-                "location": "2694 45TH AVE",
+                "location": "2694 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -45424,7 +45174,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368190",
                 "id_b": "2451006M",
-                "location": "2600 46TH AVE",
+                "location": "2600 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45487,7 +45237,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368191",
                 "id_b": "2451006M",
-                "location": "2600 46TH AVE",
+                "location": "2600 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45550,7 +45300,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368192",
                 "id_b": "2450001",
-                "location": "2601 46TH AVE",
+                "location": "2601 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45613,7 +45363,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368193",
                 "id_b": "2450001A",
-                "location": "2607 46TH AVE",
+                "location": "2607 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45676,7 +45426,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368194",
                 "id_b": "2451006L",
-                "location": "2606 46TH AVE",
+                "location": "2606 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45739,7 +45489,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368195",
                 "id_b": "2451006K",
-                "location": "2610 46TH AVE",
+                "location": "2610 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45802,7 +45552,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368196",
                 "id_b": "2451006J",
-                "location": "2614 46TH AVE",
+                "location": "2614 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45865,7 +45615,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368197",
                 "id_b": "2451006I",
-                "location": "2618 46TH AVE",
+                "location": "2618 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45928,7 +45678,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368198",
                 "id_b": "2450001B",
-                "location": "2611 46TH AVE",
+                "location": "2611 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -45991,7 +45741,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368199",
                 "id_b": "2450001C",
-                "location": "2615 46TH AVE",
+                "location": "2615 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46054,7 +45804,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368200",
                 "id_b": "2450002",
-                "location": "2619 46TH AVE",
+                "location": "2619 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46117,7 +45867,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368201",
                 "id_b": "2451006H",
-                "location": "2622 46TH AVE",
+                "location": "2622 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46180,7 +45930,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368202",
                 "id_b": "2450003",
-                "location": "2623 46TH AVE",
+                "location": "2623 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46243,7 +45993,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368203",
                 "id_b": "2450004",
-                "location": "2627 46TH AVE",
+                "location": "2627 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46306,7 +46056,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368204",
                 "id_b": "2450005",
-                "location": "2631 46TH AVE",
+                "location": "2631 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46369,7 +46119,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368205",
                 "id_b": "2451006E",
-                "location": "2634 46TH AVE",
+                "location": "2634 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46432,7 +46182,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368206",
                 "id_b": "2451006D",
-                "location": "2638 46TH AVE",
+                "location": "2638 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46495,7 +46245,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368207",
                 "id_b": "2451006C",
-                "location": "2642 46TH AVE",
+                "location": "2642 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46558,7 +46308,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368208",
                 "id_b": "2450006",
-                "location": "2635 46TH AVE",
+                "location": "2635 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46621,7 +46371,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368209",
                 "id_b": "2450007",
-                "location": "2639 46TH AVE",
+                "location": "2639 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46684,7 +46434,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368210",
                 "id_b": "2450009",
-                "location": "2647 46TH AVE",
+                "location": "2647 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -46747,7 +46497,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368211",
                 "id_b": "2450010",
-                "location": "2651 46TH AVE",
+                "location": "2651 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -46810,7 +46560,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368212",
                 "id_b": "2451006",
-                "location": "2654 46TH AVE",
+                "location": "2654 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -46873,7 +46623,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368213",
                 "id_b": "2451005A",
-                "location": "2658 46TH AVE",
+                "location": "2658 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -46936,7 +46686,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368214",
                 "id_b": "2451005",
-                "location": "2662 46TH AVE",
+                "location": "2662 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -46999,7 +46749,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368215",
                 "id_b": "2451004A",
-                "location": "2670 46TH AVE",
+                "location": "2670 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47062,7 +46812,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368216",
                 "id_b": "2451004B",
-                "location": "2666 46TH AVE",
+                "location": "2666 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47125,7 +46875,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368217",
                 "id_b": "2451003",
-                "location": "2690 46TH AVE",
+                "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47188,7 +46938,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368218",
                 "id_b": "2450012",
-                "location": "2659 46TH AVE",
+                "location": "2659 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47251,7 +47001,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368219",
                 "id_b": "2450013",
-                "location": "2663 46TH AVE",
+                "location": "2663 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47314,7 +47064,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368220",
                 "id_b": "2450014",
-                "location": "2667 46TH AVE",
+                "location": "2667 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47377,7 +47127,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368221",
                 "id_b": "2450015",
-                "location": "2671 46TH AVE",
+                "location": "2671 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47440,7 +47190,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368222",
                 "id_b": "2450016",
-                "location": "2675 46TH AVE",
+                "location": "2675 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47503,7 +47253,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368223",
                 "id_b": "2450017",
-                "location": "2679 46TH AVE",
+                "location": "2679 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47566,7 +47316,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368224",
                 "id_b": "2450018",
-                "location": "2683 46TH AVE",
+                "location": "2683 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47629,7 +47379,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368225",
                 "id_b": "2450018A",
-                "location": "2687 46TH AVE",
+                "location": "2687 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47692,7 +47442,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368226",
                 "id_b": "2450018C",
-                "location": "2695 46TH AVE",
+                "location": "2695 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47755,7 +47505,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368227",
                 "id_b": "2446051",
-                "location": "2506 46TH AVE",
+                "location": "2506 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47818,7 +47568,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368228",
                 "id_b": "2446052",
-                "location": "2500 46TH AVE",
+                "location": "2500 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -47945,7 +47695,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367985",
                 "id_b": "2450039",
-                "location": "2600 47TH AVE",
+                "location": "2600 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -48008,7 +47758,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367991",
                 "id_b": "2449020",
-                "location": "2679 47TH AVE",
+                "location": "2679 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -48069,9 +47819,9 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_side_sewer_00",
+                "id_a": "unknown_side_sewer_002",
                 "id_b": "none",
-                "location": "2643 46TH AVE",
+                "location": "2643 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -48134,7 +47884,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197348",
                 "id_b": "2446023",
-                "location": "2591 45TH AVE",
+                "location": "2591 45th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -48195,25 +47945,20 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_side_sewer_00",
+                "id_a": "unknown_side_sewer_003",
                 "id_b": "2447001",
-                "location": "2501 46TH AVE",
+                "location": "2501 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "11",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -48258,7 +48003,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "unknown_side_sewer_00",
+                "id_a": "unknown_side_sewer_004",
                 "id_b": "none",
                 "location": "none",
                 "scope": "(E) to remain",
