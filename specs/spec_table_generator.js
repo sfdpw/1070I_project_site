@@ -94,6 +94,7 @@ function spec_table()
                  data-parent="#accordion">\
               <div style="max-height:140pt; overflow-y:scroll" class="card-body">\
                 <a href=\"./1070I_project_specifications.pdf\" target=\"_blank\">Project Specifications</a><br>\
+                <a href=\"../sheets/1070I_plan_set.pdf\" target=\"_blank\">Project Plan Set</a><br>\
                 <a href=\"./SFPW_STD_SPECS_draft_as_of_2021_08_09.pdf\" target=\"_blank\">SFPW Engineering Standard Specifications</a><br>\
                 <a href=\"https://sfpublicworks.org/sites/default/files/PW-Order-187005-Signed.pdf\" target=\"_blank\">SFPW Excavation Order 187,005</a>\
              </div>\

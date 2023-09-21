@@ -46,7 +46,7 @@ function bid_item_flattener ( pp_history_obj ) {
     
      {
 
-      return_string += linked_bid_item_string_geneator (bid_item_array[bi]);
+      return_string += linked_bid_item_string_geneator (bid_item_array[bi], true );
       
       if ( bi != bid_item_array.length - 1 ) { return_string += ', ';}
 
@@ -79,7 +79,9 @@ var response_date_obj = {
     '53.0'  : '2023_08_07',
     '56.0'  : '2023_08_31',    
     '57.0'  : '2023_08_28',
-    '58.1'  : '2023_09_11'    
+    '58.1'  : '2023_09_11',
+    '60.0'  : '2023_09_20'    
+    
 
 
 }

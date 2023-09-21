@@ -10486,7 +10486,10 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
-                    }
+                    },
+                    'SW-28': {
+                        'PP04': 50
+                    }       
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -10498,9 +10501,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "12",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28124,6 +28127,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28136,9 +28142,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "14",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28185,6 +28191,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*17
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28197,9 +28206,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28246,6 +28255,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28258,9 +28270,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28307,6 +28319,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28319,9 +28334,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28368,6 +28383,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28380,9 +28398,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28618,6 +28636,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 20*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28630,9 +28651,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28679,6 +28700,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 20*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28691,9 +28715,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28740,6 +28764,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28752,9 +28779,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -28929,6 +28956,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*17
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -28941,9 +28971,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -29054,6 +29084,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -29066,9 +29099,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34977,7 +35010,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367981",
                 "id_b": "2449003",
-                "location": "2615 47th Ave",
+                "location": "2619 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -34985,7 +35018,10 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
-                    }
+                    },
+                    'SW-28': {
+                        'PP04': 50
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -34997,9 +35033,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35046,6 +35082,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -35058,9 +35097,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "13",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35162,7 +35201,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367986",
                 "id_b": "2449013",
-                "location": "0001 CUTLER AVE",
+                "location": "1 Cutler Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -35170,6 +35209,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP03': 225*18
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -35182,9 +35224,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "60.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }

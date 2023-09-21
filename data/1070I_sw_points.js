@@ -8,7 +8,7 @@ var json_1070I_sw_points = {
         }
     },
     "features": [
-//###############
+        //###############
         {
             "type": "Feature",
             "properties": {
@@ -30,6 +30,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -44,7 +47,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420762",
@@ -60,6 +63,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -74,7 +80,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33043",
@@ -95,6 +101,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -109,7 +118,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33312",
@@ -128,7 +137,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -142,7 +154,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-32687",
@@ -161,7 +173,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -175,7 +190,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420761",
@@ -191,6 +206,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -205,7 +223,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420767",
@@ -221,6 +239,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -235,7 +256,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47674",
@@ -254,7 +275,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -268,7 +292,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41881",
@@ -287,7 +311,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -301,7 +328,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23454",
@@ -322,6 +349,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -336,7 +366,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334426",
@@ -357,6 +387,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -371,7 +404,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-46564",
@@ -390,7 +423,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -404,7 +440,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420768",
@@ -420,6 +456,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -434,7 +473,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-57248",
@@ -453,7 +492,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -467,7 +509,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420769",
@@ -483,6 +525,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -497,7 +542,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47675",
@@ -516,7 +561,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -530,7 +578,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41882",
@@ -549,7 +597,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -563,7 +614,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47676",
@@ -582,7 +633,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -596,7 +650,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59123",
@@ -615,7 +669,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -629,7 +686,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-36124",
@@ -648,7 +705,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -662,7 +722,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-70557",
@@ -681,7 +741,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -695,7 +758,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59122",
@@ -714,7 +777,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -728,7 +794,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47676",
@@ -747,7 +813,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -761,7 +830,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47675",
@@ -782,6 +851,9 @@ var json_1070I_sw_points = {
                 "sw_type": "cb",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -796,7 +868,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420785",
@@ -817,6 +889,9 @@ var json_1070I_sw_points = {
                 "sw_type": "cb",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -831,7 +906,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41882",
@@ -850,7 +925,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -864,7 +942,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25274",
@@ -885,6 +963,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -899,7 +980,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334617",
@@ -920,6 +1001,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -934,7 +1018,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59744",
@@ -953,7 +1037,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -967,7 +1054,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-50791",
@@ -986,7 +1073,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1000,7 +1090,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-50792",
@@ -1019,7 +1109,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1033,7 +1126,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-46202",
@@ -1052,7 +1145,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1066,7 +1162,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59742",
@@ -1085,7 +1181,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1099,7 +1198,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59743",
@@ -1118,7 +1217,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1132,7 +1234,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47735",
@@ -1151,7 +1253,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1165,7 +1270,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59745",
@@ -1184,7 +1289,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1198,7 +1306,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-49144",
@@ -1217,7 +1325,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1231,7 +1342,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-59746",
@@ -1250,7 +1361,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1264,7 +1378,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21082",
@@ -1285,6 +1399,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1299,7 +1416,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-388880",
@@ -1320,6 +1437,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1334,7 +1454,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29955",
@@ -1355,6 +1475,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1369,7 +1492,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-388879",
@@ -1388,7 +1511,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1402,7 +1528,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-388880",
@@ -1421,7 +1547,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1435,7 +1564,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420787",
@@ -1456,6 +1585,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1470,7 +1602,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420788",
@@ -1491,6 +1623,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1505,7 +1640,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-403679",
@@ -1526,6 +1661,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1540,7 +1678,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47666",
@@ -1559,7 +1697,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1573,7 +1714,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47667",
@@ -1592,7 +1733,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1606,7 +1750,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-65667",
@@ -1625,7 +1769,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1639,7 +1786,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47665",
@@ -1658,7 +1805,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1672,7 +1822,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-49929",
@@ -1691,7 +1841,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1705,7 +1858,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-403674",
@@ -1726,6 +1879,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1740,7 +1896,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-70714",
@@ -1759,7 +1915,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1773,7 +1932,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-49928",
@@ -1792,7 +1951,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1806,7 +1968,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-48970",
@@ -1825,7 +1987,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -1839,7 +2004,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23834",
@@ -1855,6 +2020,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1869,7 +2037,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29761",
@@ -1890,6 +2058,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1904,7 +2075,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-20787",
@@ -1925,6 +2096,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1939,7 +2113,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-20788",
@@ -1960,6 +2134,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -1974,7 +2151,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21083",
@@ -1995,6 +2172,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2009,7 +2189,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-18273",
@@ -2030,6 +2210,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2044,7 +2227,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21086",
@@ -2065,6 +2248,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2079,7 +2265,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-21088",
@@ -2100,6 +2286,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2114,7 +2303,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33501",
@@ -2135,6 +2324,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2149,7 +2341,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-34650",
@@ -2170,6 +2362,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2184,7 +2379,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23886",
@@ -2205,6 +2400,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2219,7 +2417,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37055",
@@ -2238,7 +2436,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2252,7 +2453,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-38321",
@@ -2271,7 +2472,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2285,7 +2489,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22731",
@@ -2306,6 +2510,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2320,7 +2527,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23889",
@@ -2339,7 +2546,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2353,7 +2563,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22732",
@@ -2372,7 +2582,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2386,7 +2599,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-28922",
@@ -2407,6 +2620,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2421,7 +2637,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22733",
@@ -2442,6 +2658,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2456,7 +2675,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22734",
@@ -2477,6 +2696,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2491,7 +2713,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22735",
@@ -2512,6 +2734,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2526,7 +2751,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23962",
@@ -2545,7 +2770,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2559,7 +2787,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22736",
@@ -2580,6 +2808,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2594,7 +2825,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-403676",
@@ -2615,6 +2846,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2629,7 +2863,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-27270",
@@ -2650,6 +2884,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2664,7 +2901,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23449",
@@ -2685,6 +2922,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2699,7 +2939,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37846",
@@ -2720,6 +2960,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2734,7 +2977,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23450",
@@ -2753,7 +2996,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2767,7 +3013,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23452",
@@ -2788,6 +3034,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2802,7 +3051,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23453",
@@ -2823,6 +3072,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2837,7 +3089,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37847",
@@ -2858,6 +3110,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2872,7 +3127,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23457",
@@ -2891,7 +3146,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -2905,7 +3163,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23459",
@@ -2926,6 +3184,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2940,7 +3201,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-26572",
@@ -2961,6 +3222,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -2975,7 +3239,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23461",
@@ -2996,6 +3260,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3010,7 +3277,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-32684",
@@ -3029,7 +3296,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3043,7 +3313,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23462",
@@ -3064,6 +3334,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3078,7 +3351,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-22471",
@@ -3094,6 +3367,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3108,7 +3384,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23964",
@@ -3129,6 +3405,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3143,7 +3422,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-37848",
@@ -3164,6 +3443,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3178,7 +3460,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-38755",
@@ -3199,6 +3481,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3213,7 +3498,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23463",
@@ -3234,6 +3519,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3248,7 +3536,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-420782",
@@ -3269,6 +3557,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3283,7 +3574,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29657",
@@ -3304,6 +3595,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3318,7 +3612,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23965",
@@ -3339,6 +3633,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3353,7 +3650,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23465",
@@ -3374,6 +3671,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3388,7 +3688,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23466",
@@ -3409,6 +3709,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3423,7 +3726,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23967",
@@ -3442,7 +3745,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3456,7 +3762,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23831",
@@ -3477,6 +3783,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3491,7 +3800,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23832",
@@ -3512,6 +3821,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3526,7 +3838,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23833",
@@ -3547,6 +3859,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3561,7 +3876,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23839",
@@ -3582,6 +3897,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3596,7 +3914,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25267",
@@ -3615,7 +3933,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3629,7 +3950,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25268",
@@ -3650,6 +3971,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3664,7 +3988,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25221",
@@ -3685,6 +4009,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3699,7 +4026,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25269",
@@ -3720,6 +4047,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3734,7 +4064,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25270",
@@ -3755,6 +4085,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3769,7 +4102,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25271",
@@ -3790,6 +4123,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3804,7 +4140,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-28589",
@@ -3823,7 +4159,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -3837,7 +4176,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24155",
@@ -3858,6 +4197,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3872,7 +4214,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24156",
@@ -3893,6 +4235,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3907,7 +4252,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-38310",
@@ -3928,6 +4273,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3942,7 +4290,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-18773",
@@ -3963,6 +4311,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -3977,7 +4328,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24159",
@@ -3998,6 +4349,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4012,7 +4366,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-25144",
@@ -4031,7 +4385,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4045,7 +4402,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24160",
@@ -4066,6 +4423,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4080,7 +4440,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-15621",
@@ -4101,6 +4461,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4115,7 +4478,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-29166",
@@ -4134,7 +4497,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4148,7 +4514,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24161",
@@ -4169,6 +4535,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4183,7 +4552,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-24162",
@@ -4204,6 +4573,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4218,7 +4590,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-33386",
@@ -4239,6 +4611,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4253,7 +4628,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-19858",
@@ -4274,6 +4649,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4288,7 +4666,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-30486",
@@ -4307,7 +4685,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4321,7 +4702,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-40443",
@@ -4340,7 +4721,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4354,7 +4738,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-39988",
@@ -4373,7 +4757,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4387,7 +4774,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-39989",
@@ -4406,7 +4793,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4420,7 +4810,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-40509",
@@ -4441,6 +4831,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4455,7 +4848,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-40510",
@@ -4476,6 +4869,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4490,7 +4886,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41115",
@@ -4509,7 +4905,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4523,7 +4922,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-74264",
@@ -4544,6 +4943,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4558,7 +4960,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-74265",
@@ -4579,6 +4981,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4593,7 +4998,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-74266",
@@ -4614,6 +5019,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4628,7 +5036,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-322076",
@@ -4647,7 +5055,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4661,7 +5072,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334427",
@@ -4680,7 +5091,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4694,7 +5108,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-334616",
@@ -4715,6 +5129,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4729,7 +5146,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-348732",
@@ -4750,6 +5167,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4764,7 +5184,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-396171",
@@ -4785,6 +5205,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4799,7 +5222,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-402065",
@@ -4818,7 +5241,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4832,7 +5258,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-47670",
@@ -4851,7 +5277,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4865,7 +5294,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-41879",
@@ -4884,7 +5313,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4898,7 +5330,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-23456",
@@ -4919,6 +5351,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4933,7 +5368,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-xxxx1",
@@ -4949,6 +5384,9 @@ var json_1070I_sw_points = {
                 "sw_type": "mh",
                 get status() {
                     return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
                 }
             },
             "geometry": {
@@ -4963,7 +5401,7 @@ var json_1070I_sw_points = {
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
                 "id_a": "N-xxxx2",
@@ -4982,7 +5420,10 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
             },
             "geometry": {
                 "type": "Point",
@@ -4991,17 +5432,80 @@ var json_1070I_sw_points = {
             get asset_coordinate() {
                 return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
-
         },
 
         // ######################################
 
-      {
+        {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx2",
+                "id_a": "N-xxxx3",
                 "id_b": "none",
-                "location": "Sloat Blvd and 45th Ave - NWC",
+                "location": "46th Ave, north of Sloat Blvd",
+                "scope": "Install (N) manhole",
+                "pp_history": {
+                    'SW-23': {
+                        'PP03': 8500
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "mh",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.504202939817816, 37.73565985062546]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "N-xxxx4",
+                "id_b": "none",
+                "location": "Wawona St and 46th Ave",
+                "scope": "Install (N) manhole",
+                "pp_history": {
+                    'SW-23': {
+                        'PP03': 8500
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "mh",
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.50424528882742, 37.73613908944386]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "N-390666",
+                "id_b": "297266",
+                "location": "Sloat Blvd and 45th Ave - East Median",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -5015,101 +5519,26 @@ var json_1070I_sw_points = {
                 },
                 "rlvnt": "none",
                 "sw_type": "cb",
-                "status": "No Construction"
+                get status() {
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-122.503206298868164, 37.735712207873526]
+                "coordinates": [-122.502929249078136, 37.735463003631864]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
             }
-        },
-        
-        // ######################################
-        	
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "N-xxxx3",
-		"id_b": "none",
-		"location": "46th Ave, north of Sloat Blvd",
-		"scope": "Install (N) manhole",
-		"pp_history": {
-		    'SW-23': {
-			'PP03': 8500
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "mh",
-                get status() {
-                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
-                }
-	    },
-	    "geometry": {
-		"type": "Point",
-		"coordinates": [-122.504202939817816, 37.73565985062546]
-	    }
-	},
+        }
 
-        // ######################################
 
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "N-xxxx4",
-		"id_b": "none",
-		"location": "Wawona St and 46th Ave",
-		"scope": "Install (N) manhole",
-		"pp_history": {
-		    'SW-23': {
-			'PP03': 8500
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "mh",
-                get status() {
-                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
-                }
-	    },
-	    "geometry": {
-		"type": "Point",
-		"coordinates": [-122.50424528882742, 37.73613908944386]
-	    }
-	},
-	
-        // ######################################
-	
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "N-390666",
-		"id_b": "297266",
-		"location": "Sloat Blvd and 45th Ave - East Median",
-		"scope": "(E) to remain",
-		"pp_history": {
-		    'SW-0': {
-		        'PP0': {
-		            'SFPUC-SW': {
-		                'QTY': 0,
-		                'UNIT': ''
-		            }
-		        }
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "cb",
-                get status() {
-                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
-                }
-	    },
-	    "geometry": {
-		"type": "Point",
-		"coordinates": [-122.502929249078136, 37.735463003631864]
-	    }
-	}
-	
-	        
-        
-        
-        
+
+
+
 
     ]
 }
