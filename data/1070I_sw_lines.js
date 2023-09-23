@@ -26,7 +26,7 @@ var json_1070I_sw_lines = {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
+                    return bid_item_flattener(this.pp_history)
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -49,7 +49,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 }
             },
             "geometry": {
@@ -64,9 +64,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -81,7 +81,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-49': {
                         'PP01': 2200
-                    },                    
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -104,14 +104,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -125,9 +125,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -162,14 +162,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -183,9 +183,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -225,14 +225,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -246,9 +246,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -288,14 +288,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -309,9 +309,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -351,14 +351,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -372,9 +372,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -414,14 +414,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -435,9 +435,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -477,14 +477,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -498,9 +498,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -540,14 +540,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -561,9 +561,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -598,14 +598,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -619,9 +619,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -661,14 +661,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -682,9 +682,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -724,14 +724,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -745,9 +745,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -787,14 +787,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -808,9 +808,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -850,14 +850,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -871,9 +871,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -913,14 +913,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -934,9 +934,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -976,14 +976,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -997,9 +997,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1039,14 +1039,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1060,9 +1060,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1102,14 +1102,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1123,9 +1123,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1165,14 +1165,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1186,9 +1186,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1223,14 +1223,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1244,9 +1244,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1281,14 +1281,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1302,9 +1302,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1339,14 +1339,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1360,9 +1360,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1373,7 +1373,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 18in VCP main",
                 "pp_history": {
                     'SW-07': {
-                        'PP03': 26*500
+                        'PP03': 26 * 500
                     }
                 },
                 "submittals": {
@@ -1397,14 +1397,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1418,9 +1418,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1431,7 +1431,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 18in VCP main",
                 "pp_history": {
                     'SW-07': {
-                        'PP03': 192*500
+                        'PP03': 192 * 500
                     }
                 },
                 "submittals": {
@@ -1455,14 +1455,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1476,9 +1476,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1489,7 +1489,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-09': {
-                        'PP03': 16*200
+                        'PP03': 16 * 200
                     }
                 },
                 "submittals": {
@@ -1513,14 +1513,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1534,9 +1534,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1571,14 +1571,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1592,9 +1592,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1634,14 +1634,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1655,9 +1655,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1697,14 +1697,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1718,9 +1718,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1755,14 +1755,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1776,9 +1776,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1789,7 +1789,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-09': {
-                        'PP03': 20*200
+                        'PP03': 20 * 200
                     },
                     'SW-28': {
                         'PP03': 50
@@ -1816,30 +1816,30 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-			[ -122.504202939817816, 37.73565985062546 ],
-			[ -122.50427634055184, 37.735660476889898 ]
+                        [-122.504202939817816, 37.73565985062546],
+                        [-122.50427634055184, 37.735660476889898]
                     ]
                 ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1850,7 +1850,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-09': {
-                        'PP03': 22*200
+                        'PP03': 22 * 200
                     },
                     'SW-28': {
                         'PP03': 50
@@ -1877,14 +1877,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1898,9 +1898,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -1940,14 +1940,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -1961,9 +1961,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2003,14 +2003,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2024,9 +2024,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2066,14 +2066,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2087,9 +2087,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2129,14 +2129,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2150,9 +2150,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2192,14 +2192,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2213,9 +2213,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2255,14 +2255,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2276,9 +2276,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2289,7 +2289,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 15in VCP main",
                 "pp_history": {
                     'SW-06': {
-                        'PP03': 172*450
+                        'PP03': 172 * 450
                     }
                 },
                 "submittals": {
@@ -2313,30 +2313,30 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-			[ -122.504202939817816, 37.73565985062546 ], 
-			[ -122.50424528882742, 37.73613908944386 ]
+                        [-122.504202939817816, 37.73565985062546],
+                        [-122.50424528882742, 37.73613908944386]
                     ]
                 ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2347,7 +2347,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-09': {
-                        'PP03': 34*200
+                        'PP03': 34 * 200
                     }
                 },
                 "submittals": {
@@ -2371,14 +2371,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2392,9 +2392,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2434,14 +2434,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2455,9 +2455,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2497,14 +2497,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2518,9 +2518,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2560,14 +2560,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2581,9 +2581,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2623,14 +2623,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2644,9 +2644,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2686,14 +2686,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2707,9 +2707,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2749,14 +2749,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2770,9 +2770,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2812,14 +2812,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2833,9 +2833,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2875,14 +2875,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2896,9 +2896,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -2938,14 +2938,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -2959,9 +2959,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3001,14 +3001,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3022,9 +3022,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3064,14 +3064,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3085,9 +3085,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3127,14 +3127,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3148,9 +3148,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3161,7 +3161,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 15in VCP main",
                 "pp_history": {
                     'SW-06': {
-                        'PP03': 292*450
+                        'PP03': 292 * 450
                     }
                 },
                 "submittals": {
@@ -3185,14 +3185,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3207,9 +3207,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3249,14 +3249,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3270,9 +3270,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3312,14 +3312,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3333,9 +3333,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3375,14 +3375,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3396,9 +3396,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3431,14 +3431,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3452,9 +3452,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3487,14 +3487,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3508,9 +3508,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3543,14 +3543,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3564,9 +3564,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3606,14 +3606,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3627,9 +3627,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3669,14 +3669,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3690,9 +3690,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3732,14 +3732,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3753,9 +3753,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3795,14 +3795,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3816,9 +3816,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3858,14 +3858,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3879,9 +3879,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3921,14 +3921,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -3942,9 +3942,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -3984,14 +3984,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4005,9 +4005,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4047,14 +4047,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4068,9 +4068,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4110,14 +4110,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4131,9 +4131,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4173,14 +4173,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4194,9 +4194,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4236,14 +4236,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4257,9 +4257,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4299,14 +4299,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4320,9 +4320,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4362,14 +4362,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4383,9 +4383,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4425,14 +4425,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4446,9 +4446,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4488,14 +4488,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4509,9 +4509,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4551,14 +4551,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4572,9 +4572,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4614,14 +4614,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4635,9 +4635,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4677,14 +4677,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4698,9 +4698,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4740,14 +4740,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4761,9 +4761,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4803,14 +4803,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4824,9 +4824,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4866,14 +4866,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4887,9 +4887,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4929,14 +4929,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -4950,9 +4950,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -4992,14 +4992,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5013,9 +5013,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5055,14 +5055,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5076,9 +5076,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5118,14 +5118,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5139,9 +5139,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5176,14 +5176,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5197,9 +5197,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5239,14 +5239,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5260,9 +5260,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5302,14 +5302,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5323,9 +5323,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5365,14 +5365,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5386,9 +5386,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5428,14 +5428,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5449,9 +5449,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5491,14 +5491,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5512,9 +5512,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5554,14 +5554,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5575,9 +5575,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5617,14 +5617,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5638,9 +5638,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5680,14 +5680,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5701,9 +5701,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5743,14 +5743,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5764,9 +5764,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5806,14 +5806,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5827,9 +5827,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5869,14 +5869,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5890,9 +5890,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5932,14 +5932,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -5953,9 +5953,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -5990,14 +5990,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6011,9 +6011,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6053,14 +6053,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6074,9 +6074,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6116,14 +6116,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6137,9 +6137,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6179,14 +6179,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6200,9 +6200,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6242,14 +6242,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6263,9 +6263,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6305,14 +6305,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6326,9 +6326,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6368,14 +6368,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6389,9 +6389,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6431,14 +6431,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6454,9 +6454,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6496,14 +6496,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6517,9 +6517,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6559,14 +6559,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6580,9 +6580,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6622,14 +6622,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6643,9 +6643,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6685,14 +6685,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6706,9 +6706,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6748,14 +6748,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6771,9 +6771,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6813,14 +6813,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6834,9 +6834,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6876,14 +6876,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6897,9 +6897,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -6939,14 +6939,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -6960,9 +6960,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7002,14 +7002,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7023,9 +7023,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7065,14 +7065,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7086,9 +7086,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7128,14 +7128,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7149,9 +7149,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7191,14 +7191,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7212,9 +7212,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7254,14 +7254,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7275,9 +7275,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7317,14 +7317,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7338,9 +7338,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7380,14 +7380,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7401,9 +7401,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7443,14 +7443,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7464,9 +7464,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7506,14 +7506,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7527,9 +7527,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7569,14 +7569,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7590,9 +7590,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7632,14 +7632,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7653,9 +7653,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7695,14 +7695,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7716,9 +7716,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7758,14 +7758,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7779,9 +7779,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7821,14 +7821,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7842,9 +7842,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7884,14 +7884,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7905,9 +7905,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -7947,14 +7947,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -7968,9 +7968,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8010,14 +8010,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8031,9 +8031,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8073,14 +8073,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8094,9 +8094,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8136,14 +8136,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8157,9 +8157,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8199,14 +8199,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8220,9 +8220,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8262,14 +8262,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8283,9 +8283,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8325,14 +8325,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8346,9 +8346,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8388,14 +8388,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8409,9 +8409,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8451,14 +8451,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8472,9 +8472,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8514,14 +8514,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8535,9 +8535,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8577,14 +8577,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8598,9 +8598,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8640,14 +8640,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8661,9 +8661,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8703,14 +8703,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8724,9 +8724,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8766,14 +8766,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8787,9 +8787,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8829,14 +8829,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8850,9 +8850,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8892,14 +8892,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8913,9 +8913,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -8948,14 +8948,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -8969,9 +8969,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9009,14 +9009,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9030,9 +9030,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9072,14 +9072,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9093,9 +9093,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9135,14 +9135,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9156,9 +9156,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9198,14 +9198,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9219,9 +9219,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9261,14 +9261,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9282,9 +9282,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9324,14 +9324,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9345,9 +9345,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9387,14 +9387,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9408,9 +9408,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9450,14 +9450,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9472,9 +9472,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9514,14 +9514,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9538,9 +9538,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9580,14 +9580,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9601,9 +9601,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9643,14 +9643,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9664,9 +9664,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9706,14 +9706,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9727,9 +9727,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9769,14 +9769,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9790,9 +9790,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9832,14 +9832,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9853,9 +9853,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9895,14 +9895,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9916,9 +9916,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -9958,14 +9958,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -9979,9 +9979,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10021,14 +10021,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10042,9 +10042,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10084,14 +10084,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10105,9 +10105,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10147,14 +10147,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10168,9 +10168,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10210,14 +10210,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10231,9 +10231,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10266,14 +10266,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10287,9 +10287,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10322,14 +10322,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10343,9 +10343,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10385,14 +10385,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10406,9 +10406,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10448,14 +10448,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10469,9 +10469,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10485,11 +10485,11 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
-                    }       
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -10512,14 +10512,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10533,9 +10533,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10550,7 +10550,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP01': 50
-                    }   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -10573,14 +10573,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10594,9 +10594,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10611,7 +10611,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP02': 3375
-                    },                    
+                    },
                     'SW-28': {
                         'PP02': 50
                     }
@@ -10637,14 +10637,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10658,9 +10658,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10674,7 +10674,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 19*225
+                        'PP03': 19 * 225
                     },
                     'SW-28': {
                         'PP03': 50
@@ -10701,30 +10701,30 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-			[ -122.504136991444085, 37.735739759905833 ], 
-			[ -122.504209870839532, 37.735738285131688 ]
+                        [-122.504136991444085, 37.735739759905833],
+                        [-122.504209870839532, 37.735738285131688]
                     ]
                 ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10739,10 +10739,10 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP02': 3375
-                    },                    
+                    },
                     'SW-28': {
                         'PP02': 50
-                    }                    
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -10765,14 +10765,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10786,9 +10786,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10828,14 +10828,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10849,9 +10849,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10891,14 +10891,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10912,9 +10912,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -10954,14 +10954,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -10975,9 +10975,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11017,14 +11017,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11038,9 +11038,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11080,14 +11080,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11101,9 +11101,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11143,14 +11143,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11164,9 +11164,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11206,14 +11206,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11227,9 +11227,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11269,14 +11269,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11290,9 +11290,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11332,14 +11332,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11353,9 +11353,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11395,14 +11395,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11416,9 +11416,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11458,14 +11458,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11479,9 +11479,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11521,14 +11521,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11542,9 +11542,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11584,14 +11584,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11605,9 +11605,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11647,14 +11647,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11668,9 +11668,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11710,14 +11710,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11731,9 +11731,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11773,14 +11773,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11794,9 +11794,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11836,14 +11836,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11857,9 +11857,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11899,14 +11899,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11920,9 +11920,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -11962,14 +11962,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -11983,9 +11983,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12025,14 +12025,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12046,9 +12046,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12088,14 +12088,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12109,9 +12109,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12151,14 +12151,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12172,9 +12172,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12184,20 +12184,15 @@ var json_1070I_sw_lines = {
                 "location": "2650 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "11",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12214,14 +12209,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12235,9 +12230,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12277,14 +12272,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12298,9 +12293,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12310,20 +12305,15 @@ var json_1070I_sw_lines = {
                 "location": "2658 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "10",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12340,14 +12330,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12361,9 +12351,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12373,20 +12363,15 @@ var json_1070I_sw_lines = {
                 "location": "2662 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "8",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12403,14 +12388,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12424,9 +12409,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12466,14 +12451,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12487,9 +12472,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12524,14 +12509,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12545,9 +12530,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12587,14 +12572,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12608,9 +12593,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12650,14 +12635,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12671,9 +12656,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12708,14 +12693,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12729,9 +12714,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12771,14 +12756,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12792,9 +12777,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12829,14 +12814,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12850,9 +12835,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12862,20 +12847,15 @@ var json_1070I_sw_lines = {
                 "location": "2670 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "6",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12892,14 +12872,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12913,9 +12893,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -12925,20 +12905,15 @@ var json_1070I_sw_lines = {
                 "location": "2674 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "5",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12955,14 +12930,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -12976,9 +12951,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13018,14 +12993,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13039,9 +13014,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13051,20 +13026,15 @@ var json_1070I_sw_lines = {
                 "location": "2682 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "2",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13081,14 +13051,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13102,9 +13072,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13144,14 +13114,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13165,9 +13135,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13207,14 +13177,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13228,9 +13198,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13270,14 +13240,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13291,9 +13261,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13333,14 +13303,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13354,9 +13324,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13396,14 +13366,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13417,9 +13387,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13459,14 +13429,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13480,9 +13450,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13522,14 +13492,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13543,9 +13513,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13585,14 +13555,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13606,9 +13576,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13648,14 +13618,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13669,9 +13639,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13711,14 +13681,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13732,9 +13702,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13774,14 +13744,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13795,9 +13765,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13837,14 +13807,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13858,9 +13828,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13900,14 +13870,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13921,9 +13891,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -13963,14 +13933,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -13984,9 +13954,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14026,14 +13996,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14047,9 +14017,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14084,14 +14054,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14105,9 +14075,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14147,14 +14117,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14168,9 +14138,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14210,14 +14180,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14231,9 +14201,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14268,14 +14238,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14289,9 +14259,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14331,14 +14301,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14352,9 +14322,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14394,14 +14364,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14415,9 +14385,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14457,14 +14427,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14478,9 +14448,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14520,14 +14490,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14541,9 +14511,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14583,14 +14553,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14604,9 +14574,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14646,14 +14616,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14667,9 +14637,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14709,14 +14679,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14730,9 +14700,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14772,14 +14742,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14793,9 +14763,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14835,14 +14805,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14856,9 +14826,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14898,14 +14868,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14919,9 +14889,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -14961,14 +14931,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -14982,9 +14952,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15024,14 +14994,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15045,9 +15015,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15087,14 +15057,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15108,9 +15078,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15150,14 +15120,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15171,9 +15141,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15213,14 +15183,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15234,9 +15204,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15276,14 +15246,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15297,9 +15267,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15339,14 +15309,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15360,9 +15330,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15402,14 +15372,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15423,9 +15393,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15465,14 +15435,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15486,9 +15456,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15528,14 +15498,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15549,9 +15519,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15591,14 +15561,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15612,9 +15582,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15654,14 +15624,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15675,9 +15645,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15717,14 +15687,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15738,9 +15708,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15780,14 +15750,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15801,9 +15771,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15843,14 +15813,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15864,9 +15834,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15906,14 +15876,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15927,9 +15897,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -15969,14 +15939,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -15990,9 +15960,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16032,14 +16002,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16053,9 +16023,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16095,14 +16065,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16116,9 +16086,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16158,14 +16128,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16179,9 +16149,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16216,14 +16186,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16237,9 +16207,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16279,14 +16249,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16300,9 +16270,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16337,14 +16307,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16358,9 +16328,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16395,14 +16365,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16416,9 +16386,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16453,14 +16423,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16474,9 +16444,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16511,14 +16481,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16532,9 +16502,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16574,14 +16544,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16595,9 +16565,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16637,14 +16607,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16658,9 +16628,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16700,14 +16670,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16721,9 +16691,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16763,14 +16733,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16784,9 +16754,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16826,14 +16796,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16847,9 +16817,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16889,14 +16859,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16910,9 +16880,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -16922,20 +16892,15 @@ var json_1070I_sw_lines = {
                 "location": "2694 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "1",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16952,14 +16917,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -16973,9 +16938,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17015,14 +16980,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17036,9 +17001,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17078,14 +17043,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17099,9 +17064,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17141,14 +17106,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17162,9 +17127,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17204,14 +17169,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17225,9 +17190,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17267,14 +17232,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17288,9 +17253,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17330,14 +17295,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17351,9 +17316,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17393,14 +17358,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17414,9 +17379,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17456,14 +17421,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17477,9 +17442,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17519,14 +17484,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17540,9 +17505,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17582,14 +17547,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17603,9 +17568,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17645,14 +17610,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17666,9 +17631,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17708,14 +17673,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17729,9 +17694,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17771,14 +17736,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17792,9 +17757,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17834,14 +17799,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17855,9 +17820,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17897,14 +17862,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17918,9 +17883,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -17960,14 +17925,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -17981,9 +17946,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18023,14 +17988,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18044,9 +18009,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18086,14 +18051,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18107,9 +18072,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18149,14 +18114,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18170,9 +18135,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18212,14 +18177,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18233,9 +18198,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18275,14 +18240,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18296,9 +18261,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18338,14 +18303,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18359,9 +18324,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18401,14 +18366,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18422,9 +18387,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18464,14 +18429,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18485,9 +18450,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18527,14 +18492,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18548,9 +18513,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18590,14 +18555,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18611,9 +18576,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18653,14 +18618,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18674,9 +18639,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18686,13 +18651,8 @@ var json_1070I_sw_lines = {
                 "location": "3519 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -18705,9 +18665,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18716,14 +18676,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18737,9 +18697,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18749,13 +18709,8 @@ var json_1070I_sw_lines = {
                 "location": "3525 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -18768,9 +18723,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18779,14 +18734,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18800,9 +18755,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18842,14 +18797,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18863,9 +18818,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18905,14 +18860,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18926,9 +18881,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -18968,14 +18923,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -18989,9 +18944,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19031,14 +18986,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19052,9 +19007,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19094,14 +19049,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19115,9 +19070,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19157,14 +19112,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19178,9 +19133,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19220,14 +19175,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19241,9 +19196,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19283,14 +19238,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19304,9 +19259,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19346,14 +19301,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19367,9 +19322,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19409,14 +19364,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19430,9 +19385,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19472,14 +19427,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19493,9 +19448,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19505,13 +19460,8 @@ var json_1070I_sw_lines = {
                 "location": "3531 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -19524,9 +19474,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19535,14 +19485,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19556,9 +19506,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19568,13 +19518,8 @@ var json_1070I_sw_lines = {
                 "location": "3537 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -19587,9 +19532,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19598,14 +19543,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19619,9 +19564,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19631,20 +19576,15 @@ var json_1070I_sw_lines = {
                 "location": "2600 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "26",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19661,14 +19601,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19682,9 +19622,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19724,14 +19664,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19745,9 +19685,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19787,14 +19727,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19808,9 +19748,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19850,14 +19790,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19871,9 +19811,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19913,14 +19853,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19934,9 +19874,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -19976,14 +19916,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -19997,9 +19937,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20039,14 +19979,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20060,9 +20000,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20102,14 +20042,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20123,9 +20063,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20165,14 +20105,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20186,9 +20126,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20228,14 +20168,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20249,9 +20189,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20291,14 +20231,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20312,9 +20252,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20354,14 +20294,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20375,9 +20315,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20412,14 +20352,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20433,9 +20373,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20470,14 +20410,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20491,9 +20431,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20528,14 +20468,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20549,9 +20489,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20591,14 +20531,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20612,9 +20552,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20654,14 +20594,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20675,9 +20615,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20717,14 +20657,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20738,9 +20678,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20780,14 +20720,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20801,9 +20741,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20843,14 +20783,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20864,9 +20804,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20876,20 +20816,15 @@ var json_1070I_sw_lines = {
                 "location": "2614 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "23",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20906,14 +20841,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20927,9 +20862,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -20939,20 +20874,15 @@ var json_1070I_sw_lines = {
                 "location": "2618 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "21",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20969,14 +20899,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -20990,9 +20920,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21002,20 +20932,15 @@ var json_1070I_sw_lines = {
                 "location": "2626 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "19",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21032,14 +20957,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21053,9 +20978,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21065,20 +20990,15 @@ var json_1070I_sw_lines = {
                 "location": "2630 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "17",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21095,14 +21015,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21116,9 +21036,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21128,20 +21048,15 @@ var json_1070I_sw_lines = {
                 "location": "2634 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "16",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21158,14 +21073,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21179,9 +21094,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21221,14 +21136,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21242,9 +21157,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21284,14 +21199,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21305,9 +21220,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21347,14 +21262,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21368,9 +21283,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21405,14 +21320,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21426,9 +21341,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21468,14 +21383,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21489,9 +21404,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21526,14 +21441,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21547,9 +21462,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21584,14 +21499,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21605,9 +21520,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21642,14 +21557,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21663,9 +21578,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21700,14 +21615,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21721,9 +21636,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21763,14 +21678,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21784,9 +21699,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21826,14 +21741,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21847,9 +21762,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21889,14 +21804,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21910,9 +21825,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -21952,14 +21867,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -21973,9 +21888,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22015,14 +21930,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22036,9 +21951,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22048,20 +21963,15 @@ var json_1070I_sw_lines = {
                 "location": "2638 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "14",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -22078,14 +21988,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22099,9 +22009,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22141,14 +22051,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22162,9 +22072,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22204,14 +22114,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22225,9 +22135,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22267,14 +22177,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22288,9 +22198,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22330,14 +22240,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22351,9 +22261,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22393,14 +22303,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22414,9 +22324,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22456,14 +22366,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22477,9 +22387,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22489,20 +22399,15 @@ var json_1070I_sw_lines = {
                 "location": "2642 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "13",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -22519,14 +22424,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22540,9 +22445,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22582,14 +22487,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22603,9 +22508,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22645,14 +22550,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22666,9 +22571,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22708,14 +22613,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22729,9 +22634,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22771,14 +22676,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22792,9 +22697,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22834,14 +22739,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22855,9 +22760,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22897,14 +22802,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22918,9 +22823,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -22960,14 +22865,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -22981,9 +22886,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23023,14 +22928,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23044,9 +22949,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23086,14 +22991,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23107,9 +23012,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23149,14 +23054,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23170,9 +23075,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23212,14 +23117,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23233,9 +23138,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23275,14 +23180,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23296,9 +23201,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23338,14 +23243,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23359,9 +23264,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23396,14 +23301,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23417,9 +23322,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23454,14 +23359,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23475,9 +23380,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23512,14 +23417,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23533,9 +23438,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23570,14 +23475,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23591,9 +23496,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23628,14 +23533,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23649,9 +23554,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23686,14 +23591,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23707,9 +23612,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23744,14 +23649,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23765,9 +23670,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23802,14 +23707,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23823,9 +23728,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23860,14 +23765,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23881,9 +23786,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23918,14 +23823,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23939,9 +23844,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -23976,14 +23881,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -23997,9 +23902,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24034,14 +23939,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24055,9 +23960,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24097,14 +24002,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24118,9 +24023,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24160,14 +24065,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24181,9 +24086,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24223,14 +24128,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24244,9 +24149,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24286,14 +24191,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24307,9 +24212,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24349,14 +24254,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24370,9 +24275,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24412,14 +24317,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24433,9 +24338,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24475,14 +24380,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24496,9 +24401,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24538,14 +24443,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24559,9 +24464,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24596,14 +24501,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24617,9 +24522,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24654,14 +24559,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24675,9 +24580,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24712,14 +24617,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24733,9 +24638,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24770,14 +24675,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24791,9 +24696,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24828,14 +24733,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24849,9 +24754,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24886,14 +24791,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24907,9 +24812,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -24944,14 +24849,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -24965,9 +24870,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25007,14 +24912,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25028,9 +24933,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25070,14 +24975,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25091,9 +24996,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25133,14 +25038,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25154,9 +25059,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25191,14 +25096,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25212,9 +25117,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25254,14 +25159,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25275,9 +25180,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25317,14 +25222,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25338,9 +25243,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25380,14 +25285,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25401,9 +25306,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25443,14 +25348,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25464,9 +25369,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25506,14 +25411,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25527,9 +25432,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25569,14 +25474,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25590,9 +25495,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25632,14 +25537,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25653,9 +25558,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25695,14 +25600,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25716,9 +25621,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25758,14 +25663,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25779,9 +25684,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25821,14 +25726,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25842,9 +25747,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25884,14 +25789,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25905,9 +25810,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -25947,14 +25852,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -25968,9 +25873,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26010,14 +25915,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26031,9 +25936,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26073,14 +25978,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26094,9 +25999,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26136,14 +26041,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26157,9 +26062,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26199,14 +26104,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26220,9 +26125,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26262,14 +26167,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26283,9 +26188,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26325,14 +26230,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26346,9 +26251,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26388,14 +26293,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26409,9 +26314,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26451,14 +26356,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26472,9 +26377,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26514,14 +26419,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26535,9 +26440,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26577,14 +26482,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26598,9 +26503,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26640,14 +26545,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26661,9 +26566,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26703,14 +26608,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26724,9 +26629,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26766,14 +26671,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26787,9 +26692,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26829,14 +26734,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26850,9 +26755,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26892,14 +26797,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26913,9 +26818,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -26955,14 +26860,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -26976,9 +26881,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27018,14 +26923,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27039,9 +26944,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27081,14 +26986,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27102,9 +27007,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27144,14 +27049,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27165,9 +27070,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27207,14 +27112,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27228,9 +27133,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27270,14 +27175,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27291,9 +27196,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27333,14 +27238,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27354,9 +27259,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27396,14 +27301,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27417,9 +27322,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27459,14 +27364,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27480,9 +27385,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27522,14 +27427,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27543,9 +27448,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27585,14 +27490,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27606,9 +27511,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27648,14 +27553,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27669,9 +27574,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27711,14 +27616,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27732,9 +27637,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27774,14 +27679,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27795,9 +27700,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27837,14 +27742,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27858,9 +27763,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27900,14 +27805,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27921,9 +27826,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -27963,14 +27868,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -27984,9 +27889,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28026,14 +27931,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28047,9 +27952,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28089,14 +27994,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28110,9 +28015,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28126,7 +28031,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28153,14 +28058,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28174,9 +28079,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28190,7 +28095,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*17
+                        'PP03': 225 * 17
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28217,14 +28122,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28238,9 +28143,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28254,7 +28159,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28281,14 +28186,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28302,9 +28207,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28318,7 +28223,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28345,14 +28250,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28366,9 +28271,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28382,7 +28287,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28409,14 +28314,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28430,9 +28335,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28472,14 +28377,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28493,9 +28398,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28535,14 +28440,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28556,9 +28461,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28598,14 +28503,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28619,9 +28524,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28635,7 +28540,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 20*225
+                        'PP03': 20 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28662,14 +28567,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28683,9 +28588,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28695,11 +28600,11 @@ var json_1070I_sw_lines = {
                 "location": "2691 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                  'SW-11': {
+                    'SW-11': {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 20*225
+                        'PP03': 20 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28726,14 +28631,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28747,9 +28652,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28763,7 +28668,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28790,14 +28695,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28811,9 +28716,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28823,11 +28728,11 @@ var json_1070I_sw_lines = {
                 "location": "2683 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                  'SW-11': {
+                    'SW-11': {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP03': 50
@@ -28854,14 +28759,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28875,9 +28780,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28891,7 +28796,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*20
+                        'PP03': 225 * 20
                     },
                     'SW-28': {
                         'PP03': 50
@@ -28918,14 +28823,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -28939,9 +28844,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -28951,11 +28856,11 @@ var json_1070I_sw_lines = {
                 "location": "2675 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                   'SW-11': {
+                    'SW-11': {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*17
+                        'PP03': 225 * 17
                     },
                     'SW-28': {
                         'PP04': 50
@@ -28982,14 +28887,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29003,9 +28908,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29015,11 +28920,11 @@ var json_1070I_sw_lines = {
                 "location": "2671 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                   'SW-11': {
+                    'SW-11': {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*17
+                        'PP03': 225 * 17
                     },
                     'SW-28': {
                         'PP03': 50
@@ -29046,14 +28951,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29067,9 +28972,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29079,11 +28984,11 @@ var json_1070I_sw_lines = {
                 "location": "2667 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                   'SW-11': {
+                    'SW-11': {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -29110,14 +29015,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29131,9 +29036,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29173,14 +29078,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29194,9 +29099,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29236,14 +29141,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29257,9 +29162,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29274,7 +29179,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP01': 50
-                    }                    
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -29297,14 +29202,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29318,9 +29223,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29335,7 +29240,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP01': 50
-                    }   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -29358,14 +29263,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29379,9 +29284,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29396,7 +29301,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP01': 50
-                    }   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -29419,14 +29324,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29440,9 +29345,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29457,7 +29362,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP01': 50
-                    }   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -29480,14 +29385,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29501,9 +29406,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29518,7 +29423,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP01': 50
-                    }                       
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -29541,14 +29446,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29562,9 +29467,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29604,14 +29509,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29625,9 +29530,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29667,14 +29572,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29688,9 +29593,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29730,14 +29635,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29751,9 +29656,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29793,14 +29698,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29814,9 +29719,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29856,14 +29761,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29877,9 +29782,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29919,14 +29824,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -29940,9 +29845,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -29982,14 +29887,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30003,9 +29908,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30045,14 +29950,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30066,9 +29971,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30108,14 +30013,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30129,9 +30034,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30171,14 +30076,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30192,9 +30097,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30234,14 +30139,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30255,9 +30160,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30297,14 +30202,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30318,9 +30223,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30360,14 +30265,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30381,9 +30286,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30423,14 +30328,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30444,9 +30349,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30486,14 +30391,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30507,9 +30412,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30549,14 +30454,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30570,9 +30475,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30612,14 +30517,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30633,9 +30538,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30675,14 +30580,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30696,9 +30601,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30738,14 +30643,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30759,9 +30664,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30801,14 +30706,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30822,9 +30727,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30864,14 +30769,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30885,9 +30790,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30927,14 +30832,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -30948,9 +30853,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -30990,14 +30895,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31011,9 +30916,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31053,14 +30958,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31074,9 +30979,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31116,14 +31021,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31137,9 +31042,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31179,30 +31084,30 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found' )
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-			[ -122.504136910872035, 37.735764929216991 ], 
-			[ -122.504212072466245, 37.735763199695285 ]
+                        [-122.504136910872035, 37.735764929216991],
+                        [-122.504212072466245, 37.735763199695285]
                     ]
                 ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31242,14 +31147,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31263,9 +31168,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31305,14 +31210,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31326,9 +31231,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31368,14 +31273,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31389,9 +31294,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31431,14 +31336,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31452,9 +31357,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31494,14 +31399,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31515,9 +31420,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31557,14 +31462,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31578,9 +31483,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31620,14 +31525,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31641,9 +31546,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31683,14 +31588,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31704,9 +31609,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31746,14 +31651,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31767,9 +31672,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31804,14 +31709,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31825,9 +31730,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31867,14 +31772,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31888,9 +31793,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31925,14 +31830,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -31946,9 +31851,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -31988,14 +31893,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32009,9 +31914,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32051,14 +31956,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32072,9 +31977,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32109,14 +32014,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32130,9 +32035,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32172,14 +32077,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32193,9 +32098,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32235,14 +32140,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32256,9 +32161,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32298,14 +32203,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32319,9 +32224,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32361,14 +32266,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32382,9 +32287,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32424,14 +32329,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32445,9 +32350,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32487,14 +32392,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32508,9 +32413,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32545,14 +32450,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32566,9 +32471,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32608,14 +32513,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32629,9 +32534,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32671,14 +32576,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32692,9 +32597,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32729,14 +32634,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32750,9 +32655,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32792,14 +32697,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32813,9 +32718,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32855,14 +32760,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32876,9 +32781,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32918,14 +32823,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -32939,9 +32844,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -32981,14 +32886,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33002,9 +32907,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33044,14 +32949,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33065,9 +32970,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33107,14 +33012,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33128,9 +33033,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33170,14 +33075,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33191,9 +33096,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33228,14 +33133,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33249,9 +33154,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33286,14 +33191,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33307,9 +33212,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33349,14 +33254,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33370,9 +33275,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33407,14 +33312,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33428,9 +33333,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33465,14 +33370,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33486,9 +33391,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33523,14 +33428,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33544,9 +33449,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33581,14 +33486,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33602,9 +33507,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33639,14 +33544,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33660,9 +33565,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33702,14 +33607,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33723,9 +33628,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33760,14 +33665,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33781,9 +33686,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33823,14 +33728,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33844,9 +33749,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33886,14 +33791,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33907,9 +33812,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -33944,14 +33849,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -33965,9 +33870,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34007,14 +33912,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34028,9 +33933,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34065,14 +33970,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34086,9 +33991,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34128,14 +34033,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34149,9 +34054,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34191,14 +34096,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34212,9 +34117,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34254,14 +34159,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34275,9 +34180,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34312,14 +34217,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34333,9 +34238,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34375,14 +34280,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34396,9 +34301,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34408,13 +34313,8 @@ var json_1070I_sw_lines = {
                 "location": "3519 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -34427,9 +34327,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34438,14 +34338,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34459,9 +34359,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34471,13 +34371,8 @@ var json_1070I_sw_lines = {
                 "location": "3525 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -34490,9 +34385,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34501,14 +34396,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34522,9 +34417,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34534,13 +34429,8 @@ var json_1070I_sw_lines = {
                 "location": "3531 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -34553,9 +34443,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34564,14 +34454,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34585,9 +34475,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34597,13 +34487,8 @@ var json_1070I_sw_lines = {
                 "location": "3537 VICENTE ST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -34616,9 +34501,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "61.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34627,14 +34512,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34648,9 +34533,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34685,14 +34570,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34706,9 +34591,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34743,14 +34628,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34764,9 +34649,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34801,14 +34686,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34822,9 +34707,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34859,14 +34744,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34880,9 +34765,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34917,14 +34802,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -34938,9 +34823,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -34980,14 +34865,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35001,9 +34886,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35017,7 +34902,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -35044,14 +34929,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35065,9 +34950,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35081,7 +34966,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -35108,14 +34993,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35129,9 +35014,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35171,14 +35056,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35192,9 +35077,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35208,7 +35093,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 225*18
+                        'PP03': 225 * 18
                     },
                     'SW-28': {
                         'PP04': 50
@@ -35235,14 +35120,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35256,9 +35141,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35298,14 +35183,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35319,9 +35204,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35361,14 +35246,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35382,9 +35267,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35424,14 +35309,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35445,9 +35330,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35487,14 +35372,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35508,9 +35393,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35550,14 +35435,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35571,9 +35456,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35613,14 +35498,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35634,9 +35519,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35676,14 +35561,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35697,9 +35582,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35709,20 +35594,15 @@ var json_1070I_sw_lines = {
                 "location": "2606 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "25",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35739,14 +35619,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35760,9 +35640,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35802,14 +35682,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35823,9 +35703,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35835,20 +35715,15 @@ var json_1070I_sw_lines = {
                 "location": "2622 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "20",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35865,14 +35740,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35886,9 +35761,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35928,14 +35803,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -35949,9 +35824,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -35961,20 +35836,15 @@ var json_1070I_sw_lines = {
                 "location": "2630 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "18",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -35991,14 +35861,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36012,9 +35882,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36054,14 +35924,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36075,9 +35945,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36087,20 +35957,15 @@ var json_1070I_sw_lines = {
                 "location": "2638 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "15",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -36117,14 +35982,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36138,9 +36003,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36180,14 +36045,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36201,9 +36066,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36243,14 +36108,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36264,9 +36129,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36276,20 +36141,15 @@ var json_1070I_sw_lines = {
                 "location": "2658 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "9",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -36306,14 +36166,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36327,9 +36187,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36339,20 +36199,15 @@ var json_1070I_sw_lines = {
                 "location": "2666 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "7",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -36369,14 +36224,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36390,9 +36245,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36432,14 +36287,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36453,9 +36308,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36465,20 +36320,15 @@ var json_1070I_sw_lines = {
                 "location": "2674 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "4",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -36495,14 +36345,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36516,9 +36366,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36528,20 +36378,15 @@ var json_1070I_sw_lines = {
                 "location": "2678 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "55.2",
+                        "video_no": "3",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -36558,14 +36403,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36579,9 +36424,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36621,14 +36466,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36642,9 +36487,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36684,14 +36529,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36705,9 +36550,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36747,14 +36592,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36768,9 +36613,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36810,14 +36655,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36831,9 +36676,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36873,14 +36718,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36894,9 +36739,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36936,14 +36781,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -36957,9 +36802,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -36999,14 +36844,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37020,9 +36865,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37062,14 +36907,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37083,9 +36928,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37125,14 +36970,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37146,9 +36991,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37188,14 +37033,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37209,9 +37054,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37251,14 +37096,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37272,9 +37117,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37314,14 +37159,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37335,9 +37180,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37377,14 +37222,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37398,9 +37243,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37440,14 +37285,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37461,9 +37306,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37503,14 +37348,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37524,9 +37369,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37566,14 +37411,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37587,9 +37432,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37629,14 +37474,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37650,9 +37495,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37692,14 +37537,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37713,9 +37558,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37755,14 +37600,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37776,9 +37621,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37818,14 +37663,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37839,9 +37684,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37881,14 +37726,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37902,9 +37747,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -37944,14 +37789,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -37965,9 +37810,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38007,14 +37852,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38028,9 +37873,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38070,14 +37915,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38091,9 +37936,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38133,14 +37978,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38154,9 +37999,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38196,14 +38041,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38217,9 +38062,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38259,14 +38104,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38280,9 +38125,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38322,14 +38167,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38343,9 +38188,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38385,14 +38230,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38406,9 +38251,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38448,14 +38293,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38469,9 +38314,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38511,14 +38356,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38532,9 +38377,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38574,14 +38419,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38595,9 +38440,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38637,14 +38482,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38658,9 +38503,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38700,14 +38545,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38721,9 +38566,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38763,14 +38608,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38784,9 +38629,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38826,14 +38671,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38847,9 +38692,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38889,14 +38734,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38910,9 +38755,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -38952,14 +38797,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -38973,9 +38818,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39015,14 +38860,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39036,9 +38881,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39078,14 +38923,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39099,9 +38944,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39141,14 +38986,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39162,9 +39007,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39204,14 +39049,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39225,9 +39070,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39267,14 +39112,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39288,9 +39133,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39330,14 +39175,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39351,9 +39196,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39393,14 +39238,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39414,9 +39259,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39456,14 +39301,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39477,9 +39322,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39519,14 +39364,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39540,9 +39385,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39582,14 +39427,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39603,9 +39448,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39645,14 +39490,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39666,9 +39511,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39708,14 +39553,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39729,9 +39574,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39771,14 +39616,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39792,9 +39637,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39834,14 +39679,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39855,9 +39700,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39897,14 +39742,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39918,9 +39763,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -39960,14 +39805,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -39981,9 +39826,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40023,14 +39868,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40044,9 +39889,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40086,14 +39931,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40107,9 +39952,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40149,14 +39994,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40170,9 +40015,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40212,14 +40057,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40233,9 +40078,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40275,14 +40120,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40296,9 +40141,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40338,14 +40183,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40359,9 +40204,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40401,14 +40246,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40422,9 +40267,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40464,14 +40309,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40485,9 +40330,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40527,14 +40372,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40548,9 +40393,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40590,14 +40435,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40611,9 +40456,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40653,14 +40498,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40674,9 +40519,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40716,14 +40561,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40737,9 +40582,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40779,14 +40624,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40800,9 +40645,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40842,14 +40687,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40863,9 +40708,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40905,14 +40750,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40926,9 +40771,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -40968,14 +40813,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -40989,9 +40834,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41031,14 +40876,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41052,9 +40897,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41094,14 +40939,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41115,9 +40960,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41157,14 +41002,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41178,9 +41023,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41220,14 +41065,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41241,9 +41086,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41283,14 +41128,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41304,9 +41149,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41346,14 +41191,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41367,9 +41212,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41409,14 +41254,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41430,9 +41275,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41472,14 +41317,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41493,9 +41338,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41535,14 +41380,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41556,9 +41401,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41598,14 +41443,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41619,9 +41464,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41661,14 +41506,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41682,9 +41527,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41724,14 +41569,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41745,9 +41590,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41787,14 +41632,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41808,9 +41653,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41850,14 +41695,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41871,9 +41716,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41913,14 +41758,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41934,9 +41779,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -41976,14 +41821,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -41997,9 +41842,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42039,14 +41884,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42060,9 +41905,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42102,14 +41947,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42123,9 +41968,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42165,14 +42010,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42186,9 +42031,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42228,14 +42073,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42249,9 +42094,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42291,14 +42136,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42312,9 +42157,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42354,14 +42199,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42375,9 +42220,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42417,14 +42262,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42438,9 +42283,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42480,14 +42325,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42501,9 +42346,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42543,14 +42388,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42564,9 +42409,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42606,14 +42451,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42627,9 +42472,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42669,14 +42514,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42690,9 +42535,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42732,14 +42577,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42753,9 +42598,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42795,14 +42640,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42816,9 +42661,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42858,14 +42703,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42879,9 +42724,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42921,14 +42766,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -42942,9 +42787,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -42984,14 +42829,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43005,9 +42850,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43047,14 +42892,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43068,9 +42913,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43110,14 +42955,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43131,9 +42976,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43173,14 +43018,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43194,9 +43039,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43236,14 +43081,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43257,9 +43102,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43299,14 +43144,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43320,9 +43165,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43362,14 +43207,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43383,9 +43228,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43425,14 +43270,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43446,9 +43291,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43488,14 +43333,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43509,9 +43354,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43551,14 +43396,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43572,9 +43417,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43614,14 +43459,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43635,9 +43480,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43677,14 +43522,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43698,9 +43543,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43740,14 +43585,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43761,9 +43606,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43803,14 +43648,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43824,9 +43669,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43866,14 +43711,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43887,9 +43732,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43929,14 +43774,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -43950,9 +43795,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -43992,14 +43837,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44013,9 +43858,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44055,14 +43900,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44076,9 +43921,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44118,14 +43963,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44139,9 +43984,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44181,14 +44026,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44202,9 +44047,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44244,14 +44089,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44265,9 +44110,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44307,14 +44152,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44328,9 +44173,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44370,14 +44215,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44391,9 +44236,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44433,14 +44278,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44454,9 +44299,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44496,14 +44341,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44517,9 +44362,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44559,14 +44404,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44580,9 +44425,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44622,14 +44467,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44643,9 +44488,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44685,14 +44530,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44706,9 +44551,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44748,14 +44593,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44769,9 +44614,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44811,14 +44656,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44832,9 +44677,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44849,10 +44694,10 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP02': 3375
-                    },                    
+                    },
                     'SW-28': {
                         'PP02': 50
-                    } 
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -44875,14 +44720,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44896,9 +44741,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44912,7 +44757,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 17*225
+                        'PP03': 17 * 225
                     },
                     'SW-28': {
                         'PP03': 50
@@ -44939,14 +44784,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -44960,9 +44805,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -44997,14 +44842,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45018,9 +44863,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45060,14 +44905,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this, '(E) Not Found')
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45081,9 +44926,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45123,14 +44968,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45144,9 +44989,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45186,14 +45031,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45207,9 +45052,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45249,14 +45094,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45270,9 +45115,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45312,14 +45157,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45333,9 +45178,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45375,14 +45220,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45396,9 +45241,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45438,14 +45283,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45459,9 +45304,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45501,14 +45346,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45522,9 +45367,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45564,14 +45409,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45585,9 +45430,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45627,14 +45472,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45648,9 +45493,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45690,14 +45535,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45711,9 +45556,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45753,14 +45598,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45774,9 +45619,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45816,14 +45661,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45837,9 +45682,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45879,14 +45724,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45900,9 +45745,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -45942,14 +45787,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -45963,9 +45808,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46005,14 +45850,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46026,9 +45871,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46068,14 +45913,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46089,9 +45934,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46131,14 +45976,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46152,9 +45997,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46194,14 +46039,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46215,9 +46060,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46257,14 +46102,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46278,9 +46123,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46320,14 +46165,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46341,9 +46186,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46383,14 +46228,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46404,9 +46249,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46446,14 +46291,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46467,9 +46312,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46509,14 +46354,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46530,9 +46375,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46572,14 +46417,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46593,9 +46438,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46635,14 +46480,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46656,9 +46501,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46698,14 +46543,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46719,9 +46564,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46761,14 +46606,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46782,9 +46627,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46824,14 +46669,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46845,9 +46690,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46887,14 +46732,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46908,9 +46753,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -46950,14 +46795,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -46971,9 +46816,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47013,14 +46858,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47034,9 +46879,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47076,14 +46921,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47097,9 +46942,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47139,14 +46984,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47160,9 +47005,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47202,14 +47047,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47223,9 +47068,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47265,14 +47110,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47286,9 +47131,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47328,14 +47173,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47349,9 +47194,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47391,14 +47236,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47412,9 +47257,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47454,14 +47299,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47475,9 +47320,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47517,14 +47362,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47538,9 +47383,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47580,14 +47425,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47601,9 +47446,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47643,14 +47488,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47664,9 +47509,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47680,7 +47525,7 @@ var json_1070I_sw_lines = {
                         'PP03': 150
                     },
                     'SW-12': {
-                        'PP03': 19*225
+                        'PP03': 19 * 225
                     },
                     'SW-28': {
                         'PP03': 50
@@ -47707,30 +47552,30 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-			[ -122.50413683030007, 37.735758493520535 ], 
-			[ -122.504211468833574, 37.735756368726832 ]
+                        [-122.50413683030007, 37.735758493520535],
+                        [-122.504211468833574, 37.735756368726832]
                     ]
                 ]
             },
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47770,14 +47615,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47791,9 +47636,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47833,14 +47678,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": null,
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47854,9 +47699,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47896,14 +47741,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47917,9 +47762,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -47959,14 +47804,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -47980,9 +47825,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -48017,14 +47862,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this )
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -48038,9 +47883,9 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
@@ -48080,14 +47925,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -48101,14 +47946,14 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
+        },
 
-	 //####################
+        //####################
 
         {
             "type": "Feature",
             "properties": {
-                "id_a": "none",
+                "id_a": "unknown_side_sewer_005",
                 "id_b": "none",
                 "location": "none",
                 "scope": "Install (N) side sewer",
@@ -48143,14 +47988,14 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
@@ -48160,161 +48005,173 @@ var json_1070I_sw_lines = {
                         [-122.503271819191198, 37.736436359743145]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
-        
- 	 //####################
-        
+
+        //####################
+
         {
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "P-xxxxx8",
-		"id_b": "none",
-		"location": "Sloat Blvd and 46th Ave",
-		"scope": "Install (N) 15in VCP main",
-		"pp_history": {
-		    'SW-06': {
-		        'PP03': 35*450
-		    }
-		},
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none"
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none"
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "mn",
+            "type": "Feature",
+            "properties": {
+                "id_a": "P-xxxxx8",
+                "id_b": "none",
+                "location": "Sloat Blvd and 46th Ave",
+                "scope": "Install (N) 15in VCP main",
+                "pp_history": {
+                    'SW-06': {
+                        'PP03': 35 * 450
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none"
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none"
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.504202939817816, 37.73565985062546],
-		        [-122.504168790421787, 37.735598020240282]
-		    ]
-		]
-	    }
-	},
-	
- 	 //####################
-	
-	{
-	    "type": "Feature",
-	    "properties": {
-		"id_a": "P-xxxxx9",
-		"id_b": "none",
-		"location": "Wawona St and 46th Ave",
-		"scope": "Install (N) 15in VCP main",
-		"pp_history": {
-		    'SW-06': {
-		        'PP03': 21*450
-		    }
-		},
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none"
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none"
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "mn",
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.504202939817816, 37.73565985062546],
+                        [-122.504168790421787, 37.735598020240282]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "P-xxxxx9",
+                "id_b": "none",
+                "location": "Wawona St and 46th Ave",
+                "scope": "Install (N) 15in VCP main",
+                "pp_history": {
+                    'SW-06': {
+                        'PP03': 21 * 450
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none"
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none"
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.504210279651033, 37.736165901973948],
-		        [-122.50424528882742, 37.73613908944386]
-		    ]
-		]
-	    }
-	},
-	
- 	 //####################
-	
-	{
-		"type": "Feature",
-		"properties": {
-		"id_a": "P-xxxx10",
-		"id_b": "none",
-		"location": "Sloat Blvd and 45th Ave",
-		"scope": "(E) to remain",
-		"pp_history": {
-		    'SW-0': {
-		        'PP0': {
-		            'SFPUC-SW': {
-		                'QTY': 0,
-		                'UNIT': ''
-		            }
-		        }
-		    }
-		},
-		"submittals": {
-		    "tvi_pre_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none"
-		    },
-		    "tvi_post_con": {
-		        "submittal_no": "none",
-		        "video_no": "none",
-		        "response": "none"
-		    }
-		},
-		"rlvnt": "none",
-		"sw_type": "cl",
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.504210279651033, 37.736165901973948],
+                        [-122.50424528882742, 37.73613908944386]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "P-xxxx10",
+                "id_b": "none",
+                "location": "Sloat Blvd and 45th Ave",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none"
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none"
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cl",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
+                    return bid_item_flattener(this.pp_history)
                 }
-	    },
-	    "geometry": {
-		"type": "MultiLineString",
-		"coordinates": [
-		    [
-		        [-122.503133640049512, 37.735630055665588],
-		        [-122.502929249078136, 37.735463003631864]
-		    ]
-		]
-	    }
-	},
-	
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503133640049512, 37.735630055665588],
+                        [-122.502929249078136, 37.735463003631864]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
         //####################
 
         {
@@ -48326,7 +48183,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 18in VCP main",
                 "pp_history": {
                     'SW-07': {
-                        'PP03': 14*500
+                        'PP03': 14 * 500
                     }
                 },
                 "submittals": {
@@ -48350,20 +48207,20 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 "sw_type": "mn",
                 get status() {
-                    return sw_line_status_from_line_object( this)
+                    return sw_line_status_from_line_object(this)
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
                 },
                 get bid_items() {
-                    return bid_item_flattener(this.pp_history) 
-                }, 
+                    return bid_item_flattener(this.pp_history)
+                },
             },
             "geometry": {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-			[-122.503130028877393, 37.735591066812802],
+                        [-122.503130028877393, 37.735591066812802],
                         [-122.503133640049512, 37.735630055665588]
                     ]
                 ]
@@ -48371,9 +48228,124 @@ var json_1070I_sw_lines = {
             get asset_coordinate() {
                 return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
-       },
-	
-	
-	
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_006",
+                "id_b": "2450027",
+                "location": "2650 47th Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    "SW-26": {
+                        "PP04": 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "55.2",
+                        "video_no": "12",
+                        "response": "MCN - Do Not Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                }, 
+                "rlvnt": "none",
+                "sw_type": "ss",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.505301119963917, 37.737041357983131],
+                        [-122.505274287407573, 37.737042387979166]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_007",
+                "id_b": "2450037",
+                "location": "2610 47th Ave",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-26': {
+                        'PP04': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "55.2",
+                        "video_no": "24",
+                        "response": "MCN - Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                }, 
+                "rlvnt": "none",
+                "sw_type": "ss",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.505306430001255, 37.73773930620856],
+                        [-122.505339073712108, 37.737738320268839]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        }
+
+
     ]
 }

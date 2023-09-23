@@ -12,8 +12,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-334439",
-                "id_b": "267569",
+                "id_b": "N-334439",
+                "id_a": "267569",
                 "location": "Sloat Blvd and 47th Ave - NWC",
                 "scope": "Remove (E) manhole",
                 "pp_history": {
@@ -50,8 +50,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420762",
-                "id_b": "325626",
+                "id_b": "N-420762",
+                "id_a": "325626",
                 "location": "Sloat Blvd and 47th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -83,8 +83,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-33043",
-                "id_b": "24027",
+                "id_b": "N-33043",
+                "id_a": "24027",
                 "location": "Sloat Blvd and 47th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -121,8 +121,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-33312",
-                "id_b": "186399",
+                "id_b": "N-33312",
+                "id_a": "186399",
                 "location": "Sloat Blvd and 47th Ave - South Side",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -157,8 +157,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-32687",
-                "id_b": "24036",
+                "id_b": "N-32687",
+                "id_a": "24036",
                 "location": "Sloat Blvd - Between 46th Ave and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -193,8 +193,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420761",
-                "id_b": "325627",
+                "id_b": "N-420761",
+                "id_a": "325627",
                 "location": "Sloat Blvd - West of 46th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -226,8 +226,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420767",
-                "id_b": "325630",
+                "id_b": "N-420767",
+                "id_a": "325630",
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -259,8 +259,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47674",
-                "id_b": "161794",
+                "id_b": "N-47674",
+                "id_a": "161794",
                 "location": "Sloat Blvd and 46th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -295,8 +295,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-41881",
-                "id_b": "156259",
+                "id_b": "N-41881",
+                "id_a": "156259",
                 "location": "Sloat Blvd and 46th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -331,8 +331,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23454",
-                "id_b": "23975",
+                "id_b": "N-23454",
+                "id_a": "23975",
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Remove (E) manhole",
                 "pp_history": {
@@ -369,8 +369,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-334426",
-                "id_b": "267560",
+                "id_b": "N-334426",
+                "id_a": "267560",
                 "location": "Fronting 2938 - 2940 Sloat Blvd",
                 "scope": "Remove (E) manhole",
                 "pp_history": {
@@ -407,8 +407,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-46564",
-                "id_b": "159494",
+                "id_b": "N-46564",
+                "id_a": "159494",
                 "location": "Sloat Blvd and 45th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -443,8 +443,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420768",
-                "id_b": "325629",
+                "id_b": "N-420768",
+                "id_a": "325629",
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -476,8 +476,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-57248",
-                "id_b": "186186",
+                "id_b": "N-57248",
+                "id_a": "186186",
                 "location": "Sloat Blvd and 45th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -512,8 +512,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420769",
-                "id_b": "325628",
+                "id_b": "N-420769",
+                "id_a": "325628",
                 "location": "Sloat Blvd - West of 44th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -545,8 +545,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47675",
-                "id_b": "161793",
+                "id_b": "N-47675",
+                "id_a": "161793",
                 "location": "Wawona St and 46th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -581,8 +581,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-41882",
-                "id_b": "156258",
+                "id_b": "N-41882",
+                "id_a": "156258",
                 "location": "Wawona St and 46th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -617,8 +617,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47676",
-                "id_b": "161792",
+                "id_b": "N-47676",
+                "id_a": "161792",
                 "location": "Wawona St and 46th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -653,8 +653,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59123",
-                "id_b": "174511",
+                "id_b": "N-59123",
+                "id_a": "174511",
                 "location": "Wawona St and 47th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -689,8 +689,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-36124",
-                "id_b": "24040",
+                "id_b": "N-36124",
+                "id_a": "24040",
                 "location": "Wawona St and 47th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -725,8 +725,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-70557",
-                "id_b": "174512",
+                "id_b": "N-70557",
+                "id_a": "174512",
                 "location": "Wawona St and 47th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -761,8 +761,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59122",
-                "id_b": "174513",
+                "id_b": "N-59122",
+                "id_a": "174513",
                 "location": "Wawona St and 47th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -797,8 +797,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47676",
-                "id_b": "161792",
+                "id_b": "N-47676",
+                "id_a": "161792",
                 "location": "Wawona St and 45th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -833,8 +833,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47675",
-                "id_b": "161793",
+                "id_b": "N-47675",
+                "id_a": "161793",
                 "location": "Wawona St and 45th Ave - SEC",
                 "scope": "Abandon (E) catchbasin",
                 "pp_history": {
@@ -871,8 +871,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420785",
-                "id_b": "325645",
+                "id_b": "N-420785",
+                "id_a": "325645",
                 "location": "Wawona St and 45th Ave - SEC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
@@ -909,8 +909,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-41882",
-                "id_b": "156258",
+                "id_b": "N-41882",
+                "id_a": "156258",
                 "location": "Wawona St and 45th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -945,8 +945,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25274",
-                "id_b": "24067",
+                "id_b": "N-25274",
+                "id_a": "24067",
                 "location": "Vicente St and 47th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -983,8 +983,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-334617",
-                "id_b": "267759",
+                "id_b": "N-334617",
+                "id_a": "267759",
                 "location": "Vicente St and 46th Ave - NWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -1021,8 +1021,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59744",
-                "id_b": "174449",
+                "id_b": "N-59744",
+                "id_a": "174449",
                 "location": "Vicente St and 46th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1057,8 +1057,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-50791",
-                "id_b": "166118",
+                "id_b": "N-50791",
+                "id_a": "166118",
                 "location": "Vicente St and 45th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1093,8 +1093,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-50792",
-                "id_b": "166117",
+                "id_b": "N-50792",
+                "id_a": "166117",
                 "location": "Vicente St and 45th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1129,8 +1129,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-46202",
-                "id_b": "159750",
+                "id_b": "N-46202",
+                "id_a": "159750",
                 "location": "Vicente St and 45th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1165,8 +1165,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59742",
-                "id_b": "174451",
+                "id_b": "N-59742",
+                "id_a": "174451",
                 "location": "Vicente St and 46th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1201,8 +1201,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59743",
-                "id_b": "174450",
+                "id_b": "N-59743",
+                "id_a": "174450",
                 "location": "Vicente St and 46th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1237,8 +1237,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47735",
-                "id_b": "161141",
+                "id_b": "N-47735",
+                "id_a": "161141",
                 "location": "Vicente St and 47th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1273,8 +1273,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59745",
-                "id_b": "174448",
+                "id_b": "N-59745",
+                "id_a": "174448",
                 "location": "Vicente St and 47th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1309,8 +1309,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-49144",
-                "id_b": "160349",
+                "id_b": "N-49144",
+                "id_a": "160349",
                 "location": "Vicente St and 47th Ave - SWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1345,8 +1345,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-59746",
-                "id_b": "174447",
+                "id_b": "N-59746",
+                "id_a": "174447",
                 "location": "Vicente St and 47th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1381,8 +1381,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-21082",
-                "id_b": "33391",
+                "id_b": "N-21082",
+                "id_a": "33391",
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -1419,8 +1419,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-388880",
-                "id_b": "296091",
+                "id_b": "N-388880",
+                "id_a": "296091",
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -1457,8 +1457,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-29955",
-                "id_b": "33392",
+                "id_b": "N-29955",
+                "id_a": "33392",
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -1495,8 +1495,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-388879",
-                "id_b": "296092",
+                "id_b": "N-388879",
+                "id_a": "296092",
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1531,8 +1531,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-388880",
-                "id_b": "296091",
+                "id_b": "N-388880",
+                "id_a": "296091",
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1567,8 +1567,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420787",
-                "id_b": "325648",
+                "id_b": "N-420787",
+                "id_a": "325648",
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -1605,8 +1605,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420788",
-                "id_b": "325646",
+                "id_b": "N-420788",
+                "id_a": "325646",
                 "location": "45th Ave - South of Vicente St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -1643,8 +1643,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-403679",
-                "id_b": "307453",
+                "id_b": "N-403679",
+                "id_a": "307453",
                 "location": "47th Ave - Between Vicente St and Ulloa St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -1681,8 +1681,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47666",
-                "id_b": "161802",
+                "id_b": "N-47666",
+                "id_a": "161802",
                 "location": "Ulloa St and 47th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1717,8 +1717,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47667",
-                "id_b": "161801",
+                "id_b": "N-47667",
+                "id_a": "161801",
                 "location": "Ulloa St and 47th Ave - SWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1753,8 +1753,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-65667",
-                "id_b": "161804",
+                "id_b": "N-65667",
+                "id_a": "161804",
                 "location": "Ulloa St and 47th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1789,8 +1789,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47665",
-                "id_b": "161803",
+                "id_b": "N-47665",
+                "id_a": "161803",
                 "location": "Ulloa St and 47th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1825,8 +1825,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-49929",
-                "id_b": "165189",
+                "id_b": "N-49929",
+                "id_a": "165189",
                 "location": "Ulloa St and 46th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1861,8 +1861,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-403674",
-                "id_b": "307452",
+                "id_b": "N-403674",
+                "id_a": "307452",
                 "location": "47th Ave - Between Ulloa St and Taraval St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -1899,8 +1899,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-70714",
-                "id_b": "228113",
+                "id_b": "N-70714",
+                "id_a": "228113",
                 "location": "Ulloa St and 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1935,8 +1935,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-49928",
-                "id_b": "165190",
+                "id_b": "N-49928",
+                "id_a": "165190",
                 "location": "Ulloa St and 46th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -1971,8 +1971,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-48970",
-                "id_b": "160440",
+                "id_b": "N-48970",
+                "id_a": "160440",
                 "location": "Ulloa St and 46th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -2007,8 +2007,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23834",
-                "id_b": "24025",
+                "id_b": "N-23834",
+                "id_a": "24025",
                 "location": "Fronting 2968 Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -2040,8 +2040,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-29761",
-                "id_b": "2036",
+                "id_b": "N-29761",
+                "id_a": "2036",
                 "location": "Fronting 2630 45th Ave",
                 "scope": "Remove (E) manhole",
                 "pp_history": {
@@ -2078,8 +2078,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-20787",
-                "id_b": "33396",
+                "id_b": "N-20787",
+                "id_a": "33396",
                 "location": "47th Ave - Between Vicente St and Ulloa St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2116,8 +2116,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-20788",
-                "id_b": "33394",
+                "id_b": "N-20788",
+                "id_a": "33394",
                 "location": "47th Ave - Between Vicente St and Ulloa St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2154,8 +2154,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-21083",
-                "id_b": "33390",
+                "id_b": "N-21083",
+                "id_a": "33390",
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2192,8 +2192,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-18273",
-                "id_b": "33389",
+                "id_b": "N-18273",
+                "id_a": "33389",
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2230,8 +2230,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-21086",
-                "id_b": "33384",
+                "id_b": "N-21086",
+                "id_a": "33384",
                 "location": "47th Ave - Between Ulloa St and Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2268,8 +2268,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-21088",
-                "id_b": "33382",
+                "id_b": "N-21088",
+                "id_a": "33382",
                 "location": "47th Ave - Between Ulloa St and Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2306,8 +2306,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-33501",
-                "id_b": "33378",
+                "id_b": "N-33501",
+                "id_a": "33378",
                 "location": "Vicente St and 46th Ave Intersection",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2344,8 +2344,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-34650",
-                "id_b": "33377",
+                "id_b": "N-34650",
+                "id_a": "33377",
                 "location": "46th Ave - Between Vicente St and Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -2382,8 +2382,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23886",
-                "id_b": "33328",
+                "id_b": "N-23886",
+                "id_a": "33328",
                 "location": "Ulloa St - West of 46th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2420,8 +2420,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-37055",
-                "id_b": "24057",
+                "id_b": "N-37055",
+                "id_a": "24057",
                 "location": "Vicente St and 45th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -2456,8 +2456,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-38321",
-                "id_b": "22654",
+                "id_b": "N-38321",
+                "id_a": "22654",
                 "location": "Ulloa St and 47th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -2492,8 +2492,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22731",
-                "id_b": "22655",
+                "id_b": "N-22731",
+                "id_a": "22655",
                 "location": "Ulloa St and 47th Ave - NEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2530,8 +2530,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23889",
-                "id_b": "22656",
+                "id_b": "N-23889",
+                "id_a": "22656",
                 "location": "Ulloa St and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -2566,8 +2566,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22732",
-                "id_b": "22657",
+                "id_b": "N-22732",
+                "id_a": "22657",
                 "location": "Ulloa St and 47th Ave - SWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -2602,8 +2602,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-28922",
-                "id_b": "22659",
+                "id_b": "N-28922",
+                "id_a": "22659",
                 "location": "Ulloa St and 47th Ave - SEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2640,8 +2640,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22733",
-                "id_b": "22682",
+                "id_b": "N-22733",
+                "id_a": "22682",
                 "location": "46th Ave - South of Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -2678,8 +2678,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22734",
-                "id_b": "22683",
+                "id_b": "N-22734",
+                "id_a": "22683",
                 "location": "46th Ave - South of Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -2716,8 +2716,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22735",
-                "id_b": "22684",
+                "id_b": "N-22735",
+                "id_a": "22684",
                 "location": "46th Ave - South of Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -2754,8 +2754,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23962",
-                "id_b": "22685",
+                "id_b": "N-23962",
+                "id_a": "22685",
                 "location": "Ulloa St - West of 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -2790,8 +2790,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22736",
-                "id_b": "22686",
+                "id_b": "N-22736",
+                "id_a": "22686",
                 "location": "Ulloa St - West of 46th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2828,8 +2828,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-403676",
-                "id_b": "307450",
+                "id_b": "N-403676",
+                "id_a": "307450",
                 "location": "47th Ave - South of Taraval St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -2866,8 +2866,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-27270",
-                "id_b": "22690",
+                "id_b": "N-27270",
+                "id_a": "22690",
                 "location": "47th Ave - South of Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2904,8 +2904,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23449",
-                "id_b": "23968",
+                "id_b": "N-23449",
+                "id_a": "23968",
                 "location": "Wawona St and 45th Ave - SWC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2942,8 +2942,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-37846",
-                "id_b": "23969",
+                "id_b": "N-37846",
+                "id_a": "23969",
                 "location": "45th Ave - North of Sloat Blvd",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -2980,8 +2980,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23450",
-                "id_b": "23970",
+                "id_b": "N-23450",
+                "id_a": "23970",
                 "location": "Wawona St and 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -3016,8 +3016,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23452",
-                "id_b": "23973",
+                "id_b": "N-23452",
+                "id_a": "23973",
                 "location": "Sloat Blvd - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3054,8 +3054,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23453",
-                "id_b": "23974",
+                "id_b": "N-23453",
+                "id_a": "23974",
                 "location": "Sloat Blvd - Between 46th Ave and 47th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3092,8 +3092,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-37847",
-                "id_b": "23979",
+                "id_b": "N-37847",
+                "id_a": "23979",
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3130,8 +3130,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23457",
-                "id_b": "23980",
+                "id_b": "N-23457",
+                "id_a": "23980",
                 "location": "Sloat Blvd - East of 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -3166,8 +3166,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23459",
-                "id_b": "23984",
+                "id_b": "N-23459",
+                "id_a": "23984",
                 "location": "Wawona St and 46th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -3204,8 +3204,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-26572",
-                "id_b": "23985",
+                "id_b": "N-26572",
+                "id_a": "23985",
                 "location": "Wawona St and 46th Ave - NWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -3242,8 +3242,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23461",
-                "id_b": "23989",
+                "id_b": "N-23461",
+                "id_a": "23989",
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3280,8 +3280,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-32684",
-                "id_b": "23993",
+                "id_b": "N-32684",
+                "id_a": "23993",
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -3316,8 +3316,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23462",
-                "id_b": "23994",
+                "id_b": "N-23462",
+                "id_a": "23994",
                 "location": "45th Ave - North of Sloat Blvd",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3354,8 +3354,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-22471",
-                "id_b": "23995",
+                "id_b": "N-22471",
+                "id_a": "23995",
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -3387,8 +3387,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23964",
-                "id_b": "23996",
+                "id_b": "N-23964",
+                "id_a": "23996",
                 "location": "Sloat Blvd - West of 44th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3425,8 +3425,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-37848",
-                "id_b": "23997",
+                "id_b": "N-37848",
+                "id_a": "23997",
                 "location": "Sloat Blvd - West of 44th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3463,8 +3463,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-38755",
-                "id_b": "24006",
+                "id_b": "N-38755",
+                "id_a": "24006",
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3501,8 +3501,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23463",
-                "id_b": "24007",
+                "id_b": "N-23463",
+                "id_a": "24007",
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3539,8 +3539,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-420782",
-                "id_b": "325644",
+                "id_b": "N-420782",
+                "id_a": "325644",
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -3577,8 +3577,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-29657",
-                "id_b": "24009",
+                "id_b": "N-29657",
+                "id_a": "24009",
                 "location": "Wawona St and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -3615,8 +3615,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23965",
-                "id_b": "24010",
+                "id_b": "N-23965",
+                "id_a": "24010",
                 "location": "Wawona St and 45th Ave - SEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3653,8 +3653,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23465",
-                "id_b": "24011",
+                "id_b": "N-23465",
+                "id_a": "24011",
                 "location": "Wawona St and 45th Ave - NEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3691,8 +3691,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23466",
-                "id_b": "24012",
+                "id_b": "N-23466",
+                "id_a": "24012",
                 "location": "Wawona St and 45th Ave - NWC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3729,8 +3729,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23967",
-                "id_b": "24020",
+                "id_b": "N-23967",
+                "id_a": "24020",
                 "location": "Wawona St and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -3765,8 +3765,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23831",
-                "id_b": "24022",
+                "id_b": "N-23831",
+                "id_a": "24022",
                 "location": "Wawona St and 47th Ave - SWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -3803,8 +3803,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23832",
-                "id_b": "24023",
+                "id_b": "N-23832",
+                "id_a": "24023",
                 "location": "Wawona St and 47th Ave - SEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -3841,8 +3841,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23833",
-                "id_b": "24024",
+                "id_b": "N-23833",
+                "id_a": "24024",
                 "location": "Sloat Blvd and 47th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -3879,8 +3879,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23839",
-                "id_b": "24039",
+                "id_b": "N-23839",
+                "id_a": "24039",
                 "location": "Wawona St and 47th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -3917,8 +3917,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25267",
-                "id_b": "24048",
+                "id_b": "N-25267",
+                "id_a": "24048",
                 "location": "47th Ave and Cutler Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -3953,8 +3953,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25268",
-                "id_b": "24049",
+                "id_b": "N-25268",
+                "id_a": "24049",
                 "location": "47th Ave and Cutler Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -3991,8 +3991,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25221",
-                "id_b": "24050",
+                "id_b": "N-25221",
+                "id_a": "24050",
                 "location": "47th Ave and Cutler Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4029,8 +4029,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25269",
-                "id_b": "24058",
+                "id_b": "N-25269",
+                "id_a": "24058",
                 "location": "Vicente St - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -4067,8 +4067,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25270",
-                "id_b": "24059",
+                "id_b": "N-25270",
+                "id_a": "24059",
                 "location": "Vicente St and 46th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4105,8 +4105,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25271",
-                "id_b": "24060",
+                "id_b": "N-25271",
+                "id_a": "24060",
                 "location": "Vicente St and 46th Ave - NWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4143,8 +4143,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-28589",
-                "id_b": "24075",
+                "id_b": "N-28589",
+                "id_a": "24075",
                 "location": "Vicente St and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4179,8 +4179,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-24155",
-                "id_b": "24076",
+                "id_b": "N-24155",
+                "id_a": "24076",
                 "location": "Vicente St and 47th Ave - SWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4217,8 +4217,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-24156",
-                "id_b": "24077",
+                "id_b": "N-24156",
+                "id_a": "24077",
                 "location": "Vicente St and 47th Ave - SEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4255,8 +4255,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-38310",
-                "id_b": "24078",
+                "id_b": "N-38310",
+                "id_a": "24078",
                 "location": "Vicente St and 47th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4293,8 +4293,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-18773",
-                "id_b": "24081",
+                "id_b": "N-18773",
+                "id_a": "24081",
                 "location": "45th Ave - South of Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -4331,8 +4331,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-24159",
-                "id_b": "24083",
+                "id_b": "N-24159",
+                "id_a": "24083",
                 "location": "46th Ave - South of Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4369,8 +4369,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-25144",
-                "id_b": "24084",
+                "id_b": "N-25144",
+                "id_a": "24084",
                 "location": "46th Ave - South of Vicente St",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4405,8 +4405,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-24160",
-                "id_b": "24085",
+                "id_b": "N-24160",
+                "id_a": "24085",
                 "location": "46th Ave - South of Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4443,8 +4443,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-15621",
-                "id_b": "24086",
+                "id_b": "N-15621",
+                "id_a": "24086",
                 "location": "45th Ave - South of Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -4481,8 +4481,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-29166",
-                "id_b": "24088",
+                "id_b": "N-29166",
+                "id_a": "24088",
                 "location": "Vicente St and 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4517,8 +4517,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-24161",
-                "id_b": "24089",
+                "id_b": "N-24161",
+                "id_a": "24089",
                 "location": "Vicente St and 46th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4555,8 +4555,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-24162",
-                "id_b": "24090",
+                "id_b": "N-24162",
+                "id_a": "24090",
                 "location": "Vicente St - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -4593,8 +4593,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-33386",
-                "id_b": "24091",
+                "id_b": "N-33386",
+                "id_a": "24091",
                 "location": "Vicente St - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -4631,8 +4631,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-19858",
-                "id_b": "22688",
+                "id_b": "N-19858",
+                "id_a": "22688",
                 "location": "47th Ave - South of Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -4669,8 +4669,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-30486",
-                "id_b": "98553",
+                "id_b": "N-30486",
+                "id_a": "98553",
                 "location": "Vicente St and 45th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4705,8 +4705,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-40443",
-                "id_b": "106407",
+                "id_b": "N-40443",
+                "id_a": "106407",
                 "location": "Vicente St and 45th Ave - SEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4741,8 +4741,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-39988",
-                "id_b": "106949",
+                "id_b": "N-39988",
+                "id_a": "106949",
                 "location": "Ulloa St - East of 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4777,8 +4777,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-39989",
-                "id_b": "106950",
+                "id_b": "N-39989",
+                "id_a": "106950",
                 "location": "Ulloa St and 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4813,8 +4813,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-40509",
-                "id_b": "108342",
+                "id_b": "N-40509",
+                "id_a": "108342",
                 "location": "46th Ave - Between Vicente St and Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4851,8 +4851,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-40510",
-                "id_b": "108341",
+                "id_b": "N-40510",
+                "id_a": "108341",
                 "location": "46th Ave - Between Vicente St and Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4889,8 +4889,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-41115",
-                "id_b": "191473",
+                "id_b": "N-41115",
+                "id_a": "191473",
                 "location": "Vicente St and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -4925,8 +4925,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-74264",
-                "id_b": "242694",
+                "id_b": "N-74264",
+                "id_a": "242694",
                 "location": "Vicente St and 47th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -4963,8 +4963,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-74265",
-                "id_b": "242693",
+                "id_b": "N-74265",
+                "id_a": "242693",
                 "location": "47th Ave - North of Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -5001,8 +5001,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-74266",
-                "id_b": "242695",
+                "id_b": "N-74266",
+                "id_a": "242695",
                 "location": "47th Ave - North of Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -5039,8 +5039,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-322076",
-                "id_b": "265404",
+                "id_b": "N-322076",
+                "id_a": "265404",
                 "location": "Wawona St - West of 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5075,8 +5075,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-334427",
-                "id_b": "267563",
+                "id_b": "N-334427",
+                "id_a": "267563",
                 "location": "Wawona St and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5111,8 +5111,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-334616",
-                "id_b": "267758",
+                "id_b": "N-334616",
+                "id_a": "267758",
                 "location": "Vicente St and 46th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
@@ -5149,8 +5149,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-348732",
-                "id_b": "289352",
+                "id_b": "N-348732",
+                "id_a": "289352",
                 "location": "Wawona St - West of 45th Ave",
                 "scope": "Remove (E) manhole",
                 "pp_history": {
@@ -5187,8 +5187,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-396171",
-                "id_b": "301057",
+                "id_b": "N-396171",
+                "id_a": "301057",
                 "location": "Sloat Blvd - East of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -5225,8 +5225,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-402065",
-                "id_b": "306097",
+                "id_b": "N-402065",
+                "id_a": "306097",
                 "location": "Wawona St - West of 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5261,8 +5261,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-47670",
-                "id_b": "161798",
+                "id_b": "N-47670",
+                "id_a": "161798",
                 "location": "Sloat Blvd and 47th Ave - NEC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5297,8 +5297,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-41879",
-                "id_b": "156261",
+                "id_b": "N-41879",
+                "id_a": "156261",
                 "location": "Sloat Blvd and 47th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5333,8 +5333,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-23456",
-                "id_b": "23978",
+                "id_b": "N-23456",
+                "id_a": "23978",
                 "location": "Sloat Blvd - West of 46th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
@@ -5371,8 +5371,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx1",
-                "id_b": "none",
+                "id_b": "N-xxxx1",
+                "id_a": "none",
                 "location": "45th Ave, north of Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -5404,8 +5404,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx2",
-                "id_b": "none",
+                "id_b": "N-xxxx2",
+                "id_a": "none",
                 "location": "Sloat Blvd and 45th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5439,8 +5439,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx3",
-                "id_b": "none",
+                "id_b": "N-xxxx3",
+                "id_a": "none",
                 "location": "46th Ave, north of Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -5471,8 +5471,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx4",
-                "id_b": "none",
+                "id_b": "N-xxxx4",
+                "id_a": "none",
                 "location": "Wawona St and 46th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -5503,8 +5503,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-390666",
-                "id_b": "297266",
+                "id_b": "N-390666",
+                "id_a": "297266",
                 "location": "Sloat Blvd and 45th Ave - East Median",
                 "scope": "(E) to remain",
                 "pp_history": {
