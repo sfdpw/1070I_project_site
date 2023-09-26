@@ -43,7 +43,6 @@
     <link rel="icon" type="image/png" href="../legend/1070I_fav.png" />
 
     <script src="../js/number_pad_functions.js"></script>
-    <script src="../js/misc_general_functions.js"></script>
     <script src="../payments/base_sov.js"></script>
     <script src="../payments/misc_payment_functions.js"></script>
 
@@ -71,8 +70,7 @@
 
         $('#sw_line_table').bootstrapTable({
             data: json_1070I_sw_lines.features,
-            //showFullscreen: true,
-
+            sortSelectOptions: true,
             columns: [{
                 field: 'properties.sw_type',
                 title: 'Line<br>Type',
@@ -233,10 +231,6 @@
             }
 
         }
-
-        console.log(document.getElementsByClassName("form-select bootstrap-table-filter-control-properties.submittals.tvi_pre_con.submittal_no"))
-
-
 
     </script>
 </body>
