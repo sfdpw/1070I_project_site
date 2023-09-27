@@ -10542,7 +10542,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194664",
                 "id_b": "2516008",
-                "location": "2928 SLOAT BLVD",
+                "location": "2928 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -10603,7 +10603,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194666",
                 "id_b": "none",
-                "location": "2800-2898 SLOAT BLVD - West",
+                "location": "2800-2898 Sloat Blvd - West",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -10667,7 +10667,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194667",
                 "id_b": "2514007",
-                "location": "2700 SLOAT BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-10': {
@@ -10731,7 +10731,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194887",
                 "id_b": "2514008",
-                "location": "2700 SLOAT BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -10795,7 +10795,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194942",
                 "id_b": "2513005",
-                "location": "2650 SLOAT BLVD",
+                "location": "2650 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -10858,7 +10858,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-194947",
                 "id_b": "2513002",
-                "location": "2600 SLOAT BLVD",
+                "location": "2600 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16949,7 +16949,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-197377",
                 "id_b": "2450019A",
                 "location": "3536 Wawona St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -17014,20 +17014,15 @@ var json_1070I_sw_lines = {
                 "location": "3530 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "63.0",
+                        "video_no": "1",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17133,7 +17128,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-197380",
                 "id_b": "2450018D",
                 "location": "3518 Wawona St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -28981,7 +28976,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-311097",
                 "id_b": "2516010",
-                "location": "2908 SLOAT BLVD",
+                "location": "2908 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -29042,7 +29037,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-311098",
                 "id_b": "2516010",
-                "location": "2918 SLOAT BLVD",
+                "location": "2918 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -29103,7 +29098,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-311099",
                 "id_b": "2516007",
-                "location": "2938 SLOAT BLVD",
+                "location": "2938 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -29164,7 +29159,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-311100",
                 "id_b": "2516006",
-                "location": "2958 SLOAT BLVD",
+                "location": "2958 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -29225,7 +29220,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-311101",
                 "id_b": "2516005",
-                "location": "2968 SLOAT BLVD",
+                "location": "2968 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30856,7 +30851,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_001",
                 "id_b": "2514007",
-                "location": "2700 SLOAT BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -42297,15 +42292,20 @@ var json_1070I_sw_lines = {
                 "location": "3530 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-26': {
-                        'PP04': 50
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63.0",
-                        "video_no": "1",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -42322,7 +42322,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -42353,7 +42353,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368109",
                 "id_b": "2515001",
                 "location": "none",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": '(E) to remain',
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -42416,7 +42416,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368110",
                 "id_b": "2450019",
                 "location": "3530 Wawona St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -42479,7 +42479,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368111",
                 "id_b": "2450018E",
                 "location": "3524 Wawona St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -42542,7 +42542,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368112",
                 "id_b": "2450018E",
                 "location": "3524 Wawona St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -42605,7 +42605,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368113",
                 "id_b": "2450018D",
                 "location": "3518 Wawona St",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -44363,7 +44363,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368176",
                 "id_b": "none",
-                "location": "2800-2898 SLOAT BLVD - EAST",
+                "location": "2800-2898 Sloat Blvd - EAST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44426,7 +44426,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368177",
                 "id_b": "none",
-                "location": "2800-2898 SLOAT BLVD - East",
+                "location": "2800-2898 Sloat Blvd - East",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -44490,7 +44490,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368180",
                 "id_b": "2516010",
-                "location": "2908 SLOAT BLVD",
+                "location": "2908 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-11': {
@@ -44554,7 +44554,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368182",
                 "id_b": "2515001",
-                "location": "2800-2898 SLOAT BLVD - WEST",
+                "location": "2800-2898 Sloat Blvd - WEST",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44612,7 +44612,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368187",
                 "id_b": "2514008",
-                "location": "2700 SLOAT BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -47183,7 +47183,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-348091",
                 "id_b": "-",
-                "location": "2700 SLOAT BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-10': {
@@ -47998,6 +47998,132 @@ var json_1070I_sw_lines = {
                     [
                         [-122.505306430001255, 37.73773930620856],
                         [-122.505339073712108, 37.737738320268839]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_008",
+                "id_b": "2450019A",
+                "location": "3536 Wawona St",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                }, "rlvnt": "none",
+                "sw_type": "ss",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.504917519850864, 37.736247640204375],
+                        [-122.504916009079039, 37.73623356473631]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_009",
+                "id_b": "2450018D",
+                "location": "3518 Wawona St",
+                "scope": "Improve (E) side sewer as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "ss",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.504687519490147, 37.736246381110121],
+                        [-122.504688560996186, 37.736256314168813]
                     ]
                 ]
             },
