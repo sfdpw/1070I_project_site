@@ -47676,7 +47676,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxxx8",
+                "id_a": "P-423958",
                 "id_b": "none",
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Install (N) 15in VCP main",
@@ -47728,7 +47728,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxxx9",
+                "id_a": "P-423959",
                 "id_b": "none",
                 "location": "Wawona St and 46th Ave",
                 "scope": "Install (N) 15in VCP main",

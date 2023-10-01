@@ -5371,8 +5371,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_b": "N-xxxx1",
-                "id_a": "none",
+                "id_a": "N-xxxx1",
+                "id_b": "none",
                 "location": "45th Ave, north of Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -5404,8 +5404,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_b": "N-xxxx2",
-                "id_a": "none",
+                "id_a": "N-xxxx2",
+                "id_b": "none",
                 "location": "Sloat Blvd and 45th Ave - NWC",
                 "scope": "(E) to remain",
                 "pp_history": {
@@ -5439,8 +5439,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_b": "N-xxxx3",
-                "id_a": "none",
+                "id_a": "331463",
+                "id_b": "none",
                 "location": "46th Ave, north of Sloat Blvd",
                 "scope": "Install (N) manhole",
                 "pp_history": {
@@ -5471,8 +5471,8 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_b": "N-xxxx4",
-                "id_a": "none",
+                "id_a": "331467",
+                "id_b": "none",
                 "location": "Wawona St and 46th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
