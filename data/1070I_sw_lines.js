@@ -6034,9 +6034,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "70.0",
+                        "video_no": "1",
+                        "response": "MCN - Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7487,9 +7487,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "67.0",
+                        "video_no": "1",
+                        "response": "MCN - Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11110,7 +11110,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196938",
                 "id_b": "2451008",
-                "location": "3421 VICENTE ST",
+                "location": "3421 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11173,7 +11173,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196939",
                 "id_b": "2451007",
-                "location": "3427 VICENTE ST",
+                "location": "3427 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11236,7 +11236,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196994",
                 "id_b": "2451009",
-                "location": "3433 VICENTE ST",
+                "location": "3433 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -11299,7 +11299,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-196995",
                 "id_b": "2451006N",
-                "location": "3439 VICENTE ST",
+                "location": "3439 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -13772,7 +13772,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197116",
                 "id_b": "2447058",
-                "location": "4515 ULLOA ST",
+                "location": "4515 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -13835,7 +13835,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197117",
                 "id_b": "2447057",
-                "location": "4521 ULLOA ST",
+                "location": "4521 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -13898,7 +13898,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197119",
                 "id_b": "2447055",
-                "location": "4533 ULLOA ST",
+                "location": "4533 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14019,7 +14019,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197174",
                 "id_b": "2447054",
-                "location": "4539 ULLOA ST",
+                "location": "4539 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -14082,7 +14082,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197175",
                 "id_b": "2447052",
-                "location": "4527 ULLOA ST",
+                "location": "4527 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -16825,20 +16825,15 @@ var json_1070I_sw_lines = {
                 "location": "2695 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75.0",
+                        "video_no": "4",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16951,20 +16946,15 @@ var json_1070I_sw_lines = {
                 "location": "3536 Wawona St",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75.0",
+                        "video_no": "2",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17014,15 +17004,20 @@ var json_1070I_sw_lines = {
                 "location": "3530 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-26': {
-                        'PP04': 50
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63.0",
-                        "video_no": "1",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17130,20 +17125,15 @@ var json_1070I_sw_lines = {
                 "location": "3518 Wawona St",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "75.0",
+                        "video_no": "1",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17505,7 +17495,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197411",
                 "id_b": "2446024",
-                "location": "3400 VICENTE ST",
+                "location": "3400 Vicente St",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -17568,7 +17558,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197412",
                 "id_b": "2446028",
-                "location": "3436 VICENTE ST",
+                "location": "3436 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -18508,7 +18498,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197586",
                 "id_b": "2450043",
-                "location": "3519 VICENTE ST",
+                "location": "3519 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -18566,7 +18556,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197587",
                 "id_b": "2450042",
-                "location": "3525 VICENTE ST",
+                "location": "3525 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -19128,7 +19118,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197632",
                 "id_b": "2446027",
-                "location": "3430 VICENTE ST",
+                "location": "3430 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19191,7 +19181,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197633",
                 "id_b": "2446026",
-                "location": "3424 VICENTE ST",
+                "location": "3424 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19254,7 +19244,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197634",
                 "id_b": "2446025",
-                "location": "3418 VICENTE ST",
+                "location": "3418 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -19317,7 +19307,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197642",
                 "id_b": "2450041",
-                "location": "3531 VICENTE ST",
+                "location": "3531 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -19375,7 +19365,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197643",
                 "id_b": "2450040",
-                "location": "3537 VICENTE ST",
+                "location": "3537 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -20179,7 +20169,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197836",
                 "id_b": "2447028",
-                "location": "3532 VICENTE ST",
+                "location": "3532 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -20237,7 +20227,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197837",
                 "id_b": "2447027",
-                "location": "3526 VICENTE ST",
+                "location": "3526 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -20295,7 +20285,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197838",
                 "id_b": "2447026",
-                "location": "3520 VICENTE ST",
+                "location": "3520 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -20353,7 +20343,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197839",
                 "id_b": "2447025",
-                "location": "3514 VICENTE ST",
+                "location": "3514 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -24873,7 +24863,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-198975",
                 "id_b": "2447029",
-                "location": "3538 VICENTE ST",
+                "location": "3538 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -25057,7 +25047,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199287",
                 "id_b": "2379022A",
-                "location": "4538 ULLOA ST",
+                "location": "4538 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25120,7 +25110,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199288",
                 "id_b": "2379022",
-                "location": "4532 ULLOA ST",
+                "location": "4532 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25183,7 +25173,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199289",
                 "id_b": "2379021",
-                "location": "4526 ULLOA ST",
+                "location": "4526 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25246,7 +25236,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199290",
                 "id_b": "2379020A",
-                "location": "4520 ULLOA ST",
+                "location": "4520 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25309,7 +25299,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199291",
                 "id_b": "2379046",
-                "location": "4514 ULLOA ST",
+                "location": "4514 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -25372,7 +25362,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-199292",
                 "id_b": "2379019A",
-                "location": "4508 ULLOA ST",
+                "location": "4508 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -26632,7 +26622,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-200153",
                 "id_b": "2378021",
-                "location": "4600 ULLOA ST",
+                "location": "4600 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -30972,7 +30962,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358853",
                 "id_b": "2379022A",
-                "location": "4538 ULLOA ST",
+                "location": "4538 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31035,7 +31025,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358854",
                 "id_b": "2379021",
-                "location": "4526 ULLOA ST",
+                "location": "4526 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31098,7 +31088,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358855",
                 "id_b": "2379046",
-                "location": "4514 ULLOA ST",
+                "location": "4514 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31161,7 +31151,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358856",
                 "id_b": "2379019A",
-                "location": "4508 ULLOA ST",
+                "location": "4508 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -31287,7 +31277,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-358858",
                 "id_b": "2378021",
-                "location": "4600 ULLOA ST",
+                "location": "4600 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -34055,7 +34045,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367970",
                 "id_b": "2450043",
-                "location": "3519 VICENTE ST",
+                "location": "3519 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -34113,7 +34103,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367971",
                 "id_b": "2450042",
-                "location": "3525 VICENTE ST",
+                "location": "3525 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -34171,7 +34161,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367972",
                 "id_b": "2450041",
-                "location": "3531 VICENTE ST",
+                "location": "3531 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -34229,7 +34219,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367973",
                 "id_b": "2450040",
-                "location": "3537 VICENTE ST",
+                "location": "3537 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
@@ -34287,7 +34277,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367974",
                 "id_b": "2447029",
-                "location": "3538 VICENTE ST",
+                "location": "3538 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -34345,7 +34335,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367975",
                 "id_b": "2447028",
-                "location": "3532 VICENTE ST",
+                "location": "3532 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -34403,7 +34393,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367976",
                 "id_b": "2447027",
-                "location": "3526 VICENTE ST",
+                "location": "3526 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -34461,7 +34451,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367977",
                 "id_b": "2447026",
-                "location": "3520 VICENTE ST",
+                "location": "3520 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -34519,7 +34509,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367978",
                 "id_b": "2447025",
-                "location": "3514 VICENTE ST",
+                "location": "3514 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -36304,7 +36294,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368011",
                 "id_b": "2379038",
-                "location": "3651 TARAVAL ST",
+                "location": "3651 Taraval St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -36808,7 +36798,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368019",
                 "id_b": "2379038",
-                "location": "3651 TARAVAL ST",
+                "location": "3651 Taraval St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41785,7 +41775,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368100",
                 "id_b": "2514008",
-                "location": "2710 SITUS TO BE ASSIGNED BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41848,7 +41838,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368101",
                 "id_b": "2514008",
-                "location": "2710 SITUS TO BE ASSIGNED BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -41911,7 +41901,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368102",
                 "id_b": "2514008",
-                "location": "2710 SITUS TO BE ASSIGNED BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42100,7 +42090,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368105",
                 "id_b": "2514008",
-                "location": "2710 SITUS TO BE ASSIGNED BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42163,7 +42153,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368106",
                 "id_b": "2514008",
-                "location": "2710 SITUS TO BE ASSIGNED BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42226,7 +42216,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368107",
                 "id_b": "2514008",
-                "location": "2710 SITUS TO BE ASSIGNED BLVD",
+                "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -42352,7 +42342,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368109",
                 "id_b": "2515001",
-                "location": "none",
+                "location": "3535 Wawona St",
                 "scope": '(E) to remain',
                 "pp_history": {
                     'SW-0': {
@@ -42418,20 +42408,15 @@ var json_1070I_sw_lines = {
                 "location": "3530 Wawona St",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "63.0",
+                        "video_no": "1",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43481,7 +43466,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368155",
                 "id_b": "2446027",
-                "location": "3430 VICENTE ST",
+                "location": "3430 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43544,7 +43529,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368156",
                 "id_b": "2446026",
-                "location": "3424 VICENTE ST",
+                "location": "3424 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43607,7 +43592,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368157",
                 "id_b": "2446028",
-                "location": "3436 VICENTE ST",
+                "location": "3436 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43670,7 +43655,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368158",
                 "id_b": "2451009",
-                "location": "3433 VICENTE ST",
+                "location": "3433 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43733,7 +43718,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368159",
                 "id_b": "2451007",
-                "location": "3427 VICENTE ST",
+                "location": "3427 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43796,7 +43781,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368160",
                 "id_b": "2451008",
-                "location": "3421 VICENTE ST",
+                "location": "3421 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43859,7 +43844,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368161",
                 "id_b": "2446025",
-                "location": "3418 VICENTE ST",
+                "location": "3418 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43922,7 +43907,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368164",
                 "id_b": "2447054",
-                "location": "4539 ULLOA ST",
+                "location": "4539 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -43985,7 +43970,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368165",
                 "id_b": "2447055",
-                "location": "4533 ULLOA ST",
+                "location": "4533 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44048,7 +44033,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368166",
                 "id_b": "2447056",
-                "location": "4527 ULLOA ST",
+                "location": "4527 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44111,7 +44096,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368167",
                 "id_b": "2447056",
-                "location": "4527 ULLOA ST",
+                "location": "4527 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44174,7 +44159,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368168",
                 "id_b": "2447057",
-                "location": "4521 ULLOA ST",
+                "location": "4521 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -44363,7 +44348,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368176",
                 "id_b": "none",
-                "location": "2800-2898 Sloat Blvd - EAST",
+                "location": "2800-2898 Sloat Blvd - East",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
@@ -47614,8 +47599,8 @@ var json_1070I_sw_lines = {
             "type": "Feature",
             "properties": {
                 "id_a": "unknown_side_sewer_005",
-                "id_b": "none",
-                "location": "none",
+                "id_b": "2451002C",
+                "location": "2691 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-0': {
