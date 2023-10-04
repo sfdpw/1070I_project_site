@@ -41808,7 +41808,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -41871,7 +41871,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -41934,7 +41934,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
