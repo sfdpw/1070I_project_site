@@ -7,6 +7,11 @@ var json_ab_list = [
   '1070I_PP03_as_built_SW_02',
   '1070I_PP03_as_built_SW_03',
   '1070I_PP03_as_built_SW_04',
-  '1070I_PP03_as_built_SW_05'
+  '1070I_PP03_as_built_SW_05',
+  '1070I_PP04_as_built_SW_02',
+  '1070I_PP04_as_built_SW_04',
+  '1070I_PP04_as_built_SW_05',
+  '1070I_PP04_as_built_SW_07',
+  '1070I_PP04_as_built_SW_08',
   
 ]

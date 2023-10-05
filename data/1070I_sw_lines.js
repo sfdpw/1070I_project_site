@@ -1604,13 +1604,8 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP04': 400*181
                     }
                 },
                 "submittals": {
@@ -1667,13 +1662,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Install (N) 15in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-06': {
+                        'PP04': 339*450
                     }
                 },
                 "submittals": {
@@ -2971,13 +2961,8 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 45th Ave - SEC",
                 "scope": "Install (N) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-09': {
+                        'PP04': 43*200
                     }
                 },
                 "submittals": {
@@ -7424,9 +7409,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "73.0",
+                        "video_no": "1",
+                        "response": "MCN - Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10861,13 +10846,11 @@ var json_1070I_sw_lines = {
                 "location": "2600 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 17*225
                     }
                 },
                 "submittals": {
@@ -11113,13 +11096,11 @@ var json_1070I_sw_lines = {
                 "location": "3421 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 16*225
                     }
                 },
                 "submittals": {
@@ -11176,13 +11157,11 @@ var json_1070I_sw_lines = {
                 "location": "3427 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 22*225
                     }
                 },
                 "submittals": {
@@ -11302,13 +11281,11 @@ var json_1070I_sw_lines = {
                 "location": "3439 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 22*225
                     }
                 },
                 "submittals": {
@@ -17561,13 +17538,11 @@ var json_1070I_sw_lines = {
                 "location": "3436 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 39*225
                     }
                 },
                 "submittals": {
@@ -18501,6 +18476,12 @@ var json_1070I_sw_lines = {
                 "location": "3519 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -18559,6 +18540,12 @@ var json_1070I_sw_lines = {
                 "location": "3525 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -19121,13 +19108,11 @@ var json_1070I_sw_lines = {
                 "location": "3430 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 40*225
                     }
                 },
                 "submittals": {
@@ -19184,13 +19169,11 @@ var json_1070I_sw_lines = {
                 "location": "3424 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 39*225
                     }
                 },
                 "submittals": {
@@ -19247,13 +19230,11 @@ var json_1070I_sw_lines = {
                 "location": "3418 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 38*225
                     }
                 },
                 "submittals": {
@@ -19310,6 +19291,12 @@ var json_1070I_sw_lines = {
                 "location": "3531 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -19368,6 +19355,12 @@ var json_1070I_sw_lines = {
                 "location": "3537 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -21541,14 +21534,12 @@ var json_1070I_sw_lines = {
                 "location": "3338 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 32*225
+                    } 
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -21604,14 +21595,12 @@ var json_1070I_sw_lines = {
                 "location": "3332 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 32*225
+                    } 
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -21848,7 +21837,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-197931",
                 "id_b": "2451006A",
-                "location": "2643 46th Ave",
+                "location": "2650 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -32008,7 +31997,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367936",
                 "id_b": "2447024",
-                "location": "2595 46th Ave",
+                "location": "2594 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32071,7 +32060,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367937",
                 "id_b": "2446030",
-                "location": "2591 46th Ave",
+                "location": "2590 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -32134,7 +32123,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367938",
                 "id_b": "2447022",
-                "location": "2587 46th Ave",
+                "location": "2586 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -32250,7 +32239,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367940",
                 "id_b": "2447020",
-                "location": "2579 46th Ave",
+                "location": "2578 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -32308,7 +32297,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367941",
                 "id_b": "2447019",
-                "location": "2575 46th Ave",
+                "location": "2574 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -32424,7 +32413,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367943",
                 "id_b": "2447017",
-                "location": "2567 46th Ave",
+                "location": "2566 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
@@ -32482,7 +32471,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-367944",
                 "id_b": "2447016",
-                "location": "2563 46th Ave",
+                "location": "2562 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -34048,6 +34037,12 @@ var json_1070I_sw_lines = {
                 "location": "3519 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -34106,6 +34101,12 @@ var json_1070I_sw_lines = {
                 "location": "3525 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -34164,6 +34165,12 @@ var json_1070I_sw_lines = {
                 "location": "3531 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -34222,6 +34229,12 @@ var json_1070I_sw_lines = {
                 "location": "3537 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 14*225
+                    },
                     'SW-28': {
                         'PP04': 50
                     }
@@ -41526,14 +41539,12 @@ var json_1070I_sw_lines = {
                 "location": "3326 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 25*225
+                    } 
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -41589,14 +41600,12 @@ var json_1070I_sw_lines = {
                 "location": "3320 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 25*225
+                    } 
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -42093,14 +42102,12 @@ var json_1070I_sw_lines = {
                 "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
+                    'SW-10': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 17*225
+                    } 
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -43469,13 +43476,11 @@ var json_1070I_sw_lines = {
                 "location": "3430 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 40*225
                     }
                 },
                 "submittals": {
@@ -43532,13 +43537,11 @@ var json_1070I_sw_lines = {
                 "location": "3424 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 40*225
                     }
                 },
                 "submittals": {
@@ -43595,13 +43598,11 @@ var json_1070I_sw_lines = {
                 "location": "3436 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 39*225
                     }
                 },
                 "submittals": {
@@ -43658,13 +43659,11 @@ var json_1070I_sw_lines = {
                 "location": "3433 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 22*225
                     }
                 },
                 "submittals": {
@@ -43847,13 +43846,11 @@ var json_1070I_sw_lines = {
                 "location": "3418 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 38*225
                     }
                 },
                 "submittals": {

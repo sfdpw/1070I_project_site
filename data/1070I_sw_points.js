@@ -876,13 +876,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 45th Ave - SEC",
                 "scope": "Install (N) catchbasin",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-24': {
+                        'PP04': 5000
                     }
                 },
                 "rlvnt": "none",
@@ -3544,13 +3539,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP04': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -3582,13 +3572,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP04': 8500
                     }
                 },
                 "rlvnt": "none",

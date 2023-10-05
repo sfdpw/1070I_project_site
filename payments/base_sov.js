@@ -187,7 +187,7 @@ var base_sov = {
 
     'SW-24': {
         'description': 'CONCRETE CATCH BASIN WITHOUT CURB INLET WITH NEW FRAME AND GRATING (PER SFDPW STD. PLAN 87,188) AND CAST IRON WATER TRAP INCLUDING CLEANOUT CAP (PER SFDPW STANDARD PLAN 87,194)',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 1,
         'unit_price': 5000

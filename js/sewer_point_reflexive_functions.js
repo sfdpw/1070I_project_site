@@ -27,8 +27,6 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
 
     } else if (point_scope.includes('Install (N)')) {
 
-
-
         return_string = sewer_status_code_array[6];
 
         if (
@@ -36,10 +34,9 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
             payment_obj.hasOwnProperty('SW-04') ||
             payment_obj.hasOwnProperty('SW-05') ||
             payment_obj.hasOwnProperty('SW-06') ||
-            payment_obj.hasOwnProperty('SW-23')
-            )
-
-        {
+            payment_obj.hasOwnProperty('SW-23') ||
+            payment_obj.hasOwnProperty('SW-24')
+        ) {
 
             return_string = sewer_status_code_array[15];
 
@@ -49,9 +46,7 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
 
         return_string = sewer_status_code_array[6];
 
-        if (payment_obj.hasOwnProperty('SW-07'))
-
-        {
+        if (payment_obj.hasOwnProperty('SW-07')) {
 
             return_string = sewer_status_code_array[15];
 
