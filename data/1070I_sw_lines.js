@@ -2963,6 +2963,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-09': {
                         'PP04': 43*200
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -11101,6 +11104,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 16*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -11162,6 +11168,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 22*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -11218,13 +11227,14 @@ var json_1070I_sw_lines = {
                 "location": "3433 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 22*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -11286,6 +11296,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 22*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -17543,6 +17556,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 39*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -19113,6 +19129,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 40*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -19174,6 +19193,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 39*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -19235,6 +19257,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 38*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43481,6 +43506,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 40*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43542,6 +43570,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 40*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43603,6 +43634,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 39*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43664,6 +43698,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 22*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43720,13 +43757,14 @@ var json_1070I_sw_lines = {
                 "location": "3427 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 22*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43783,13 +43821,14 @@ var json_1070I_sw_lines = {
                 "location": "3421 Vicente St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP04': 150
+                    },
+                    'SW-12': {
+                        'PP04': 22*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
@@ -43851,6 +43890,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP04': 38*225
+                    },
+                    'SW-28': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
