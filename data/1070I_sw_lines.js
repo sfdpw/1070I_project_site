@@ -1663,7 +1663,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 15in VCP main",
                 "pp_history": {
                     'SW-06': {
-                        'PP04': 339*450
+                        'PP04': 310*450
                     }
                 },
                 "submittals": {
@@ -2962,7 +2962,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-09': {
-                        'PP04': 43*200
+                        'PP04': 35*200
                     },
                     'SW-28': {
                         'PP04': 50
