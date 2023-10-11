@@ -5356,7 +5356,7 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx1",
+                "id_a": "331731",
                 "id_b": "none",
                 "location": "45th Ave, north of Sloat Blvd",
                 "scope": "Install (N) manhole",
@@ -5389,7 +5389,7 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "N-xxxx2",
+                "id_a": "331464",
                 "id_b": "none",
                 "location": "Sloat Blvd and 45th Ave - NWC",
                 "scope": "(E) to remain",

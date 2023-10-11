@@ -1367,7 +1367,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxxx4",
+                "id_a": "P-424165",
                 "id_b": "none",
                 "location": "45th Ave - Between Sloat Blvd and Wawona St",
                 "scope": "Install (N) 18in VCP main",
@@ -1425,7 +1425,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxxx5",
+                "id_a": "P-420781",
                 "id_b": "none",
                 "location": "45th Ave - Between Sloat Blvd and Wawona St",
                 "scope": "Install (N) 18in VCP main",
@@ -1483,7 +1483,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxxx6",
+                "id_a": "P-424156",
                 "id_b": "none",
                 "location": "45th Ave, north of Sloat Blvd",
                 "scope": "Install (N) culvert",
@@ -47804,7 +47804,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxx10",
+                "id_a": "P-424131",
                 "id_b": "none",
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "(E) to remain",
@@ -47861,7 +47861,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-xxxx11",
+                "id_a": "P-424164",
                 "id_b": "none",
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "Install (N) 18in VCP main",
