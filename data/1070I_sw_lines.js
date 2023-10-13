@@ -1605,7 +1605,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
                     'SW-05': {
-                        'PP04': 400*181
+                        'PP04': 400 * 181
                     }
                 },
                 "submittals": {
@@ -1663,7 +1663,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) 15in VCP main",
                 "pp_history": {
                     'SW-06': {
-                        'PP04': 310*450
+                        'PP04': 310 * 450
                     }
                 },
                 "submittals": {
@@ -2962,7 +2962,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-09': {
-                        'PP04': 35*200
+                        'PP04': 35 * 200
                     },
                     'SW-28': {
                         'PP04': 50
@@ -7527,8 +7527,13 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - West Sidewalk between Vicente St and Ulloa St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-26': {
-                        'PP05': 150
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
                     }
                 },
                 "submittals": {
@@ -10848,7 +10853,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 17*225
+                        'PP04': 17 * 225
                     }
                 },
                 "submittals": {
@@ -11098,7 +11103,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 16*225
+                        'PP04': 16 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -11162,7 +11167,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 22*225
+                        'PP04': 22 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -11226,7 +11231,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 22*225
+                        'PP04': 22 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -11290,7 +11295,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 22*225
+                        'PP04': 22 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -13025,7 +13030,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -13083,7 +13088,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -13378,7 +13383,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -17535,7 +17540,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 39*225
+                        'PP04': 39 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -18476,7 +18481,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -18540,7 +18545,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -19108,7 +19113,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 40*225
+                        'PP04': 40 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -19172,7 +19177,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 39*225
+                        'PP04': 39 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -19236,7 +19241,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 38*225
+                        'PP04': 38 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -19300,7 +19305,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -19364,7 +19369,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -21066,7 +21071,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -21538,8 +21543,8 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 32*225
-                    } 
+                        'PP04': 32 * 225
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -21599,8 +21604,8 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 32*225
-                    } 
+                        'PP04': 32 * 225
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -31396,7 +31401,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -33849,7 +33854,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -34031,7 +34036,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -34095,7 +34100,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -34159,7 +34164,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -34223,7 +34228,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 14*225
+                        'PP04': 14 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -41533,8 +41538,8 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 25*225
-                    } 
+                        'PP04': 25 * 225
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -41594,8 +41599,8 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 25*225
-                    } 
+                        'PP04': 25 * 225
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -42096,8 +42101,8 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 17*225
-                    } 
+                        'PP04': 17 * 225
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -43470,7 +43475,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 40*225
+                        'PP04': 40 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -43534,7 +43539,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 40*225
+                        'PP04': 40 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -43598,7 +43603,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 39*225
+                        'PP04': 39 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -43662,7 +43667,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 22*225
+                        'PP04': 22 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -43726,7 +43731,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 22*225
+                        'PP04': 22 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -43790,7 +43795,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 22*225
+                        'PP04': 22 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -43854,7 +43859,7 @@ var json_1070I_sw_lines = {
                         'PP04': 150
                     },
                     'SW-12': {
-                        'PP04': 38*225
+                        'PP04': 38 * 225
                     },
                     'SW-28': {
                         'PP04': 50
@@ -46876,7 +46881,7 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-26': {
-                        'PP05': 150
+                        'PP05': 50
                     }
                 },
                 "submittals": {
