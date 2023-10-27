@@ -85,8 +85,6 @@ function generate_qty_tracking_table(table_id, bid_item)
 
     }
 
-
-
     document.getElementById(table_id).style.borderColor = 'black';
 
     $('#'.concat(table_id)).bootstrapTable({

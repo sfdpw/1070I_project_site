@@ -236,7 +236,7 @@ function rlvnt_entry_creator(rlvnt_array, striping_plan_array = [])
 
     {
 
-        output_string += "<a href=\".\\sheets\\1243I_dwg_T_".concat(striping_plan, ".pdf\" target=\"_blank\">".concat("T-", striping_plan).replace("-0", "-"), " - Striping Plan<\/a><br>");
+        output_string += "<a href=\".\\sheets\\1070I_dwg_T_".concat(striping_plan, ".pdf\" target=\"_blank\">".concat("T-", striping_plan).replace("-0", "-"), " - Striping Plan<\/a><br>");
 
     }
 

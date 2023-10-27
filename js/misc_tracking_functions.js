@@ -1,3 +1,9 @@
+function cmp(a, b) {
+    if (a > b) return +1;
+    if (a < b) return -1;
+    return 0;
+};
+
 // linked_assets
 
 function linked_asset_function_point(location, asset_coordinates) {
@@ -101,9 +107,10 @@ var response_date_obj = {
     '75.0'  : '2023_10_02',
     '76.0'  : '2023_10_17',
     '79.0'  : '2023_10_25',
+    '79.1'  : '2023_10_26',
     '80.0'  : '2023_10_25',
-    '81.0'  : '2023_10_25'
-
+    '81.0'  : '2023_10_25',
+    '82.0'  : '2023_10_26'
     
 }
 

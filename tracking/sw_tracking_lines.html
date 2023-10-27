@@ -66,6 +66,15 @@
 
     <script>
 
+
+        //json_1070I_sw_lines.features.sort(function (a, b) {
+        //    return cmp(b.properties.sw_type, a.properties.sw_type) ||
+        //        cmp(b.properties.scope, a.properties.scope)
+            //cmp(a.id_a, b.id_a) ||
+            //cmp(a.submittals.tvi_pre_con.submittal_no, b.submittals.tvi_pre_con.submittal_no) ||
+            // cmp(Number(a.submittals.tvi_pre_con.video_no), Number(b.submittals.tvi_pre_con.video_no))
+        //});
+
         json_1070I_sw_lines.features.sort((a, b) => (a.properties.scope > b.properties.scope) ? -1 : 1);
 
         $('#sw_line_table').bootstrapTable({
@@ -174,6 +183,7 @@
             //   'Scope Deleted',                               // 11
             //   '(E) Capped',                                  // 12 
             //   '(E) Not Found',                               // 13 
+
 
             var row_color_by_status = '';
 

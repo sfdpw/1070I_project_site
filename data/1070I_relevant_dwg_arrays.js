@@ -13,11 +13,11 @@ var rlvnt_array_sw = [
                    
                    
 var rlvnt_array_r = [
-                   {'file_name': '1243I_dwg_R_G1', 'desc': 'Legend and Abbreviation'},
-                   {'file_name': '1243I_dwg_R_G2', 'desc': 'General Notes'},
-                   {'file_name': '1243I_dwg_R_16', 'desc': 'Typical Cross Sections I'},
-                   {'file_name': '1243I_dwg_R_17', 'desc': 'Typical Cross Sections II'},
-                   {'file_name': '1243I_dwg_R_18', 'desc': 'Typical Cross Sections III'},
+                   {'file_name': '1070I_dwg_R_G1', 'desc': 'Legend and Abbreviation'},
+                   {'file_name': '1070I_dwg_R_G2', 'desc': 'General Notes'},
+                   {'file_name': '1070I_dwg_R_16', 'desc': 'Typical Cross Sections I'},
+                   {'file_name': '1070I_dwg_R_17', 'desc': 'Typical Cross Sections II'},
+                   {'file_name': '1070I_dwg_R_18', 'desc': 'Typical Cross Sections III'},
                    {'file_name': 'SFMTA_STR_7687', 'desc': 'Speed Cushion'},
                    {'file_name': 'SFPW_STD_87168', 'desc': 'Planing'},
                    {'file_name': 'SFPW_STD_87169', 'desc': 'Curb'},
@@ -30,8 +30,8 @@ var rlvnt_array_r = [
                    ];
                    
 var rlvnt_array_cr = [
-                   {'file_name': '1243I_dwg_R_G1', 'desc': 'Legend and Abbreviation'},
-                   {'file_name': '1243I_dwg_R_G2', 'desc': 'General Notes'},
+                   {'file_name': '1070I_dwg_R_G1', 'desc': 'Legend and Abbreviation'},
+                   {'file_name': '1070I_dwg_R_G2', 'desc': 'General Notes'},
                    {'file_name': 'SFPW_STD_87169', 'desc': 'Curb'},
                    {'file_name': 'SFPW_STD_87170', 'desc': 'Comb. Parking Strip / Gutter'},             
                    {'file_name': 'SFPW_STD_87171', 'desc': 'Driveway'},        

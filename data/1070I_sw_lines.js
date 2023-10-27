@@ -1963,20 +1963,15 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd and 47th Ave - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "1",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3025,20 +3020,15 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 45th Ave - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "3",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3088,20 +3078,15 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 45th Ave - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "4",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -6963,20 +6948,15 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 46th Ave - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "7",
+                        "response": "MCN - Line (E) with CIPL",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7026,20 +7006,15 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 46th Ave - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "8",
+                        "response": "MCN - Line (E) with CIPL",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7152,20 +7127,15 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 47th Ave - NWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "9",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7215,20 +7185,15 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 47th Ave - NEC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "10",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7278,20 +7243,15 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 47th Ave - SWC",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "82.0",
+                        "video_no": "11",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13290,20 +13250,15 @@ var json_1070I_sw_lines = {
                 "location": "2667 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.1",
+                        "video_no": "2",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -31882,20 +31837,15 @@ var json_1070I_sw_lines = {
                 "location": "2594 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.1",
+                        "video_no": "5",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46376,20 +46326,15 @@ var json_1070I_sw_lines = {
                 "location": "2663 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.1",
+                        "video_no": "3",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46439,20 +46384,15 @@ var json_1070I_sw_lines = {
                 "location": "2667 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.1",
+                        "video_no": "1",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46502,20 +46442,15 @@ var json_1070I_sw_lines = {
                 "location": "2671 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "79.1",
+                        "video_no": "4",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }

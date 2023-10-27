@@ -33,9 +33,15 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 }
 
-            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' || line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' ||
+                line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)'
+            ) {
 
                 return_string = sewer_status_code_array[10];
+
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Line (E) with CIPL') {
+
+                return_string = sewer_status_code_array[8];
 
             } else if (line_obj.submittals.tvi_pre_con.response == 'none') {
 
@@ -53,9 +59,9 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
                 line_obj.pp_history.hasOwnProperty('SW-06') ||
                 line_obj.pp_history.hasOwnProperty('SW-07') ||
                 line_obj.pp_history.hasOwnProperty('SW-08') ||
-                line_obj.pp_history.hasOwnProperty('SW-09') ||                
-                line_obj.pp_history.hasOwnProperty('SW-12')               
-                
+                line_obj.pp_history.hasOwnProperty('SW-09') ||
+                line_obj.pp_history.hasOwnProperty('SW-12')
+
             ) {
 
                 return_string = sewer_status_code_array[3];
@@ -90,14 +96,14 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
                 return_string = sewer_status_code_array[8];
 
             } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Spot Replace then Proceed with Lining') {
-            
+
                 return_string = sewer_status_code_array[16];
-            
+
             } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace') {
-            
+
                 return_string = sewer_status_code_array[10];
-                
-            }    
+
+            }
 
         } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
@@ -135,7 +141,11 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[10];
 
-            }
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Line (E) with CIPL') {
+
+                return_string = sewer_status_code_array[8];
+
+            } 
 
         } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
