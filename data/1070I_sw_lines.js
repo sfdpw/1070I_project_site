@@ -47681,20 +47681,15 @@ var json_1070I_sw_lines = {
                 "location": "3536 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
+                        "submittal_no": "81.0",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47743,20 +47738,15 @@ var json_1070I_sw_lines = {
                 "location": "3518 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP05': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
+                        "submittal_no": "81.0",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
