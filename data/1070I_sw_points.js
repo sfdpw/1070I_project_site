@@ -1567,13 +1567,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP05': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -1605,13 +1600,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - South of Vicente St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP05': 8500
                     }
                 },
                 "rlvnt": "none",
@@ -2036,9 +2026,9 @@ var json_1070I_sw_points = {
             "type": "Feature",
             "properties": {
                 "id_b": "N-29761",
-                "id_a": "2036",
+                "id_a": "331688",
                 "location": "Fronting 2630 45th Ave",
-                "scope": "Remove (E) manhole",
+                "scope": "Install (N) manhole",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -2061,6 +2051,42 @@ var json_1070I_sw_points = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [-122.503268970768318, 37.737505002675164]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+
+        },
+
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_b": "N-424136",
+                "id_a": "331687",
+                "location": "Fronting 2631 45th Ave",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cb",
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.503334, 37.737503]
             },
             get asset_coordinate() {
                 return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
@@ -3568,7 +3594,7 @@ var json_1070I_sw_points = {
             "type": "Feature",
             "properties": {
                 "id_b": "N-29657",
-                "id_a": "24009",
+                "id_a": "325643",
                 "location": "Wawona St and 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {

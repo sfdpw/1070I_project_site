@@ -1657,7 +1657,7 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-86954",
+                "id_a": "P-420789",
                 "id_b": "none",
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Install (N) 15in VCP main",
@@ -3002,6 +3002,64 @@ var json_1070I_sw_lines = {
                     [
                         [-122.503177131123977, 37.736239719450204],
                         [-122.503035755693844, 37.736180359712996]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "P-424137",
+                "id_b": "none",
+                "location": "Fronting 2631 45th Ave",
+                "scope": "Improve (E) culvert as directed",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': 0
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cl",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503334, 37.737503],
+                        [-122.503268970768318, 37.737505002675164]
                     ]
                 ]
             },
@@ -5495,18 +5553,13 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "P-88943",
+                "id_a": "P-420790",
                 "id_b": "none",
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP05': 400*156
                     }
                 },
                 "submittals": {
@@ -5544,6 +5597,66 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.503299650156379, 37.737941285876659],
+                        [-122.503268970768318, 37.737505002675164]
+                        //[-122.503245586389014, 37.737172458074241]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "P-424141",
+                "id_b": "none",
+                "location": "45th Ave - Between Wawona St and Vicente St",
+                "scope": "Install (N) 12in VCP main",
+                "pp_history": {
+                    'SW-05': {
+                        'PP05': 400*116
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "mn",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        //[-122.503299650156379, 37.737941285876659],
+                        [-122.503268970768318, 37.737505002675164],
                         [-122.503245586389014, 37.737172458074241]
                     ]
                 ]
@@ -10749,6 +10862,12 @@ var json_1070I_sw_lines = {
                 "location": "2650 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*25
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -10901,7 +11020,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -10934,6 +11053,12 @@ var json_1070I_sw_lines = {
                 "location": "2750 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*20
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -10992,13 +11117,8 @@ var json_1070I_sw_lines = {
                 "location": "2686 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -11311,13 +11431,8 @@ var json_1070I_sw_lines = {
                 "location": "2601 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -11355,7 +11470,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.503375863631717, 37.737926035266902],
-                        [-122.503304799981507, 37.737928078847027]
+                        [-122.503298729751549, 37.737928197088763]
                     ]
                 ]
             },
@@ -11374,8 +11489,14 @@ var json_1070I_sw_lines = {
                 "location": "2607 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*26
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -11432,6 +11553,12 @@ var json_1070I_sw_lines = {
                 "location": "2611 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*25
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -11490,6 +11617,12 @@ var json_1070I_sw_lines = {
                 "location": "2615 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*25
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -14649,13 +14782,8 @@ var json_1070I_sw_lines = {
                 "location": "2618 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -14770,8 +14898,14 @@ var json_1070I_sw_lines = {
                 "location": "2647 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 24.5
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -14828,8 +14962,14 @@ var json_1070I_sw_lines = {
                 "location": "2643 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 19.5
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -14886,6 +15026,12 @@ var json_1070I_sw_lines = {
                 "location": "2635 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 24.5
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -14944,6 +15090,12 @@ var json_1070I_sw_lines = {
                 "location": "2631 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 24
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -15002,6 +15154,12 @@ var json_1070I_sw_lines = {
                 "location": "2625 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*24.5
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -15060,13 +15218,8 @@ var json_1070I_sw_lines = {
                 "location": "2619 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -15181,8 +15334,14 @@ var json_1070I_sw_lines = {
                 "location": "2651 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 25.5
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -15645,13 +15804,8 @@ var json_1070I_sw_lines = {
                 "location": "2622 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -15708,13 +15862,8 @@ var json_1070I_sw_lines = {
                 "location": "2626 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -15771,13 +15920,8 @@ var json_1070I_sw_lines = {
                 "location": "2630 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -15834,13 +15978,8 @@ var json_1070I_sw_lines = {
                 "location": "2634 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -16361,13 +16500,8 @@ var json_1070I_sw_lines = {
                 "location": "2679 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -16424,13 +16558,8 @@ var json_1070I_sw_lines = {
                 "location": "2675 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17451,13 +17580,8 @@ var json_1070I_sw_lines = {
                 "location": "2638 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17514,13 +17638,8 @@ var json_1070I_sw_lines = {
                 "location": "2642 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17577,13 +17696,8 @@ var json_1070I_sw_lines = {
                 "location": "2646 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17640,13 +17754,8 @@ var json_1070I_sw_lines = {
                 "location": "2671 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17703,13 +17812,8 @@ var json_1070I_sw_lines = {
                 "location": "2667 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17766,13 +17870,8 @@ var json_1070I_sw_lines = {
                 "location": "2663 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17829,13 +17928,8 @@ var json_1070I_sw_lines = {
                 "location": "2659 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -17893,7 +17987,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -17950,6 +18044,12 @@ var json_1070I_sw_lines = {
                 "location": "2691 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 23
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -18008,6 +18108,12 @@ var json_1070I_sw_lines = {
                 "location": "2687 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 25
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -18066,13 +18172,11 @@ var json_1070I_sw_lines = {
                 "location": "2683 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 23.5
                     }
                 },
                 "submittals": {
@@ -18441,13 +18545,8 @@ var json_1070I_sw_lines = {
                 "location": "2654 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18504,13 +18603,8 @@ var json_1070I_sw_lines = {
                 "location": "2658 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18567,13 +18661,8 @@ var json_1070I_sw_lines = {
                 "location": "2662 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18630,13 +18719,8 @@ var json_1070I_sw_lines = {
                 "location": "2666 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18693,13 +18777,8 @@ var json_1070I_sw_lines = {
                 "location": "2670 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18756,13 +18835,8 @@ var json_1070I_sw_lines = {
                 "location": "2674 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18819,13 +18893,8 @@ var json_1070I_sw_lines = {
                 "location": "2678 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -18882,13 +18951,8 @@ var json_1070I_sw_lines = {
                 "location": "2682 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -21287,13 +21351,11 @@ var json_1070I_sw_lines = {
                 "location": "2694 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 20.5
                     }
                 },
                 "submittals": {
@@ -21478,6 +21540,9 @@ var json_1070I_sw_lines = {
                 "location": "3326 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP05': 225 * 30
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -21536,6 +21601,9 @@ var json_1070I_sw_lines = {
                 "location": "3320 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP05': 225 * 31.5
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -29627,6 +29695,12 @@ var json_1070I_sw_lines = {
                 "location": "2639 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 22
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -29685,13 +29759,8 @@ var json_1070I_sw_lines = {
                 "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -29748,8 +29817,14 @@ var json_1070I_sw_lines = {
                 "location": "2607 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*20.5
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -29806,13 +29881,8 @@ var json_1070I_sw_lines = {
                 "location": "2600 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -29869,6 +29939,12 @@ var json_1070I_sw_lines = {
                 "location": "2611 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*19
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -29927,6 +30003,12 @@ var json_1070I_sw_lines = {
                 "location": "2615 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*20
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -29985,13 +30067,8 @@ var json_1070I_sw_lines = {
                 "location": "2619 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -30048,6 +30125,12 @@ var json_1070I_sw_lines = {
                 "location": "2627 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*20
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -30106,13 +30189,8 @@ var json_1070I_sw_lines = {
                 "location": "2627 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -30169,6 +30247,12 @@ var json_1070I_sw_lines = {
                 "location": "2631 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 20
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -30224,16 +30308,11 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334897",
                 "id_b": "2451002P",
-                "location": "2631 45th Ave",
+                "location": "2630 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -30290,6 +30369,12 @@ var json_1070I_sw_lines = {
                 "location": "2635 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 20.5
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -30348,13 +30433,8 @@ var json_1070I_sw_lines = {
                 "location": "2634 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -30411,13 +30491,8 @@ var json_1070I_sw_lines = {
                 "location": "2638 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -30474,8 +30549,14 @@ var json_1070I_sw_lines = {
                 "location": "2643 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 22.5
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -30532,13 +30613,8 @@ var json_1070I_sw_lines = {
                 "location": "2643 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -41359,8 +41435,14 @@ var json_1070I_sw_lines = {
                 "location": "2695 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 23
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -41417,13 +41499,11 @@ var json_1070I_sw_lines = {
                 "location": "2695 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 23
                     }
                 },
                 "submittals": {
@@ -41732,6 +41812,12 @@ var json_1070I_sw_lines = {
                 "location": "3424 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 30
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -42406,6 +42492,12 @@ var json_1070I_sw_lines = {
                 "location": "2683 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 25
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -42464,13 +42556,8 @@ var json_1070I_sw_lines = {
                 "location": "2682 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42527,13 +42614,8 @@ var json_1070I_sw_lines = {
                 "location": "2686 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42590,13 +42672,8 @@ var json_1070I_sw_lines = {
                 "location": "2667 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42653,13 +42730,8 @@ var json_1070I_sw_lines = {
                 "location": "2663 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42716,13 +42788,8 @@ var json_1070I_sw_lines = {
                 "location": "2659 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42779,8 +42846,14 @@ var json_1070I_sw_lines = {
                 "location": "2651 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 22.5
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -42837,8 +42910,14 @@ var json_1070I_sw_lines = {
                 "location": "2647 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 20
+                    },
                     'SW-28': {
-                        'PP06': 50
+                        'PP05': 50
                     }
                 },
                 "submittals": {
@@ -42895,13 +42974,8 @@ var json_1070I_sw_lines = {
                 "location": "2650 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42958,13 +43032,8 @@ var json_1070I_sw_lines = {
                 "location": "2650 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -43021,13 +43090,8 @@ var json_1070I_sw_lines = {
                 "location": "2654 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -43084,13 +43148,8 @@ var json_1070I_sw_lines = {
                 "location": "2678 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -44348,6 +44407,12 @@ var json_1070I_sw_lines = {
                 "location": "2700 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225*25
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -44406,13 +44471,11 @@ var json_1070I_sw_lines = {
                 "location": "2694 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 25.5
                     }
                 },
                 "submittals": {
@@ -47238,6 +47301,12 @@ var json_1070I_sw_lines = {
                 "location": "2691 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP05': 225 * 23
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -47746,9 +47815,13 @@ var json_1070I_sw_lines = {
                 "location": "2611 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP05': 225 * 18.5
+                    },
                     'SW-28': {
                         'PP05': 50
-                    }
+                    },
+
                 },
                 "submittals": {
                     "tvi_pre_con": {
