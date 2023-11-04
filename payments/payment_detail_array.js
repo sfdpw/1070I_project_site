@@ -116,6 +116,18 @@ payment_detail_array[3].payment_history.PP04.period_amt = 41020;
 payment_detail_array[46].payment_history.PP01.period_amt = 6628;
 payment_detail_array[46].payment_history.PP03.period_amt = 176;
 
+// PCO-1  - SW-1
+payment_detail_array[60].payment_history.PP05.period_amt = 332;
+
+// PCO-1  - SW-2
+payment_detail_array[61].payment_history.PP05.period_amt = 215;
+
+// PCO-1  - SW-3
+payment_detail_array[62].payment_history.PP05.period_amt = 1190;
+
+// PCO-1  - SW-4
+payment_detail_array[63].payment_history.PP05.period_amt = 985;
+
 
 // Pull from Spatial Data    
 

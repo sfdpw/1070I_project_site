@@ -210,7 +210,7 @@ var base_sov = {
     },
 
     'SW-27': {
-        'description': 'POST-COSNTRUCTION TELEVISION INSPECTION OF NEWLY COSNTRUCTED AND NEW LINED MAIN SEWERS',
+        'description': 'POST-CONSTRUCTION TELEVISION INSPECTION OF NEWLY COSNTRUCTED AND NEW LINED MAIN SEWERS',
         'linked_bi': false,
         'unit': 'LF',
         'qty': 8957,
@@ -471,14 +471,70 @@ var base_sov = {
         'unit': 'EA',
         'qty': 1,
         'unit_price': 50
-    }
+    },
 
-    /*     'PCO-01': {
-            'description': 'DRAINAGE REVISION NEAR 45TH AVE AND SLOAT BLVD',
-            'linked_bi': true,
-            'unit': 'LS',
-            'qty': 1,
-            'unit_price': 12472
-        }, */
+    'PCO-01_SW-07': {
+        'description': 'DELETION: 18-INCH DIAMETER VCP SEWER',
+        'linked_bi': true,
+        'unit': 'LF',
+        'qty': -4,
+        'unit_price': 500
+    },
+
+    'PCO-01_SW-01': {
+        'description': 'ADDITION: MOBILIZATION',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 332
+    },
+
+    'PCO-01_SW-02': {
+        'description': 'ADDITION: DEMOBILIZATION',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 215
+    },
+
+    'PCO-01_SW-03': {
+        'description': 'ADDITION: TRAFFIC CONTROL',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 1190
+    },
+
+    'PCO-01_SW-04': {
+        'description': 'ADDITION: TRENCH AND EXCAVATION SUPPORT',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 985
+    },
+
+    'PCO-01_SW-09': {
+        'description': 'ADDITION: 10-INCH DIAMETER VCP CULVERT',
+        'linked_bi': true,
+        'unit': 'LF',
+        'qty': 16,
+        'unit_price': 200
+    },
+
+    'PCO-01_SW-23': {
+        'description': 'ADDITION: CONCRETE MANHOLE',
+        'linked_bi': true,
+        'unit': 'EA',
+        'qty': 1,
+        'unit_price': 8500
+    },
+
+    'PCO-01_SW-28': {
+        'description': 'ADDITION: POST-CON TVI',
+        'linked_bi': true,
+        'unit': 'EA',
+        'qty': 1,
+        'unit_price': 50
+    },
 
 }

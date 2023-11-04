@@ -45,7 +45,7 @@ function generate_qty_tracking_table(table_id, bid_item)
     ];
 
 
-    if ( bid_item == 'SW-25' || bid_item == 'SW-26' ) {
+    if ( bid_item.includes('SW-25') || bid_item.includes('SW-26') ) {
 
         columns_object_array.splice(3, 0, {
             field: 'submittals.tvi_pre_con.submittal_no',
@@ -64,7 +64,7 @@ function generate_qty_tracking_table(table_id, bid_item)
             searchable: true
         }, )
 
-    } else if ( bid_item == 'SW-27' || bid_item == 'SW-28' ) {
+    } else if ( bid_item.includes('SW-27') || bid_item.includes('SW-28') ) {
 
         columns_object_array.splice(3, 0, {
             field: 'submittals.tvi_post_con.submittal_no',

@@ -184,7 +184,7 @@ function fund_history_details(pp_specifics, bid_item)
                    {
                   
                     return_string += 
-                    ''.concat( '<tr><td style="text-align: right"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 
+                    ''.concat( '<tr><td style="text-align: right"><b><div style="display: inline-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>', 
                                   qty_formatter_with_dec_core_function(pp_specifics / 
                                   base_sov[bid_item].unit_price, 
                                   base_sov[bid_item].unit ), '</b></td>',

@@ -211,6 +211,12 @@ function dollar_formatter_accounting(amount, row = '') {
 
     }
 
+    if (amount < 0) {
+
+        return_string = '<div style="color: red">'.concat(return_string, '</div>');
+
+    }
+
     return return_string
 
 }
@@ -225,6 +231,12 @@ function dollar_formatter(amount) {
             style: 'currency',
             currency: 'USD'
         });
+
+    }
+
+    if (amount < 0) {
+
+        return_string = '<div style="color: red">'.concat(return_string, '</div>');
 
     }
 
@@ -262,6 +274,12 @@ function qty_formatter_no_dec_core_function(qty_input, unit) {
 
     }
 
+    if (qty_input < 0) {
+
+        return_string = '<div style="color: red; display: inline-block"">'.concat(return_string, '</div>');
+
+    }
+
     return return_string
 
 }
@@ -289,10 +307,15 @@ function qty_formatter_with_dec_core_function(qty_input, unit) {
 
     }
 
+    if (qty_input < 0) {
+
+        return_string = '<div style="color: red; display: inline-block"">'.concat(return_string, '</div>');
+
+    }
+
     return return_string
 
 }
-
 
 function qty_formatter_no_dec(qty_input, row) {
 

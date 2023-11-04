@@ -1,35 +1,31 @@
 var max_pp_no = Object.entries(payment_array).length + 1;
 
-function top_nav(nav_element, pp_no = null, bid_item_id = null)
+function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 
-{
+	var return_block = '';
+	var nav_path = '../';
 
-    var return_block = '';
-    var nav_path = '../';
+	//  if (bid_item_id != null)
 
-  //  if (bid_item_id != null)
+	//  {
 
-  //  {
+	//      var NN = 0; // bid item index
 
-  //      var NN = 0; // bid item index
+	//      while (base_sov[NN].bid_item != bid_item_id) {
+	//          NN++;
+	//      }
 
-  //      while (base_sov[NN].bid_item != bid_item_id) {
-  //          NN++;
-  //      }
+	//  }
 
-  //  }
+	if (nav_element == 'map') {
 
-    if (nav_element == 'map')
+		nav_path = '';
 
-    {
+	}
 
-        nav_path = '';
+	return_block =
 
-    }
-
-    return_block =
-
-    '<nav class="navbar navbar-expand-lg bg-nav navbar-dark bg-primary">\
+		'<nav class="navbar navbar-expand-lg bg-nav navbar-dark bg-primary">\
        <button class="navbar-toggler"\
                 type="button"\
                 data-bs-toggle="collapse"\
@@ -46,20 +42,18 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Payments</a>\
 	     <ul class="dropdown-menu">';
-	     
-		for ( var ii = 1; ii < max_pp_no; ii++)
 
-		{ 
-			
-		  return_block += '<li><a class="dropdown-item" href="' + nav_path +
-				  'payments/payment_details_PP'.concat(num_pad(ii, 2), '.html">PP', num_pad(ii, 2),
-				  ' - ', payment_array['PP'.concat(num_pad(ii, 2))], '</a></li>');
-		  
-		}	      
-			      
-		return_block +=   
-	       
-	    '</ul>\
+	for (var ii = 1; ii < max_pp_no; ii++) {
+
+		return_block += '<li><a class="dropdown-item" href="' + nav_path +
+			'payments/payment_details_PP'.concat(num_pad(ii, 2), '.html">PP', num_pad(ii, 2),
+				' - ', payment_array['PP'.concat(num_pad(ii, 2))], '</a></li>');
+
+	}
+
+	return_block +=
+
+		'</ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">QTYs</a>\
@@ -157,7 +151,29 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
 	           </li>\
 	         </ul>\
 	       </li>\
-	     </ul>\
+	       <li>\
+	         <a class="dropdown-item" href="#">PCOs &raquo;</a>\
+	         <ul class="submenu dropdown-menu">\
+	           <li>\
+	             <a class="dropdown-item" href="#">PCO 1 - Drainage at Sloat and 45th &raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-01_SW-07.html"><b>SW-07</b> - Deletion: (N) 18\" VCP Main</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-01_SW-09.html"><b>SW-09</b> - Addition: (N) Culvert</a>\
+	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-01_SW-23.html"><b>SW-23</b> - Addition: (N) MH STD 87,181</a>\
+				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-01_SW-28.html"><b>SW-28</b> - Addition: Post-Con Culvert/Side Sewer TVI</a>\
+				   </li>\
+			     </ul>\
+	           </li>\
+	         </ul>\
+	       </li>\
+		   </ul>\
 	   </li>\
 	   <li class="nav-item dropdown">\
 	     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tracking</a>\
@@ -179,42 +195,36 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null)
          </ul>\
        </div>';
 
-    if (nav_element == 'payment_details')
+	if (nav_element == 'payment_details') {
 
-    {
+		return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Payment Details for PP ' + pp_no + '</div>';
 
-        return_block += '<div style="float:right; padding-right:10px; color:white; font-weight:bold">Payment Details for PP ' + pp_no + '</div>';
+	} else if (nav_element == 'qty') {
 
-    } else if (nav_element == 'qty')
+		return_block +=
 
-    {
-
-        return_block +=
-
-            '<div style="float:right;\
+			'<div style="float:right;\
                     padding-right:10px;\
                     color:white;\
                     font-weight:bold"\
                     data-toogle="tooltip"\
 	            title="' + base_sov[bid_item].description +
-            ' (' + base_sov[bid_item].unit + ')"\> Quantity Details for ' + bid_item_id + '</div>';
+			' (' + base_sov[bid_item].unit + ')"\> Quantity Details for ' + bid_item_id + '</div>';
 
-    } else if (nav_element.includes('Asset_Tracking'))
+	} else if (nav_element.includes('Asset_Tracking')) {
 
-    {
+		return_block +=
 
-        return_block +=
-
-            '<div style="float:right;\
+			'<div style="float:right;\
                     padding-right:10px;\
                     color:white;\
                     font-weight:bold"\
                     >' + nav_element.replace(/_/g, " ") + '</div>';
 
-    }
+	}
 
-    return_block += '</nav>';
+	return_block += '</nav>';
 
-    return return_block
+	return return_block
 
 }

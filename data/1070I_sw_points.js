@@ -5388,8 +5388,12 @@ var json_1070I_sw_points = {
                 "scope": "Install (N) manhole",
                 "pp_history": {
                     'SW-23': {
-                        'PP03': 8500
-                    }
+                        'PP03': 8500,
+                        'PP05': -8500
+                    },
+                    'PCO-01_SW-23': {
+                        'PP05': 8500
+                    },
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
