@@ -17995,6 +17995,9 @@ var json_1070I_sw_lines = {
                 "location": "2655 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },             
                     'SW-28': {
                         'PP05': 50
                     }
@@ -18363,13 +18366,8 @@ var json_1070I_sw_lines = {
                 "location": "2695 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -20306,13 +20304,8 @@ var json_1070I_sw_lines = {
                 "location": "2690 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -21549,6 +21542,9 @@ var json_1070I_sw_lines = {
                 "location": "3326 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
                     'SW-12': {
                         'PP05': 225 * 30
                     },
@@ -21610,6 +21606,9 @@ var json_1070I_sw_lines = {
                 "location": "3320 Wawona St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },              
                     'SW-12': {
                         'PP05': 225 * 31.5
                     },
@@ -30562,7 +30561,7 @@ var json_1070I_sw_lines = {
                         'PP05': 150
                     },
                     'SW-12': {
-                        'PP05': 225 * 22.5
+                        'PP05': 225 * 23
                     },
                     'SW-28': {
                         'PP05': 50
@@ -41934,13 +41933,8 @@ var json_1070I_sw_lines = {
                 "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -41997,13 +41991,8 @@ var json_1070I_sw_lines = {
                 "location": "2700 Sloat Blvd",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP05': 150
                     }
                 },
                 "submittals": {
@@ -42490,7 +42479,7 @@ var json_1070I_sw_lines = {
                         'PP05': 150
                     },
                     'SW-12': {
-                        'PP05': 225 * 25
+                        'PP05': 225 * 23.5
                     },
                     'SW-28': {
                         'PP05': 50
@@ -47812,6 +47801,9 @@ var json_1070I_sw_lines = {
                 "location": "2611 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP05': 150
+                    },        
                     'SW-12': {
                         'PP05': 225 * 18.5
                     },
