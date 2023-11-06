@@ -113,8 +113,13 @@
       add_feature_layer('cb', 181, json_1070I_sw_points, 'Install (N) catchbasin', '#fe366b');
       add_feature_layer('cb', 182, json_1070I_sw_points, 'Abandon (E) catchbasin', '#fe9800');
       
-      var index_limits_flatwork = [200, 200];       
-      add_feature_layer('flatwork_', 200, json_1070I_flatwork_polygons, 'R-0: xxx','#f3a5b1');  
+      var index_limits_flatwork = [200, 204];       
+      add_feature_layer('R_polygon', 200, json_1070I_flatwork_polygons, 'R-05: Sidewalk','#30123c');  
+      add_feature_layer('R_polygon', 201, json_1070I_flatwork_polygons, 'R-08: Combined Curb/Gutter','#403c97');  
+      add_feature_layer('R_polygon', 202, json_1070I_flatwork_polygons, 'R-09: Curb Ramps','#1ae3b5');  
+      add_feature_layer('R_polygon', 203, json_1070I_flatwork_polygons, 'SW-41: Parking Strip/Gutter','#4662d7');  
+      add_feature_layer('R_polygon', 204, json_1070I_flatwork_polygons, 'SW-42: Bus Pad','#4685f9');  
+
   //     add_feature_layer('R_polygon', 601, json_2977J_200_flatwork_19, 'R-04: 1/2in HMA','#6a62d1');  
   //     add_feature_layer('R_polygon', 602, json_2977J_200_flatwork_19, 'R-05: 8in Base','#91d532');         
   //     add_feature_layer('R_polygon', 603, json_2977J_200_flatwork_19, 'R-06: 10in Base','#b714ef');         
@@ -282,9 +287,8 @@
     <script src="js/layer_toggle/add_line_layer_sw_ss.js"></script>
     <script src="js/layer_toggle/add_point_layer_sw_mh.js"></script>    
     <script src="js/layer_toggle/add_point_layer_sw_cb.js"></script>        
+    <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>        
 
-
-        
     <script>
         function handleChange(checkbox, layer) {
             if (checkbox.checked == true) {

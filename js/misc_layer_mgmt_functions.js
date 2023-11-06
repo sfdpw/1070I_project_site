@@ -4,7 +4,7 @@ var clear_layers_button = L.Control.extend({
     position: 'topleft'
   },
 
-  onAdd: function(map) {
+  onAdd: function (map) {
     var container = L.DomUtil.create('input');
     container.type = "button";
     container.title = "Remove all Layer(s)";
@@ -20,15 +20,15 @@ var clear_layers_button = L.Control.extend({
     container.style.width = '36px';
     container.style.height = '36px';
     //container.style.zindex = 'auto';
-    container.onmouseover = function() {
+    container.onmouseover = function () {
       container.style.backgroundColor = 'pink';
     }
-    container.onmouseout = function() {
+    container.onmouseout = function () {
       container.style.backgroundColor = '#f4f4f4';
     }
-   
 
-    container.onclick = function() {
+
+    container.onclick = function () {
 
       sweep_clear_layers();
     }
@@ -38,19 +38,13 @@ var clear_layers_button = L.Control.extend({
   }
 });
 
-function check_clone(checkbox_id)
+function check_clone(checkbox_id) {
 
-{
-
-  if (checkbox_id.includes("_twin_popup"))
-
-  {
+  if (checkbox_id.includes("_twin_popup")) {
 
     document.getElementById(checkbox_id.replace('_twin_popup', '_twin_menu')).checked = document.getElementById(checkbox_id).checked;
 
-  } else if (document.getElementById(checkbox_id.replace('_twin_menu', '_twin_popup')) != null)
-
-  {
+  } else if (document.getElementById(checkbox_id.replace('_twin_menu', '_twin_popup')) != null) {
 
     document.getElementById(checkbox_id.replace('_twin_menu', '_twin_popup')).checked = document.getElementById(checkbox_id).checked;
 
@@ -58,15 +52,11 @@ function check_clone(checkbox_id)
 
 }
 
-function sweep_check_clone()
-
-{
+function sweep_check_clone() {
 
   var check_box_list = document.getElementsByTagName("INPUT");
 
-  for (var ii = 0; ii < check_box_list.length; ii++)
-
-  {
+  for (var ii = 0; ii < check_box_list.length; ii++) {
 
     if (check_box_list[ii].id.includes('_twin_menu') &&
       document.getElementById(check_box_list[ii].id).checked &&
@@ -80,26 +70,18 @@ function sweep_check_clone()
 
 }
 
-function sweep_clear_layers()
-
-{
+function sweep_clear_layers() {
 
   //var overlay_layer_id = "";
 
   var check_box_list = document.getElementsByTagName("INPUT");
 
-  for (var ii = 0; ii < check_box_list.length; ii++)
-
-  {
+  for (var ii = 0; ii < check_box_list.length; ii++) {
 
     if (check_box_list[ii].type == 'checkbox' &&
-        check_box_list[ii].id.includes('checkbox_osm') == false)
+      check_box_list[ii].id.includes('checkbox_osm') == false) {
 
-    {
-
-      if (document.getElementById(check_box_list[ii].id).checked == true)
-
-      {
+      if (document.getElementById(check_box_list[ii].id).checked == true) {
 
         document.getElementById(check_box_list[ii].id).click();
 
@@ -111,355 +93,337 @@ function sweep_clear_layers()
 
 }
 
-function layer_card_entry_generator(layer_index)
+function layer_card_entry_generator(layer_index) {
 
-{
+  var card_entry = '';
 
-    var card_entry = '';
+  card_entry =
 
-    card_entry =
-
-        '<tr><td>\
+    '<tr><td>\
            <input type="checkbox" id="L_' + layer_index + '" onchange="master_layer_array[' + layer_index + '].toggle()">\
              </td><td><img src="legend/1070I_L_' + layer_index + '.png" width="13" height="13"\
                          alt="Feature Symbol -' + master_layer_array[layer_index].layer_description + '"/>\
                     <label class="layer_label" for="L_' + layer_index + '">' +
-        master_layer_array[layer_index].layer_description + '</label></td></tr>';
+    master_layer_array[layer_index].layer_description + '</label></td></tr>';
 
-    return card_entry
+  return card_entry
 
 }
 
 
-function feature_layer_toggle(master_checkbox_id, L_index_start, L_index_end)
+function feature_layer_toggle(master_checkbox_id, L_index_start, L_index_end) {
 
-{
+  var layer_int = 0;
 
-    var layer_int = 0;
+  var check_box_list = document.getElementsByTagName("INPUT");
 
-    var check_box_list = document.getElementsByTagName("INPUT");
+  for (var ii = 0; ii < check_box_list.length; ii++) {
 
-    for (var ii = 0; ii < check_box_list.length; ii++)
-
-    {
-
-        layer_int = parseInt(check_box_list[ii].id.substring(2, 5));
+    layer_int = parseInt(check_box_list[ii].id.substring(2, 5));
 
 
-        if (check_box_list[ii].type == 'checkbox' &&
-            (layer_int >= L_index_start && layer_int <= L_index_end ))
-
-        {
+    if (check_box_list[ii].type == 'checkbox' &&
+      (layer_int >= L_index_start && layer_int <= L_index_end)) {
 
 
-            if (document.getElementById(master_checkbox_id).checked)
+      if (document.getElementById(master_checkbox_id).checked) {
 
-            {
+        if (document.getElementById(check_box_list[ii].id).checked == false) {
 
-                if (document.getElementById(check_box_list[ii].id).checked == false)
-
-                {
-
-                    document.getElementById(check_box_list[ii].id).click();
-
-                }
-
-            } 
-            
-             else
-
-            {
-
-                if (document.getElementById(check_box_list[ii].id).checked)
-
-                {
-
-                    document.getElementById(check_box_list[ii].id).click();
-
-                }
-
-            }
+          document.getElementById(check_box_list[ii].id).click();
 
         }
 
+      }
+
+      else {
+
+        if (document.getElementById(check_box_list[ii].id).checked) {
+
+          document.getElementById(check_box_list[ii].id).click();
+
+        }
+
+      }
+
     }
+
+  }
 
 }
 
 
-function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba_code)
+function add_feature_layer(type, layer_index, source_json_layer_obj, scope, rgba_code) {
 
-  {
+  master_layer_array[layer_index] = {};
 
-    master_layer_array[layer_index] = {};
+  var local_json_layer_obj = source_json_layer_obj;
 
-    var local_json_layer_obj = source_json_layer_obj;
+  master_layer_array[layer_index].loaded = false;
 
-    master_layer_array[layer_index].loaded = false;
+  master_layer_array[layer_index].type = local_json_layer_obj.type;
 
-    master_layer_array[layer_index].type = local_json_layer_obj.type;
+  master_layer_array[layer_index].name = local_json_layer_obj.name;
 
-    master_layer_array[layer_index].name = local_json_layer_obj.name;
- 
-    master_layer_array[layer_index].crs = local_json_layer_obj.crs;
+  master_layer_array[layer_index].crs = local_json_layer_obj.crs;
 
-    master_layer_array[layer_index].features = [];
+  master_layer_array[layer_index].features = [];
 
-    master_layer_array[layer_index].layer = {};
+  master_layer_array[layer_index].layer = {};
 
-    if (type == 'mn')
-    
-      {
-      
-        master_layer_array[layer_index].layer_description = scope;
-        master_layer_array[layer_index].toggle = 
-       
-        function() {toggle_sw_mn(type, layer_index, master_layer_array,
-                                         local_json_layer_obj, scope, rgba_code);}
-                                                            
-       }
-   
-    else if (type == 'mh')
-    
-      {
-      
-       master_layer_array[layer_index].layer_description = scope;
-       master_layer_array[layer_index].toggle = 
-       
-         function() {toggle_sw_mh(type, layer_index, master_layer_array,
-                                        local_json_layer_obj, scope, rgba_code);}
-                                                                               
-       }
-       
-    else if (type == 'cl')
+  if (type == 'mn') {
 
-      {
-      
-       master_layer_array[layer_index].layer_description = scope;
-       master_layer_array[layer_index].toggle = 
-       
-         function() {toggle_sw_cl(type, layer_index, master_layer_array,
-                                          local_json_layer_obj, scope, rgba_code);}
-                                                                               
+    master_layer_array[layer_index].layer_description = scope;
+    master_layer_array[layer_index].toggle =
+
+      function () {
+        toggle_sw_mn(type, layer_index, master_layer_array,
+          local_json_layer_obj, scope, rgba_code);
       }
 
-       
-    else if (type == 'cb')
+  }
 
-      {
-      
-       master_layer_array[layer_index].layer_description = scope;
-       master_layer_array[layer_index].toggle = 
-       
-         function() {toggle_sw_cb(type, layer_index, master_layer_array,
-                                           local_json_layer_obj, scope, rgba_code);}
-                                                                               
+  else if (type == 'mh') {
+
+    master_layer_array[layer_index].layer_description = scope;
+    master_layer_array[layer_index].toggle =
+
+      function () {
+        toggle_sw_mh(type, layer_index, master_layer_array,
+          local_json_layer_obj, scope, rgba_code);
       }
- 
-     else if (type == 'ss')
 
-      {
-      
-       master_layer_array[layer_index].layer_description = scope;
-       master_layer_array[layer_index].toggle = 
-       
-         function() {toggle_sw_ss(type, layer_index, master_layer_array,
-                                             local_json_layer_obj, scope, rgba_code);}
-                                                                               
+  }
+
+  else if (type == 'cl') {
+
+    master_layer_array[layer_index].layer_description = scope;
+    master_layer_array[layer_index].toggle =
+
+      function () {
+        toggle_sw_cl(type, layer_index, master_layer_array,
+          local_json_layer_obj, scope, rgba_code);
       }
-      
-   //  else if (type == 'R_polygon')
 
-    //  {
-      
-    //   master_layer_array[layer_index].layer_description = scope;
-    //   master_layer_array[layer_index].toggle = 
-       
-    //      function() {flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
-    //                                        scope, rgba_code);}
-                                                                               
-    //  }  
-      
-     //  else if (type == 'R_point')
+  }
 
-     //  {
-           
-     //   master_layer_array[layer_index].layer_description = scope;
-     //   master_layer_array[layer_index].toggle = 
-     //  
-     //     function() {flatwork_point_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
-     //                                      scope, rgba_code);}
-                                                                               
-     //  }       
-      
-    }                                                                          
-                                                                              
- 
+
+  else if (type == 'cb') {
+
+    master_layer_array[layer_index].layer_description = scope;
+    master_layer_array[layer_index].toggle =
+
+      function () {
+        toggle_sw_cb(type, layer_index, master_layer_array,
+          local_json_layer_obj, scope, rgba_code);
+      }
+
+  }
+
+  else if (type == 'ss') {
+
+    master_layer_array[layer_index].layer_description = scope;
+    master_layer_array[layer_index].toggle =
+
+      function () {
+        toggle_sw_ss(type, layer_index, master_layer_array,
+          local_json_layer_obj, scope, rgba_code);
+      }
+
+  }
+
+  else if (type == 'R_polygon') {
+
+    master_layer_array[layer_index].layer_description = scope;
+    master_layer_array[layer_index].toggle =
+
+      function () {
+        flatwork_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,
+          scope, rgba_code);
+      }
+
+  }
+
+  //  else if (type == 'R_point')
+
+  //  {
+
+  //   master_layer_array[layer_index].layer_description = scope;
+  //   master_layer_array[layer_index].toggle = 
+  //  
+  //     function() {flatwork_point_layer_toggle(layer_index, master_layer_array, local_json_layer_obj,           
+  //                                      scope, rgba_code);}
+
+  //  }       
+
+}
+
+
 function sw_line_layer_styler(feature) {
 
-    var dash_code = '';
-    var status_line_weight = 4.0;
-    
-    switch (String(feature.properties.status)) {
-        case 'No Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
+  var dash_code = '';
+  var status_line_weight = 4.0;
 
-        case 'Scope Deleted':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: 4.0,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-
-        case '(E) Capped':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-            
-        case '(E) Not Found':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-            
-        case 'Pre-Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-
-        case 'Pending Direction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: status_line_weight,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;
-            
-         case 'Post-Construction':
-            return {
-                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
-                    opacity: 1,
-                    color: feature.rgba_code_stored_in_each_feature,
-                    dashArray: dash_code,
-                    lineCap: 'round',
-                    lineJoin: 'round',
-                    weight: 10.0,
-                    fillOpacity: 0,
-                    interactive: true,
-            }
-            break;           
-
-    }
-} 
-   
-function sw_point_layer_styler(feature) {
-
-                    
   switch (String(feature.properties.status)) {
     case 'No Construction':
-
       return {
-        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
-          radius: 4.0,
-          opacity: 1,
-          color: 'rgba(35,35,35,1.0)',
-          dashArray: '',
-          lineCap: 'butt',
-          lineJoin: 'miter',
-          weight: 2,
-          fill: true,
-          fillOpacity: 1,
-          fillColor: feature.rgba_code_stored_in_each_feature,
-          interactive: true,
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: status_line_weight,
+        fillOpacity: 0,
+        interactive: true,
       }
       break;
-      
+
+    case 'Scope Deleted':
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: 4.0,
+        fillOpacity: 0,
+        interactive: true,
+      }
+      break;
+
+    case '(E) Capped':
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: status_line_weight,
+        fillOpacity: 0,
+        interactive: true,
+      }
+      break;
+
+    case '(E) Not Found':
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: status_line_weight,
+        fillOpacity: 0,
+        interactive: true,
+      }
+      break;
+
     case 'Pre-Construction':
       return {
-        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
-          radius: 4.0,
-          opacity: 1,
-          color: 'rgba(35,35,35,1.0)',
-          dashArray: '',
-          lineCap: 'butt',
-          lineJoin: 'miter',
-          weight: 2,
-          fill: true,
-          fillOpacity: 1,
-          fillColor: feature.rgba_code_stored_in_each_feature,
-          interactive: true,
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: status_line_weight,
+        fillOpacity: 0,
+        interactive: true,
+      }
+      break;
+
+    case 'Pending Direction':
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: status_line_weight,
+        fillOpacity: 0,
+        interactive: true,
       }
       break;
 
     case 'Post-Construction':
       return {
-        pane:  'P_'.concat(feature.L_index_stored_in_each_feature),
-          radius: 8.0,
-          opacity: 1,
-          color: 'rgba(35,35,35,1.0)',
-          dashArray: '',
-          lineCap: 'butt',
-          lineJoin: 'miter',
-          weight: 2,
-          fill: true,
-          fillOpacity: 1,
-          fillColor: feature.rgba_code_stored_in_each_feature,
-          interactive: true,
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        opacity: 1,
+        color: feature.rgba_code_stored_in_each_feature,
+        dashArray: dash_code,
+        lineCap: 'round',
+        lineJoin: 'round',
+        weight: 10.0,
+        fillOpacity: 0,
+        interactive: true,
       }
       break;
 
-   
   }
 }
 
-   
+function sw_point_layer_styler(feature) {
+
+
+  switch (String(feature.properties.status)) {
+    case 'No Construction':
+
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        radius: 4.0,
+        opacity: 1,
+        color: 'rgba(35,35,35,1.0)',
+        dashArray: '',
+        lineCap: 'butt',
+        lineJoin: 'miter',
+        weight: 2,
+        fill: true,
+        fillOpacity: 1,
+        fillColor: feature.rgba_code_stored_in_each_feature,
+        interactive: true,
+      }
+      break;
+
+    case 'Pre-Construction':
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        radius: 4.0,
+        opacity: 1,
+        color: 'rgba(35,35,35,1.0)',
+        dashArray: '',
+        lineCap: 'butt',
+        lineJoin: 'miter',
+        weight: 2,
+        fill: true,
+        fillOpacity: 1,
+        fillColor: feature.rgba_code_stored_in_each_feature,
+        interactive: true,
+      }
+      break;
+
+    case 'Post-Construction':
+      return {
+        pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+        radius: 8.0,
+        opacity: 1,
+        color: 'rgba(35,35,35,1.0)',
+        dashArray: '',
+        lineCap: 'butt',
+        lineJoin: 'miter',
+        weight: 2,
+        fill: true,
+        fillOpacity: 1,
+        fillColor: feature.rgba_code_stored_in_each_feature,
+        interactive: true,
+      }
+      break;
+
+
+  }
+}
+
+

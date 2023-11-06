@@ -165,18 +165,17 @@ function pp_history_from_pp_qty_history(item_obj) {
 
         return_obj[bid_item] = {};
 
-        unit_price = base_sov[bid_item_sov_index_finder(bid_item)].unit_price;
+        unit_price = base_sov[bid_item].unit_price;
 
         for (const pp_number of Object.keys(item_obj.pp_a_qty[bid_item])) {
 
-            return_obj[bid_item][pp_number] = [0, 0, 0];
+            //return_obj[bid_item][pp_number] = [0, 0, 0];
 
-            return_obj[bid_item][pp_number][0] = item_obj.pp_a_qty[bid_item][pp_number][0] * unit_price;
-            return_obj[bid_item][pp_number][1] = item_obj.pp_a_qty[bid_item][pp_number][1] * unit_price;
-            return_obj[bid_item][pp_number][2] = item_obj.pp_a_qty[bid_item][pp_number][2] * unit_price;
+            return_obj[bid_item][pp_number] = item_obj.pp_a_qty[bid_item][pp_number] * unit_price;
+            //return_obj[bid_item][pp_number][1] = item_obj.pp_a_qty[bid_item][pp_number][1] * unit_price;
+            //return_obj[bid_item][pp_number][2] = item_obj.pp_a_qty[bid_item][pp_number][2] * unit_price;
 
         }
-
 
     }
 

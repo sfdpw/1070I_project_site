@@ -323,7 +323,7 @@ var base_sov = {
 
     'SW-41': {
         'description': '8-INCH THICK CONCRETE PARKING STRIP OR GUTTER',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 1070,
         'unit_price': 20
@@ -331,7 +331,7 @@ var base_sov = {
 
     'SW-42': {
         'description': '10-INCH THICK CONCRETE BUS PAD (6,000 PSI)',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 1050,
         'unit_price': 30
@@ -427,7 +427,7 @@ var base_sov = {
 
     'R-05': {
         'description': '3 ½-INCH THICK CONCRETE SIDEWALK',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 2250,
         'unit_price': 12
@@ -451,7 +451,7 @@ var base_sov = {
 
     'R-08': {
         'description': 'COMBINED 6-INCH WIDE CONCRETE CURB AND 2- FOOT OR 2-FOOT 10-INCH WIDE GUTTER',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 493,
         'unit_price': 70
@@ -459,7 +459,7 @@ var base_sov = {
 
     'R-09': {
         'description': 'CONCRETE CURB RAMP WITH CONCRETE DETECTABLE SURFACE TILES',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 25,
         'unit_price': 3500

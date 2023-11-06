@@ -108,7 +108,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	             <a class="dropdown-item" href="#">Catch Basins &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-24.html">SW-24 - </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-24.html"><b>SW-24</b> - (N) Catch Basin / Trap - STD 87,188</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
@@ -137,15 +137,24 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-02.html">R-02: </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-41.html"><b>SW-41</b> - Parking Strip</a>\
 	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-42.html"><b>SW-42</b> - Bus Pad</a>\
+				   </li>\
 	             </ul>\
 	           </li>\
 	           <li>\
 	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
-	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-09.html">R-09:</a>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-05.html"><b>R-05</b> - Sidewalk</a>\
+			       </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-08.html"><b>R-08</b> - Combined Curb / Gutter</a>\
+			       </li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-09.html"><b>R-09</b> - Curb Ramps</a>\
 	               </li>\
 	             </ul>\
 	           </li>\
