@@ -101,6 +101,7 @@ payment_detail_array[2].payment_history.PP01.period_amt = 10480;
 payment_detail_array[2].payment_history.PP02.period_amt = 41920;
 payment_detail_array[2].payment_history.PP03.period_amt = 53579;
 payment_detail_array[2].payment_history.PP04.period_amt = 51221;
+payment_detail_array[2].payment_history.PP05.period_amt = 39300;
 
 
 // SW-04
@@ -109,12 +110,21 @@ payment_detail_array[3].payment_history.PP01.period_amt = 8050;
 payment_detail_array[3].payment_history.PP02.period_amt = 37450;
 payment_detail_array[3].payment_history.PP03.period_amt = 42980;
 payment_detail_array[3].payment_history.PP04.period_amt = 41020;
+payment_detail_array[3].payment_history.PP05.period_amt = 28000;
 
 
 // SW-47
 
 payment_detail_array[46].payment_history.PP01.period_amt = 6628;
 payment_detail_array[46].payment_history.PP03.period_amt = 176;
+
+// R-01
+payment_detail_array[49].payment_history.PP05.period_amt = 8100;
+
+
+
+
+
 
 // PCO-1  - SW-1
 payment_detail_array[60].payment_history.PP05.period_amt = 332;

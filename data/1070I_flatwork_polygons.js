@@ -662,50 +662,12 @@ var json_1070I_flatwork_polygons = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "SW-41_PR_02_005",
-                "location": "Intersection of Sloat Blvd and 44th Ave - NWC",
-                "scope": "Parking Strip",
-                "pp_a_qty": {
-                    'SW-41': {
-                        'PP05': 115
-                    }
-                },
-                get pp_history() {
-                    return pp_history_from_pp_qty_history(this)
-                },
-                get pp_summary() {
-                    return payment_summary_from_pp_history(this.pp_history)
-                },
-                "status": "Post-Construction"
-            },
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [-122.502225521324036, 37.735609367598308],
-                            [-122.502226249060243, 37.735574352626479],
-                            [-122.502277481694279, 37.735578772663239],
-                            [-122.502276783067458, 37.735611370426589],
-                            [-122.502276870395889, 37.735613856696069],
-                            [-122.502225521324036, 37.735609367598308]
-                        ]
-                    ]
-                ]
-            }
-        },
-
-        // ##############
-
-        {
-            "type": "Feature",
-            "properties": {
                 "id_a": "SW-41_PR_02_004",
                 "location": "Intersection of Sloat Blvd and 44th Ave - NWC",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     'SW-41': {
-                        'PP05': 136
+                        'PP05': 30
                     }
                 },
                 get pp_history() {
@@ -731,6 +693,44 @@ var json_1070I_flatwork_polygons = {
                 ]
             }
         },
+
+        // // ##############
+
+        // {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "id_a": "SW-41_PR_02_005",
+        //         "location": "Intersection of Sloat Blvd and 44th Ave - NWC",
+        //         "scope": "Parking Strip",
+        //         "pp_a_qty": {
+        //             'SW-0': {
+        //                 'PP0': 0
+        //             }
+        //         },
+        //         get pp_history() {
+        //             return pp_history_from_pp_qty_history(this)
+        //         },
+        //         get pp_summary() {
+        //             return payment_summary_from_pp_history(this.pp_history)
+        //         },
+        //         "status": "Post-Construction"
+        //     },
+        //     "geometry": {
+        //         "type": "MultiPolygon",
+        //         "coordinates": [
+        //             [
+        //                 [
+        //                     [-122.502225521324036, 37.735609367598308],
+        //                     [-122.502226249060243, 37.735574352626479],
+        //                     [-122.502277481694279, 37.735578772663239],
+        //                     [-122.502276783067458, 37.735611370426589],
+        //                     [-122.502276870395889, 37.735613856696069],
+        //                     [-122.502225521324036, 37.735609367598308]
+        //                 ]
+        //             ]
+        //         ]
+        //     }
+        // },
 
         // ##############
 
