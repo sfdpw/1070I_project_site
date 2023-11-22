@@ -1264,7 +1264,7 @@ var json_1070I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', 1],
                 'as_built': "none",
                 "tcp": "none",
                 "rlvnt": "none"
