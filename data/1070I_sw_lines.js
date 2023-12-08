@@ -3029,15 +3029,15 @@ var json_1070I_sw_lines = {
                 "location": "Fronting 2631 45th Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': 0
+                    'SW-26': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "92.0",
+                        "video_no": "3",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4627,20 +4627,15 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "92.0",
+                        "video_no": "1",
+                        "response": "MCN - Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
