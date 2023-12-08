@@ -2028,20 +2028,15 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd and 47th Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "88.1",
+                        "video_no": "4",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -5011,9 +5006,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "88.1",
+                        "video_no": "1",
+                        "response": "MCN - Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -5074,9 +5069,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "88.1",
+                        "video_no": "2",
+                        "response": "MCN - Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7416,15 +7411,68 @@ var json_1070I_sw_lines = {
                 "id_a": "P-111210",
                 "id_b": "none",
                 "location": "Vicente St and 47th Ave - SEC",
-                "scope": "Improve (E) culvert as directed",
+                "scope": "Abandon (E) culvert",
+                "pp_history": {
+                    'SW-26': {
+                        'PP07': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "88.1",
+                        "video_no": "5",
+                        "response": "MCN - Replace",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cl",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.505364103720666, 37.737925180655374],
+                        [-122.50547118736263, 37.738051359280263]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_culvert_001",
+                "id_b": "none",
+                "location": "Vicente St and 47th Ave - SEC",
+                "scope": "Install (N) culvert",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "submittals": {
@@ -7462,7 +7510,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.505364103720666, 37.737925180655374],
-                        [-122.50547118736263, 37.738051359280263]
+                        [-122.50535078519944, 37.737954053344552]
                     ]
                 ]
             },
