@@ -1377,7 +1377,7 @@ var json_1070I_sw_lines = {
                     },
                     'PCO-01_SW-07': {
                         'PP05': -2 * 500
-                    }  
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -1863,9 +1863,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "56.0",
-                        "video_no": "108",
-                        "response": "R&R",
+                        "submittal_no": "56.1",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11171,6 +11171,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -11183,9 +11186,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "23",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -11473,18 +11476,19 @@ var json_1070I_sw_lines = {
             }
         },
 
+
         //####################
 
         {
             "type": "Feature",
             "properties": {
-                "id_a": "L-196997",
+                "id_a": "unknown_side_sewer_011",
                 "id_b": "2451001",
                 "location": "2601 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-10': {
-                        'PP05': 150
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -11497,9 +11501,71 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
+                        "submittal_no": "91.0",
+                        "video_no": "2",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503299650156379, 37.737941285876659],
+                        [-122.503395, 37.737937]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "L-196997",
+                "id_b": "2451001",
+                "location": "2601 45th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
+                    },
+                },
+                "submittals": {
+                    "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
                         "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "91.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15857,14 +15923,14 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "L-197336",
+                "id_a": "unknown_side_sewer_012",
                 "id_b": "2452027",
                 "location": "2622 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-10': {
-                        'PP05': 150
-                    }
+                    'SW-28': {
+                        'PP07': 50
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -15876,9 +15942,70 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
+                        "submittal_no": "91.0",
+                        "video_no": "4",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503177406598738, 37.737600456586783],
+                        [-122.503275373723227, 37.737596057560637]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "L-197336",
+                "id_b": "2452027",
+                "location": "2622 45th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-10': {
+                        'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
+                    },
+                },
+                "submittals": {
+                    "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
                         "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "91.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15983,6 +16110,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -15995,9 +16125,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17649,6 +17779,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -17661,9 +17794,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17707,6 +17840,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -17719,9 +17855,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17745,6 +17881,64 @@ var json_1070I_sw_lines = {
                     [
                         [-122.503154635624512, 37.737260815008121],
                         [-122.503251438380047, 37.737255678213415]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_013",
+                "id_b": "2452022",
+                "location": "2646 45th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-28': {
+                        'PP07': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "91.0",
+                        "video_no": "12",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503156918698053, 37.737210748005495],
+                        [-122.503247973751272, 37.737206408345507]
                     ]
                 ]
             },
@@ -17803,6 +17997,64 @@ var json_1070I_sw_lines = {
                     [
                         [-122.503168862486447, 37.737201284001543],
                         [-122.503247351043242, 37.737197552922595]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_014",
+                "id_b": "2451002K",
+                "location": "2671 45th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-28': {
+                        'PP06': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "91.0",
+                        "video_no": "21",
+                        "response": "R&R",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503298130380145, 37.736789928135657],
+                        [-122.503217780158934, 37.73679358513067]
                     ]
                 ]
             },
@@ -18067,7 +18319,7 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
-                    },             
+                    },
                     'SW-28': {
                         'PP05': 50
                     }
@@ -18627,6 +18879,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18639,9 +18894,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "15",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18685,6 +18940,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18697,9 +18955,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "17",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18743,6 +19001,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18755,9 +19016,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "18",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18801,6 +19062,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18813,9 +19077,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "19",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18859,6 +19123,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18871,9 +19138,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "20",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18917,6 +19184,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18929,9 +19199,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "22",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21681,7 +21951,7 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
-                    },              
+                    },
                     'SW-12': {
                         'PP05': 225 * 31.5
                     },
@@ -29967,6 +30237,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -29979,9 +30252,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30403,6 +30676,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -30415,9 +30691,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30525,6 +30801,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -30537,9 +30816,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30700,11 +30979,14 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334902",
                 "id_b": "2452023",
-                "location": "2643 45th Ave",
+                "location": "2642 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -30717,9 +30999,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43050,6 +43332,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -43062,9 +43347,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "13",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43108,6 +43393,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -43120,9 +43408,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "14",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43166,6 +43454,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -43178,9 +43469,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "91.0",
+                        "video_no": "16",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47906,7 +48197,7 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-11': {
                         'PP05': 150
-                    },        
+                    },
                     'SW-12': {
                         'PP05': 225 * 18.5
                     },
