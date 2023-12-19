@@ -12,7 +12,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-05_CR_05_004",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-05': {
@@ -48,7 +48,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-05_CR_05_005",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-05': {
@@ -84,7 +84,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-05_CR_05_001",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-05': {
@@ -122,7 +122,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-05_CR_05_006",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-05': {
@@ -158,7 +158,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-05_CR_05_003",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-05': {
@@ -197,7 +197,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-05_CR_05_002",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Sidewalk",
                 "pp_a_qty": {
                     'R-05': {
@@ -238,7 +238,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-08_CR_05_001",
-                "location": "Intersection of Wawona St and 45th Ave - SWC",
+                "location": "Intersection of 45th Ave and Wawona St - SWC",
                 "scope": "Combined Curb and Gutter",
                 "pp_a_qty": {
                     'R-08': {
@@ -303,7 +303,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-09_CR_05_001",
-                "location": "Intersection of Wawona St and 45th Ave - SWC - L",
+                "location": "Intersection of 45th Ave and Wawona St - SWC - L",
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     'R-09': {
@@ -351,7 +351,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "R-09_CR_05_002",
-                "location": "Intersection of Wawona St and 45th Ave - SWC - R",
+                "location": "Intersection of 45th Ave and Wawona St - SWC - R",
                 "scope": "Curb Ramp",
                 "pp_a_qty": {
                     'R-09': {
@@ -396,7 +396,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "SW-41_PR_01_001",
-                "location": "Intersection of Sloat Blvd and 47th Ave - NWC",
+                "location": "Intersection of 47th Ave and Sloat Blvd - NWC",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     'SW-41': {
@@ -545,7 +545,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "SW-41_PR_02_001",
-                "location": "Intersection of Sloat Blvd and 45th Ave - NWC",
+                "location": "Intersection of 45th Ave and Sloat Blvd - NWC",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     'SW-41': {
@@ -663,7 +663,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "SW-41_PR_02_004",
-                "location": "Intersection of Sloat Blvd and 44th Ave - NWC",
+                "location": "Intersection of 44th Ave and Sloat Blvd - NWC",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     'SW-41': {
@@ -738,7 +738,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "SW-42_PR_02_001",
-                "location": "Intersection of Sloat Blvd and 45th Ave - NWC",
+                "location": "Intersection of 45th Ave and Sloat Blvd - NWC",
                 "scope": "Bus Pad",
                 "pp_a_qty": {
                     'SW-42': {

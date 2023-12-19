@@ -7278,7 +7278,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.50547118736263, 37.738051359280263],
-                        [-122.505507559870253, 37.738118908518636]
+                        [-122.505507083271709, 37.738121295564362]
                     ]
                 ]
             },
@@ -11487,6 +11487,9 @@ var json_1070I_sw_lines = {
                 "location": "2601 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP06': 225 * 20
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -11548,6 +11551,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 20 * 225
                     },
                     'SW-28': {
                         'PP07': 50
@@ -14903,6 +14909,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 22.5
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -15341,6 +15350,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 23
                     },
                     'SW-28': {
                         'PP06': 50
@@ -15928,9 +15940,12 @@ var json_1070I_sw_lines = {
                 "location": "2622 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP06': 225 * 24
+                    },
                     'SW-28': {
                         'PP07': 50
-                    },
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -15988,6 +16003,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 21
                     },
                     'SW-28': {
                         'PP07': 50
@@ -16050,6 +16068,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 24
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -16110,6 +16131,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 24
                     },
                     'SW-28': {
                         'PP07': 50
@@ -16694,6 +16718,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 21
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -16754,6 +16781,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 22.5
                     },
                     'SW-28': {
                         'PP06': 50
@@ -17780,6 +17810,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 24
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -17840,6 +17873,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 25
                     },
                     'SW-28': {
                         'PP07': 50
@@ -18016,7 +18052,7 @@ var json_1070I_sw_lines = {
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-28': {
-                        'PP06': 50
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -18075,6 +18111,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 23
                     },
                     'SW-28': {
                         'PP06': 50
@@ -18137,6 +18176,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 23
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -18198,6 +18240,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 21
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -18258,6 +18303,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 22
                     },
                     'SW-28': {
                         'PP06': 50
@@ -18941,6 +18989,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 21.5
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -19002,6 +19053,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 21.5
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -19062,6 +19116,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 19
                     },
                     'SW-28': {
                         'PP07': 50
@@ -19184,6 +19241,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 22
                     },
                     'SW-28': {
                         'PP07': 50
@@ -30113,6 +30173,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 23
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -30237,6 +30300,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 21
                     },
                     'SW-28': {
                         'PP07': 50
@@ -30421,11 +30487,14 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334891",
                 "id_b": "2452028",
-                "location": "2619 45th Ave",
+                "location": "2618 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 24.5
                     },
                     'SW-28': {
                         'PP06': 50
@@ -30546,11 +30615,14 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-334895",
                 "id_b": "2452026",
-                "location": "2627 45th Ave",
+                "location": "2626 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 20
                     },
                     'SW-28': {
                         'PP06': 50
@@ -30677,6 +30749,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 21
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -30802,6 +30877,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 25
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -30862,6 +30940,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 21
                     }
                 },
                 "submittals": {
@@ -30984,6 +31065,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 22
                     },
                     'SW-28': {
                         'PP07': 50
@@ -42299,7 +42383,14 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 16 * 225
+                    },
+                    'SW-28': {
+                        'PP06': 50
                     }
+
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -42311,9 +42402,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "90.0",
+                        "video_no": "17",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -42357,6 +42448,12 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 16
+                    },
+                    'SW-28': {
+                        'PP06': 50
                     }
                 },
                 "submittals": {
@@ -42369,9 +42466,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "90.0",
+                        "video_no": "18",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43022,6 +43119,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 22
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -43083,6 +43183,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP06': 225 * 23
+                    },
                     'SW-28': {
                         'PP06': 50
                     },
@@ -43143,6 +43246,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP06': 225 * 22
                     },
                     'SW-28': {
                         'PP06': 50

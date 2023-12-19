@@ -200,7 +200,7 @@ var json_1070I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['08', 1],
+                'dwg_no': ['08', 2],
                 'as_built': "none",
                 "tcp": "none",
                 "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
