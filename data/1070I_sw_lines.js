@@ -20,7 +20,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-05': {
                         'PP01': 54800
-                    }
+                    },
+                    'SW-27': {
+                        'PP06': 274
+                    }                   
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -139,6 +142,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-05': {
                         'PP02': 98800
+                    },
+                    'SW-27': {
+                        'PP06': 494
                     }
                 },
                 "submittals": {
@@ -1200,6 +1206,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-05': {
                         'PP02': 24800
+                    },
+                    'SW-27': {
+                        'PP06': 124
                     }
                 },
                 "submittals": {
@@ -1258,6 +1267,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-05': {
                         'PP02': 114800
+                    },
+                    'SW-27': {
+                        'PP06': 574
                     }
                 },
                 "submittals": {
@@ -1316,6 +1328,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-05': {
                         'PP02': 108000
+                    },
+                    'SW-27': {
+                        'PP06': 540
                     }
                 },
                 "submittals": {
@@ -1374,6 +1389,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-07': {
                         'PP03': 26 * 500
+                    },
+                    'SW-27': {
+                        'PP06': 52
                     },
                     'PCO-01_SW-07': {
                         'PP05': -2 * 500
@@ -1435,6 +1453,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-07': {
                         'PP03': 192 * 500
+                    },
+                    'SW-27': {
+                        'PP06': 380
                     }
                 },
                 "submittals": {
@@ -1613,6 +1634,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-05': {
                         'PP04': 400 * 181
+                    },
+                    'SW-27': {
+                        'PP06': 362
                     }
                 },
                 "submittals": {
@@ -2277,6 +2301,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-06': {
                         'PP03': 172 * 450
+                    },
+                    'SW-27': {
+                        'PP06': 344
                     }
                 },
                 "submittals": {
@@ -3200,6 +3227,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-06': {
                         'PP03': 292 * 450
+                    },
+                    'SW-27': {
+                        'PP06': 580
                     }
                 },
                 "submittals": {
@@ -12508,6 +12538,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -12520,9 +12553,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "94.0",
+                        "video_no": "4",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16961,7 +16994,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
-                    }
+                    },
+                    'SW-28': {
+                        'PP07': 50
+                    }                   
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -16973,9 +17009,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "94.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -22075,6 +22111,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -22087,9 +22126,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "94.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47838,6 +47877,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-06': {
                         'PP03': 35 * 450
+                    },
+                    'SW-27': {
+                        'PP06': 70
                     }
                 },
                 "submittals": {
@@ -47896,7 +47938,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-06': {
                         'PP03': 21 * 450
-                    }
+                    },
+                    'SW-27': {
+                        'PP06': 42
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -48011,6 +48056,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-07': {
                         'PP03': 14 * 500
+                    },
+                    'SW-27': {
+                        'PP06': 28
                     },
                     'PCO-01_SW-07': {
                         'PP05': -2 * 500
@@ -48130,7 +48178,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
-                    }
+                    },
+                     'SW-28': {
+                        'PP07': 50
+                    }                   
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -48142,9 +48193,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "94.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }

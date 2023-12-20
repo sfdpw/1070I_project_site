@@ -77,7 +77,7 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-12.html"><b>SW-12</b> - Side Sewer Replacement</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre Con TVI of (E) Side Sewers and Culverts</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre-Con TVI of (E) Side Sewers and Culverts</a>\
 	               </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-28.html"><b>SW-28</b> - Post-Con TVI of (N) Side Sewers and Culverts</a>\
@@ -102,6 +102,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25</b> - Pre-Con TVI of (E) Mains</a>\
 	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-27.html"><b>SW-27</b> - Post-Con TVI of Mains</a>\
+				   </li>\
 	             </ul>\
 	           </li>\
 	           <li>\

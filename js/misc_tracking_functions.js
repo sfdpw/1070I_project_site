@@ -24,8 +24,6 @@ function linked_asset_function_polygon(location, asset_coordinates) {
 
 }
 
-
-
 function bid_item_flattener(pp_history_obj) {
 
     var return_string = '';
@@ -113,8 +111,8 @@ var response_date_obj = {
     '88.1': '2023_12_05',
     '90.0': '2023_11_28',
     '91.0': '2023_12_08',
-    '92.0': '2023_12_05'
-
+    '92.0': '2023_12_05',
+    '94.0': '2023_12_19'
 
 }
 
