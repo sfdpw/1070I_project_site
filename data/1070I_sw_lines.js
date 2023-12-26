@@ -23,7 +23,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-27': {
                         'PP06': 274
-                    }                   
+                    }
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -637,13 +637,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 46th Ave and 47th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 1590
                     }
                 },
                 "submittals": {
@@ -700,13 +695,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 46th Ave and 47th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "submittals": {
@@ -763,13 +753,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 46th Ave and 47th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -826,13 +811,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 45th Ave and 46th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 840
                     }
                 },
                 "submittals": {
@@ -889,13 +869,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 44th Ave and 45th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 690
                     }
                 },
                 "submittals": {
@@ -952,13 +927,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 44th Ave and 45th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 990
                     }
                 },
                 "submittals": {
@@ -1015,13 +985,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 44th Ave and 45th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 540
                     }
                 },
                 "submittals": {
@@ -1078,13 +1043,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - West of 45th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "submittals": {
@@ -2110,13 +2070,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd - North Sidewalk between 45th Ave and 46th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 1500
                     }
                 },
                 "submittals": {
@@ -2547,13 +2502,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - West Sidewalk between Sloat Blvd and Wawona St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 420
                     }
                 },
                 "submittals": {
@@ -2610,13 +2560,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - East Sidewalk between Sloat Blvd and Wawona St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 420
                     }
                 },
                 "submittals": {
@@ -2673,13 +2618,8 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 45th Ave - South Side",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 120
                     }
                 },
                 "submittals": {
@@ -2862,13 +2802,8 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St - South Sidewalk between 44th Ave and 45th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -3287,13 +3222,8 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 45th Ave - North Side",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 120
                     }
                 },
                 "submittals": {
@@ -3350,13 +3280,8 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St - North Sidewalk between 44th Ave and 45th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -5335,13 +5260,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - East Sidewalk between Wawona St and Vicente St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 840
                     }
                 },
                 "submittals": {
@@ -5398,13 +5318,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - West Sidewalk between Wawona St and Vicente St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 840
                     }
                 },
                 "submittals": {
@@ -5461,13 +5376,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - East Sidewalk between Wawona St and Vicente St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 750
                     }
                 },
                 "submittals": {
@@ -5524,13 +5434,8 @@ var json_1070I_sw_lines = {
                 "location": "45th Ave - West Sidewalk between Wawona St and Vicente St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 750
                     }
                 },
                 "submittals": {
@@ -10564,13 +10469,8 @@ var json_1070I_sw_lines = {
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 390
                     }
                 },
                 "submittals": {
@@ -12555,7 +12455,7 @@ var json_1070I_sw_lines = {
                     "tvi_post_con": {
                         "submittal_no": "94.0",
                         "video_no": "4",
-                        "response": "R&R",
+                        "response": "MCN",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16997,7 +16897,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP07': 50
-                    }                   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -19145,6 +19045,64 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
+                "id_a": "unknown_side_sewer_015",
+                "id_b": "2452018",
+                "location": "2662 45th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-28': {
+                        'PP07': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "96.0",
+                        "video_no": "2",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.50315595801915, 37.736933681077929],
+                        [-122.503227864815514, 37.736930993536525]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
                 "id_a": "L-197627",
                 "id_b": "2452017A",
                 "location": "2666 45th Ave",
@@ -19341,6 +19299,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -19353,9 +19314,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19399,6 +19360,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -19411,9 +19375,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20745,6 +20709,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -20757,9 +20724,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21797,6 +21764,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP05': 225 * 20.5
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -21809,9 +21779,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30982,6 +30952,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP06': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -30994,9 +30967,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -41984,6 +41957,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP05': 225 * 23
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -41996,9 +41972,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43041,6 +43017,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -43053,9 +43032,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43660,6 +43639,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -43672,9 +43654,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44986,6 +44968,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP05': 225 * 25.5
+                    },
+                    'SW-28': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
@@ -44998,9 +44983,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "96.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -48179,9 +48164,9 @@ var json_1070I_sw_lines = {
                     'SW-26': {
                         'PP04': 50
                     },
-                     'SW-28': {
+                    'SW-28': {
                         'PP07': 50
-                    }                   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {

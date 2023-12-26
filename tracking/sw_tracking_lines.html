@@ -70,9 +70,9 @@
         //json_1070I_sw_lines.features.sort(function (a, b) {
         //    return cmp(b.properties.sw_type, a.properties.sw_type) ||
         //        cmp(b.properties.scope, a.properties.scope)
-            //cmp(a.id_a, b.id_a) ||
-            //cmp(a.submittals.tvi_pre_con.submittal_no, b.submittals.tvi_pre_con.submittal_no) ||
-            // cmp(Number(a.submittals.tvi_pre_con.video_no), Number(b.submittals.tvi_pre_con.video_no))
+        //cmp(a.id_a, b.id_a) ||
+        //cmp(a.submittals.tvi_pre_con.submittal_no, b.submittals.tvi_pre_con.submittal_no) ||
+        // cmp(Number(a.submittals.tvi_pre_con.video_no), Number(b.submittals.tvi_pre_con.video_no))
         //});
 
         json_1070I_sw_lines.features.sort((a, b) => (a.properties.scope > b.properties.scope) ? -1 : 1);
@@ -197,7 +197,9 @@
             ) { row_color_by_status = '#ededed'; } // grey 
 
             else if (
-                row.properties.status == sewer_status_code_array[4]
+                row.properties.status == sewer_status_code_array[4] ||
+                row.properties.status == sewer_status_code_array[15]
+
             ) { row_color_by_status = '#c8ebb7'; } // green    
 
             else if (

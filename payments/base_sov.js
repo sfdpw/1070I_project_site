@@ -211,7 +211,7 @@ var base_sov = {
 
     'SW-27': {
         'description': 'POST-CONSTRUCTION TELEVISION INSPECTION OF NEWLY COSNTRUCTED AND NEW LINED MAIN SEWERS',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 8957,
         'unit_price': 2
@@ -227,7 +227,7 @@ var base_sov = {
 
     'SW-29': {
         'description': 'PLUG AND FILL EXISTING SEWER WITH SLURRY GROUT**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'CY',
         'qty': 122,
         'unit_price': 300

@@ -105,6 +105,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-27.html"><b>SW-27</b> - Post-Con TVI of Mains</a>\
 				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-29.html"><b>SW-29</b> - Plug and Fill (E) Mains</a>\
+				   </li>\
 	             </ul>\
 	           </li>\
 	           <li>\

@@ -1,3 +1,21 @@
+//   'Status Not Found',                            // 00
+//   'No Construction',                             // 01
+//   'Status Not Tracked',                          // 02
+//   'Pending Post-Con Television',                 // 03
+//   'Post-Con Televised - Accepted',               // 04
+//   'Post-Con Televised - Rejected',               // 05
+//   'Pre-Construction',                            // 06
+//   'Pending Direction',                           // 07
+//   'Pre-Con Televised - Lining Directed',         // 08   
+//   'Pre-Con Televised - No Other Work Directed',  // 09   
+//   'Pre-Con Televised - Replacement Directed',    // 10  
+//   'Scope Deleted',                               // 11
+//   '(E) Capped',                                  // 12 
+//   '(E) Not Found',                               // 13 
+//   'Replacement Directed Via Email'               // 14 
+//   'Post-Construction'                            // 15 
+
+
 function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
     var return_string = sewer_status_code_array[0];
@@ -145,7 +163,7 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[8];
 
-            } 
+            }
 
         } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
 
@@ -157,7 +175,19 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
         }
 
-    } else if (line_obj.scope.includes('Remove (E)') || line_obj.scope.includes('Abandon (E)')) {
+    } else if (line_obj.scope.includes('Abandon (E)')) {
+
+        if (line_obj.pp_history.hasOwnProperty('SW-29')) {
+
+            return_string = sewer_status_code_array[15];
+
+        } else {
+
+            return_string = sewer_status_code_array[6];
+
+        }
+
+    } else if (line_obj.scope.includes('Remove (E)')) {
 
         return_string = sewer_status_code_array[2];
 
