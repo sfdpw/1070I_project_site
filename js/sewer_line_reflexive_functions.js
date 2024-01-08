@@ -1,19 +1,22 @@
-//   'Status Not Found',                            // 00
-//   'No Construction',                             // 01
-//   'Status Not Tracked',                          // 02
-//   'Pending Post-Con Television',                 // 03
-//   'Post-Con Televised - Accepted',               // 04
-//   'Post-Con Televised - Rejected',               // 05
-//   'Pre-Construction',                            // 06
-//   'Pending Direction',                           // 07
-//   'Pre-Con Televised - Lining Directed',         // 08   
-//   'Pre-Con Televised - No Other Work Directed',  // 09   
-//   'Pre-Con Televised - Replacement Directed',    // 10  
-//   'Scope Deleted',                               // 11
-//   '(E) Capped',                                  // 12 
-//   '(E) Not Found',                               // 13 
-//   'Replacement Directed Via Email'               // 14 
-//   'Post-Construction'                            // 15 
+// 'Status Not Found',                            // 00
+// 'No Construction',                             // 01
+// 'Status Not Tracked',                          // 02
+// 'Pending Post-Con Television',                 // 03
+// 'Post-Con Televised - Accepted',               // 04
+// 'Post-Con Televised - Rejected',               // 05
+// 'Pre-Construction',                            // 06
+// 'Pending Direction',                           // 07
+// 'Pre-Con Televised - Lining Directed',         // 08   
+// 'Pre-Con Televised - No Other Work Directed',  // 09   
+// 'Pre-Con Televised - Replacement Directed',    // 10  
+// 'Scope Deleted',                               // 11
+// '(E) Capped',                                  // 12 
+// '(E) Not Found',                               // 13 
+// 'Replacement Directed Via Email',              // 14 
+// 'Post-Construction',                            // 15 
+// 'Pre-Con Televised - Spot Replacement then Lining Directed'    // 16  
+// 'Pre-Con Televised - Top Hat Directed',         // 17   
+
 
 
 function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
@@ -155,9 +158,14 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[9];
 
-            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' || line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' || 
+                       line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
 
                 return_string = sewer_status_code_array[10];
+
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Install Top Hat') {
+
+                return_string = sewer_status_code_array[17];
 
             } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Line (E) with CIPL') {
 

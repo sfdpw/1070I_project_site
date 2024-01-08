@@ -161,6 +161,20 @@ function sw_line_layer_styler(feature) {
             }
             break;
 
+            case sewer_status_code_array[17]: // Televised - Top Hat Installation Directed
+            return {
+                pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
+                opacity: 1,
+                color: '#ffee01',
+                dashArray: '',
+                lineCap: 'round',
+                lineJoin: 'round',
+                weight: 10.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+            break;
+
         case sewer_status_code_array[11]: // Scope Deleted
             return {
                 pane: 'P_'.concat(feature.L_index_stored_in_each_feature),
