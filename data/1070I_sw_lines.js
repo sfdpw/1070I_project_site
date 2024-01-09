@@ -1479,6 +1479,9 @@ var json_1070I_sw_lines = {
                     'PCO-01_SW-09': {
                         'PP05': 16 * 200
                     },
+                    'PCO-01_SW-28': {
+                        'PP07': 50
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -1490,9 +1493,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "97.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3569,20 +3572,15 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 47th Ave - NEC",
                 "scope": "Line (E) culvert",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP07': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "97.0",
+                        "video_no": "2",
+                        "response": "MCN - Proceed with Lining",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
