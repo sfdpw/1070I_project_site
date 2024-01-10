@@ -4633,20 +4633,15 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "92.1",
+                        "video_no": "1",
+                        "response": "MCN - Line (E) with CIPL",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
