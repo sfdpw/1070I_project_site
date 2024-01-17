@@ -267,7 +267,7 @@ var base_sov = {
 
     'SW-34': {
         'description': '3 ½-INCH THICK CONCRETE SIDEWALK RELATED TO MANHOLE ABANDONMENT AND SIDE SEWER EXTENSION WORK ON SIDEWALK',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 8765,
         'unit_price': 12

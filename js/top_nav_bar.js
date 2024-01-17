@@ -162,6 +162,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-09.html"><b>R-09</b> - Curb Ramps</a>\
 	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-34.html"><b>SW-34</b> - Sidewalk over Sewer Work</a>\
+				   </li>\
 	             </ul>\
 	           </li>\
 	         </ul>\
