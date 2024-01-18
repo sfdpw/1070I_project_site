@@ -291,7 +291,7 @@ var base_sov = {
 
     'SW-37': {
         'description': '4-INCH AND 6-INCH WIDE CONCRETE CURB RELATED TO SIDE SEWER EXTENSION WORK',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 1053,
         'unit_price': 45
