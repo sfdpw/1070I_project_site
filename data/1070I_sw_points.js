@@ -1196,6 +1196,42 @@ var json_1070I_sw_points = {
         {
             "type": "Feature",
             "properties": {
+                "id_b": "unknown_catch_basin_001",
+                "id_a": "none",
+                "location": "Vicente St and 46th Ave - NEC",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-0': {
+                        'PP0': {
+                            'SFPUC-SW': {
+                                'QTY': 0,
+                                'UNIT': ''
+                            }
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cb",
+                "status": "No Construction",
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                }
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ -122.504269, 37.738140 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
+            }
+
+        },
+
+        // ######################################
+
+        {
+            "type": "Feature",
+            "properties": {
                 "id_b": "N-59743",
                 "id_a": "174450",
                 "location": "Vicente St and 46th Ave - NWC",

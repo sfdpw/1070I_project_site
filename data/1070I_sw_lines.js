@@ -7026,8 +7026,68 @@ var json_1070I_sw_lines = {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [-122.50431876433629, 37.738188132813754],
+                        //[-122.50431876433629, 37.738188132813754],
+                        [ -122.504269, 37.738140 ],
                         [-122.50437961419513, 37.738090363230825]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_culvert_002",
+                "id_b": "none",
+                "location": "Vicente St and 46th Ave - NEC",
+                "scope": "Improve (E) culvert as directed",
+                "pp_history": {
+                    'SW-26': {
+                        'PP08': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                "sw_type": "cl",
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.50431876433629, 37.738188132813754],
+                        [ -122.504269, 37.738140 ]
+                        //[-122.50437961419513, 37.738090363230825]
                     ]
                 ]
             },
@@ -20543,7 +20603,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "57.0",
                         "video_no": "88",
-                        "response": "MCN - Replace",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
