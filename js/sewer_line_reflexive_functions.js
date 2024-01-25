@@ -16,6 +16,7 @@
 // 'Post-Construction',                            // 15 
 // 'Pre-Con Televised - Spot Replacement then Lining Directed'    // 16  
 // 'Pre-Con Televised - Top Hat Directed',         // 17   
+// 'Pre-Con Televised - Abandonment Directed',         // 18   
 
 
 
@@ -166,6 +167,10 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
             } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Install Top Hat') {
 
                 return_string = sewer_status_code_array[17];
+
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Abandon (E)') {
+
+                return_string = sewer_status_code_array[18];
 
             } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Line (E) with CIPL') {
 

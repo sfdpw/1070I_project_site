@@ -17,6 +17,7 @@ var sewer_status_code_array = [
     'Replacement Directed Via Email',              // 14 
     'Post-Construction',                            // 15 
     'Pre-Con Televised - Spot Replacement then Lining Directed',   // 16  
-    'Pre-Con Televised - Top Hat Installation Directed'    // 17  
-       
+    'Pre-Con Televised - Top Hat Installation Directed',    // 17  
+    'Pre-Con Televised - Abandonment Directed'    // 18  
+
 ]
