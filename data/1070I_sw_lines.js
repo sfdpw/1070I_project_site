@@ -7027,7 +7027,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         //[-122.50431876433629, 37.738188132813754],
-                        [ -122.504269, 37.738140 ],
+                        [-122.504269, 37.738140],
                         [-122.50437961419513, 37.738090363230825]
                     ]
                 ]
@@ -7086,7 +7086,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.50431876433629, 37.738188132813754],
-                        [ -122.504269, 37.738140 ]
+                        [-122.504269, 37.738140]
                         //[-122.50437961419513, 37.738090363230825]
                     ]
                 ]
@@ -11788,15 +11788,15 @@ var json_1070I_sw_lines = {
                 "location": "2606 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-26': {
-                        'PP04': 50
+                    'SW-0': {
+                        'PP0': 0
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58.1",
-                        "video_no": "61",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13230,7 +13230,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.504365416187483, 37.736460607018465],
-                        [-122.504231635886768, 37.736466485424074]
+                        [-122.504345032383867, 37.73646135171164]
                     ]
                 ]
             },
@@ -45153,22 +45153,17 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368191",
                 "id_b": "2451006M",
                 "location": "2600 46th Ave",
-                "scope": "(E) to remain",
+                "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-26': {
+                        'PP04': 50
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "58.1",
+                        "video_no": "61",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -45199,7 +45194,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         [-122.504265322118599, 37.737896301169734],
-                        [-122.504323765483079, 37.737895006984026]
+                        [-122.504283316072204, 37.737895731569957]
                     ]
                 ]
             },
@@ -45342,7 +45337,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368194",
                 "id_b": "2451006L",
                 "location": "2606 46th Ave",
-                "scope": "(E) to remain",
+                "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -45387,7 +45382,7 @@ var json_1070I_sw_lines = {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [-122.504320122033249, 37.737833020902464],
+                        [-122.504279189081515, 37.737834070210809],
                         [-122.504271911657227, 37.737834380640393]
                     ]
                 ]
