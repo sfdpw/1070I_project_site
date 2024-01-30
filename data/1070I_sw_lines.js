@@ -11169,9 +11169,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91.0",
+                        "submittal_no": "91.1",
                         "video_no": "23",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12196,6 +12196,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -12208,9 +12211,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12254,6 +12257,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -12266,9 +12272,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12668,6 +12674,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP05': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -12680,9 +12689,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "12",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -12726,7 +12735,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP05': 50
-                    }
+                    },
+                    'SW-28': {
+                        'PP08': 50
+                    }                    
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -12738,9 +12750,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "13",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -13599,6 +13611,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -13611,9 +13626,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -14961,6 +14976,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -14973,9 +14991,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15641,6 +15659,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -15653,9 +15674,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16245,6 +16266,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -16257,9 +16281,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16419,6 +16443,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -16431,9 +16458,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16651,6 +16678,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -16663,9 +16693,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -16837,6 +16867,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -16849,9 +16882,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18063,9 +18096,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91.0",
+                        "submittal_no": "91.1",
                         "video_no": "21",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19190,9 +19223,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91.0",
+                        "submittal_no": "91.1",
                         "video_no": "19",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19251,9 +19284,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91.0",
+                        "submittal_no": "91.1",
                         "video_no": "20",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -19315,9 +19348,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91.0",
+                        "submittal_no": "91.1",
                         "video_no": "22",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20832,6 +20865,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP05': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -20844,9 +20880,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "14",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21765,6 +21801,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 25
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -21777,9 +21816,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -43536,9 +43575,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "91.0",
+                        "submittal_no": "91.1",
                         "video_no": "13",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46786,6 +46825,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP05': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -46798,9 +46840,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "7.1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47619,6 +47661,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP04': 50
+                    },
+                    'SW-28': {
+                        'PP08': 50
                     }
                 },
                 "submittals": {
@@ -47631,9 +47676,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "99.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
