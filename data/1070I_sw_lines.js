@@ -7841,13 +7841,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - Between Vicente St and Ulloa St",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-05': {
+                        'PP07': 238 * 400
                     }
                 },
                 "submittals": {
@@ -11164,6 +11159,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP07': 18.5 * 225
+                    },
                     'SW-28': {
                         'PP08': 50
                     }
@@ -12747,7 +12745,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP08': 50
-                    }                    
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -17975,6 +17973,9 @@ var json_1070I_sw_lines = {
                 "location": "2646 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP07': 25.5 * 225
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -18091,6 +18092,9 @@ var json_1070I_sw_lines = {
                 "location": "2671 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP07': 22.5 * 225
+                    },
                     'SW-28': {
                         'PP08': 50
                     }
@@ -18407,6 +18411,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 23 * 225
                     },
                     'SW-28': {
                         'PP05': 50
@@ -18968,6 +18975,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP07': 20.5 * 225
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -19154,6 +19164,9 @@ var json_1070I_sw_lines = {
                 "location": "2662 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-12': {
+                        'PP07': 18.5 * 225
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -19276,8 +19289,12 @@ var json_1070I_sw_lines = {
                 "location": "2670 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 18.5 * 225
                     },
                     'SW-28': {
                         'PP08': 50
@@ -19404,6 +19421,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP07': 18.5 * 225
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -19464,6 +19484,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 18.5 * 225
                     },
                     'SW-28': {
                         'PP07': 50
@@ -20813,6 +20836,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 18.5 * 225
                     },
                     'SW-28': {
                         'PP07': 50
@@ -31814,6 +31840,9 @@ var json_1070I_sw_lines = {
                 "location": "2510 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-12': {
+                        'PP07': 25 * 225
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -43131,6 +43160,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP07': 24.5 * 225
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -43191,6 +43223,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 23.5 * 225
                     }
                 },
                 "submittals": {
@@ -43570,6 +43605,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP07': 19 * 225
+                    },
                     'SW-28': {
                         'PP08': 50
                     }
@@ -43691,6 +43729,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 26.5 * 225
                     },
                     'SW-28': {
                         'PP07': 50
@@ -48573,6 +48614,9 @@ var json_1070I_sw_lines = {
                         [-122.505298639091436, 37.736998027261826]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48633,6 +48677,9 @@ var json_1070I_sw_lines = {
                         [-122.505328603431309, 37.737545450477917]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48693,6 +48740,9 @@ var json_1070I_sw_lines = {
                         [-122.505266412679973, 37.736435161015251]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48753,6 +48803,9 @@ var json_1070I_sw_lines = {
                         [-122.504405026642317, 37.737225031826853]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48813,6 +48866,9 @@ var json_1070I_sw_lines = {
                         [-122.504410925517973, 37.737321076714096]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48873,6 +48929,9 @@ var json_1070I_sw_lines = {
                         [-122.504269005155734, 37.736992445205637]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48933,6 +48992,9 @@ var json_1070I_sw_lines = {
                         [-122.504190801591321, 37.736521193150963]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -48993,6 +49055,9 @@ var json_1070I_sw_lines = {
                         [-122.504176939505157, 37.736324946067803]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49053,6 +49118,9 @@ var json_1070I_sw_lines = {
                         [-122.504783072801487, 37.738075946902725]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49113,6 +49181,9 @@ var json_1070I_sw_lines = {
                         [-122.504869610803041, 37.738072854738249]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49173,6 +49244,9 @@ var json_1070I_sw_lines = {
                         [-122.504965045937368, 37.738069444662443]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49233,6 +49307,9 @@ var json_1070I_sw_lines = {
                         [-122.505053875404897, 37.738066270619335]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49293,6 +49370,9 @@ var json_1070I_sw_lines = {
                         [-122.504423046079239, 37.738716447835245]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49353,6 +49433,9 @@ var json_1070I_sw_lines = {
                         [-122.504358281179094, 37.73886776733012]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49413,6 +49496,9 @@ var json_1070I_sw_lines = {
                         [-122.504358488619431, 37.739022228660851]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         },
 
@@ -49473,6 +49559,9 @@ var json_1070I_sw_lines = {
                         [-122.504561229123581, 37.739483073331378]
                     ]
                 ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
             }
         }
 
