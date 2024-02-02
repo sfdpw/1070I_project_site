@@ -18036,6 +18036,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 20 * 225
                     }
                 },
                 "submittals": {
@@ -19095,6 +19098,67 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
+                "id_a": "unknown_side_sewer_032",
+                "id_b": "2452019",
+                "location": "2658 45th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-10': {
+                        'PP07': 150
+                    },
+                    'SW-12': {
+                        'PP07': 19 * 225
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.503154819049456, 37.736997918315808],
+                        [-122.503232509887994, 37.73699428484823]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
                 "id_a": "L-197626",
                 "id_b": "2452018",
                 "location": "2662 45th Ave",
@@ -19289,7 +19353,7 @@ var json_1070I_sw_lines = {
                 "location": "2670 45th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    
+
                     'SW-10': {
                         'PP05': 150
                     },
@@ -31840,9 +31904,6 @@ var json_1070I_sw_lines = {
                 "location": "2510 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-12': {
-                        'PP07': 25 * 225
-                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -43669,6 +43730,9 @@ var json_1070I_sw_lines = {
                     'SW-10': {
                         'PP05': 150
                     },
+                    'SW-12': {
+                        'PP07': 25.5 * 225
+                    },
                     'SW-28': {
                         'PP07': 50
                     }
@@ -43793,6 +43857,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-10': {
                         'PP05': 150
+                    },
+                    'SW-12': {
+                        'PP07': 25 * 225
                     },
                     'SW-28': {
                         'PP07': 50
