@@ -23,8 +23,9 @@ var flatwork_feature_menu =
                   <td><label class="layer_label" for="8xx_FWRK_checkbox"><strong>Flatwork</strong></label></td>\
                 </tr>'
  
-for (ll = index_limits_flatwork[0]; ll <= index_limits_flatwork[1]; ll++) // Flatwork
- 
+//for (ll = index_limits_flatwork[0]; ll <= index_limits_flatwork[1]; ll++) // Flatwork
+for (const ll of [201, 200, 202, 203, 204, 205, 206, 207, 208]) 
+
    {flatwork_feature_menu += layer_card_entry_generator(ll);}    
               
 flatwork_feature_menu +=                                                

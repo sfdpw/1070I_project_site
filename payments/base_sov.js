@@ -411,7 +411,7 @@ var base_sov = {
 
     'R-03': {
         'description': 'HOT MIX ASPHALT (TYPE A ½-INCH MAXIMUM WITH MEDIUM GRADING)',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'TON',
         'qty': 54,
         'unit_price': 225
@@ -419,7 +419,7 @@ var base_sov = {
 
     'R-04': {
         'description': '8-INCH THICK CONCRETE BASE',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 4300,
         'unit_price': 16
