@@ -4301,6 +4301,1510 @@ var json_1070I_flatwork_polygons = {
                     ]
                 ]
             }
+        },
+
+
+
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_03_003",
+                "location": "2695 46th Ave (along Wawona St)",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 72
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504517957585406, 37.736272559480952],
+                            [-122.504497008870061, 37.73627345986155],
+                            [-122.504496214940417, 37.736265973738888],
+                            [-122.504419325907961, 37.736268678402681],
+                            [-122.504418837335834, 37.736259839947536],
+                            [-122.504549774655601, 37.736254334024117],
+                            [-122.504550464817754, 37.736262521103818],
+                            [-122.504517345683254, 37.736264524811837],
+                            [-122.504517957585406, 37.736272559480952]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_03_004",
+                "location": "3518 Wawona St",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 36
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504687157138221, 37.736253159106035],
+                            [-122.504667968525737, 37.736254167574799],
+                            [-122.504666966588644, 37.736237719927665],
+                            [-122.504686398095004, 37.736237143659672],
+                            [-122.504687157138221, 37.736253159106035]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_03_005",
+                "location": "3536 Wawona St",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 59
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504922737187016, 37.736248424446543],
+                            [-122.504902095016249, 37.73624929380297],
+                            [-122.50490087047622, 37.736224872768538],
+                            [-122.504921240934962, 37.736224275652894],
+                            [-122.504922737187016, 37.736248424446543]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_03_006",
+                "location": "2694 47th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 41
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.505276063583594, 37.736305941333164],
+                            [-122.505266753008939, 37.73630645396544],
+                            [-122.505267180509534, 37.736313288067272],
+                            [-122.505254416563716, 37.736314036679083],
+                            [-122.505253744777079, 37.736307081833495],
+                            [-122.505243362620135, 37.736307564808889],
+                            [-122.505242507618973, 37.736299257631394],
+                            [-122.505275699242873, 37.736297825565963],
+                            [-122.505276063583594, 37.736305941333164]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_05_016",
+                "location": "2682 47th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 35
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.505281270977534, 37.736474297102646],
+                            [-122.50526208236505, 37.736475305568405],
+                            [-122.505261080427957, 37.736458857970391],
+                            [-122.505280511934316, 37.736458281704124],
+                            [-122.505281270977534, 37.736474297102646]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_05_017",
+                "location": "2662 47th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 18
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.505304931546604, 37.736858910058487],
+                            [-122.505284407018038, 37.736860014562851],
+                            [-122.505283739060005, 37.736851754790585],
+                            [-122.50530456720584, 37.736850794351895],
+                            [-122.505304931546604, 37.736858910058487]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_05_018",
+                "location": "2638 47th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 25
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.505295609297491, 37.737270297579954],
+                            [-122.5053172591482, 37.737269500680888],
+                            [-122.505318083613574, 37.737280246743332],
+                            [-122.505296464298638, 37.737281309275268],
+                            [-122.505295609297491, 37.737270297579954]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_05_019",
+                "location": "2610 47th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 64
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.505323614430949, 37.737702617300371],
+                            [-122.505345321507519, 37.737702022424742],
+                            [-122.505347092581331, 37.737730662321461],
+                            [-122.505325106837333, 37.737731435067253],
+                            [-122.505323614430949, 37.737702617300371]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_012",
+                "location": "2694 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 36
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503125010967551, 37.736464419253643],
+                            [-122.503105822355039, 37.736465427719544],
+                            [-122.503104820417946, 37.736448980119327],
+                            [-122.503124251924305, 37.736448403852989],
+                            [-122.503125010967551, 37.736464419253643]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_013",
+                "location": "2686 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 55
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503129625950308, 37.736526463891543],
+                            [-122.503110437337796, 37.736527472356592],
+                            [-122.503108494187117, 37.736496017845084],
+                            [-122.503127622076207, 37.736495393556936],
+                            [-122.503129625950308, 37.736526463891543]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_014",
+                "location": "2682 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 34
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503134240933036, 37.736594847395054],
+                            [-122.503115052320553, 37.736595855859164],
+                            [-122.503114050383459, 37.736579408287945],
+                            [-122.503133481889819, 37.736578832022609],
+                            [-122.503134240933036, 37.736594847395054]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_015",
+                "location": "2678 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 38
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503137884340475, 37.73664190903915],
+                            [-122.503118695727963, 37.736642917502614],
+                            [-122.503117693790884, 37.736626469941847],
+                            [-122.503137125297243, 37.73662589367688],
+                            [-122.503137884340475, 37.73664190903915]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_016",
+                "location": "2662 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 54
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503159137550611, 37.736938876927809],
+                            [-122.503139948938085, 37.736939885387237],
+                            [-122.503138704107187, 37.736915010050645],
+                            [-122.503157467655484, 37.736914577853604],
+                            [-122.503159137550611, 37.736938876927809]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_017",
+                "location": "2658 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 16
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503161687935773, 37.736991340810867],
+                            [-122.503141163407221, 37.736992445313263],
+                            [-122.503140495449188, 37.736984185555762],
+                            [-122.503161323595023, 37.736983225118792],
+                            [-122.503161687935773, 37.736991340810867]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_018",
+                "location": "2654 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 25
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503167760281414, 37.737062581181966],
+                            [-122.503148571668902, 37.73706358963971],
+                            [-122.503147569731837, 37.737047142172401],
+                            [-122.503167001238168, 37.737046565910703],
+                            [-122.503167760281414, 37.737062581181966]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_019",
+                "location": "2662 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 69
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.50317342780437, 37.737139111880722],
+                            [-122.503152599658534, 37.737140336435303],
+                            [-122.503150777954843, 37.737106625161061],
+                            [-122.503171120312942, 37.737105808790972],
+                            [-122.50317342780437, 37.737139111880722]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_020",
+                "location": "2646 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 70
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503179302798898, 37.737212873248978],
+                            [-122.503157457535082, 37.737214193845716],
+                            [-122.503155635831405, 37.737180482605126],
+                            [-122.503177314105685, 37.737179690246691],
+                            [-122.503179302798898, 37.737212873248978]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_021",
+                "location": "2642 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 17
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503182333911269, 37.73726372020834],
+                            [-122.503161809382718, 37.737264824706671],
+                            [-122.503161141424684, 37.737256564979567],
+                            [-122.50318196957052, 37.737255604546121],
+                            [-122.503182333911269, 37.73726372020834]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_022",
+                "location": "2638 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 33
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503188030629346, 37.737334002255899],
+                            [-122.503168842016862, 37.737335010709941],
+                            [-122.503167840079769, 37.737318563302935],
+                            [-122.503187271586128, 37.737317987043355],
+                            [-122.503188030629346, 37.737334002255899]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_023",
+                "location": "2634 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 57
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503194164174602, 37.737414835074858],
+                            [-122.503173336028752, 37.737416059624884],
+                            [-122.503172137431065, 37.737390445277917],
+                            [-122.50319223689543, 37.737389917040488],
+                            [-122.503194164174602, 37.737414835074858]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_024",
+                "location": "2630 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 37
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503197034048412, 37.737466235305618],
+                            [-122.503175188784596, 37.737467555897858],
+                            [-122.503173367080905, 37.737433844772625],
+                            [-122.503195045355199, 37.737433052416904],
+                            [-122.503197034048412, 37.737466235305618]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_025",
+                "location": "2626 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 44
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503203349288142, 37.737540824718707],
+                            [-122.503183796334923, 37.737541977234379],
+                            [-122.503181671013934, 37.737520415583724],
+                            [-122.503201466861, 37.737519263067696],
+                            [-122.503203349288142, 37.737540824718707]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_026",
+                "location": "2622 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 52
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503207478483276, 37.73760291647595],
+                            [-122.503187986253494, 37.737603588776203],
+                            [-122.503186346720142, 37.737577128954321],
+                            [-122.503205656779571, 37.737576744782608],
+                            [-122.503207478483276, 37.73760291647595]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_027",
+                "location": "2618 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 53
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503212672549239, 37.737674240355105],
+                            [-122.503196686328309, 37.737674776661002],
+                            [-122.503191705565385, 37.737674972622401],
+                            [-122.503190522175075, 37.737650219380455],
+                            [-122.5032113291347, 37.737649813241205],
+                            [-122.503212672549239, 37.737674240355105]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_028",
+                "location": "2600 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 66
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.50322863554814, 37.737892885413373],
+                            [-122.503212649327224, 37.737893421717679],
+                            [-122.503207668564301, 37.737893617678502],
+                            [-122.503206224155875, 37.737860383471784],
+                            [-122.50322619099795, 37.737859834119384],
+                            [-122.50322863554814, 37.737892885413373]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_029",
+                "location": "2600 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 17
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503232278955551, 37.737943067612086],
+                            [-122.503211390086264, 37.737943883972939],
+                            [-122.503211025745529, 37.737935560293302],
+                            [-122.503231942932473, 37.737934923409874],
+                            [-122.503232278955551, 37.737943067612086]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_030",
+                "location": "2695 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 48
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503287508645741, 37.73635717952304],
+                            [-122.503288341406048, 37.736367043206414],
+                            [-122.503275669067506, 37.736367695222683],
+                            [-122.503276066032328, 37.736372428377685],
+                            [-122.503266019768702, 37.736372838906419],
+                            [-122.503266264054744, 37.736379986935816],
+                            [-122.503256004040864, 37.736380566505744],
+                            [-122.503254517203544, 37.736358820441787],
+                            [-122.50325661266028, 37.736358680522166],
+                            [-122.503287508645741, 37.73635717952304]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_031",
+                "location": "2691 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 41
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.50325917975951, 37.736424710401344],
+                            [-122.503279150143626, 37.736424058385573],
+                            [-122.503280341038064, 37.736444922887436],
+                            [-122.503260370653962, 37.736445840538998],
+                            [-122.50325917975951, 37.736424710401344]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_032",
+                "location": "2687 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 44
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503264798338563, 37.736486989955495],
+                            [-122.503291181231319, 37.736486603576097],
+                            [-122.503291914089459, 37.736505536163897],
+                            [-122.503265775482731, 37.736506502112121],
+                            [-122.503264798338563, 37.736486989955495]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_033",
+                "location": "2683 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 75
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503269256558951, 37.736554268236226],
+                            [-122.503292219447133, 37.736553350586021],
+                            [-122.503294906593581, 37.736593533995666],
+                            [-122.503285196223302, 37.736594065266559],
+                            [-122.503285929081443, 37.736601744545439],
+                            [-122.503273653707723, 37.736602469005661],
+                            [-122.503269256558951, 37.736554268236226]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_034",
+                "location": "2679 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 38
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503295700523267, 37.736617779263533],
+                            [-122.503297776954724, 37.736651031973587],
+                            [-122.503277073712454, 37.736651756433325],
+                            [-122.503274814066486, 37.736618745210286],
+                            [-122.503295700523267, 37.736617779263533]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_035",
+                "location": "2675 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 43
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503303456605281, 37.736697928653292],
+                            [-122.503304189463449, 37.736714639512414],
+                            [-122.503282325862472, 37.736715170782432],
+                            [-122.503281348718261, 37.736698749707138],
+                            [-122.503303456605281, 37.736697928653292]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_036",
+                "location": "2671 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 40
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503304739107023, 37.736751852553631],
+                            [-122.503306685761459, 37.736783964181434],
+                            [-122.503295723425197, 37.736784302262059],
+                            [-122.503295418067665, 37.73677705767723],
+                            [-122.503285868010138, 37.736777401795003],
+                            [-122.503284241981149, 37.736752522678017],
+                            [-122.503304739107023, 37.736751852553631]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_037",
+                "location": "2667 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 17
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503289494131167, 37.736826393285888],
+                            [-122.503302563434517, 37.736825982759648],
+                            [-122.503303021470899, 37.736842548698291],
+                            [-122.503290318596612, 37.736843224858973],
+                            [-122.503289494131167, 37.736826393285888]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_038",
+                "location": "2663 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 12
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503294715745426, 37.736909295387299],
+                            [-122.503307785048762, 37.736908884861535],
+                            [-122.503308243085172, 37.736925450781619],
+                            [-122.503295540210871, 37.736926126941555],
+                            [-122.503294715745426, 37.736909295387299]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_039",
+                "location": "2659 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 33
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503322266630647, 37.736973512455194],
+                            [-122.503322999488844, 37.736990223252107],
+                            [-122.503301135887867, 37.736990754520157],
+                            [-122.503300158743656, 37.736974333505991],
+                            [-122.503322266630647, 37.736973512455194]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_040",
+                "location": "2655 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 16
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503329221821375, 37.737055449698445],
+                            [-122.503308697292809, 37.737056554199889],
+                            [-122.503308029334775, 37.737048294449544],
+                            [-122.503328857480639, 37.737047334013404],
+                            [-122.503329221821375, 37.737055449698445]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_041",
+                "location": "2647 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 14
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503314869343995, 37.737175701977847],
+                            [-122.503314740666568, 37.737167179449465],
+                            [-122.503338610328598, 37.737166645201398],
+                            [-122.503339060699602, 37.737175142289459],
+                            [-122.503314869343995, 37.737175701977847]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_042",
+                "location": "2631 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 12
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503335145085671, 37.737447710038403],
+                            [-122.503334351156028, 37.737434863089284],
+                            [-122.503342351523926, 37.737434476714839],
+                            [-122.503343206525116, 37.737447323664036],
+                            [-122.503335145085671, 37.737447710038403]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ######## 
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_07_043",
+                "location": "2601 45th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP07': 66
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.503372704064972, 37.737945913971714],
+                            [-122.503370322276012, 37.737912830881001],
+                            [-122.503391300340127, 37.737911961544114],
+                            [-122.503393590521796, 37.737945237821108],
+                            [-122.503372704064972, 37.737945913971714]
+                        ]
+                    ]
+                ]
+            }
         }
+
     ]
 }
