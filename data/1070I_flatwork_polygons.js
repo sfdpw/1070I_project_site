@@ -2077,7 +2077,7 @@ var json_1070I_flatwork_polygons = {
             "type": "Feature",
             "properties": {
                 "id_a": "SW-41_PR_01_002",
-                "location": "Sloat Blvd - North Side - Over West SIde Sewers for Parcel 2800-2898",
+                "location": "Sloat Blvd - North Side - Over West Side Sewers for Parcel 2800-2898",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
                     'SW-41': {
@@ -2113,7 +2113,7 @@ var json_1070I_flatwork_polygons = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "SW-41_PR_01_003",
+                "id_a": "SW-41_PR_01_004",
                 "location": "Sloat Blvd - North Side betwen 46th Ave and 47th Ave",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
@@ -2151,7 +2151,7 @@ var json_1070I_flatwork_polygons = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "SW-41_PR_01_004",
+                "id_a": "SW-41_PR_01_005",
                 "location": "Sloat Blvd - North Side - Over East SIde Sewers for Parcel 2800-2898",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
@@ -4048,7 +4048,7 @@ var json_1070I_flatwork_polygons = {
         {
             "type": "Feature",
             "properties": {
-                "id_a": "SW-41_PR_01_002",
+                "id_a": "SW-41_PR_01_003",
                 "location": "2958-2968 Sloat Blvd",
                 "scope": "Parking Strip",
                 "pp_a_qty": {
@@ -4167,45 +4167,6 @@ var json_1070I_flatwork_polygons = {
                             [-122.505474675416139, 37.737027173047743],
                             [-122.505484121143226, 37.737028010196987],
                             [-122.505504396885001, 37.73702755942432]
-                        ]
-                    ]
-                ]
-            }
-        },
-
-        // ######## 
-
-        {
-            "type": "Feature",
-            "properties": {
-                "id_a": "SW-41_PR_01_002",
-                "location": "2958-2968 Sloat Blvd",
-                "scope": "Parking Strip",
-                "pp_a_qty": {
-                    'SW-42': {
-                        'PP06': 104
-                    }
-                },
-                get pp_history() {
-                    return pp_history_from_pp_qty_history(this)
-                },
-                get pp_summary() {
-                    return payment_summary_from_pp_history(this.pp_history)
-                },
-                "status": "Post-Construction"
-            },
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [-122.5058287370789, 37.735622856969478],
-                            [-122.505811362233942, 37.735621444253319],
-                            [-122.505777223259145, 37.735619174247823],
-                            [-122.505776734611445, 37.735586796352763],
-                            [-122.505802384646188, 37.73558718273685],
-                            [-122.505828065292263, 37.735590014330562],
-                            [-122.5058287370789, 37.735622856969478]
                         ]
                     ]
                 ]
