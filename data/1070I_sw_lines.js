@@ -11793,7 +11793,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-197001",
                 "id_b": "2451006L",
                 "location": "2606 46th Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': 0
@@ -12781,8 +12781,8 @@ var json_1070I_sw_lines = {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [-122.504343707438267, 37.739015009291833],
-                        [-122.504357931813004, 37.739014400708513]
+                        [-122.504348537832541, 37.739022669805706],
+                        [-122.504358488619431, 37.739022228660851]
                     ]
                 ]
             },
@@ -14121,7 +14121,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "34",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15791,7 +15791,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
                         "video_no": "19",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20671,7 +20671,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP08': 50
-                    }                   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -20790,7 +20790,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP08': 50
-                    }                    
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -23925,7 +23925,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "60",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -24157,7 +24157,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "53",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -25304,7 +25304,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "62",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -31921,7 +31921,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.2",
                         "video_no": "1",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -32153,7 +32153,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "79.0",
                         "video_no": "33",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -32269,7 +32269,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "45",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33023,7 +33023,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "57",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33429,7 +33429,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "79.0",
                         "video_no": "35",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33661,7 +33661,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "5",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -33835,7 +33835,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "3",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34231,7 +34231,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-367966",
                 "id_b": "2446042",
                 "location": "2542 46th Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -34304,7 +34304,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.2",
                         "video_no": "6",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34420,7 +34420,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "79.0",
                         "video_no": "14",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -34903,9 +34903,9 @@ var json_1070I_sw_lines = {
                     'SW-26': {
                         'PP03': 50
                     },
-                     'SW-28': {
+                    'SW-28': {
                         'PP08': 50
-                    }                   
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -45505,7 +45505,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368194",
                 "id_b": "2451006L",
                 "location": "2606 46th Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -46125,7 +46125,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368204",
                 "id_b": "2450005",
                 "location": "2631 46th Ave",
-                "scope": "Improve (E) side sewer as directed",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -46667,7 +46667,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
                         "video_no": "24",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Line (E) with CIPL",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46725,7 +46725,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "79.0",
                         "video_no": "7",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46844,7 +46844,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "63.0",
                         "video_no": "20",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46956,22 +46956,25 @@ var json_1070I_sw_lines = {
                         'PP05': 50
                     },
                     'SW-28': {
-                        'PP08': 50
+                        'PP08': 50 // for Submittal 99.0 Video 7.1 for P-trap only.
                     }
                 },
                 "submittals": {
                     "tvi_pre_con": {
                         "submittal_no": "79.0",
                         "video_no": "20",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "99.0",
-                        "video_no": "7.1",
-                        "response": "NET",
+                        //"submittal_no": "99.0",
+                        //"video_no": "7.1",
+                        //"response": "NET",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47021,7 +47024,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "79.1",
                         "video_no": "3",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47079,7 +47082,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "79.1",
                         "video_no": "1",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47258,7 +47261,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -47490,7 +47493,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "58.1",
                         "video_no": "58",
-                        "response": "MCN - Do Not Replace",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -48643,8 +48646,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_016",
                 "id_b": "2450026",
-                "location": "2654 47TH AVE",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "2654 47th Ave",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -48706,7 +48709,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_017",
                 "id_b": "2450034",
-                "location": "2622 47TH AVE",
+                "location": "2622 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -48722,7 +48725,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -48769,8 +48772,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_018",
                 "id_b": "2450019D",
-                "location": "2686 47TH AVE",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "2686 47th Ave",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -48832,7 +48835,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_019",
                 "id_b": "none",
-                "location": "2643 46TH AVE",
+                "location": "2643 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
@@ -48895,8 +48898,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_020",
                 "id_b": "2450007",
-                "location": "2639 46TH AVE",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "2639 46th Ave",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -48958,7 +48961,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_021",
                 "id_b": "2450011",
-                "location": "2655 46TH AVE",
+                "location": "2655 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -48974,7 +48977,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -49021,7 +49024,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_022",
                 "id_b": "2451003",
-                "location": "2690 46TH AVE",
+                "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -49037,7 +49040,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -49084,7 +49087,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_023",
                 "id_b": "2451003",
-                "location": "2690 46TH AVE",
+                "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -49100,7 +49103,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -49147,8 +49150,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_024",
                 "id_b": "2447026",
-                "location": "3520 VICENTE ST",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "3520 Vicente St",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -49210,8 +49213,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_025",
                 "id_b": "2447027",
-                "location": "3526 VICENTE ST",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "3526 Vicente St",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -49273,8 +49276,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_026",
                 "id_b": "2447028",
-                "location": "3532 VICENTE ST",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "3532 Vicente St",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -49336,8 +49339,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_027",
                 "id_b": "2447029",
-                "location": "3538 VICENTE ST",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "3538 Vicente St",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {
@@ -49399,7 +49402,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_028",
                 "id_b": "2447016",
-                "location": "2563 46TH AVE",
+                "location": "2563 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -49415,7 +49418,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -49462,7 +49465,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_029",
                 "id_b": "2446039",
-                "location": "2554 46TH AVE",
+                "location": "2554 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-0': {
@@ -49478,7 +49481,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "none",
                         "video_no": "none",
-                        "response": "none",
+                        "response": "Email - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -49520,66 +49523,66 @@ var json_1070I_sw_lines = {
 
         //####################
 
-        {
-            "type": "Feature",
-            "properties": {
-                "id_a": "unknown_side_sewer_030",
-                "id_b": "2446041",
-                "location": "2546 46TH AVE",
-                "scope": "Improve (E) side sewer as directed",
-                "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
-                    }
-                },
-                "submittals": {
-                    "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    },
-                    "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
-                        get response_date() {
-                            return response_date_from_submittal_no(this.submittal_no)
-                        }
-                    }
-                },
-                "rlvnt": "none",
-                "sw_type": "ss",
-                get status() {
-                    return sw_line_status_from_line_object(this)
-                },
-                get pp_summary() {
-                    return payment_summary_from_pp_history(this.pp_history)
-                },
-                get bid_items() {
-                    return bid_item_flattener(this.pp_history)
-                },
-            },
-            "geometry": {
-                "type": "MultiLineString",
-                "coordinates": [
-                    [
-                        [-122.504348537832541, 37.739022669805706],
-                        [-122.504358488619431, 37.739022228660851]
-                    ]
-                ]
-            },
-            get asset_coordinate() {
-                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
-            }
-        },
+        // {
+        //     "type": "Feature",
+        //     "properties": {
+        //         "id_a": "unknown_side_sewer_030",
+        //         "id_b": "2446041",
+        //         "location": "2546 46th Ave",
+        //         "scope": "Improve (E) side sewer as directed",
+        //         "pp_history": {
+        //             'SW-0': {
+        //                 'PP0': {
+        //                     'SFPUC-SW': {
+        //                         'QTY': 0,
+        //                         'UNIT': ''
+        //                     }
+        //                 }
+        //             }
+        //         },
+        //         "submittals": {
+        //             "tvi_pre_con": {
+        //                 "submittal_no": "none",
+        //                 "video_no": "none",
+        //                 "response": "none",
+        //                 get response_date() {
+        //                     return response_date_from_submittal_no(this.submittal_no)
+        //                 }
+        //             },
+        //             "tvi_post_con": {
+        //                 "submittal_no": "none",
+        //                 "video_no": "none",
+        //                 "response": "none",
+        //                 get response_date() {
+        //                     return response_date_from_submittal_no(this.submittal_no)
+        //                 }
+        //             }
+        //         },
+        //         "rlvnt": "none",
+        //         "sw_type": "ss",
+        //         get status() {
+        //             return sw_line_status_from_line_object(this)
+        //         },
+        //         get pp_summary() {
+        //             return payment_summary_from_pp_history(this.pp_history)
+        //         },
+        //         get bid_items() {
+        //             return bid_item_flattener(this.pp_history)
+        //         },
+        //     },
+        //     "geometry": {
+        //         "type": "MultiLineString",
+        //         "coordinates": [
+        //             [
+        //                 [-122.504348537832541, 37.739022669805706],
+        //                 [-122.504358488619431, 37.739022228660851]
+        //             ]
+        //         ]
+        //     },
+        //     get asset_coordinate() {
+        //         return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+        //     }
+        // },
 
         //####################
 
@@ -49588,8 +49591,8 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "unknown_side_sewer_031",
                 "id_b": "2447005",
-                "location": "2519 46TH AVE",
-                "scope": "Improve (E) side sewer as directed",
+                "location": "2519 46th Ave",
+                "scope": "(E) to remain",
                 "pp_history": {
                     'SW-0': {
                         'PP0': {

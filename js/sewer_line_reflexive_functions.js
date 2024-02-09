@@ -95,7 +95,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
             }
 
 
-        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || 
+                   line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
@@ -131,7 +132,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
             }
 
-        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || line_obj.submittals.tvi_post_con.response == 'MCN') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || 
+                   line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
@@ -168,7 +170,7 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[10];
 
-            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Install Top Hat') {
+            } else if (line_obj.submittals.tvi_pre_con.response.includes('Install Top Hat')) {
 
                 return_string = sewer_status_code_array[17];
 
@@ -176,7 +178,7 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[18];
 
-            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Line (E) with CIPL') {
+            } else if (line_obj.submittals.tvi_pre_con.response.includes('Line (E) with CIPL')) {
 
                 return_string = sewer_status_code_array[8];
 
