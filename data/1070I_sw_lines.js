@@ -16238,7 +16238,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -18814,7 +18814,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -19108,6 +19108,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP07': 19 * 225
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -19120,9 +19123,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "104.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
