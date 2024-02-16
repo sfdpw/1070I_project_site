@@ -2993,14 +2993,17 @@ var json_1070I_sw_lines = {
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-09': {
-                        'PP08': 14.5 * 200
+                        'PP08': 300
                     },
                     'SW-26': {
                         'PP07': 50
                     },
                     'SW-28': {
                         'PP08': 50
-                    }
+                    },
+                    'SW-49': {
+                        'PP08': 2600
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -4581,7 +4584,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "P-388887",
                 "id_b": "none",
-                "location": "46th Ave - Between Wawona St and Vicente St",
+                "location": "Fronting 2646 46th Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-09': {
@@ -4645,7 +4648,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "P-388888",
                 "id_b": "none",
-                "location": "46th Ave - Between Wawona St and Vicente St",
+                "location": "Fronting 2647 46th Ave",
                 "scope": "Improve (E) culvert as directed",
                 "pp_history": {
                     'SW-26': {
@@ -13834,7 +13837,7 @@ var json_1070I_sw_lines = {
                 "coordinates": [
                     [
                         //[-122.505575553468475, 37.738771996368079],
-                        [-122.505577, 37.738768 ],
+                        [-122.505577, 37.738768],
                         [-122.50550253278, 37.738774001302453]
                     ]
                 ]
@@ -46916,10 +46919,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP05': 50
-                    },
-                    'SW-28': {
-                        'PP08': 50 // for Submittal 99.0 Video 7.1 for P-trap only.
                     }
+                  //  'SW-28': {
+                  //      'PP08': 50 // for Submittal 99.0 Video 7.1 for P-trap only.
+                  //  }
                 },
                 "submittals": {
                     "tvi_pre_con": {

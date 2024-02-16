@@ -1669,7 +1669,7 @@ var json_1070I_sw_points = {
                 "location": "47th Ave - Between Vicente St and Ulloa St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-23': {
+                    'SW-49': {
                         'PP08': 8500
                     }
                 },
