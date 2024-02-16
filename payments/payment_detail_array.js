@@ -72,7 +72,7 @@ for (const bid_item_entry of Object.entries(base_sov)) {
 
     payment_detail_array.push({
         'bid_item': bid_item_entry[0],
-        'linked_bid_item': linked_bid_item_string_geneator_for_payment_detail_table( bid_item_entry[0], bid_item_entry[1].linked_bi ),
+        'linked_bid_item': linked_bid_item_string_geneator_for_payment_detail_table(bid_item_entry[0], bid_item_entry[1].linked_bi),
         'description': bid_item_entry[1].description,
         'unit': bid_item_entry[1].unit,
         'qty': bid_item_entry[1].qty,
@@ -147,24 +147,18 @@ payment_detail_array[63].payment_history.PP05.period_amt = 985;
 
 var submittals_object = {};
 
-for (const ci of json_1070I_sw_points.features.concat(json_1070I_sw_lines.features, json_1070I_flatwork_polygons.features))
+for (const ci of json_1070I_sw_points.features.concat(json_1070I_sw_lines.features, json_1070I_flatwork_polygons.features)) {
 
-{
+    if (ci.properties.hasOwnProperty('submittals')) {
 
-    if ( ci.properties.hasOwnProperty('submittals') ) {
-        
-           submittals_object = structuredClone(ci.properties.submittals);
-        
-       }
+        submittals_object = structuredClone(ci.properties.submittals);
+
+    }
 
 
-    for (const bi of Object.entries(ci.properties.pp_history))
+    for (const bi of Object.entries(ci.properties.pp_history)) {
 
-    {
-
-        if (bi[0] != 'SW-0')
-
-        {
+        if (bi[0] != 'SW-0') {
 
             payment_detail_array[find_index_of_bid_item_in_payment_detail_array(bi[0])].construction_instances.push({
 
@@ -173,15 +167,15 @@ for (const ci of json_1070I_sw_points.features.concat(json_1070I_sw_lines.featur
                 'coordinates': structuredClone(ci.geometry.coordinates),
                 'pp_history': structuredClone(ci.properties.pp_history[bi[0]]),
                 'submittals': submittals_object
-           
+
             })
-            
-         for ( const pp of Object.entries(ci.properties.pp_history[bi[0]]) ) {
-         
-             payment_detail_array[find_index_of_bid_item_in_payment_detail_array(bi[0])].payment_history[pp[0]].period_amt += 
-                 structuredClone(ci.properties.pp_history[bi[0]][pp[0]])
-           
-           }
+
+            for (const pp of Object.entries(ci.properties.pp_history[bi[0]])) {
+
+                payment_detail_array[find_index_of_bid_item_in_payment_detail_array(bi[0])].payment_history[pp[0]].period_amt +=
+                    structuredClone(ci.properties.pp_history[bi[0]][pp[0]])
+
+            }
 
         }
 
@@ -193,25 +187,21 @@ for (const ci of json_1070I_sw_points.features.concat(json_1070I_sw_lines.featur
 
 var to_date_amt_bin = 0;
 
-for (const bid_item of payment_detail_array)
-
-{
+for (const bid_item of payment_detail_array) {
 
     to_date_amt_bin = 0;
 
-    for (const pp of Object.entries(empty_payment_history))
-
-     {
+    for (const pp of Object.entries(empty_payment_history)) {
 
         bid_item.payment_history[pp[0]].period_qty = bid_item.payment_history[pp[0]].period_amt / bid_item.unit_price;
-        
+
         to_date_amt_bin += bid_item.payment_history[pp[0]].period_amt;
         bid_item.payment_history[pp[0]].todate_amt = to_date_amt_bin;
-        
+
         bid_item.payment_history[pp[0]].todate_qty = bid_item.payment_history[pp[0]].todate_amt / bid_item.unit_price;
 
-        payment_summaries.period_totals[pp[0]].period_amt += bid_item.payment_history[pp[0]].period_amt;              
-        payment_summaries.period_totals[pp[0]].todate_amt += to_date_amt_bin;              
+        payment_summaries.period_totals[pp[0]].period_amt += bid_item.payment_history[pp[0]].period_amt;
+        payment_summaries.period_totals[pp[0]].todate_amt += to_date_amt_bin;
 
     }
 

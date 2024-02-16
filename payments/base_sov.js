@@ -115,7 +115,7 @@ var base_sov = {
 
     'SW-15': {
         'description': 'REMOVAL OF SIDE SEWER & CULVERT PROTRUSIONS & OTHER OBSTRUCTIONS PRIOR TO LINING WORK**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 39,
         'unit_price': 495

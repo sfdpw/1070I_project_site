@@ -1669,13 +1669,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave - Between Vicente St and Ulloa St",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-23': {
+                        'PP08': 8500
                     }
                 },
                 "rlvnt": "none",
