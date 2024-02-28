@@ -38,6 +38,15 @@ var json_ab_list = [
   '1070I_PP08_as_built_SW_07',
   '1070I_PP08_as_built_SW_08',
   '1070I_PP08_as_built_SW_09',
-  '1070I_PP08_as_built_SW_12'
- 
+  '1070I_PP08_as_built_SW_12',
+  '1070I_PP09_as_built_SW_03_a',
+  '1070I_PP09_as_built_SW_03_b',
+  '1070I_PP09_as_built_SW_05_a',
+  '1070I_PP09_as_built_SW_05_b',
+  '1070I_PP09_as_built_SW_06',
+  '1070I_PP09_as_built_SW_08_a',
+  '1070I_PP09_as_built_SW_08_b',
+  '1070I_PP09_as_built_SW_09',
+  '1070I_PP09_as_built_SW_11',
+  '1070I_PP09_as_built_SW_12'
 ]

@@ -22904,7 +22904,7 @@ var json_1070I_sw_lines = {
                     },
                     "tvi_post_con": {
                         "submittal_no": "107.0",
-                        "video_no": "12",
+                        "video_no": "11",
                         "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
@@ -29358,13 +29358,8 @@ var json_1070I_sw_lines = {
                 "location": "2595 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -29377,9 +29372,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "107.0",
+                        "video_no": "13",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -29421,8 +29416,8 @@ var json_1070I_sw_lines = {
                 "location": "2595 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-28': {
-                        'PP09': 50
+                    'SW-0': {
+                        'PP0': 0
                     }
                 },
                 "submittals": {
@@ -29435,9 +29430,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "107.0",
-                        "video_no": "13",
-                        "response": "NET",
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -41810,7 +41805,7 @@ var json_1070I_sw_lines = {
                     },
                     "tvi_post_con": {
                         "submittal_no": "107.0",
-                        "video_no": "11",
+                        "video_no": "12",
                         "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
