@@ -79,6 +79,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-15.html"><b>SW-15</b> - Protrusion Removal before CIPL</a>\
 				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21</b> - Side Sewer Reinstatement in Lined Main</a>\
+				   </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre-Con TVI of (E) Side Sewers and Culverts</a>\
 	               </li>\
@@ -91,25 +94,25 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	             <a class="dropdown-item" href="#">Mains &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) 12\" VCP Main </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-05.html"><b>SW-05</b> - (N) 12\" VCP Main</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-06.html"><b>SW-06</b> - (N) 15\" VCP Main </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-06.html"><b>SW-06</b> - (N) 15\" VCP Main</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-07.html"><b>SW-07</b> - (N) 18\" VCP Main </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-07.html"><b>SW-07</b> - (N) 18\" VCP Main</a>\
 	               </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-08.html"><b>SW-08</b> - (N) 21\" VCP Main </a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-08.html"><b>SW-08</b> - (N) 21\" VCP Main</a>\
 	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-18.html"><b>SW-18</b> - Line (E) 8\" Main</a>\
+				   </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25</b> - Pre-Con TVI of (E) Mains</a>\
 	               </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-27.html"><b>SW-27</b> - Post-Con TVI of Mains</a>\
-				   </li>\
-				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-29.html"><b>SW-29</b> - Plug and Fill (E) Mains</a>\
 				   </li>\
 	             </ul>\
 	           </li>\
@@ -132,7 +135,10 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	           <li>\
 	             <a class="dropdown-item" href="#">Misc. Sewer &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
-	               <li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-29.html"><b>SW-29</b> - Plug and Fill (E) Mains</a>\
+			       </li>\
+				   <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-49.html"><b>SW-49</b> - Unforeseen Allowance</a>\
 	               </li>\
 	             </ul>\

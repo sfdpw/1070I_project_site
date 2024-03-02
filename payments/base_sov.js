@@ -139,7 +139,7 @@ var base_sov = {
 
     'SW-18': {
         'description': 'LINE 8-INCH DIAMETER VCP OR ISP SEWER',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 4828,
         'unit_price': 93
@@ -163,7 +163,7 @@ var base_sov = {
 
     'SW-21': {
         'description': 'INTERNALLY RE-INSTATE SIDE SEWER AND CULVERTS IN LINED MAIN SEWER**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 259,
         'unit_price': 73

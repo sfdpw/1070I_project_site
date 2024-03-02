@@ -2211,13 +2211,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2249,13 +2244,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - Between Wawona St and Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2363,13 +2353,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 46th Ave Intersection",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2961,13 +2946,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 45th Ave - SWC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2999,13 +2979,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - North of Sloat Blvd",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3073,13 +3048,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3111,13 +3081,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - Between 46th Ave and 47th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3149,13 +3114,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 46th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3299,13 +3259,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3373,13 +3328,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - North of Sloat Blvd",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3444,13 +3394,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - West of 44th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3482,13 +3427,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - West of 44th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3520,13 +3460,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3558,13 +3493,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St - Between 44th Ave and 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3662,13 +3592,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 45th Ave - SEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3700,13 +3625,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 45th Ave - NEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3738,13 +3658,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 45th Ave - NWC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4000,13 +3915,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave and Cutler Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4076,13 +3986,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4340,13 +4245,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - South of Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4490,13 +4390,8 @@ var json_1070I_sw_points = {
                 "location": "45th Ave - South of Vicente St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4602,13 +4497,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4640,13 +4530,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St - West of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 300
                     }
                 },
                 "rlvnt": "none",
@@ -5234,13 +5119,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - East of 45th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",
@@ -5380,13 +5260,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd - West of 46th Ave",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP06': 300
                     }
                 },
                 "rlvnt": "none",

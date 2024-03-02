@@ -638,7 +638,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 1590
+                        'PP06': 900
                     }
                 },
                 "submittals": {
@@ -696,7 +696,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 300
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -754,7 +754,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 450
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -812,7 +812,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 840
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -870,7 +870,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 690
+                        'PP06': 300
                     }
                 },
                 "submittals": {
@@ -928,7 +928,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 990
+                        'PP06': 600
                     }
                 },
                 "submittals": {
@@ -986,7 +986,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 540
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -1044,7 +1044,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 300
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -1716,7 +1716,10 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-09': {
                         'PP01': 3800
-                    }
+                    },
+                    'SW-28': {
+                        'PP09': 50
+                    },
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -1728,9 +1731,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "19",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -2077,7 +2080,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 1500
+                        'PP06': 1050
                     }
                 },
                 "submittals": {
@@ -2509,7 +2512,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 420
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -2567,7 +2570,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 420
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -2625,7 +2628,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 120
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -2809,7 +2812,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 450
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -3238,7 +3241,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 120
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -3296,7 +3299,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 450
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -3416,6 +3419,9 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 46th Ave - North Side",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
+                    'SW-18': {
+                        'PP09': 93 * 43
+                    },
                     'SW-25': {
                         'PP01': 80
                     }
@@ -3472,6 +3478,9 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St - North Sidewalk between 46th Ave and 47th Ave",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
+                    'SW-18': {
+                        'PP09': 93 * 264
+                    },
                     'SW-25': {
                         'PP01': 520
                     }
@@ -3528,6 +3537,9 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 47th Ave - East Side",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
+                    'SW-18': {
+                        'PP09': 93 * 55
+                    },
                     'SW-25': {
                         'PP01': 110
                     }
@@ -4461,13 +4473,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - East Sidewalk between Wawona St and Vicente St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 307
                     }
                 },
                 "submittals": {
@@ -4524,13 +4531,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 351
                     }
                 },
                 "submittals": {
@@ -4772,13 +4774,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - East Sidewalk between Wawona St and Vicente St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 279
                     }
                 },
                 "submittals": {
@@ -4835,13 +4832,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - West Sidewalk between Wawona St and Vicente St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 280
                     }
                 },
                 "submittals": {
@@ -4898,13 +4890,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - West Sidewalk between Wawona St and Vicente St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 525
                     }
                 },
                 "submittals": {
@@ -4961,13 +4948,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - East Sidewalk between Wawona St and Vicente St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 313
                     }
                 },
                 "submittals": {
@@ -5024,13 +5006,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - East Sidewalk between Wawona St and Vicente St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 315
                     }
                 },
                 "submittals": {
@@ -5087,13 +5064,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - West Sidewalk between Wawona St and Vicente St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 525
                     }
                 },
                 "submittals": {
@@ -5272,7 +5244,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 840
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -5330,7 +5302,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 840
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -5388,7 +5360,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 750
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -5446,7 +5418,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 750
+                        'PP06': 450
                     }
                 },
                 "submittals": {
@@ -6120,13 +6092,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St  - South Sidewalk between 46th Ave and 47th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 525
                     }
                 },
                 "submittals": {
@@ -6183,13 +6150,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St  - North Sidewalk between 45th Ave and 46th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 375
                     }
                 },
                 "submittals": {
@@ -6246,13 +6208,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St  - Between 45th Ave and 46th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 525
                     }
                 },
                 "submittals": {
@@ -6309,13 +6266,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St  - South Sidewalk between 45th Ave and 46th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP09': 525
                     }
                 },
                 "submittals": {
@@ -7535,13 +7487,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 47th Ave - North Side",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 34
                     }
                 },
                 "submittals": {
@@ -7598,13 +7545,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St  - North Sidewalk between 46th Ave and 47th Ave",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 262
                     }
                 },
                 "submittals": {
@@ -7661,13 +7603,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - West Sidewalk between Vicente St and Ulloa St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 18
                     }
                 },
                 "submittals": {
@@ -7724,13 +7661,8 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 46th Ave - North Side",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 47
                     }
                 },
                 "submittals": {
@@ -7787,13 +7719,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - East Sidewalk between Vicente St and Ulloa St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 18
                     }
                 },
                 "submittals": {
@@ -9038,6 +8965,9 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - West Sidewalk between Vicente St and Ulloa St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
+                    'SW-18': {
+                        'PP09': 93 * 302
+                    },
                     'SW-25': {
                         'PP01': 604
                     }
@@ -9155,13 +9085,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - East Sidewalk between Vicente St and Ulloa St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 301
                     }
                 },
                 "submittals": {
@@ -10468,13 +10393,8 @@ var json_1070I_sw_lines = {
                 "location": "46th Ave - East Sidewalk between Vicente St and Ulloa St",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-18': {
+                        'PP09': 93 * 273
                     }
                 },
                 "submittals": {
@@ -10532,7 +10452,7 @@ var json_1070I_sw_lines = {
                 "scope": 'Abandon (E) main',
                 "pp_history": {
                     'SW-29': {
-                        'PP06': 390
+                        'PP06': 150
                     }
                 },
                 "submittals": {
@@ -12449,6 +12369,9 @@ var json_1070I_sw_lines = {
                 "location": "2658 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -12507,6 +12430,9 @@ var json_1070I_sw_lines = {
                 "location": "2662 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -12568,6 +12494,9 @@ var json_1070I_sw_lines = {
                 "location": "2666 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -12980,6 +12909,9 @@ var json_1070I_sw_lines = {
                 "location": "2670 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -13038,6 +12970,9 @@ var json_1070I_sw_lines = {
                 "location": "2674 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -13096,6 +13031,9 @@ var json_1070I_sw_lines = {
                 "location": "2678 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -13154,6 +13092,9 @@ var json_1070I_sw_lines = {
                 "location": "2682 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -13740,6 +13681,12 @@ var json_1070I_sw_lines = {
                 "location": "2563 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 17
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -13798,6 +13745,12 @@ var json_1070I_sw_lines = {
                 "location": "2559 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 14.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -13857,6 +13810,12 @@ var json_1070I_sw_lines = {
                 "location": "2559 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 14.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -13915,6 +13874,12 @@ var json_1070I_sw_lines = {
                 "location": "2555 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -13973,6 +13938,12 @@ var json_1070I_sw_lines = {
                 "location": "4515 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -14032,6 +14003,12 @@ var json_1070I_sw_lines = {
                 "location": "4515 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 17
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -14091,13 +14068,14 @@ var json_1070I_sw_lines = {
                 "location": "4521 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -14110,9 +14088,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "21",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -14154,13 +14132,14 @@ var json_1070I_sw_lines = {
                 "location": "4533 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 22
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -14173,9 +14152,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "24",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -14275,13 +14254,11 @@ var json_1070I_sw_lines = {
                 "location": "4539 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 25
                     }
                 },
                 "submittals": {
@@ -15652,6 +15629,9 @@ var json_1070I_sw_lines = {
                 "location": "2650 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -15710,6 +15690,9 @@ var json_1070I_sw_lines = {
                 "location": "2654 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -15768,6 +15751,9 @@ var json_1070I_sw_lines = {
                 "location": "2658 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -15829,6 +15815,9 @@ var json_1070I_sw_lines = {
                 "location": "2662 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -15887,6 +15876,9 @@ var json_1070I_sw_lines = {
                 "location": "2666 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -15945,6 +15937,9 @@ var json_1070I_sw_lines = {
                 "location": "2670 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -16976,6 +16971,9 @@ var json_1070I_sw_lines = {
                 "location": "2647 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -17037,6 +17035,9 @@ var json_1070I_sw_lines = {
                 "location": "2690 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-21": {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -17095,6 +17096,9 @@ var json_1070I_sw_lines = {
                 "location": "2694 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-21": {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -17156,6 +17160,9 @@ var json_1070I_sw_lines = {
                 "location": "2695 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     },
@@ -17333,6 +17340,9 @@ var json_1070I_sw_lines = {
                 "location": "3530 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -17391,6 +17401,9 @@ var json_1070I_sw_lines = {
                 "location": "3524 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -17507,6 +17520,12 @@ var json_1070I_sw_lines = {
                 "location": "2551 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -17565,6 +17584,12 @@ var json_1070I_sw_lines = {
                 "location": "2547 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -17623,6 +17648,12 @@ var json_1070I_sw_lines = {
                 "location": "2543 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 22
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -17681,6 +17712,12 @@ var json_1070I_sw_lines = {
                 "location": "2539 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    "SW-10": {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 22
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -17739,6 +17776,12 @@ var json_1070I_sw_lines = {
                 "location": "2535 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    "SW-10": {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 22
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -18118,6 +18161,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP07': 20 * 225
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -18130,9 +18176,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "17",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -18747,6 +18793,9 @@ var json_1070I_sw_lines = {
                 "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -20011,6 +20060,9 @@ var json_1070I_sw_lines = {
                 "location": "2600 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -20069,6 +20121,9 @@ var json_1070I_sw_lines = {
                 "location": "2601 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -20127,6 +20182,9 @@ var json_1070I_sw_lines = {
                 "location": "2607 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -20185,6 +20243,9 @@ var json_1070I_sw_lines = {
                 "location": "2611 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -20243,6 +20304,12 @@ var json_1070I_sw_lines = {
                 "location": "2531 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 22
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -20301,13 +20368,14 @@ var json_1070I_sw_lines = {
                 "location": "2527 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -20320,9 +20388,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20364,13 +20432,14 @@ var json_1070I_sw_lines = {
                 "location": "2523 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -20383,9 +20452,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20427,13 +20496,14 @@ var json_1070I_sw_lines = {
                 "location": "2519 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -20446,9 +20516,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20490,13 +20560,14 @@ var json_1070I_sw_lines = {
                 "location": "2515 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 17
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -20509,9 +20580,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20583,7 +20654,7 @@ var json_1070I_sw_lines = {
                 "rlvnt": "none",
                 'sw_type': 'ss',
                 get status() {
-                    return sw_line_status_from_line_object(this)
+                    return sw_line_status_from_line_object(this, '(E) Not Found')
                 },
                 get pp_summary() {
                     return payment_summary_from_pp_history(this.pp_history)
@@ -20616,13 +20687,14 @@ var json_1070I_sw_lines = {
                 "location": "2507 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -20635,9 +20707,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21044,6 +21116,9 @@ var json_1070I_sw_lines = {
                 "location": "2615 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     },
@@ -21105,6 +21180,9 @@ var json_1070I_sw_lines = {
                 "location": "2606 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -21226,6 +21304,9 @@ var json_1070I_sw_lines = {
                 "location": "2614 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -21284,6 +21365,9 @@ var json_1070I_sw_lines = {
                 "location": "2618 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -21342,6 +21426,9 @@ var json_1070I_sw_lines = {
                 "location": "2626 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -21400,6 +21487,9 @@ var json_1070I_sw_lines = {
                 "location": "2630 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -21458,6 +21548,9 @@ var json_1070I_sw_lines = {
                 "location": "2634 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22364,6 +22457,9 @@ var json_1070I_sw_lines = {
                 "location": "2638 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -22425,6 +22521,9 @@ var json_1070I_sw_lines = {
                 "location": "2650 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22483,6 +22582,9 @@ var json_1070I_sw_lines = {
                 "location": "2635 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22541,6 +22643,9 @@ var json_1070I_sw_lines = {
                 "location": "2631 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22599,6 +22704,9 @@ var json_1070I_sw_lines = {
                 "location": "2627 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -22657,6 +22765,9 @@ var json_1070I_sw_lines = {
                 "location": "2623 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22715,6 +22826,9 @@ var json_1070I_sw_lines = {
                 "location": "2619 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22773,6 +22887,9 @@ var json_1070I_sw_lines = {
                 "location": "2642 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22831,6 +22948,9 @@ var json_1070I_sw_lines = {
                 "location": "2646 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -22889,6 +23009,12 @@ var json_1070I_sw_lines = {
                 "location": "2591 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 8
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -22947,6 +23073,12 @@ var json_1070I_sw_lines = {
                 "location": "2583 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 13.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -23005,6 +23137,12 @@ var json_1070I_sw_lines = {
                 "location": "2579 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 10
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -23063,6 +23201,12 @@ var json_1070I_sw_lines = {
                 "location": "2575 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 15
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -23121,6 +23265,12 @@ var json_1070I_sw_lines = {
                 "location": "2571 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 14
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -23179,6 +23329,12 @@ var json_1070I_sw_lines = {
                 "location": "2567 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 14.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -23237,13 +23393,14 @@ var json_1070I_sw_lines = {
                 "location": "2538 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    "SW-10": {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -23256,9 +23413,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "14",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23300,13 +23457,14 @@ var json_1070I_sw_lines = {
                 "location": "2542 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -23319,9 +23477,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "16",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23426,13 +23584,11 @@ var json_1070I_sw_lines = {
                 "location": "2550 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 20
                     }
                 },
                 "submittals": {
@@ -23489,13 +23645,11 @@ var json_1070I_sw_lines = {
                 "location": "2554 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 20
                     }
                 },
                 "submittals": {
@@ -25584,13 +25738,11 @@ var json_1070I_sw_lines = {
                 "location": "4538 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 30
                     }
                 },
                 "submittals": {
@@ -25647,6 +25799,12 @@ var json_1070I_sw_lines = {
                 "location": "4532 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 30
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -25705,6 +25863,12 @@ var json_1070I_sw_lines = {
                 "location": "4526 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 29
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -25763,6 +25927,12 @@ var json_1070I_sw_lines = {
                 "location": "4520 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 29.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -25821,6 +25991,12 @@ var json_1070I_sw_lines = {
                 "location": "4514 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 31
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -29358,6 +29534,12 @@ var json_1070I_sw_lines = {
                 "location": "2595 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 10.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -29416,8 +29598,11 @@ var json_1070I_sw_lines = {
                 "location": "2595 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': 0
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 10.5
                     }
                 },
                 "submittals": {
@@ -29905,6 +30090,9 @@ var json_1070I_sw_lines = {
                 "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -31428,6 +31616,9 @@ var json_1070I_sw_lines = {
                 "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -31489,13 +31680,11 @@ var json_1070I_sw_lines = {
                 "location": "4538 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 28
                     }
                 },
                 "submittals": {
@@ -31552,6 +31741,12 @@ var json_1070I_sw_lines = {
                 "location": "4526 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 29
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -31610,6 +31805,12 @@ var json_1070I_sw_lines = {
                 "location": "4514 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 31
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -39655,13 +39856,14 @@ var json_1070I_sw_lines = {
                 "location": "2538 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    "SW-10": {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -39674,9 +39876,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "13",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -39718,13 +39920,14 @@ var json_1070I_sw_lines = {
                 "location": "2542 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -39737,9 +39940,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "15",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -39844,13 +40047,11 @@ var json_1070I_sw_lines = {
                 "location": "2550 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
                     }
                 },
                 "submittals": {
@@ -39907,13 +40108,11 @@ var json_1070I_sw_lines = {
                 "location": "2554 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 24
                     }
                 },
                 "submittals": {
@@ -40600,13 +40799,14 @@ var json_1070I_sw_lines = {
                 "location": "2507 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -40619,9 +40819,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40663,13 +40863,14 @@ var json_1070I_sw_lines = {
                 "location": "2511 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 18
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -40682,9 +40883,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40726,13 +40927,14 @@ var json_1070I_sw_lines = {
                 "location": "2515 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -40745,9 +40947,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40786,16 +40988,17 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368077",
                 "id_b": "2448001C",
-                "location": "2515 47th Ave",
+                "location": "2519 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -40808,9 +41011,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40852,13 +41055,14 @@ var json_1070I_sw_lines = {
                 "location": "2523 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -40871,9 +41075,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40915,13 +41119,14 @@ var json_1070I_sw_lines = {
                 "location": "2527 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 18.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -40934,9 +41139,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "12",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40978,6 +41183,12 @@ var json_1070I_sw_lines = {
                 "location": "2531 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 18.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41036,6 +41247,12 @@ var json_1070I_sw_lines = {
                 "location": "2535 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    "SW-10": {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41094,6 +41311,12 @@ var json_1070I_sw_lines = {
                 "location": "2539 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    "SW-10": {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41152,6 +41375,12 @@ var json_1070I_sw_lines = {
                 "location": "2543 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41210,6 +41439,12 @@ var json_1070I_sw_lines = {
                 "location": "2547 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41268,6 +41503,12 @@ var json_1070I_sw_lines = {
                 "location": "2551 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 16.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41326,6 +41567,12 @@ var json_1070I_sw_lines = {
                 "location": "2555 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 18
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41384,6 +41631,12 @@ var json_1070I_sw_lines = {
                 "location": "2563 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 14
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41442,6 +41695,12 @@ var json_1070I_sw_lines = {
                 "location": "2567 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 15.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41500,6 +41759,12 @@ var json_1070I_sw_lines = {
                 "location": "2571 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 11.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41558,6 +41823,12 @@ var json_1070I_sw_lines = {
                 "location": "2575 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 15.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41616,6 +41887,12 @@ var json_1070I_sw_lines = {
                 "location": "2579 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 13
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41674,6 +41951,12 @@ var json_1070I_sw_lines = {
                 "location": "2587 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 8
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41732,6 +42015,12 @@ var json_1070I_sw_lines = {
                 "location": "2587 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 11
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41790,6 +42079,12 @@ var json_1070I_sw_lines = {
                 "location": "2591 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 11.5
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -41848,6 +42143,12 @@ var json_1070I_sw_lines = {
                 "location": "2583 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 12
+                    },
                     'SW-28': {
                         'PP09': 50
                     }
@@ -43039,6 +43340,9 @@ var json_1070I_sw_lines = {
                 "location": "2691 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -43230,6 +43534,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP07': 23.5 * 225
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -43242,9 +43549,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "18",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44310,13 +44617,11 @@ var json_1070I_sw_lines = {
                 "location": "4539 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 21
                     }
                 },
                 "submittals": {
@@ -44373,13 +44678,14 @@ var json_1070I_sw_lines = {
                 "location": "4533 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 24
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -44392,9 +44698,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "25",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44436,13 +44742,14 @@ var json_1070I_sw_lines = {
                 "location": "4527 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -44455,9 +44762,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "22",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44499,13 +44806,14 @@ var json_1070I_sw_lines = {
                 "location": "4527 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -44518,9 +44826,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "23",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44562,13 +44870,14 @@ var json_1070I_sw_lines = {
                 "location": "4521 Ulloa St",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 19.5
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -44581,9 +44890,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "20",
+                        "response": "R&R",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44625,13 +44934,11 @@ var json_1070I_sw_lines = {
                 "location": "2500 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 25
                     }
                 },
                 "submittals": {
@@ -44688,13 +44995,14 @@ var json_1070I_sw_lines = {
                 "location": "2500 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-11': {
+                        'PP09': 150
+                    },
+                    'SW-12': {
+                        'PP09': 225 * 24
+                    },
+                    'SW-28': {
+                        'PP09': 50
                     }
                 },
                 "submittals": {
@@ -44707,9 +45015,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "108.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46061,13 +46369,8 @@ var json_1070I_sw_lines = {
                 "location": "2631 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -46477,6 +46780,9 @@ var json_1070I_sw_lines = {
                 "location": "2651 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -46535,6 +46841,9 @@ var json_1070I_sw_lines = {
                 "location": "2654 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -46593,6 +46902,9 @@ var json_1070I_sw_lines = {
                 "location": "2658 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -46651,6 +46963,9 @@ var json_1070I_sw_lines = {
                 "location": "2662 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -46711,6 +47026,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-12': {
                         'PP08': 12 * 225
+                    },
+                    'SW-21': {
+                        'PP09': 73
                     },
                     'SW-26': {
                         'PP04': 50
@@ -46774,6 +47092,9 @@ var json_1070I_sw_lines = {
                 "location": "2666 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -46832,6 +47153,9 @@ var json_1070I_sw_lines = {
                 "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -46890,6 +47214,9 @@ var json_1070I_sw_lines = {
                 "location": "2659 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -46954,6 +47281,9 @@ var json_1070I_sw_lines = {
                 "location": "2663 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -47012,6 +47342,9 @@ var json_1070I_sw_lines = {
                 "location": "2667 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -47070,6 +47403,9 @@ var json_1070I_sw_lines = {
                 "location": "2671 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -47128,6 +47464,9 @@ var json_1070I_sw_lines = {
                 "location": "2675 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -47186,13 +47525,8 @@ var json_1070I_sw_lines = {
                 "location": "2679 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -47249,6 +47583,9 @@ var json_1070I_sw_lines = {
                 "location": "2683 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -47307,6 +47644,9 @@ var json_1070I_sw_lines = {
                 "location": "2687 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -47365,6 +47705,9 @@ var json_1070I_sw_lines = {
                 "location": "2695 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -47729,6 +48072,9 @@ var json_1070I_sw_lines = {
                 "location": "2643 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -48281,6 +48627,9 @@ var json_1070I_sw_lines = {
                 "location": "2650 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     "SW-26": {
                         "PP04": 50
                     }
@@ -48339,6 +48688,9 @@ var json_1070I_sw_lines = {
                 "location": "2610 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -48400,6 +48752,9 @@ var json_1070I_sw_lines = {
                 "location": "3536 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     },
@@ -48461,6 +48816,9 @@ var json_1070I_sw_lines = {
                 "location": "3518 Wawona St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     },
@@ -48587,13 +48945,8 @@ var json_1070I_sw_lines = {
                 "location": "2654 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -48650,13 +49003,8 @@ var json_1070I_sw_lines = {
                 "location": "2622 47th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -48713,13 +49061,8 @@ var json_1070I_sw_lines = {
                 "location": "2686 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -48839,13 +49182,8 @@ var json_1070I_sw_lines = {
                 "location": "2639 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -48902,13 +49240,8 @@ var json_1070I_sw_lines = {
                 "location": "2655 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -48965,13 +49298,8 @@ var json_1070I_sw_lines = {
                 "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -49028,13 +49356,8 @@ var json_1070I_sw_lines = {
                 "location": "2690 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {

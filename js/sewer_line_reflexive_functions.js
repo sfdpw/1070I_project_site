@@ -95,8 +95,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
             }
 
 
-        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || 
-                   line_obj.submittals.tvi_post_con.response == 'MCN') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' ||
+            line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
@@ -110,7 +110,11 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
         if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            if (line_obj.submittals.tvi_pre_con.response == 'none') {
+            if (line_obj.pp_history.hasOwnProperty('SW-18')) {
+
+                return_string = sewer_status_code_array[3];
+
+            } else if (line_obj.submittals.tvi_pre_con.response == 'none') {
 
                 return_string = sewer_status_code_array[7];
 
@@ -132,8 +136,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
             }
 
-        } else if (line_obj.submittals.tvi_post_con.response == 'NET' || 
-                   line_obj.submittals.tvi_post_con.response == 'MCN') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'NET' ||
+            line_obj.submittals.tvi_post_con.response == 'MCN') {
 
             return_string = sewer_status_code_array[4];
 
@@ -165,8 +169,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
                 return_string = sewer_status_code_array[9];
 
-            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' || 
-                       line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
+            } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Replace' ||
+                line_obj.submittals.tvi_pre_con.response == 'Replace (per Email)') {
 
                 return_string = sewer_status_code_array[10];
 

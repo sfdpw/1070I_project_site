@@ -52,7 +52,17 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
 
         }
 
-    } else if (point_scope.includes('Remove (E)') || point_scope.includes('Abandon (E)')) {
+    } else if ( point_scope.includes('Abandon (E)')) {
+
+        return_string = sewer_status_code_array[6];
+
+        if (payment_obj.hasOwnProperty('SW-29')) {
+
+            return_string = sewer_status_code_array[15];
+
+        }
+
+    } else if ( point_scope.includes('Remove (E)') ) {
 
         return_string = sewer_status_code_array[2];
 
