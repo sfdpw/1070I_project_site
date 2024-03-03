@@ -11720,8 +11720,8 @@ var json_1070I_sw_lines = {
                 "location": "2606 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': 0
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
@@ -11778,6 +11778,9 @@ var json_1070I_sw_lines = {
                 "location": "2610 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -11836,6 +11839,9 @@ var json_1070I_sw_lines = {
                 "location": "2614 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-21": {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -11894,6 +11900,9 @@ var json_1070I_sw_lines = {
                 "location": "2618 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    "SW-21": {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -11952,6 +11961,9 @@ var json_1070I_sw_lines = {
                 "location": "2622 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -12010,6 +12022,9 @@ var json_1070I_sw_lines = {
                 "location": "2626 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -12068,6 +12083,9 @@ var json_1070I_sw_lines = {
                 "location": "2630 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -12126,6 +12144,9 @@ var json_1070I_sw_lines = {
                 "location": "2634 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -12187,6 +12208,9 @@ var json_1070I_sw_lines = {
                 "location": "2638 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -12555,6 +12579,9 @@ var json_1070I_sw_lines = {
                 "location": "2538 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -12613,6 +12640,9 @@ var json_1070I_sw_lines = {
                 "location": "2542 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     },
@@ -12674,6 +12704,9 @@ var json_1070I_sw_lines = {
                 "location": "2546 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     },
@@ -12735,6 +12768,9 @@ var json_1070I_sw_lines = {
                 "location": "2550 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -12793,6 +12829,9 @@ var json_1070I_sw_lines = {
                 "location": "2554 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -12851,6 +12890,9 @@ var json_1070I_sw_lines = {
                 "location": "2558 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -14196,6 +14238,9 @@ var json_1070I_sw_lines = {
                 "location": "2562 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -15062,6 +15107,9 @@ var json_1070I_sw_lines = {
                 "location": "2642 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -15507,6 +15555,9 @@ var json_1070I_sw_lines = {
                 "location": "2646 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -16370,6 +16421,9 @@ var json_1070I_sw_lines = {
                 "location": "2566 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -16431,6 +16485,9 @@ var json_1070I_sw_lines = {
                 "location": "2570 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -16489,6 +16546,9 @@ var json_1070I_sw_lines = {
                 "location": "2574 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -16547,6 +16607,9 @@ var json_1070I_sw_lines = {
                 "location": "2578 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -16608,6 +16671,9 @@ var json_1070I_sw_lines = {
                 "location": "2582 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -16666,6 +16732,9 @@ var json_1070I_sw_lines = {
                 "location": "2586 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -16724,6 +16793,9 @@ var json_1070I_sw_lines = {
                 "location": "2590 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -16782,6 +16854,9 @@ var json_1070I_sw_lines = {
                 "location": "2594 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -20814,6 +20889,9 @@ var json_1070I_sw_lines = {
                 "location": "3532 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP03': 50
                     },
@@ -20875,6 +20953,9 @@ var json_1070I_sw_lines = {
                 "location": "3526 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP03': 50
                     }
@@ -20933,6 +21014,9 @@ var json_1070I_sw_lines = {
                 "location": "3520 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP03': 50
                     },
@@ -20994,6 +21078,9 @@ var json_1070I_sw_lines = {
                 "location": "3514 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -21609,6 +21696,9 @@ var json_1070I_sw_lines = {
                 "location": "2500 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -21667,6 +21757,9 @@ var json_1070I_sw_lines = {
                 "location": "2506 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -21725,6 +21818,9 @@ var json_1070I_sw_lines = {
                 "location": "2510 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP05': 50
                     }
@@ -21783,6 +21879,9 @@ var json_1070I_sw_lines = {
                 "location": "2514 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -21841,6 +21940,9 @@ var json_1070I_sw_lines = {
                 "location": "2518 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -21899,6 +22001,9 @@ var json_1070I_sw_lines = {
                 "location": "2522 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -21957,6 +22062,9 @@ var json_1070I_sw_lines = {
                 "location": "2526 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -22015,6 +22123,9 @@ var json_1070I_sw_lines = {
                 "location": "2530 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -22076,6 +22187,9 @@ var json_1070I_sw_lines = {
                 "location": "2534 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     },
@@ -23769,6 +23883,9 @@ var json_1070I_sw_lines = {
                 "location": "2559 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -23827,6 +23944,9 @@ var json_1070I_sw_lines = {
                 "location": "2555 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -23885,6 +24005,9 @@ var json_1070I_sw_lines = {
                 "location": "2551 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -24906,6 +25029,9 @@ var json_1070I_sw_lines = {
                 "location": "2591 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -24964,6 +25090,9 @@ var json_1070I_sw_lines = {
                 "location": "2587 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -25022,6 +25151,9 @@ var json_1070I_sw_lines = {
                 "location": "2583 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -25080,6 +25212,9 @@ var json_1070I_sw_lines = {
                 "location": "2579 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 25
                     }
@@ -25138,6 +25273,9 @@ var json_1070I_sw_lines = {
                 "location": "2575 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -25196,6 +25334,9 @@ var json_1070I_sw_lines = {
                 "location": "2571 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -25254,6 +25395,9 @@ var json_1070I_sw_lines = {
                 "location": "2567 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -25312,6 +25456,9 @@ var json_1070I_sw_lines = {
                 "location": "2563 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -25496,6 +25643,9 @@ var json_1070I_sw_lines = {
                 "location": "2595 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     }
@@ -25554,6 +25704,9 @@ var json_1070I_sw_lines = {
                 "location": "3538 Vicente St",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP03': 50
                     }
@@ -45562,6 +45715,9 @@ var json_1070I_sw_lines = {
                 "location": "2600 46th Ave",
                 "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    },
                     'SW-26': {
                         'PP04': 50
                     },
@@ -45749,13 +45905,8 @@ var json_1070I_sw_lines = {
                 "location": "2606 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "submittals": {
