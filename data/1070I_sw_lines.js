@@ -11720,8 +11720,8 @@ var json_1070I_sw_lines = {
                 "location": "2606 46th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-21': {
-                        'PP09': 73
+                    'SW-0': {
+                        'PP0': 0
                     }
                 },
                 "submittals": {
