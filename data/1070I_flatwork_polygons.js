@@ -3891,6 +3891,735 @@ var json_1070I_flatwork_polygons = {
             }
         },
 
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_001",
+                "location": "2600 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 59
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504296837894842, 37.737899365870007],
+                            [-122.504265388197624, 37.737900937520507],
+                            [-122.504264427534892, 37.737883464183639],
+                            [-122.50429579317408, 37.737882248646997],
+                            [-122.504296837894842, 37.737899365870007]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_002",
+                "location": "2615 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 59
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504422000244432, 37.737683963966745],
+                            [-122.504453894248172, 37.737682520513097],
+                            [-122.504455143109766, 37.737699765983727],
+                            [-122.504423249106026, 37.737701741235611],
+                            [-122.504422000244432, 37.737683963966745]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_003",
+                "location": "2634 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 49
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504260942463986, 37.737356489196905],
+                            [-122.504251654079795, 37.737356900987855],
+                            [-122.504252371217504, 37.737365742956811],
+                            [-122.504241174159176, 37.737366131255961],
+                            [-122.504239528724938, 37.737339924969575],
+                            [-122.504260246134464, 37.737339433982243],
+                            [-122.504260942463986, 37.737356489196905]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_004",
+                "location": "2638 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 45
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504256135725839, 37.737263953391135],
+                            [-122.504257395110741, 37.737289686274202],
+                            [-122.504246891864511, 37.737290268723505],
+                            [-122.50424631546683, 37.737281658602946],
+                            [-122.504236580750856, 37.737282063785109],
+                            [-122.504235418316313, 37.737264444378972],
+                            [-122.504256135725839, 37.737263953391135]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_005",
+                "location": "2643 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 75
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504389770008586, 37.737205989344638],
+                            [-122.504401682226884, 37.737205514521293],
+                            [-122.504401442061393, 37.737202513637712],
+                            [-122.504424017636325, 37.737201393054583],
+                            [-122.504425074365187, 37.737225628035333],
+                            [-122.504390634605102, 37.737226729625164],
+                            [-122.504389770008586, 37.737205989344638]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_006",
+                "location": "2642 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 36
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504251869836551, 37.737222408780738],
+                            [-122.504231801025341, 37.737223090105054],
+                            [-122.504230456097488, 37.737205844523402],
+                            [-122.504250756574677, 37.737205361100592],
+                            [-122.504251869836551, 37.737222408780738]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_007",
+                "location": "2647 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 31
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504407614319618, 37.737155696039579],
+                            [-122.504395449927202, 37.737156175611403],
+                            [-122.504395312582488, 37.737153684567723],
+                            [-122.504386924045107, 37.737154003293149],
+                            [-122.504386032938214, 37.737138413134197],
+                            [-122.504406677673416, 37.737137956625489],
+                            [-122.504407614319618, 37.737155696039579]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_008",
+                "location": "2659 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 33
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504392856137642, 37.736943133800267],
+                            [-122.504372922385315, 37.736943817548294],
+                            [-122.504371889672811, 37.736925840670885],
+                            [-122.504391781868321, 37.736925328756712],
+                            [-122.504392856137642, 37.736943133800267]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_009",
+                "location": "2658 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 57
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504234962171878, 37.736946327045466],
+                            [-122.504219493863843, 37.736946794540508],
+                            [-122.504218162038214, 37.736929679483566],
+                            [-122.504233848910033, 37.736929279301748],
+                            [-122.504234962171878, 37.736946327045466]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_010",
+                "location": "2690 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 30
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504216421695617, 37.736663209855493],
+                            [-122.504205542090972, 37.736663530002097],
+                            [-122.504203973403762, 37.736636717718824],
+                            [-122.504214650597149, 37.736636397572099],
+                            [-122.504216421695617, 37.736663209855493]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_011",
+                "location": "2690 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 36
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504213827591073, 37.736612201433019],
+                            [-122.504193041215714, 37.736613394360667],
+                            [-122.504191548013708, 37.736595933666607],
+                            [-122.504212714329228, 37.736595153612363],
+                            [-122.504213827591073, 37.736612201433019]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_06_012",
+                "location": "2690 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 54
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504208171998584, 37.736523996231938],
+                            [-122.504176968573162, 37.736525674311295],
+                            [-122.50417649602322, 37.736517200694621],
+                            [-122.504186986069811, 37.736516660205382],
+                            [-122.5041857344645, 37.736501283670094],
+                            [-122.504194842283397, 37.736500886662043],
+                            [-122.504195543352111, 37.736511022777989],
+                            [-122.504207279903198, 37.736510422684837],
+                            [-122.504208171998584, 37.736523996231938]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_08_001",
+                "location": "2594 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 51
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.50431328722452, 37.738180008244925],
+                            [-122.504315953852043, 37.738216695300444],
+                            [-122.504293353060746, 37.738218005831278],
+                            [-122.504292258735234, 37.738198902387133],
+                            [-122.504302745970406, 37.738198421239261],
+                            [-122.50430148109777, 37.738176415052024],
+                            [-122.50431328722452, 37.738180008244925]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_11_001",
+                "location": "2530 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 42
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504381901147184, 37.739290230804365],
+                            [-122.504359921090995, 37.739290543054352],
+                            [-122.504359526239696, 37.739273161136147],
+                            [-122.504381506295843, 37.739272848886074],
+                            [-122.504381901147184, 37.739290230804365]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_11_002",
+                "location": "2534 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 54
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504376879578444, 37.739199725472346],
+                            [-122.504377410762046, 37.739207894749057],
+                            [-122.504387673070994, 37.739207466997868],
+                            [-122.504388272276813, 37.739215643962332],
+                            [-122.504357281283262, 37.739216904149941],
+                            [-122.50435568773247, 37.739192396320071],
+                            [-122.504366018063664, 37.739191976257402],
+                            [-122.504366549247237, 37.739200145534973],
+                            [-122.504376879578444, 37.739199725472346]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_11_003",
+                "location": "2542 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 52
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504368234210943, 37.739085430027394],
+                            [-122.504347578344252, 37.73908634390834],
+                            [-122.504346511181396, 37.739069931572757],
+                            [-122.504377502174947, 37.739068671382647],
+                            [-122.504378033358549, 37.739076840673839],
+                            [-122.50436770302737, 37.739077260737155],
+                            [-122.504368234210943, 37.739085430027394]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_11_004",
+                "location": "2546 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 36
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504354178634358, 37.739031895574463],
+                            [-122.504352393774596, 37.739007330851571],
+                            [-122.504373147701813, 37.739006486931679],
+                            [-122.504374741252619, 37.739030994823104],
+                            [-122.504354178634358, 37.739031895574463]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_11_005",
+                "location": "2566 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 57
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504316798211264, 37.738664479649643],
+                            [-122.504315722472825, 37.738647935331841],
+                            [-122.504346713466376, 37.738646675134561],
+                            [-122.504347775833551, 37.73866301380918],
+                            [-122.504316798211264, 37.738664479649643]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-34_SW_11_006",
+                "location": "2578 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-34': {
+                        'PP09': 71
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504301015348801, 37.738468568503222],
+                            [-122.504299939610348, 37.73845202414163],
+                            [-122.504321534218306, 37.738451134060973],
+                            [-122.504332090135662, 37.738448959591189],
+                            [-122.504333894678268, 37.738473585237521],
+                            [-122.504322935899438, 37.738471484811299],
+                            [-122.504322583107282, 37.738467543214135],
+                            [-122.504301015348801, 37.738468568503222]
+                        ]
+                    ]
+                ]
+            }
+        },
+
         // ######## 
 
         {
@@ -5765,7 +6494,158 @@ var json_1070I_flatwork_polygons = {
                     ]
                 ]
             }
-        }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-37_SW_06_001",
+                "location": "2634 46th Ave",
+                "scope": "Curb",
+                "pp_a_qty": {
+                    'SW-37': {
+                        'PP09': 10
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504259725624522, 37.737326685118127],
+                            [-122.504261374762237, 37.73732663236008],
+                            [-122.504262623623816, 37.737356413225342],
+                            [-122.504260942463986, 37.737356489196905],
+                            [-122.504259725624522, 37.737326685118127]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-37_SW_06_002",
+                "location": "2690 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-37': {
+                        'PP09': 10
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504213827591073, 37.736612201433019],
+                            [-122.504212714329228, 37.736595153612363],
+                            [-122.504212626798179, 37.736593187997478],
+                            [-122.504213815618343, 37.736593150011302],
+                            [-122.50421513652968, 37.736612603681863],
+                            [-122.504213863651486, 37.736612703395558],
+                            [-122.504213827591073, 37.736612201433019]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-37_SW_06_003",
+                "location": "2690 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-37': {
+                        'PP09': 12
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504208772228026, 37.73653312893385],
+                            [-122.504206598728402, 37.736500058367596],
+                            [-122.504208279372193, 37.736499965219721],
+                            [-122.504210372894633, 37.736533017682873],
+                            [-122.504208772228026, 37.73653312893385]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // ##############
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "SW-37_SW_11_001",
+                "location": "2542 46th Ave",
+                "scope": "Sidewalk",
+                "pp_a_qty": {
+                    'SW-37': {
+                        'PP09': 6
+                    }
+                },
+                get pp_history() {
+                    return pp_history_from_pp_qty_history(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                "status": "Post-Construction"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.504378033358549, 37.739076840673839],
+                            [-122.504377502174947, 37.739068671382647],
+                            [-122.50437692114491, 37.739060313751423],
+                            [-122.504378530255053, 37.739060237781601],
+                            [-122.504379614002701, 37.739076765966161],
+                            [-122.504378033358549, 37.739076840673839]
+                        ]
+                    ]
+                ]
+            }
+        },
 
     ]
 }
