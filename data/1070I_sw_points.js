@@ -983,13 +983,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 46th Ave - NWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "rlvnt": "none",
@@ -5043,13 +5038,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 46th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-21': {
+                        'PP09': 73
                     }
                 },
                 "rlvnt": "none",

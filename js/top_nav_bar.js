@@ -79,9 +79,6 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-15.html"><b>SW-15</b> - Protrusion Removal before CIPL</a>\
 				   </li>\
-				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21</b> - Side Sewer Reinstatement in Lined Main</a>\
-				   </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre-Con TVI of (E) Side Sewers and Culverts</a>\
 	               </li>\
@@ -135,6 +132,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	           <li>\
 	             <a class="dropdown-item" href="#">Misc. Sewer &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21</b> - Side Sewer Reinstatement in Lined Main</a>\
+			       </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-29.html"><b>SW-29</b> - Plug and Fill (E) Mains</a>\
 			       </li>\

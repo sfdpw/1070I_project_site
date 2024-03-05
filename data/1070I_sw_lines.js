@@ -13253,6 +13253,64 @@ var json_1070I_sw_lines = {
         {
             "type": "Feature",
             "properties": {
+                "id_a": "unknown_side_sewer_035",
+                "id_b": "2450018A",
+                "location": "2687 46th Ave",
+                "scope": "(E) to remain",
+                "pp_history": {
+                    'SW-21': {
+                        'PP09': 73
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [ -122.504342449442944, 37.736461594564837 ], 
+                        [ -122.504231664963271, 37.7364668946677 ]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
                 "id_a": "L-197090",
                 "id_b": "2450018",
                 "location": "2683 46th Ave",
