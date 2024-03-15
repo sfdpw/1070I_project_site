@@ -60,6 +60,12 @@ var empty_payment_history = {
         'period_amt': 0,
         'todate_qty': 0,
         'todate_amt': 0
+    },
+    'PP10': {
+        'period_qty': 0,
+        'period_amt': 0,
+        'todate_qty': 0,
+        'todate_amt': 0
     }
 }
 

@@ -100,7 +100,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
             return_string = sewer_status_code_array[4];
 
-        } else if (line_obj.submittals.tvi_post_con.response == 'R&R') {
+        } else if (line_obj.submittals.tvi_post_con.response == 'R&R' ||
+            line_obj.submittals.tvi_post_con.response == 'SUB') {
 
             return_string = sewer_status_code_array[5];
 

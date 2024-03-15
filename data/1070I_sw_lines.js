@@ -13305,8 +13305,8 @@ var json_1070I_sw_lines = {
                 "type": "MultiLineString",
                 "coordinates": [
                     [
-                        [ -122.504342449442944, 37.736461594564837 ], 
-                        [ -122.504231664963271, 37.7364668946677 ]
+                        [-122.504342449442944, 37.736461594564837],
+                        [-122.504231664963271, 37.7364668946677]
                     ]
                 ]
             },
@@ -14986,13 +14986,8 @@ var json_1070I_sw_lines = {
                 "location": "2530 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -15005,9 +15000,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -15049,13 +15044,8 @@ var json_1070I_sw_lines = {
                 "location": "2534 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -15068,9 +15058,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23704,13 +23694,8 @@ var json_1070I_sw_lines = {
                 "location": "2546 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -23723,9 +23708,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23772,6 +23757,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -23784,9 +23772,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23833,6 +23821,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -23845,9 +23836,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23889,13 +23880,8 @@ var json_1070I_sw_lines = {
                 "location": "2558 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -23908,9 +23894,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "12",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -39952,13 +39938,8 @@ var json_1070I_sw_lines = {
                 "location": "2530 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -39971,9 +39952,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "2",
+                        "response": "SUB",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40015,13 +39996,8 @@ var json_1070I_sw_lines = {
                 "location": "2534 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -40034,9 +40010,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40203,16 +40179,11 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368061",
                 "id_b": "2447043",
-                "location": "2542 47th Ave",
+                "location": "2546 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -40225,9 +40196,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40274,6 +40245,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -40286,9 +40260,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40335,6 +40309,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 24
+                    },
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -40347,9 +40324,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -40391,13 +40368,8 @@ var json_1070I_sw_lines = {
                 "location": "2558 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP10': 50
                     }
                 },
                 "submittals": {
@@ -40410,9 +40382,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "111.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
