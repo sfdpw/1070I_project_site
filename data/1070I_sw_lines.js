@@ -7093,7 +7093,7 @@ var json_1070I_sw_lines = {
                     "tvi_pre_con": {
                         "submittal_no": "82.0",
                         "video_no": "8",
-                        "response": "MCN - Line (E) with CIPL",
+                        "response": "MCN - Do Not Replace",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
