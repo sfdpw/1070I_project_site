@@ -23,7 +23,7 @@ var json_ab_list = [
   '1070I_PP06_as_built_SW_01',
   '1070I_PP06_as_built_SW_02',
   '1070I_PP06_as_built_SW_04_a',
-  '1070I_PP06_as_built_SW_04_b',  
+  '1070I_PP06_as_built_SW_04_b',
   '1070I_PP06_as_built_SW_07_a',
   '1070I_PP06_as_built_SW_07_b',
   '1070I_PP06_as_built_CR_05',
@@ -33,7 +33,7 @@ var json_ab_list = [
   '1070I_PP07_as_built_SW_07',
   '1070I_PP07_as_built_SW_08',
   '1070I_PP07_as_built_SW_09',
-  '1070I_PP07_as_built_CR_04',  
+  '1070I_PP07_as_built_CR_04',
   '1070I_PP08_as_built_SW_06',
   '1070I_PP08_as_built_SW_07',
   '1070I_PP08_as_built_SW_08',
@@ -48,5 +48,12 @@ var json_ab_list = [
   '1070I_PP09_as_built_SW_08_b',
   '1070I_PP09_as_built_SW_09',
   '1070I_PP09_as_built_SW_11',
-  '1070I_PP09_as_built_SW_12'
+  '1070I_PP09_as_built_SW_12',
+  '1070I_PP10_as_built_CR_05',
+  '1070I_PP10_as_built_SW_01',
+  '1070I_PP10_as_built_SW_02',
+  '1070I_PP10_as_built_SW_03',
+  '1070I_PP10_as_built_SW_04',
+  '1070I_PP10_as_built_SW_07',
+  '1070I_PP10_as_built_SW_08'
 ]
