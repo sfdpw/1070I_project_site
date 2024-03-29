@@ -108,6 +108,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-18.html"><b>SW-18</b> - Line (E) 8\" Main</a>\
 				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-19.html"><b>SW-19</b> - Line (E) 12\" Main</a>\
+				   </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-25.html"><b>SW-25</b> - Pre-Con TVI of (E) Mains</a>\
 	               </li>\

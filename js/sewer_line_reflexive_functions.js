@@ -111,7 +111,8 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
         if (line_obj.submittals.tvi_post_con.response == 'none') {
 
-            if (line_obj.pp_history.hasOwnProperty('SW-18')) {
+            if (line_obj.pp_history.hasOwnProperty('SW-18') ||
+                line_obj.pp_history.hasOwnProperty('SW-19')) {
 
                 return_string = sewer_status_code_array[3];
 

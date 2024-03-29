@@ -147,7 +147,7 @@ var base_sov = {
 
     'SW-19': {
         'description': 'LINE 12-INCH DIAMETER VCP OR ISP SEWER',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 334,
         'unit_price': 120
