@@ -177,7 +177,16 @@ function sw_line_status_from_line_object(line_obj, ad_hoc_status = '') {
 
             } else if (line_obj.submittals.tvi_pre_con.response.includes('Install Top Hat')) {
 
-                return_string = sewer_status_code_array[17];
+
+                if (line_obj.pp_history.hasOwnProperty('SW-13')) {
+
+                    return_string = sewer_status_code_array[15];
+
+                } else {
+
+                    return_string = sewer_status_code_array[17];
+
+                }
 
             } else if (line_obj.submittals.tvi_pre_con.response == 'MCN - Abandon (E)') {
 

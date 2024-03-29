@@ -99,7 +99,7 @@ var base_sov = {
 
     'SW-13': {
         'description': 'ULTRA VIOLET (UV) CURED TOP HAT FOR 6-INCH OR 8-INCH DIAMETER SIDE SEWER CONNECTION**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 31,
         'unit_price': 1550
