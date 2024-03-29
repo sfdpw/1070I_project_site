@@ -2051,19 +2051,14 @@ var json_1070I_sw_points = {
                 "location": "Fronting 2630 45th Ave",
                 "scope": "Install (N) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-49': {
+                        'PP10': 8500
                     }
                 },
                 "rlvnt": "none",
                 "sw_type": "mh",
                 get status() {
-                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history)
+                    return sw_point_status_from_scope_and_pp_history(this.scope, this.pp_history, sewer_status_code_array[15])
                 },
                 get bid_items() {
                     return bid_item_flattener(this.pp_history)
