@@ -77,10 +77,13 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-12.html"><b>SW-12</b> - Side Sewer Replacement</a>\
 	               </li>\
 				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-13.html"><b>SW-13</b> - Top Hats</a>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-13.html"><b>SW-13</b> - Top Hat Installation in Side Sewer Connection</a>\
 				   </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-15.html"><b>SW-15</b> - Protrusion Removal before CIPL</a>\
+				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21</b> - Reinstatement of Side Sewer Connection in Lined Main</a>\
 				   </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-26.html"><b>SW-26</b> - Pre-Con TVI of (E) Side Sewers and Culverts</a>\
