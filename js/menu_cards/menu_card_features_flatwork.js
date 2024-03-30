@@ -11,7 +11,7 @@ var flatwork_feature_menu =
               </button>\
             </h2>\
           </div>\
-          <div id="collapse_flatwork" class="collapse show"\
+          <div id="collapse_flatwork" class="collapse"\
                 aria-labelledby="heading_flatwork_features" data-parent="#map_master_menu">\
             <div class="card-body">\
               <div class="scroll_card">\
