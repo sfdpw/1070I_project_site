@@ -11,7 +11,7 @@ var flatwork_feature_menu =
               </button>\
             </h2>\
           </div>\
-          <div id="collapse_flatwork" class="collapse"\
+          <div id="collapse_flatwork" class="collapse show"\
                 aria-labelledby="heading_flatwork_features" data-parent="#map_master_menu">\
             <div class="card-body">\
               <div class="scroll_card">\
@@ -24,7 +24,8 @@ var flatwork_feature_menu =
                 </tr>'
  
 //for (ll = index_limits_flatwork[0]; ll <= index_limits_flatwork[1]; ll++) // Flatwork
-for (const ll of [201, 200, 202, 203, 204, 205, 206, 207, 208]) 
+//for (const ll of [201, 200, 202, 203, 204, 205, 206, 207, 208]) 
+for (const ll of [203, 200, 210, 207, 209, 201, 211, 204, 202, 208, 206, 205 ]) 
 
    {flatwork_feature_menu += layer_card_entry_generator(ll);}    
               

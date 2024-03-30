@@ -98,7 +98,7 @@ function pop_up_creator_for_domain(feature, layer)
             </button>\
           </h2>\
         </div>\
-        <div id="INST_collapse_01" class="collapse" aria-labelledby="GEN_details" data-parent="#INST_popup">\
+        <div id="INST_collapse_01" class="collapse show" aria-labelledby="GEN_details" data-parent="#INST_popup">\
           <div class="card-body">' + 
             '<strong>Asset ID</strong><br>' + feature.properties.id_a + '<br><br>' +
             '<strong>Location</strong><br>' + feature.properties.location + '<br><br>' +
@@ -155,7 +155,7 @@ if (
             </button>\
           </h2>\
         </div>\
-        <div id="INST_collapse_03" class="collapse show" aria-labelledby="PP_details" data-parent="#INST_popup">\
+        <div id="INST_collapse_03" class="collapse" aria-labelledby="PP_details" data-parent="#INST_popup">\
           <div class="card-body">' +
               pp_history_details(feature) +
          '</div>\

@@ -113,16 +113,19 @@
       add_feature_layer('cb', 181, json_1070I_sw_points, 'Install (N) catchbasin', '#fe366b');
       add_feature_layer('cb', 182, json_1070I_sw_points, 'Abandon (E) catchbasin', '#fe9800');
       
-      var index_limits_flatwork = [200, 208];
-      add_feature_layer('R_polygon', 200, json_1070I_flatwork_polygons, 'R-04: 8in Street Base','#403c97');         
-      add_feature_layer('R_polygon', 201, json_1070I_flatwork_polygons, 'R-03: HMA','#30123c');  
-      add_feature_layer('R_polygon', 202, json_1070I_flatwork_polygons, 'R-05: Sidewalk','#4662d7');  
-      add_feature_layer('R_polygon', 203, json_1070I_flatwork_polygons, 'R-08: Combined Curb/Gutter','#4685f9');   
-      add_feature_layer('R_polygon', 204, json_1070I_flatwork_polygons, 'R-09: Curb Ramps','#36a9f7');  
-      add_feature_layer('R_polygon', 205, json_1070I_flatwork_polygons, 'SW-34: Sidewalk','#1ecbd9');  
-      add_feature_layer('R_polygon', 206, json_1070I_flatwork_polygons, 'SW-37: Curb','#1ae3b5');  
-      add_feature_layer('R_polygon', 207, json_1070I_flatwork_polygons, 'SW-41: Parking Strip/Gutter','#3ef58b');   
-      add_feature_layer('R_polygon', 208, json_1070I_flatwork_polygons, 'SW-42: Bus Pad','#74fd5c');   
+      var index_limits_flatwork = [200, 211];
+      add_feature_layer('R_polygon', 200, json_1070I_flatwork_polygons, 'R-04: 8in Street Base','#403c97');
+      add_feature_layer('R_polygon', 201, json_1070I_flatwork_polygons, 'SW-33: Street Base','#1ecbd9');
+      add_feature_layer('R_polygon', 202, json_1070I_flatwork_polygons, 'SW-36: Full-Depth Grinding','#74fd5c');
+      add_feature_layer('R_polygon', 203, json_1070I_flatwork_polygons, 'R-03: HMA Paving','#30123c'); 
+      add_feature_layer('R_polygon', 204, json_1070I_flatwork_polygons, 'SW-35: HMA Paving','#3ef58b');  
+      add_feature_layer('R_polygon', 205, json_1070I_flatwork_polygons, 'SW-42: Bus Pad','#e7d53a');  
+      add_feature_layer('R_polygon', 206, json_1070I_flatwork_polygons, 'SW-41: Parking Strip/Gutter','#c7ed34');
+      add_feature_layer('R_polygon', 207, json_1070I_flatwork_polygons, 'R-08: Combined Curb/Gutter','#4685f9');  
+      add_feature_layer('R_polygon', 208, json_1070I_flatwork_polygons, 'SW-37: Curb','#a3fb3c');
+      add_feature_layer('R_polygon', 209, json_1070I_flatwork_polygons, 'R-09: Curb Ramps','#36a9f7');
+      add_feature_layer('R_polygon', 210, json_1070I_flatwork_polygons, 'R-05: Sidewalk','#4662d7');
+      add_feature_layer('R_polygon', 211, json_1070I_flatwork_polygons, 'SW-34: Sidewalk','#1ae3b5');
 
   //     add_feature_layer('R_polygon', 601, json_2977J_200_flatwork_19, 'R-04: 1/2in HMA','#6a62d1');  
   //     add_feature_layer('R_polygon', 602, json_2977J_200_flatwork_19, 'R-05: 8in Base','#91d532');         
@@ -217,7 +220,7 @@
             //map.setView(new L.LatLng(37.7226, -122.4040), 16);
 
         }
-        
+
         function style_1070I_project_dwgs(feature) {
         
             switch (String(feature.properties.dwg_type)) {
@@ -302,6 +305,9 @@
             }
             check_clone(checkbox.id);
         }
+
+        document.getElementById('8xx_FWRK_checkbox').click()
+
     </script>
 
 

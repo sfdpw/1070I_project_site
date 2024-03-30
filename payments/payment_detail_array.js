@@ -136,6 +136,7 @@ payment_detail_array[13].payment_history.PP09.period_amt = 15500;
 // SW-16
 
 payment_detail_array[15].payment_history.PP09.period_amt = 8362.50;
+payment_detail_array[15].payment_history.PP10.period_amt = 2787.50;
 
 // SW-47
 

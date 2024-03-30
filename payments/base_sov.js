@@ -259,7 +259,7 @@ var base_sov = {
 
     'SW-33': {
         'description': 'RECONSTRUCT PAVEMENT OUTSIDE OF SEWER “T” TRENCH WITH 8-INCH THICK CONCRETE BASE PER EXCAVATION REGULATIONS AS DIRECTED BY THE CITY REPRESENTATIVE**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 7600,
         'unit_price': 16
@@ -275,7 +275,7 @@ var base_sov = {
 
     'SW-35': {
         'description': 'ASPHALT CONCRETE (TYPE A ½-INCH MAXIMUM WITH MEDIUM GRADING)',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'TON',
         'qty': 2306,
         'unit_price': 189
@@ -283,7 +283,7 @@ var base_sov = {
 
     'SW-36': {
         'description': 'FULL DEPTH PLANING PER 2-INCH DEPTH OF CUT',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 200460,
         'unit_price': 0.67
@@ -315,7 +315,7 @@ var base_sov = {
 
     'SW-40': {
         'description': 'TEMPORARY PAVEMENT MARKINGS',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 9820,
         'unit_price': 1

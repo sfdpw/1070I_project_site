@@ -158,19 +158,43 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	         <a class="dropdown-item" href="#">Flatwork &raquo;</a>\
 	         <ul class="submenu dropdown-menu">\
 	           <li>\
-	             <a class="dropdown-item" href="#">Street Rennovation &raquo;</a>\
+	             <a class="dropdown-item" href="#">Street and Sidewalk Restoration &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-33.html"><b>SW-33</b> - Concrete Street Base beyond Sewer Work</a>\
+			       </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-34.html"><b>SW-34</b> - Sidewalk over Sewer Work</a>\
+			       </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-35.html"><b>SW-35</b> - HMA Paving</a>\
+				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-36.html"><b>SW-36</b> - Full-Depth Grinding</a>\
+				   </li>\
+			       <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-37.html"><b>SW-37</b> - Curb over Sewer Work</a>\
+			       </li>\
 	               <li>\
-	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-41.html"><b>SW-41</b> - Parking Strip</a>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-40.html"><b>SW-40</b> - Temporary Striping</a>\
 	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-41.html"><b>SW-41</b> - Parking Strip</a>\
+				   </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-42.html"><b>SW-42</b> - Bus Pad</a>\
 				   </li>\
 	             </ul>\
 	           </li>\
 	           <li>\
-	             <a class="dropdown-item" href="#">Sidewalk, Curb and Gutter &raquo;</a>\
+	             <a class="dropdown-item" href="#">Curb Ramps and Related Flatwork &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-04.html"><b>R-04</b> - Street Base</a>\
+			       </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-04.html"><b>R-04</b> - HMA Paving</a>\
+			       </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-05.html"><b>R-05</b> - Sidewalk</a>\
 			       </li>\
@@ -180,12 +204,6 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-09.html"><b>R-09</b> - Curb Ramps</a>\
 	               </li>\
-				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-34.html"><b>SW-34</b> - Sidewalk over Sewer Work</a>\
-				   </li>\
-				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-37.html"><b>SW-37</b> - Curb over Sewer Work</a>\
-				   </li>\
 	             </ul>\
 	           </li>\
 	         </ul>\
