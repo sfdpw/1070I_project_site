@@ -14382,6 +14382,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 25
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -14394,9 +14397,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "115.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26011,6 +26014,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 30
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26023,9 +26029,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "115.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26518,6 +26524,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 24
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26530,9 +26539,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "21",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26574,8 +26583,8 @@ var json_1070I_sw_lines = {
                 "location": "2443 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': 0
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26588,9 +26597,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "18",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26637,6 +26646,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26649,9 +26661,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "17",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26675,6 +26687,64 @@ var json_1070I_sw_lines = {
                     [
                         [-122.505748484885729, 37.740952334123691],
                         [-122.505659466923873, 37.740956629831892]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_037",
+                "id_b": "2378009",
+                "location": "2439 47th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-28': {
+                        'PP11': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "114.0",
+                        "video_no": "16",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.505759174755127, 37.740962846498064],
+                        [-122.505660198990157, 37.740967354482414]
                     ]
                 ]
             },
@@ -26761,6 +26831,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 22
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26773,9 +26846,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "14",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26822,6 +26895,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 21.5
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26834,9 +26910,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "11",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -26860,6 +26936,64 @@ var json_1070I_sw_lines = {
                     [
                         [-122.505764409270753, 37.741156445111983],
                         [-122.50567334456214, 37.741159934677746]
+                    ]
+                ]
+            },
+            get asset_coordinate() {
+                return linked_asset_function_line(this.properties.location, this.geometry.coordinates)
+            }
+        },
+
+        //####################
+
+        {
+            "type": "Feature",
+            "properties": {
+                "id_a": "unknown_side_sewer_036",
+                "id_b": "2378006",
+                "location": "2427 47th Ave",
+                "scope": "Install (N) side sewer",
+                "pp_history": {
+                    'SW-28': {
+                        'PP11': 50
+                    }
+                },
+                "submittals": {
+                    "tvi_pre_con": {
+                        "submittal_no": "none",
+                        "video_no": "none",
+                        "response": "none",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    },
+                    "tvi_post_con": {
+                        "submittal_no": "114.0",
+                        "video_no": "12",
+                        "response": "NET",
+                        get response_date() {
+                            return response_date_from_submittal_no(this.submittal_no)
+                        }
+                    }
+                },
+                "rlvnt": "none",
+                'sw_type': 'ss',
+                get status() {
+                    return sw_line_status_from_line_object(this)
+                },
+                get pp_summary() {
+                    return payment_summary_from_pp_history(this.pp_history)
+                },
+                get bid_items() {
+                    return bid_item_flattener(this.pp_history)
+                },
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
+                        [-122.505774477832404, 37.741166926837792],
+                        [-122.505674068111205, 37.741170534523128]
                     ]
                 ]
             },
@@ -26944,6 +27078,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 20
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -26956,9 +27093,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "8",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30407,6 +30544,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -30419,9 +30559,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "4",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30468,6 +30608,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 22
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -30480,9 +30623,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "7",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30526,6 +30669,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-12': {
                         'PP10': 225 * 22.5
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -30538,9 +30684,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "2",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30587,6 +30733,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 24
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -30599,9 +30748,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -30841,7 +30990,7 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP06': 50
-                    },
+                    }
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -31925,6 +32074,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 28
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -31937,9 +32089,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "115.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -37408,6 +37560,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 17
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -37420,9 +37575,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "13",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -37469,6 +37624,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 19
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -37481,9 +37639,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "15",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -37530,6 +37688,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -37542,9 +37703,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "20",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -37586,13 +37747,8 @@ var json_1070I_sw_lines = {
                 "location": "2451 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -37605,9 +37761,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "22",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -37780,6 +37936,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 17
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -37792,9 +37951,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -37965,6 +38124,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 17
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -37977,9 +38139,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "5",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -38089,6 +38251,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 18
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -38101,9 +38266,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "6",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -38213,6 +38378,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 17
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -38225,9 +38393,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "10",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -38584,8 +38752,8 @@ var json_1070I_sw_lines = {
                 "location": "2443 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': 0
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -38598,9 +38766,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "19",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -39718,6 +39886,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP10': 225 * 17
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -39730,9 +39901,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "114.0",
+                        "video_no": "9",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -44967,6 +45138,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-12': {
                         'PP09': 225 * 21
+                    },
+                    'SW-28': {
+                        'PP11': 50
                     }
                 },
                 "submittals": {
@@ -44979,9 +45153,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "115.0",
+                        "video_no": "3",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -45235,9 +45409,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "108.0",
-                        "video_no": "20",
-                        "response": "R&R",
+                        "submittal_no": "108.1",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
