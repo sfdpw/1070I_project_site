@@ -72,6 +72,30 @@ var empty_payment_history = {
         'period_amt': 0,
         'todate_qty': 0,
         'todate_amt': 0
+    },
+    'PP12': {
+        'period_qty': 0,
+        'period_amt': 0,
+        'todate_qty': 0,
+        'todate_amt': 0
+    },
+    'PP13': {
+        'period_qty': 0,
+        'period_amt': 0,
+        'todate_qty': 0,
+        'todate_amt': 0
+    },
+    'PP14': {
+        'period_qty': 0,
+        'period_amt': 0,
+        'todate_qty': 0,
+        'todate_amt': 0
+    },
+    'PP15': {
+        'period_qty': 0,
+        'period_amt': 0,
+        'todate_qty': 0,
+        'todate_amt': 0
     }
 }
 
