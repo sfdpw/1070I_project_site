@@ -72,5 +72,14 @@ var project_tcp_array = [
   {
     'numb': '028', 'desc': 'PR: Sloat from LGH to 44th', 'rlvn': ['PR_01', 'PR_02']
   },
+    {
+    'numb': '030', 'desc': 'PR: Ulloa from 46th to 47th', 'rlvn': ['SW_09','SW_10', 'SW_12']
+  },
+  {
+    'numb': '031', 'desc': 'PR: Vicente from 45th to 46th', 'rlvn': ['SW_08']
+  },
+  {
+    'numb': '033', 'desc': 'PR: 47th from Wawona to Vicente', 'rlvn': ['SW_03', 'SW_05']
+  },
 ]
 
