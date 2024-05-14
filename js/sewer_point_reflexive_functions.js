@@ -46,7 +46,7 @@ function sw_point_status_from_scope_and_pp_history(point_scope, payment_obj, ad_
 
         return_string = sewer_status_code_array[6];
 
-        if (payment_obj.hasOwnProperty('SW-07')) {
+        if (payment_obj.hasOwnProperty('SW-22')) {
 
             return_string = sewer_status_code_array[15];
 

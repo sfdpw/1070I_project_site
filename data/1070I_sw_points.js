@@ -88,13 +88,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 47th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -945,13 +940,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 47th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -985,6 +975,9 @@ var json_1070I_sw_points = {
                 "pp_history": {
                     'SW-21': {
                         'PP09': 73
+                    },
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -1214,7 +1207,7 @@ var json_1070I_sw_points = {
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [ -122.504269, 37.738140 ]
+                "coordinates": [-122.504269, 37.738140]
             },
             get asset_coordinate() {
                 return linked_asset_function_point(this.properties.location, this.geometry.coordinates)
@@ -1412,13 +1405,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -1450,13 +1438,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -1488,13 +1471,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - Between Wawona St and Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -2121,12 +2099,7 @@ var json_1070I_sw_points = {
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "rlvnt": "none",
@@ -2159,12 +2132,7 @@ var json_1070I_sw_points = {
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "rlvnt": "none",
@@ -2262,13 +2230,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave - Between Ulloa St and Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2300,13 +2263,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave - Between Ulloa St and Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2371,13 +2329,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - Between Vicente St and Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -2410,12 +2363,7 @@ var json_1070I_sw_points = {
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "rlvnt": "none",
@@ -2519,13 +2467,8 @@ var json_1070I_sw_points = {
                 "location": "Ulloa St and 47th Ave - NEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2629,13 +2572,8 @@ var json_1070I_sw_points = {
                 "location": "Ulloa St and 47th Ave - SEC",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 300
                     }
                 },
                 "rlvnt": "none",
@@ -2667,13 +2605,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - South of Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -2705,13 +2638,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - South of Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -2743,13 +2671,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - South of Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -2818,12 +2741,7 @@ var json_1070I_sw_points = {
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "rlvnt": "none",
@@ -2888,13 +2806,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave - South of Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 300
                     }
                 },
                 "rlvnt": "none",
@@ -3163,13 +3076,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 46th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3201,13 +3109,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 46th Ave - NWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3707,13 +3610,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 47th Ave - SWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3745,13 +3643,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 47th Ave - SEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3783,13 +3676,8 @@ var json_1070I_sw_points = {
                 "location": "Sloat Blvd and 47th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3821,13 +3709,8 @@ var json_1070I_sw_points = {
                 "location": "Wawona St and 47th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3928,13 +3811,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave and Cutler Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -3999,13 +3877,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 46th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4037,13 +3910,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 46th Ave - NWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4111,13 +3979,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 47th Ave - SWC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4149,13 +4012,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 47th Ave - SEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4187,13 +4045,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 47th Ave - NEC",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4258,13 +4111,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - South of Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4332,13 +4180,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - South of Vicente St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4439,13 +4282,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 46th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4543,13 +4381,8 @@ var json_1070I_sw_points = {
                 "location": "47th Ave - South of Taraval St",
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 300
                     }
                 },
                 "rlvnt": "none",
@@ -4725,13 +4558,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - Between Vicente St and Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4763,13 +4591,8 @@ var json_1070I_sw_points = {
                 "location": "46th Ave - Between Vicente St and Ulloa St",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4837,13 +4660,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 47th Ave",
                 "scope": 'Mortar (E) manhole',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",
@@ -4876,12 +4694,7 @@ var json_1070I_sw_points = {
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "rlvnt": "none",
@@ -4914,12 +4727,7 @@ var json_1070I_sw_points = {
                 "scope": "Abandon (E) manhole",
                 "pp_history": {
                     'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                        'PP0': 0
                     }
                 },
                 "rlvnt": "none",
@@ -5025,6 +4833,9 @@ var json_1070I_sw_points = {
                 "pp_history": {
                     'SW-21': {
                         'PP09': 73
+                    },
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",

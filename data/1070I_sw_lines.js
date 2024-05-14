@@ -8160,13 +8160,8 @@ var json_1070I_sw_lines = {
                 "location": "Ulloa St and 47th Ave - South Side",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 150
                     }
                 },
                 "submittals": {
@@ -8659,13 +8654,8 @@ var json_1070I_sw_lines = {
                 "location": "Ulloa St and 47th Ave - North Side",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 150
                     }
                 },
                 "submittals": {
@@ -9210,13 +9200,8 @@ var json_1070I_sw_lines = {
                 "location": "Ulloa St - North Sidewalk between 46th Ave and 47th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 375
                     }
                 },
                 "submittals": {
@@ -9273,13 +9258,8 @@ var json_1070I_sw_lines = {
                 "location": "Ulloa St - South Sidewalk between 46th Ave and 47th Ave",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 375
                     }
                 },
                 "submittals": {
@@ -9844,13 +9824,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - West Sidewalk between Ulloa St and Taraval St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 525
                     }
                 },
                 "submittals": {
@@ -9907,13 +9882,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - West Sidewalk between Ulloa St and Taraval St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 450
                     }
                 },
                 "submittals": {
@@ -9970,13 +9940,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - East Sidewalk between Ulloa St and Taraval St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 450
                     }
                 },
                 "submittals": {
@@ -10033,13 +9998,8 @@ var json_1070I_sw_lines = {
                 "location": "47th Ave - East Sidewalk between Ulloa St and Taraval St",
                 "scope": 'Abandon (E) main',
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-29': {
+                        'PP11': 525
                     }
                 },
                 "submittals": {

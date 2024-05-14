@@ -155,7 +155,7 @@ var base_sov = {
 
     'SW-20': {
         'description': 'LINE 10-INCH DIAMETER VCP CULVERT WITH CURED-IN-PLACE-LINER (CIPL)',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 51,
         'unit_price': 415
@@ -171,7 +171,7 @@ var base_sov = {
 
     'SW-22': {
         'description': 'CLEAN AND MORTAR EXISTING BRICK MANHOLE',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 30,
         'unit_price': 3800

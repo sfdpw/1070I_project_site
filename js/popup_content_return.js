@@ -155,7 +155,7 @@ if (
             </button>\
           </h2>\
         </div>\
-        <div id="INST_collapse_03" class="collapse show" aria-labelledby="PP_details" data-parent="#INST_popup">\
+        <div id="INST_collapse_03" class="collapse" aria-labelledby="PP_details" data-parent="#INST_popup">\
           <div class="card-body">' +
               pp_history_details(feature) +
          '</div>\

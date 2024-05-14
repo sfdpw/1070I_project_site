@@ -83,7 +83,10 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-15.html"><b>SW-15</b> - Protrusion Removal before CIPL</a>\
 				   </li>\
 				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-17.html"><b>SW-17</b> - Line (E) Side Sewer or Culvert</a>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-17.html"><b>SW-17</b> - Line (E) Side Sewer</a>\
+				   </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-20.html"><b>SW-20</b> - Line (E) Culvert</a>\
 				   </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21</b> - Reinstatement of Side Sewer Connection in Lined Main</a>\
@@ -136,6 +139,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	           <li>\
 	             <a class="dropdown-item" href="#">Manholes &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-22.html"><b>SW-22</b> - Mortar (E) MH</a>\
+			       </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23</b> - (N) MH - STD 87,181</a>\
 	               </li>\
