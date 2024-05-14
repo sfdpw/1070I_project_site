@@ -83,6 +83,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-15.html"><b>SW-15</b> - Protrusion Removal before CIPL</a>\
 				   </li>\
 				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-17.html"><b>SW-17</b> - Line (E) Side Sewer or Culvert</a>\
+				   </li>\
+				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-21.html"><b>SW-21</b> - Reinstatement of Side Sewer Connection in Lined Main</a>\
 				   </li>\
 	               <li>\

@@ -131,7 +131,7 @@ var base_sov = {
 
     'SW-17': {
         'description': 'LINE 6-INCH OR 8-INCH DIAMETER SIDE SEWER WITH CURED-IN-PLACELINER (CIPL)**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 801,
         'unit_price': 165
