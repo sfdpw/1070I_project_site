@@ -3813,6 +3813,9 @@ var json_1070I_sw_points = {
                 "pp_history": {
                     'SW-22': {
                         'PP11': 3800
+                    },
+                    'SW-30': {
+                        'PP11': 50
                     }
                 },
                 "rlvnt": "none",
@@ -3943,13 +3946,8 @@ var json_1070I_sw_points = {
                 "location": "Vicente St and 47th Ave",
                 "scope": "(E) to remain",
                 "pp_history": {
-                    'SW-0': {
-                        'PP0': {
-                            'SFPUC-SW': {
-                                'QTY': 0,
-                                'UNIT': ''
-                            }
-                        }
+                    'SW-22': {
+                        'PP11': 3800
                     }
                 },
                 "rlvnt": "none",

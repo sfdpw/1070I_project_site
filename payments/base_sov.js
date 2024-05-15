@@ -235,7 +235,7 @@ var base_sov = {
 
     'SW-30': {
         'description': 'ADJUST CITY-OWNED MANHOLE AND CATCH BASIN FRAME AND CASTING TO GRADE**',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 13,
         'unit_price': 50
