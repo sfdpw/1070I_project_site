@@ -37755,7 +37755,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368011",
                 "id_b": "2379038",
-                "location": "3651 Taraval St",
+                "location": "3651 Taraval St (along 47th Ave)",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -38267,7 +38267,7 @@ var json_1070I_sw_lines = {
             "properties": {
                 "id_a": "L-368019",
                 "id_b": "2379038",
-                "location": "3651 Taraval St",
+                "location": "3651 Taraval St (along 47th Ave)",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
                     'SW-10': {
@@ -43884,11 +43884,8 @@ var json_1070I_sw_lines = {
                 "location": "3535 Wawona St",
                 "scope": '(E) to remain',
                 "pp_history": {
-                    'SW-10': {
-                        'PP11': 150
-                    },
-                    'SW-12': {
-                        'PP11': 225 * 23
+                    'SW-0': {
+                        'PP0': 0
                     }
                 },
                 "submittals": {
