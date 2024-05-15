@@ -145,6 +145,9 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-23.html"><b>SW-23</b> - (N) MH - STD 87,181</a>\
 	               </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-30.html"><b>SW-30</b> - Adjust (E) City-Owned MH / CB</a>\
+				   </li>\
 	             </ul>\
 	           </li>\
 	           <li>\
