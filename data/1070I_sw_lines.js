@@ -5683,9 +5683,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "124.1",
-                        "video_no": "2",
-                        "response": "R&R",
+                        "submittal_no": "124.2",
+                        "video_no": "1",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
