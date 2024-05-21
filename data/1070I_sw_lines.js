@@ -26817,6 +26817,12 @@ var json_1070I_sw_lines = {
                 "location": "2439 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP11': 150
+                    },
+                    'SW-12': {
+                        'PP11': 22 * 225
+                    },
                     'SW-28': {
                         'PP11': 50
                     }
@@ -27066,6 +27072,12 @@ var json_1070I_sw_lines = {
                 "location": "2427 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP11': 150
+                    },
+                    'SW-12': {
+                        'PP11': 22 * 225
+                    },
                     'SW-28': {
                         'PP11': 50
                     }
