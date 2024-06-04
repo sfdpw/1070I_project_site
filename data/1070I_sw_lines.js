@@ -593,9 +593,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "16",
-                        "response": "MCN",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3558,9 +3558,9 @@ var json_1070I_sw_lines = {
                         "response_date": "2023_07_03"
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "13",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -3619,9 +3619,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "18",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4549,9 +4549,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "4",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -4674,9 +4674,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "19",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -7635,9 +7635,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "9",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -9102,9 +9102,9 @@ var json_1070I_sw_lines = {
                         }
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "3",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -10259,9 +10259,9 @@ var json_1070I_sw_lines = {
                         "response_date": "2023_07_03"
                     },
                     "tvi_post_con": {
-                        "submittal_no": "116.1",
+                        "submittal_no": "116.2",
                         "video_no": "25",
-                        "response": "R&R",
+                        "response": "NET",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
