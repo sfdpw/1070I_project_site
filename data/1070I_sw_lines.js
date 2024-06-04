@@ -13736,9 +13736,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "79.0",
-                        "video_no": "9",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "12 at 048.1'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17406,9 +17406,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "79.0",
-                        "video_no": "22",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "12 at 269'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17525,9 +17525,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "81.0",
-                        "video_no": "1",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "21 at 151'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -17586,9 +17586,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63.0",
-                        "video_no": "2",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "21 at 123.6'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -20245,9 +20245,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55.2",
-                        "video_no": "26",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "02 at 281'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21194,9 +21194,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "81.0",
-                        "video_no": "2",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "06 at 072.9'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -21629,9 +21629,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "55.2",
-                        "video_no": "19",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "02 at 129'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -22062,9 +22062,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "58.1",
-                        "video_no": "52",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "01 at 100'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -23007,9 +23007,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "63.0",
-                        "video_no": "44",
-                        "response": "MCN - Do Not Replace",
+                        "submittal_no": "116.2",
+                        "video_no": "10 at 124.9'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -46639,7 +46639,7 @@ var json_1070I_sw_lines = {
                 "id_a": "L-368194",
                 "id_b": "2451006L",
                 "location": "2606 46th Ave",
-                "scope": "(E) to remain",
+                "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-21': {
                         'PP09': 73
@@ -46647,9 +46647,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "116.2",
+                        "video_no": "26 at 026.1'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
@@ -50088,7 +50088,7 @@ var json_1070I_sw_lines = {
                 "id_a": "unknown_side_sewer_020",
                 "id_b": "2450007",
                 "location": "2639 46th Ave",
-                "scope": "(E) to remain",
+                "scope": "Improve (E) side sewer as directed",
                 "pp_history": {
                     'SW-21': {
                         'PP09': 73
@@ -50096,9 +50096,9 @@ var json_1070I_sw_lines = {
                 },
                 "submittals": {
                     "tvi_pre_con": {
-                        "submittal_no": "none",
-                        "video_no": "none",
-                        "response": "none",
+                        "submittal_no": "116.2",
+                        "video_no": "10 at 209.4'",
+                        "response": "MCN - Install Top Hat",
                         get response_date() {
                             return response_date_from_submittal_no(this.submittal_no)
                         }
