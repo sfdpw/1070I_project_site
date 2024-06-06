@@ -537,4 +537,44 @@ var base_sov = {
         'unit_price': 50
     },
 
+    'PCO-04_SW-01': {
+        'description': 'ADDITION: MOBILIZATION',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 7746.50
+    },
+
+    'PCO-04_SW-02': {
+        'description': 'ADDITION: DEMOBILIZATION',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 5159.50
+    },
+
+    'PCO-04_SW-03': {
+        'description': 'ADDITION: TRAFFIC CONTROL',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 18864
+    },
+
+    'PCO-04_SW-35': {
+        'description': 'APHALT CONCRETE',
+        'linked_bi': false,
+        'unit': 'TON',
+        'qty': 750,
+        'unit_price': 189
+    },
+
+    'PCO-04_SW-36': {
+        'description': 'FULL DEPTH PLANING',
+        'linked_bi': false,
+        'unit': 'SF',
+        'qty': 44000,
+        'unit_price': 0.67
+    }
+
 }
