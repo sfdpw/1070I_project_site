@@ -299,7 +299,7 @@ var base_sov = {
 
     'SW-38': {
         'description': 'COMBINED 6-INCH WIDE CONCRETE CURB AND 2- FOOT WIDE CONCRETE GUTTER RELATED TO SIDE SEWER EXTENSION WORK',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 33,
         'unit_price': 70
@@ -307,7 +307,7 @@ var base_sov = {
 
     'SW-39': {
         'description': 'SPEED HUMP',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 1,
         'unit_price': 3500

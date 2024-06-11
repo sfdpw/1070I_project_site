@@ -187,6 +187,12 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 			       <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-37.html"><b>SW-37</b> - Curb over Sewer Work</a>\
 			       </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-38.html"><b>SW-38</b> - Curb and Gutter over Sewer Work</a>\
+			       </li>\
+				   <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-39.html"><b>SW-39</b> - Speed Hump</a>\
+			       </li>\
 	               <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_SW-40.html"><b>SW-40</b> - Temporary Striping</a>\
 	               </li>\

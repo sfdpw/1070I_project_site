@@ -7208,6 +7208,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP12': 50
+                    },
+                    'SW-49': {
+                        'PP12': 26 * 200
                     }
                 },
                 "submittals": {
@@ -7269,6 +7272,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP12': 50
+                    },
+                    'SW-49': {
+                        'PP12': 37 * 200
                     }
                 },
                 "submittals": {
@@ -7330,6 +7336,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-28': {
                         'PP12': 50
+                    },
+                    'SW-49': {
+                        'PP12': 46.5 * 200
                     }
                 },
                 "submittals": {
@@ -25747,6 +25756,12 @@ var json_1070I_sw_lines = {
                 "location": "2590 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP12': 150
+                    },
+                    'SW-12': {
+                        'PP12': 28.5 * 225
+                    },
                     'SW-28': {
                         'PP12': 50
                     }
@@ -25805,9 +25820,16 @@ var json_1070I_sw_lines = {
                 "location": "2594 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP12': 150
+                    },
+                    'SW-12': {
+                        'PP12': 225 * 28.5
+                    },
                     'SW-28': {
                         'PP12': 50
-                    }
+                    },
+
                 },
                 "submittals": {
                     "tvi_pre_con": {
@@ -41571,6 +41593,12 @@ var json_1070I_sw_lines = {
                 "location": "2590 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP12': 150
+                    },
+                    'SW-12': {
+                        'PP12': 33 * 225
+                    },
                     'SW-28': {
                         'PP11': 50
                     }
@@ -41629,6 +41657,12 @@ var json_1070I_sw_lines = {
                 "location": "2594 47th Ave",
                 "scope": "Install (N) side sewer",
                 "pp_history": {
+                    'SW-10': {
+                        'PP12': 150
+                    },
+                    'SW-12': {
+                        'PP12': 33 * 225
+                    },
                     'SW-28': {
                         'PP12': 50
                     }

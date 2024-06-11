@@ -25,7 +25,7 @@ var flatwork_feature_menu =
  
 //for (ll = index_limits_flatwork[0]; ll <= index_limits_flatwork[1]; ll++) // Flatwork
 //for (const ll of [201, 200, 202, 203, 204, 205, 206, 207, 208]) 
-for (const ll of [203, 200, 210, 207, 209, 201, 211, 204, 202, 208, 206, 205 ]) 
+for (const ll of [203, 200, 211, 208, 210, 201, 212, 204, 202, 209, 205, 207, 206 ]) 
 
    {flatwork_feature_menu += layer_card_entry_generator(ll);}    
               
