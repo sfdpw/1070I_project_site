@@ -921,7 +921,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 'pp_a_qty': {
                     'R-05': {
-                        'PP12': 1
+                        'PP12': 72
                     }
                 },
                 get pp_history() {
@@ -964,7 +964,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 'pp_a_qty': {
                     'R-05': {
-                        'PP12': 1
+                        'PP12': 193
                     }
                 },
                 get pp_history() {
@@ -1016,7 +1016,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Sidewalk",
                 'pp_a_qty': {
                     'R-05': {
-                        'PP12': 1
+                        'PP12': 141
                     }
                 },
                 get pp_history() {
