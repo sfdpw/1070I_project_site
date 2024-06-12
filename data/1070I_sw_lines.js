@@ -3610,6 +3610,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-26': {
                         'PP07': 50
+                    },
+                    'SW-28': {
+                        'PP12': 50
                     }
                 },
                 "submittals": {
@@ -4662,6 +4665,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP08': 50
+                    },
+                    'SW-28': {
+                        'PP12': 50
                     },
                     'SW-49': {
                         'PP12': 400 * 28
@@ -6969,6 +6975,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-26': {
                         'PP05': 50
+                    },
+                    'SW-28': {
+                        'PP12': 50
                     },
                     'SW-49': {
                         'PP12': 35 * 400
