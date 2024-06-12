@@ -9418,7 +9418,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Planing",
                 'pp_a_qty': {
                     'SW-36': {
-                        'PP12': 56492
+                        'PP12': 56492-48
                     }
                 },
                 get pp_history() {
@@ -9800,7 +9800,7 @@ var json_1070I_flatwork_polygons = {
                 "location": "47th Ave and Wawona St - SEC",
                 "scope": "Planing",
                 'pp_a_qty': {
-                    'SW-46': {
+                    'SW-36': {
                         'PP12': 48
                     }
                 },

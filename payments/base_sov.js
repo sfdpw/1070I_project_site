@@ -537,6 +537,94 @@ var base_sov = {
         'unit_price': 50
     },
 
+    'PCO-02_SW-01': {
+        'description': 'ADDITION: MOBILIZATION',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 3050
+    },
+
+    'PCO-02_SW-02': {
+        'description': 'ADDITION: DEMOBILIZATION',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 2050 
+    },
+
+    'PCO-02_SW-03': {
+        'description': 'ADDITION: TRAFFIC CONTROL',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 8090 
+    },
+
+    'PCO-02_SW-04': {
+        'description': 'ADDITION: TRENCH AND EXCAVATION SUPPORT',
+        'linked_bi': false,
+        'unit': 'LS',
+        'qty': 1,
+        'unit_price': 5500
+    },
+
+    'PCO-02_SW-05': {
+        'description': 'ADDITION: 10-INCH DIAMETER VCP MAIN',
+        'linked_bi': false,
+        'unit': 'LF',
+        'qty': 19,
+        'unit_price': 1450
+    },
+
+    'PCO-02_SW-50': {
+        'description': 'ADDITION: 8-INCH DIAMETER VCP MAIN',
+        'linked_bi': false,
+        'unit': 'LF',
+        'qty': 28,
+        'unit_price': 850 
+    },
+
+    'PCO-02_SW-51': {
+        'description': 'ADDITION: CONNECTION TO (E) MANHOLE',
+        'linked_bi': false,
+        'unit': 'EA',
+        'qty': 2,
+        'unit_price': 700
+    },
+
+    'PCO-02_SW-52': {
+        'description': 'ADDITION: CONNECTION TO (E) RCP SEWER MAIN',
+        'linked_bi': false,
+        'unit': 'EA',
+        'qty': 1,
+        'unit_price': 2300
+    },
+
+    'PCO-02_R-05': {
+        'description': 'ADDITION: 3 ½-INCH THICK CONCRETE SIDEWALK',
+        'linked_bi': false,
+        'unit': 'SF',
+        'qty': 120,
+        'unit_price': 12 
+    },
+
+    'PCO-02_R-08': {
+        'description': 'ADDITION: COMBINED 6-INCH WIDE CONCRETE CURB AND 2- FOOT OR 2-FOOT 10-INCH WIDE GUTTER',
+        'linked_bi': false,
+        'unit': 'LF',
+        'qty': 30,
+        'unit_price': 70 
+    },
+
+    'PCO-02_SW-19': {
+        'description': 'DELETION: LINE 12-INCH DIAMETER VCP OR ISP SEWER',
+        'linked_bi': true,
+        'unit': 'LF',
+        'qty': -19,
+        'unit_price': 120
+    },
+
     'PCO-04_SW-01': {
         'description': 'ADDITION: MOBILIZATION',
         'linked_bi': false,

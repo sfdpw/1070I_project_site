@@ -6027,8 +6027,14 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 47th Ave",
                 "scope": "Install (N) 12in VCP main",
                 "pp_history": {
+                    'SW-19': {
+                        'PP13': 19 * 120
+                    },
                     'SW-25': {
                         'PP01': 40
+                    },
+                    'PCO-02_SW-19': {
+                        'PP13': -19 * 120
                     }
                 },
                 "submittals": {

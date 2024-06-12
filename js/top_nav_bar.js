@@ -247,6 +247,14 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 			     </ul>\
 	           </li>\
 			   <li>\
+	             <a class="dropdown-item" href="#">PCO 2 - Drainage Revisions on 47th and Wawona / Vicente&raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-19.html"><b>SW-19</b> - Deletion: Line (E) 12\" Main</a>\
+	               </li>\
+			     </ul>\
+	           </li>\
+			   <li>\
 	             <a class="dropdown-item" href="#">PCO 4 - Additional Paving per DPW Order 187,005 &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
 	               <li>\

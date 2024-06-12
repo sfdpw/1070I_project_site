@@ -13,6 +13,7 @@ var payment_array =
     'PP09': 'February 2024',
     'PP10': 'March 2024',
     'PP11': 'April 2024',
-    'PP12': 'May 2024'
+    'PP12': 'May 2024',
+    'PP13': 'Jun 2024'
 
 }
