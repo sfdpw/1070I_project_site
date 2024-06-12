@@ -8087,7 +8087,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'SW-35': {
-                        'PP12': 1
+                        'PP12': 848
                     }
                 },
                 get pp_history() {
@@ -8470,7 +8470,7 @@ var json_1070I_flatwork_polygons = {
                 "location": "47th Ave and Wawona St - NEC",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
-                    'SW-35': {
+                    'PCO-04_SW-35': {
                         'PP12': 0.25
                     }
                 },
@@ -8507,7 +8507,7 @@ var json_1070I_flatwork_polygons = {
                 "location": "47th Ave and Wawona St - SEC",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
-                    'SW-35': {
+                    'PCO-04_SW-35': {
                         'PP12': 0.5
                     }
                 },
@@ -8548,7 +8548,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'PCO-04_SW-35': {
-                        'PP12': 1
+                        'PP12': 257.25 - 105
                     }
                 },
                 get pp_history() {
@@ -8644,8 +8644,8 @@ var json_1070I_flatwork_polygons = {
                 "location": "2647 46th Ave",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
-                    'SW-35': {
-                        'PP12': 0.25
+                    'PCO-04_SW-35': {
+                        'PP12': 0.5
                     }
                 },
                 get pp_history() {
@@ -8681,8 +8681,8 @@ var json_1070I_flatwork_polygons = {
                 "location": "2670 46th Ave",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
-                    'SW-35': {
-                        'PP12': 5 / 8
+                    'PCO-04_SW-35': {
+                        'PP12': 0.5
                     }
                 },
                 get pp_history() {
@@ -8719,7 +8719,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'PCO-04_SW-35': {
-                        'PP12': 1
+                        'PP12': 120
                     }
                 },
                 get pp_history() {
@@ -8762,7 +8762,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'PCO-04_SW-35': {
-                        'PP12': 1
+                        'PP12': 238
                     }
                 },
                 get pp_history() {
@@ -8817,7 +8817,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'PCO-04_SW-35': {
-                        'PP12': 200
+                        'PP12': 238
                     }
                 },
                 get pp_history() {
@@ -10383,7 +10383,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'R-03': {
-                        'PP12': 1
+                        'PP12': 30
                     }
                 },
                 get pp_history() {
@@ -10429,7 +10429,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
                     'R-03': {
-                        'PP12': 1
+                        'PP12': 20
                     }
                 },
                 get pp_history() {

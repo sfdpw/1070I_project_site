@@ -130,6 +130,9 @@ for (const bid_item_entry of Object.entries(base_sov)) {
 payment_detail_array[0].payment_history.PP02.period_amt = 240000;
 payment_detail_array[0].payment_history.PP04.period_amt = 8700;
 
+// SW-02
+
+payment_detail_array[1].payment_history.PP12.period_amt = 165800;
 
 // SW-03
 
@@ -144,6 +147,8 @@ payment_detail_array[2].payment_history.PP08.period_amt = 13100;
 payment_detail_array[2].payment_history.PP09.period_amt = 78600;
 payment_detail_array[2].payment_history.PP10.period_amt = 170300;
 payment_detail_array[2].payment_history.PP11.period_amt = 98250;
+payment_detail_array[2].payment_history.PP12.period_amt = 32750;
+
 
 
 // SW-04

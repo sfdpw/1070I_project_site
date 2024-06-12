@@ -563,7 +563,7 @@ var base_sov = {
 
     'PCO-04_SW-35': {
         'description': 'APHALT CONCRETE',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'TON',
         'qty': 750,
         'unit_price': 189
@@ -571,7 +571,7 @@ var base_sov = {
 
     'PCO-04_SW-36': {
         'description': 'FULL DEPTH PLANING',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 44000,
         'unit_price': 0.67

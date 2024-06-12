@@ -579,6 +579,9 @@ var json_1070I_sw_lines = {
                 "location": "Wawona St and 47th Ave - South Side",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
+                    'SW-18': {
+                        'PP12': 42 * 93
+                    },
                     'SW-25': {
                         'PP01': 88
                     }
@@ -5129,6 +5132,9 @@ var json_1070I_sw_lines = {
                 "location": "Vicente St and 47th Ave - South Side",
                 "scope": "Line (E) 8in main",
                 "pp_history": {
+                    'SW-18': {
+                        'PP12': 43 * 93
+                    },
                     'SW-25': {
                         'PP01': 90
                     }

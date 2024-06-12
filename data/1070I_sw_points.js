@@ -4561,6 +4561,9 @@ var json_1070I_sw_points = {
                 "pp_history": {
                     'SW-22': {
                         'PP11': 3800
+                    },
+                    'SW-30': {
+                        'PP12': 50
                     }
                 },
                 "rlvnt": "none",

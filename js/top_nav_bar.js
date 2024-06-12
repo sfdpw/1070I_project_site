@@ -246,6 +246,17 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 				   </li>\
 			     </ul>\
 	           </li>\
+			   <li>\
+	             <a class="dropdown-item" href="#">PCO 4 - Additional Paving per DPW Order 187,005 &raquo;</a>\
+	             <ul class="submenu dropdown-menu">\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-04_SW-35.html"><b>SW-35</b> - Addition: HMA Paving</a>\
+	               </li>\
+	               <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-04_SW-36.html"><b>SW-36</b> - Addition: Full-Depth Grinding</a>\
+	               </li>\
+			     </ul>\
+	           </li>\
 	         </ul>\
 	       </li>\
 		   </ul>\
