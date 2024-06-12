@@ -8088,6 +8088,9 @@ var json_1070I_flatwork_polygons = {
                 'pp_a_qty': {
                     'SW-35': {
                         'PP12': 848
+                    },
+                    'SW-40': {
+                        'PP12': 1250
                     }
                 },
                 get pp_history() {
@@ -8547,6 +8550,9 @@ var json_1070I_flatwork_polygons = {
                 "location": "47th Ave between Vicente St and Wawona St - West Side",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
+                    'SW-40': {
+                        'PP12': 200
+                    },
                     'PCO-04_SW-35': {
                         'PP12': 257.25 - 105
                     }
@@ -8718,6 +8724,9 @@ var json_1070I_flatwork_polygons = {
                 "location": "Vicente St between 46th Ave and 47th Ave",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
+                    'SW-40': {
+                        'PP12': 176
+                    },
                     'PCO-04_SW-35': {
                         'PP12': 120
                     }
@@ -8761,6 +8770,9 @@ var json_1070I_flatwork_polygons = {
                 "location": "Vicente St between 45th Ave and 46th Ave",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
+                    'SW-40': {
+                        'PP12': 323
+                    },
                     'PCO-04_SW-35': {
                         'PP12': 238
                     }
@@ -8816,6 +8828,9 @@ var json_1070I_flatwork_polygons = {
                 "location": "Ulloa St between 46th Ave and 47th Ave",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
+                    'SW-40': {
+                        'PP12': 323
+                    },
                     'PCO-04_SW-35': {
                         'PP12': 238
                     }
@@ -9402,8 +9417,8 @@ var json_1070I_flatwork_polygons = {
                 "location": "47th Ave between Taraval St and Vicente St",
                 "scope": "Planing",
                 'pp_a_qty': {
-                    'SW-49': {
-                        'PP12': 1
+                    'SW-36': {
+                        'PP12': 56492
                     }
                 },
                 get pp_history() {
@@ -10382,6 +10397,9 @@ var json_1070I_flatwork_polygons = {
                 "location": "Intersection of 47th Ave and Vicente St - NEC",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
+                    'SW-40': {
+                        'PP12': 30
+                    },
                     'R-03': {
                         'PP12': 30
                     }
@@ -10428,6 +10446,9 @@ var json_1070I_flatwork_polygons = {
                 "location": "Intersection of 47th Ave and Vicente St - SEC",
                 "scope": "Hot Mix Asphalt",
                 'pp_a_qty': {
+                    'SW-40': {
+                        'PP12': 20
+                    },
                     'R-03': {
                         'PP12': 20
                     }
@@ -15358,6 +15379,9 @@ var json_1070I_flatwork_polygons = {
                 "pp_a_qty": {
                     'SW-39': {
                         'PP12': 1
+                    },
+                    'SW-40': {
+                        'PP12': 88
                     }
                 },
                 get pp_history() {

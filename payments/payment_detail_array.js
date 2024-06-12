@@ -213,7 +213,6 @@ for (const ci of json_1070I_sw_points.features.concat(json_1070I_sw_lines.featur
 
     }
 
-
     for (const bi of Object.entries(ci.properties.pp_history)) {
 
         if (bi[0] != 'SW-0') {
