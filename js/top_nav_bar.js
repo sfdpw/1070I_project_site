@@ -207,11 +207,11 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 	           <li>\
 	             <a class="dropdown-item" href="#">Curb Ramps and Related Flatwork &raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
-				   <li>\
+				 <li>\
+				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-03.html"><b>R-03</b> - HMA Paving</a>\
+			     </li>\
+				 <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-04.html"><b>R-04</b> - Street Base</a>\
-			       </li>\
-				   <li>\
-				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-04.html"><b>R-04</b> - HMA Paving</a>\
 			       </li>\
 				   <li>\
 				     <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_R-05.html"><b>R-05</b> - Sidewalk</a>\
@@ -249,8 +249,26 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 			   <li>\
 	             <a class="dropdown-item" href="#">PCO 2 - Drainage Revisions on 47th and Wawona / Vicente&raquo;</a>\
 	             <ul class="submenu dropdown-menu">\
-	               <li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-05.html"><b>SW-05</b> - Addition: (N) 12\" VCP Main</a>\
+	               </li>\
+				   <li>\
 	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-19.html"><b>SW-19</b> - Deletion: Line (E) 12\" Main</a>\
+	               </li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-50.html"><b>SW-50</b> - Addition: (N) 8\" VCP Main</a>\
+	               </li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-51.html"><b>SW-51</b> - Addition: Connection to (E) Manhole</a>\
+	               </li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-52.html"><b>SW-52</b> - Addition: Connection to (E) RCP Main</a>\
+	               </li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_R-05.html"><b>R-05</b> - Addition: Sidewalk</a>\
+	               </li>\
+				   <li>\
+	                 <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_R-08.html"><b>R-08</b> - Addition: Combined Curb / Gutter</a>\
 	               </li>\
 			     </ul>\
 	           </li>\

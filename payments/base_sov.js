@@ -571,7 +571,7 @@ var base_sov = {
 
     'PCO-02_SW-05': {
         'description': 'ADDITION: 12-INCH DIAMETER VCP MAIN',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 19,
         'unit_price': 1930
@@ -579,7 +579,7 @@ var base_sov = {
 
     'PCO-02_SW-50': {
         'description': 'ADDITION: 8-INCH DIAMETER VCP MAIN',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 28,
         'unit_price': 1120 
@@ -587,7 +587,7 @@ var base_sov = {
 
     'PCO-02_SW-51': {
         'description': 'ADDITION: CONNECTION TO (E) MANHOLE',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 2,
         'unit_price': 927
@@ -595,7 +595,7 @@ var base_sov = {
 
     'PCO-02_SW-52': {
         'description': 'ADDITION: CONNECTION TO (E) RCP SEWER MAIN',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'EA',
         'qty': 1,
         'unit_price': 3046
@@ -603,7 +603,7 @@ var base_sov = {
 
     'PCO-02_R-05': {
         'description': 'ADDITION: 3 ½-INCH THICK CONCRETE SIDEWALK',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'SF',
         'qty': 120,
         'unit_price': 15
@@ -611,7 +611,7 @@ var base_sov = {
 
     'PCO-02_R-08': {
         'description': 'ADDITION: COMBINED 6-INCH WIDE CONCRETE CURB AND 2- FOOT OR 2-FOOT 10-INCH WIDE GUTTER',
-        'linked_bi': false,
+        'linked_bi': true,
         'unit': 'LF',
         'qty': 30,
         'unit_price': 85

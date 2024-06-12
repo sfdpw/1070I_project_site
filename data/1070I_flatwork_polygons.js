@@ -14480,7 +14480,14 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Sidewalk, Curb and Gutter",
                 'pp_a_qty': {
                     'SW-49': {
-                        'PP12': 4730
+                        'PP12': 4350 / 262500,
+                        'PP13': -4350 / 262500
+                    },
+                    'PCO-02_R-05': {
+                        'PP13': 120
+                    },
+                    'PCO-02_R-08': {
+                        'PP13': 30
                     }
                 },
                 get pp_history() {
