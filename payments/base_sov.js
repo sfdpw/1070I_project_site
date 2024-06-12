@@ -537,44 +537,44 @@ var base_sov = {
         'unit_price': 50
     },
 
-    'PCO-02_SW-01': {
-        'description': 'ADDITION: MOBILIZATION',
-        'linked_bi': false,
-        'unit': 'LS',
-        'qty': 1,
-        'unit_price': 3050
-    },
+    // 'PCO-02_SW-01': {
+    //     'description': 'ADDITION: MOBILIZATION',
+    //     'linked_bi': false,
+    //     'unit': 'LS',
+    //     'qty': 1,
+    //     'unit_price': 3050
+    // },
 
-    'PCO-02_SW-02': {
-        'description': 'ADDITION: DEMOBILIZATION',
-        'linked_bi': false,
-        'unit': 'LS',
-        'qty': 1,
-        'unit_price': 2050 
-    },
+    // 'PCO-02_SW-02': {
+    //     'description': 'ADDITION: DEMOBILIZATION',
+    //     'linked_bi': false,
+    //     'unit': 'LS',
+    //     'qty': 1,
+    //     'unit_price': 2050 
+    // },
 
-    'PCO-02_SW-03': {
-        'description': 'ADDITION: TRAFFIC CONTROL',
-        'linked_bi': false,
-        'unit': 'LS',
-        'qty': 1,
-        'unit_price': 8090 
-    },
+    // 'PCO-02_SW-03': {
+    //     'description': 'ADDITION: TRAFFIC CONTROL',
+    //     'linked_bi': false,
+    //     'unit': 'LS',
+    //     'qty': 1,
+    //     'unit_price': 8090 
+    // },
 
-    'PCO-02_SW-04': {
-        'description': 'ADDITION: TRENCH AND EXCAVATION SUPPORT',
-        'linked_bi': false,
-        'unit': 'LS',
-        'qty': 1,
-        'unit_price': 5500
-    },
+    // 'PCO-02_SW-04': {
+    //     'description': 'ADDITION: TRENCH AND EXCAVATION SUPPORT',
+    //     'linked_bi': false,
+    //     'unit': 'LS',
+    //     'qty': 1,
+    //     'unit_price': 5500
+    // },
 
     'PCO-02_SW-05': {
-        'description': 'ADDITION: 10-INCH DIAMETER VCP MAIN',
+        'description': 'ADDITION: 12-INCH DIAMETER VCP MAIN',
         'linked_bi': false,
         'unit': 'LF',
         'qty': 19,
-        'unit_price': 1450
+        'unit_price': 1930
     },
 
     'PCO-02_SW-50': {
@@ -582,7 +582,7 @@ var base_sov = {
         'linked_bi': false,
         'unit': 'LF',
         'qty': 28,
-        'unit_price': 850 
+        'unit_price': 1120 
     },
 
     'PCO-02_SW-51': {
@@ -590,7 +590,7 @@ var base_sov = {
         'linked_bi': false,
         'unit': 'EA',
         'qty': 2,
-        'unit_price': 700
+        'unit_price': 927
     },
 
     'PCO-02_SW-52': {
@@ -598,7 +598,7 @@ var base_sov = {
         'linked_bi': false,
         'unit': 'EA',
         'qty': 1,
-        'unit_price': 2300
+        'unit_price': 3046
     },
 
     'PCO-02_R-05': {
@@ -606,7 +606,7 @@ var base_sov = {
         'linked_bi': false,
         'unit': 'SF',
         'qty': 120,
-        'unit_price': 12 
+        'unit_price': 15
     },
 
     'PCO-02_R-08': {
@@ -614,7 +614,7 @@ var base_sov = {
         'linked_bi': false,
         'unit': 'LF',
         'qty': 30,
-        'unit_price': 70 
+        'unit_price': 85
     },
 
     'PCO-02_SW-19': {

@@ -9418,7 +9418,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Planing",
                 'pp_a_qty': {
                     'SW-36': {
-                        'PP12': 56492-48
+                        'PP12': 56492
                     }
                 },
                 get pp_history() {
@@ -9800,7 +9800,7 @@ var json_1070I_flatwork_polygons = {
                 "location": "47th Ave and Wawona St - SEC",
                 "scope": "Planing",
                 'pp_a_qty': {
-                    'SW-36': {
+                    'PCO-04_SW-36': {
                         'PP12': 48
                     }
                 },
@@ -9841,7 +9841,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Planing",
                 'pp_a_qty': {
                     'PCO-04_SW-36': {
-                        'PP12': 11315
+                        'PP12': 11212
                     }
                 },
                 get pp_history() {
@@ -9938,7 +9938,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Planing",
                 'pp_a_qty': {
                     'PCO-04_SW-36': {
-                        'PP12': 6500
+                        'PP12': 6250
                     }
                 },
                 get pp_history() {
@@ -9981,7 +9981,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Planing",
                 'pp_a_qty': {
                     'PCO-04_SW-36': {
-                        'PP12': 1270
+                        'PP12': 12240
                     }
                 },
                 get pp_history() {
@@ -10036,7 +10036,7 @@ var json_1070I_flatwork_polygons = {
                 "scope": "Planing",
                 'pp_a_qty': {
                     'PCO-04_SW-36': {
-                        'PP12': 1
+                        'PP12': 14250
                     }
                 },
                 get pp_history() {
