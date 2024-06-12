@@ -584,6 +584,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 88
+                    },
+                    'SW-27': {
+                        'PP12': 44 * 2
                     }
                 },
                 "submittals": {
@@ -3433,6 +3436,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 80
+                    },
+                    'SW-27': {
+                        'PP12': 43 * 2
                     }
                 },
                 "submittals": {
@@ -3492,6 +3498,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 520
+                    },
+                    'SW-27': {
+                        'PP12': 264 * 2
                     }
                 },
                 "submittals": {
@@ -3551,6 +3560,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 110
+                    },
+                    'SW-27': {
+                        'PP12': 55 * 2
                     }
                 },
                 "submittals": {
@@ -4427,6 +4439,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP10': 312 * 93
+                    },
+                    'SW-27': {
+                        'PP12': 312 * 2
                     }
                 },
                 "submittals": {
@@ -4485,6 +4500,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 307
+                    },
+                    'SW-27': {
+                        'PP12': 307 * 2
                     }
                 },
                 "submittals": {
@@ -4543,6 +4561,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 351
+                    },
+                    'SW-27': {
+                        'PP12': 351 * 2
                     }
                 },
                 "submittals": {
@@ -4792,6 +4813,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 279
+                    },
+                    'SW-27': {
+                        'PP12': 279 * 2
                     }
                 },
                 "submittals": {
@@ -4850,6 +4874,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 280
+                    },
+                    'SW-27': {
+                        'PP12': 280 * 2
                     }
                 },
                 "submittals": {
@@ -4966,6 +4993,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 313
+                    },
+                    'SW-27': {
+                        'PP12': 313 * 2
                     }
                 },
                 "submittals": {
@@ -5024,6 +5054,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 315
+                    },
+                    'SW-27': {
+                        'PP12': 315 * 2
                     }
                 },
                 "submittals": {
@@ -5143,6 +5176,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 90
+                    },
+                    'SW-27': {
+                        'PP12': 45 * 2
                     }
                 },
                 "submittals": {
@@ -6051,6 +6087,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-19': {
                         'PP10': 315 * 120
+                    },
+                    'SW-27': {
+                        'PP12': 315 * 2
                     }
                 },
                 "submittals": {
@@ -7531,6 +7570,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 34
+                    },
+                    'SW-27': {
+                        'PP12': 34 * 2
                     }
                 },
                 "submittals": {
@@ -7589,6 +7631,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 262
+                    },
+                    'SW-27': {
+                        'PP12': 262 * 2
                     }
                 },
                 "submittals": {
@@ -7647,6 +7692,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 18
+                    },
+                    'SW-27': {
+                        'PP12': 18 * 2
                     }
                 },
                 "submittals": {
@@ -7705,6 +7753,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 47
+                    },
+                    'SW-27': {
+                        'PP12': 47 * 2
                     }
                 },
                 "submittals": {
@@ -7763,6 +7814,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 18
+                    },
+                    'SW-27': {
+                        'PP12': 18 * 2
                     }
                 },
                 "submittals": {
@@ -9002,6 +9056,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 604
+                    },
+                    'SW-27': {
+                        'PP12': 302 * 2
                     }
                 },
                 "submittals": {
@@ -9058,6 +9115,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP10': 324 * 93
+                    },
+                    'SW-27': {
+                        'PP12': 324 * 2
                     }
                 },
                 "submittals": {
@@ -9114,6 +9174,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 301
+                    },
+                    'SW-27': {
+                        'PP12': 301 * 2
                     }
                 },
                 "submittals": {
@@ -10273,6 +10336,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 560
+                    },
+                    'SW-27': {
+                        'PP12': 278 * 2
                     }
                 },
                 "submittals": {
@@ -10332,6 +10398,9 @@ var json_1070I_sw_lines = {
                     },
                     'SW-25': {
                         'PP01': 544
+                    },
+                    'SW-27': {
+                        'PP12': 270 * 2
                     }
                 },
                 "submittals": {
@@ -10388,6 +10457,9 @@ var json_1070I_sw_lines = {
                 "pp_history": {
                     'SW-18': {
                         'PP09': 93 * 273
+                    },
+                    'SW-27': {
+                        'PP12': 273 * 2
                     }
                 },
                 "submittals": {
