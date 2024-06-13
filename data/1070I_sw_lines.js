@@ -4698,7 +4698,7 @@ var json_1070I_sw_lines = {
                         'PP12': 50
                     },
                     'SW-49': {
-                        'PP12': 400 * 28
+                        'PP12': 415 * 28
                     },
                 },
                 "submittals": {
@@ -7046,7 +7046,7 @@ var json_1070I_sw_lines = {
                         'PP12': 50
                     },
                     'SW-49': {
-                        'PP12': 35 * 400
+                        'PP12': 35 * 415
                     }
                 },
                 "submittals": {
