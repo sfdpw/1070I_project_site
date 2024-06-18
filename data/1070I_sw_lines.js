@@ -3694,9 +3694,9 @@ var json_1070I_sw_lines = {
             response_date: "2023_07_03",
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "21",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -4682,9 +4682,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "12",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -4746,9 +4746,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "14",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -5074,9 +5074,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "26",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -5138,9 +5138,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "10",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -5327,9 +5327,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "2",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -8058,9 +8058,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "6",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -11034,9 +11034,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "116.1",
+            submittal_no: "116.2",
             video_no: "1",
-            response: "R&R",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
