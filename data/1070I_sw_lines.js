@@ -21498,9 +21498,9 @@ var json_1070I_sw_lines = {
         },
         submittals: {
           tvi_pre_con: {
-            submittal_no: "79.0",
-            video_no: "3",
-            response: "MCN - Do Not Replace",
+            submittal_no: "116.2",
+            video_no: "10 at 24'",
+            response: "MCN - Install Top Hat",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
@@ -22300,17 +22300,23 @@ var json_1070I_sw_lines = {
         },
         submittals: {
           tvi_pre_con: {
-            submittal_no: "57.0",
-            video_no: "90",
-            response: "MCN - Replace",
+            // submittal_no: "57.0",
+            // video_no: "90",
+            // response: "MCN - Replace",
+            submittal_no: "116.2",
+            video_no: "6 at 117.6'",
+            response: "MCN - Install Top Hat",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
           },
           tvi_post_con: {
-            submittal_no: "102.0",
-            video_no: "3",
-            response: "NET",
+            // submittal_no: "102.0",
+            // video_no: "3",
+            // response: "NET",
+            submittal_no: "none",
+            video_no: "none",
+            response: "none",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
