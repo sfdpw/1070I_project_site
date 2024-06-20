@@ -85,9 +85,9 @@ var json_1070I_sw_lines = {
           "SW-08": {
             PP01: 13 * 550,
           },
-          // "SW-27": {
-          //   PP13: 13 * 2,
-          // },
+          "SW-27": {
+            PP13: 13 * 2,
+          },
           "SW-49": {
             PP01: 2200,
           },
@@ -102,9 +102,9 @@ var json_1070I_sw_lines = {
             },
           },
           tvi_post_con: {
-            submittal_no: "none",
-            video_no: "none",
-            response: "none",
+            submittal_no: "129.0",
+            video_no: "1",
+            response: "NET",
             get response_date() {
               return response_date_from_submittal_no(this.submittal_no);
             },
